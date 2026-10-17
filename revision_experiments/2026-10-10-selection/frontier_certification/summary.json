@@ -1,0 +1,91 @@
+{
+  "draws": 2000,
+  "total_error": 0.05,
+  "zones": {
+    "DK1": {
+      "discovery_winner": "DK1_s0_a0",
+      "winner": {
+        "label": "DK1_s0_a0",
+        "zone": "DK1",
+        "training_charge": 0,
+        "reported_mean": 108.83593426828713,
+        "booked_realized_mean": -15.229363010775842,
+        "injection_mean": 124.06529727906205,
+        "cost_mean": 17.60675051874835,
+        "expected_booked_estimate": -17.60675051874835,
+        "expected_booked_lower": -18.53243275447497,
+        "expected_booked_upper": -16.681068283021727,
+        "reported_mean_mcse": 1.5747592475380303,
+        "booked_realized_mean_mcse": 4.7544729159312675,
+        "expected_reported_lower": 93.53703816398502,
+        "cost_lower": 16.681068283021727,
+        "cost_upper": 18.53243275447497,
+        "bound_cap_pct": 33.93833125,
+        "lookup_fallback_fraction": 0.00035982134326932266
+      },
+      "all_worst_booked_certified": true,
+      "positive_expected_reported_certified": true,
+      "next_largest_cost_upper": 10.867598646798989,
+      "critical_metric_charge": 0.8772471968811772,
+      "empirical_booked_rank": 10,
+      "cost_identity_rank": 10,
+      "frontier": [
+        {
+          "start": 0.0,
+          "end": 0.8772471968811772,
+          "winner": 0,
+          "label": "DK1_s0_a0"
+        },
+        {
+          "start": 0.8772471968811772,
+          "end": 1.0,
+          "winner": 10,
+          "label": "Flat"
+        }
+      ]
+    },
+    "DK2": {
+      "discovery_winner": "DK2_s2_a0",
+      "winner": {
+        "label": "DK2_s2_a0",
+        "zone": "DK2",
+        "training_charge": 0,
+        "reported_mean": 104.26481370016229,
+        "booked_realized_mean": -5.387344422337635,
+        "injection_mean": 109.65215812249804,
+        "cost_mean": 10.322537021872373,
+        "expected_booked_estimate": -10.322537021872373,
+        "expected_booked_lower": -10.811894330980568,
+        "expected_booked_upper": -9.833179712764178,
+        "reported_mean_mcse": 1.8916585131628445,
+        "booked_realized_mean_mcse": 4.686216481885382,
+        "expected_reported_lower": 85.10578096773536,
+        "cost_lower": 9.833179712764178,
+        "cost_upper": 10.811894330980568,
+        "bound_cap_pct": 27.447953124999994,
+        "lookup_fallback_fraction": 0.00017562338779019776
+      },
+      "all_worst_booked_certified": true,
+      "positive_expected_reported_certified": true,
+      "next_largest_cost_upper": 8.262715159391947,
+      "critical_metric_charge": 0.8302111798271982,
+      "empirical_booked_rank": 9,
+      "cost_identity_rank": 10,
+      "frontier": [
+        {
+          "start": 0.0,
+          "end": 0.8302111798271982,
+          "winner": 4,
+          "label": "DK2_s2_a0"
+        },
+        {
+          "start": 0.8302111798271982,
+          "end": 1.0,
+          "winner": 9,
+          "label": "DK2_s4_a1"
+        }
+      ]
+    }
+  },
+  "scope": "Joint probability >=.95 for all cost intervals and positive-profit lower bounds, conditional on fixed panels, policies and no-edge model. Frontier and mean ranks are descriptive plug-in quantities, not confidence sets for breakpoints."
+}

@@ -1,0 +1,52 @@
+{
+  "check_names": [
+    "all20 fixed policies",
+    "uniquecaseIDequalsfixedpolicyID",
+    "originalvulnerablelineage",
+    "all10plainactors",
+    "all10feasibleactors",
+    "warmcappreserved",
+    "auditonlymissingcap",
+    "jointfaultguardsdeclared",
+    "fixedwholeepisodebudgets",
+    "base260family",
+    "optionalalpha0methodheld",
+    "bothalpha7methodswouldneed300",
+    "source-derivedtotalplannedwork",
+    "reviewedresourceceiling",
+    "run_phasedisabled",
+    "freezedisabled",
+    "standardlibraryonlynoengineinferenceorarrays",
+    "originalprotectedsourcehashesunchanged",
+    "noexecutionorfreeze"
+  ],
+  "checker_sha256": "f5a266810aa00093ce6ce7f06d5dc1926d175780add4c39524a336c20fe76a08",
+  "checks": 19,
+  "classification": "source-only proposal checks; adapter/support/runtime validation remains pending",
+  "created_utc": "2026-10-16T12:27:24.599581+00:00",
+  "freeze_created": false,
+  "new_actor_calls": 0,
+  "new_native_steps": 0,
+  "new_regressor_fits": 0,
+  "new_statistical_draws": 0,
+  "plan_sha256": "b3678c6128a83ab0f723d7d9e4d6f8cd5babf4adab10eb70e93fc5de3359f897",
+  "protected_original": {
+    "original_cases_sha256": "bdee72b1cbe50001986d54d312432efb5fefb7555fd17564866bb7148292302a",
+    "original_freeze_sha256": "6152949392bd8de0f494bc21ffb5fd7d9be4a16a6c8866f4eb5595254da523d4",
+    "original_source_sha256": {
+      "EXPLORATORY_EXECUTION_PLAN.md": "5d4a57dccb7ce099ffd9084c32ae774c42968e9e2e970ccd81e30e2ed676ebf4",
+      "SAMPLE_ONLY_THEORY.md": "f3a7c3b254e6a04f8903c25e2106dfdae0564e51ef5e92f3d2cfa251e09effbe",
+      "audit_models.py": "7a2fdb094554f27a72556ddde4cfaf90c914cab069627cf74a6b59688b321b33",
+      "checkpoint_inventory.json": "666a7b2be79e0a7ac21ed6225fe7d6517146b03e461f119c25f4d9c328d7d5dc",
+      "exact_sample_only_checks.json": "9bdfca3410a96aa955aa7898b94147ec8288aa5b71ed8e05720f6c7c357de6a8",
+      "exact_sample_only_checks.py": "450b1d13313a3d74ccd3c09af5899ef9523656acab6caab7c0c3a55cd359f1f8",
+      "native_engine_adapter.py": "da93030da39c1f2a4d0eaef3666177fc6628b7da97161ed892d1b9abfa38c879",
+      "native_phase_worker.py": "a7ef05169daee3e202f4229f3182ae7b94595e5e765762b0ef2224b6b85f5fc3",
+      "native_support.py": "b6134d8bc41151d417c61197ecc07117a4ccdc5204427f69d432e9953aa3411a",
+      "run_native_audit.py": "8233361239cb937526c29f9f46dbc859a36cbee686e5ac5681fe122e1df7ba59",
+      "sample_estimators.py": "9db926793138665765db9d0dd9d38f25384309564ecbae083c502969e2ae3c71"
+    }
+  },
+  "source_sha256": "c976e6c31428337b131da895321bab386c52986c4b00c5d304d916f08fed4046",
+  "status": "PASS SOURCE-ONLY DRAFT CHECKS"
+}

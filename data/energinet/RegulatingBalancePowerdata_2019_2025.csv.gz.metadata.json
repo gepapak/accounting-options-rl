@@ -1,0 +1,18 @@
+{
+  "source": "https://api.energidataservice.dk/dataset/RegulatingBalancePowerdata",
+  "dataset": "RegulatingBalancePowerdata",
+  "retrieval_parameters": {
+    "start": "2019-10-31",
+    "end": "2025-03-05",
+    "areas": ["DK1", "DK2"]
+  },
+  "rows": 93812,
+  "start_utc": "2019-10-27 23:00:00",
+  "end_utc": "2025-03-04 11:00:00",
+  "fields": [
+    "HourUTC", "HourDK", "PriceArea", "mFRRUpActBal", "mFRRDownActBal",
+    "mFRRUpActSpec", "mFRRDownActSpec", "ImbalanceMWh", "ImbalancePriceDKK"
+  ],
+  "sha256": "4c3c0c6f2fee4ec614d15e09eb4ff2fe8be3211921b4247c45deac41c44958de",
+  "license": "Energi Data Service CC BY 4.0"
+}

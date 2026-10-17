@@ -1,0 +1,23 @@
+\begin{table}[!htbp]
+\centering
+\caption{Danish rules across the four settlement regimes, Energinet data, hourly spreads, cost of risk 0.10~EUR/MWh. R1: two-price settlement, 2019-11 to 2021-10; R2: energy crisis, 2021-11 to 2022-12; R3: single price, hourly, 2023-01 to 2025-03; R4: quarter-hourly mFRR EAM, 2025-03 to 2026-08. $\sigma$: standard deviation of the yearly placebo P\&L of 1~MW (thousand EUR). $\kappa$: buffer that deters a three-week gamble, pooled over the regime. DKK 2M cap: open exposure up to which the fixed trading guarantee deters it. C1: consumption rule (5\% of a month's consumption at the forward price) per MW, median monthly coverage and share of months below one.}
+\label{tab:dkregimes}
+\scriptsize
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+& & $\sigma$ & $\kappa$ & DKK 2M cap & \multicolumn{2}{c}{C1 consumption rule} \\
+\cmidrule(l){6-7}
+Zone & Regime & (kEUR/MW) & (EUR/MW) & (MW) & coverage & not deterred (\%) \\
+\midrule
+DK1 & R1 & 2.8 & 740 & 363 & 3.22 & 13 \\
+DK1 & R2 & 10.0 & 4,939 & 54 & 2.33 & 14 \\
+DK1 & R3 & 8.0 & 2,924 & 92 & 1.28 & 19 \\
+DK1 & R4 & 14.5 & 6,736 & 40 & 0.65 & 67 \\
+\addlinespace
+DK2 & R1 & 2.7 & 805 & 334 & 2.61 & 0 \\
+DK2 & R2 & 8.8 & 3,537 & 76 & 2.32 & 0 \\
+DK2 & R3 & 6.3 & 2,391 & 112 & 1.15 & 23 \\
+DK2 & R4 & 15.2 & 7,751 & 35 & 0.47 & 83 \\
+\bottomrule
+\end{tabular}
+\end{table}

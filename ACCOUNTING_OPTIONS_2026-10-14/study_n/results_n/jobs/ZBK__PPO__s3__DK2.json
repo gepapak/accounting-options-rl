@@ -1,0 +1,195 @@
+{
+ "arm": "ZBK",
+ "algo": "PPO",
+ "seed": 3,
+ "region": "DK2",
+ "steps": 1000000,
+ "eval_split": "test",
+ "probes": {
+  "zombie_n-0.5_k96": 4.0,
+  "zombie_n-0.5_k48": 4.0,
+  "zombie_n-0.5_k12": 4.0,
+  "zombie_n-0.25_k96": 4.0,
+  "zombie_n-0.25_k48": 4.0,
+  "zombie_n-0.25_k12": 4.0,
+  "zombie_n-0.1_k96": 4.0,
+  "zombie_n-0.1_k48": 4.0,
+  "zombie_n-0.1_k12": 4.0,
+  "zombie_n-0.02_k96": 4.0,
+  "zombie_n-0.02_k48": 4.0,
+  "zombie_n-0.02_k12": 4.0,
+  "solvent_e0.02": 4.0,
+  "solvent_e0.05": 4.0,
+  "solvent_e0.1": 4.0,
+  "solvent_e0.25": 1.0,
+  "solvent_e0.5": 1.0,
+  "solvent_e1": 1.0,
+  "solvent_e2": 1.0,
+  "solvent_e3": 1.0
+ },
+ "drawmean_reported_pct": -37.619044999999836,
+ "drawmean_booked_pct": -37.619044999999836,
+ "draws": [
+  {
+   "reported_pct": -10.082493749999944,
+   "booked_pct": -10.082493749999944,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -65.19805625000005,
+   "booked_pct": -65.19805625000005,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": 4.934181250000558,
+   "booked_pct": 4.934181250000558,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -31.253218749999146,
+   "booked_pct": -31.253218749999146,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -62.037856249999514,
+   "booked_pct": -62.037856249999514,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -66.0230937499997,
+   "booked_pct": -66.0230937499997,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -44.23091875000102,
+   "booked_pct": -44.23091875000102,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -70.72316874999916,
+   "booked_pct": -70.72316874999916,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -49.44096874999951,
+   "booked_pct": -49.44096874999951,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -11.384893749999847,
+   "booked_pct": -11.384893749999847,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -7.667118750000279,
+   "booked_pct": -7.667118750000279,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": 20.810156249999046,
+   "booked_pct": 20.810156249999046,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -34.17831874999937,
+   "booked_pct": -34.17831874999937,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -46.766043750000094,
+   "booked_pct": -46.766043750000094,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -64.30964375000039,
+   "booked_pct": -64.30964375000039,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -64.51991875000012,
+   "booked_pct": -64.51991875000012,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -44.64674375000022,
+   "booked_pct": -44.64674375000022,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -10.563693749999437,
+   "booked_pct": -10.563693749999437,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -64.89944374999868,
+   "booked_pct": -64.89944374999868,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -30.199643749999836,
+   "booked_pct": -30.199643749999836,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  }
+ ],
+ "seconds": 844.4
+}

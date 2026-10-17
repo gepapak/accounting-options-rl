@@ -1,0 +1,1249 @@
+{
+  "status": "EXPLORATORY_complete",
+  "records": [
+    {
+      "policy_name": "adaptive",
+      "policy": {
+        "kind": "two_stage",
+        "early_lev": 16,
+        "late_lev": 16,
+        "early_barrier": 1.0,
+        "late_barrier": 2.0,
+        "switch": 0.5
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "raw",
+      "cap": null,
+      "bound": {
+        "mean": 13.34199162589939,
+        "variance": 10859105.883977028,
+        "radius": 1790.6891272729222,
+        "lower": -1777.3471357470228,
+        "upper": 1804.0311188988217,
+        "range_lower": -928654.7339953394,
+        "range_upper": 2294173.61486086,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -1777.3471356470227,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -3.335531825795645,
+      "certified": false
+    },
+    {
+      "policy_name": "adaptive",
+      "policy": {
+        "kind": "two_stage",
+        "early_lev": 16,
+        "late_lev": 16,
+        "early_barrier": 1.0,
+        "late_barrier": 2.0,
+        "switch": 0.5
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_raw",
+      "cap": 32768.0,
+      "bound": {
+        "mean": 13.207924579768065,
+        "variance": 10849938.780536834,
+        "radius": 583.6195185640903,
+        "lower": -570.4115940843222,
+        "upper": 596.8274431438583,
+        "range_lower": -928654.7339953394,
+        "range_upper": 32768.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -570.4115939843223,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -3.335531825795645,
+      "certified": false
+    },
+    {
+      "policy_name": "adaptive",
+      "policy": {
+        "kind": "two_stage",
+        "early_lev": 16,
+        "late_lev": 16,
+        "early_barrier": 1.0,
+        "late_barrier": 2.0,
+        "switch": 0.5
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_residual",
+      "cap": 8192.0,
+      "bound": {
+        "mean": 15.657834907617087,
+        "variance": 442975.2148035529,
+        "radius": 18.74046080286434,
+        "lower": -3.082625995247254,
+        "upper": 34.39829571048143,
+        "range_lower": -247.58115285817988,
+        "range_upper": 8192.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -3.0826258952472543,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -3.335531825795645,
+      "certified": false
+    },
+    {
+      "policy_name": "adaptive",
+      "policy": {
+        "kind": "two_stage",
+        "early_lev": 16,
+        "late_lev": 16,
+        "early_barrier": 1.0,
+        "late_barrier": 2.0,
+        "switch": 0.5
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_mean_cost_residual",
+      "cap": 8192.0,
+      "bound": {
+        "mean": 15.664989526679026,
+        "variance": 443061.3064879507,
+        "radius": 18.71989810724461,
+        "lower": -3.0605854052604746,
+        "upper": 34.38488763392364,
+        "range_lower": -206.45938054771543,
+        "range_upper": 8192.005676924695,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -3.0549085805655842,
+        "numerical_allowance": 0.005676824694890252
+      },
+      "booked_upper": -3.335531825795645,
+      "certified": false
+    },
+    {
+      "policy_name": "adaptive",
+      "policy": {
+        "kind": "two_stage",
+        "early_lev": 16,
+        "late_lev": 16,
+        "early_barrier": 1.0,
+        "late_barrier": 2.0,
+        "switch": 0.5
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "predictable",
+      "cap": null,
+      "bound": {
+        "mean": 13.862523465657306,
+        "variance": 19006.79608804055,
+        "radius": 5.792348969276144,
+        "lower": 8.064497671686272,
+        "upper": 19.654872434933452,
+        "range_lower": -206.45938054771543,
+        "range_upper": 5120.959600278399,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": 8.070174496381162,
+        "numerical_allowance": 0.005676824694890252
+      },
+      "booked_upper": -3.335531825795645,
+      "certified": true
+    },
+    {
+      "policy_name": "constant16_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "raw",
+      "cap": null,
+      "bound": {
+        "mean": -8.818386885693213,
+        "variance": 26041516.023848984,
+        "radius": 1829.3556817802291,
+        "lower": -1838.1740687659224,
+        "upper": 1820.537294894536,
+        "range_lower": -928654.7339953394,
+        "range_upper": 2294173.61486086,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -1838.1740686659223,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -206.45370362302054,
+      "certified": false
+    },
+    {
+      "policy_name": "constant16_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_raw",
+      "cap": 32768.0,
+      "bound": {
+        "mean": -9.78952315197775,
+        "variance": 25973465.805364113,
+        "radius": 622.1731241113614,
+        "lower": -631.9626473633391,
+        "upper": 612.3836009593837,
+        "range_lower": -928654.7339953394,
+        "range_upper": 32768.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -631.9626472633391,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -206.45370362302054,
+      "certified": false
+    },
+    {
+      "policy_name": "constant16_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_residual",
+      "cap": 8192.0,
+      "bound": {
+        "mean": 5.0722543424843405,
+        "variance": 815497.4399310049,
+        "radius": 23.820042893186255,
+        "lower": -18.747788650701914,
+        "upper": 28.892297235670597,
+        "range_lower": -247.58115285817988,
+        "range_upper": 8192.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -18.747788550701912,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -206.45370362302054,
+      "certified": false
+    },
+    {
+      "policy_name": "constant16_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_mean_cost_residual",
+      "cap": 8192.0,
+      "bound": {
+        "mean": 5.089632737728749,
+        "variance": 815694.5443326712,
+        "radius": 23.80043101639764,
+        "lower": -18.71647510336378,
+        "upper": 28.890063754126388,
+        "range_lower": -206.45938054771543,
+        "range_upper": 8192.005676924695,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -18.71079827866889,
+        "numerical_allowance": 0.005676824694890252
+      },
+      "booked_upper": -206.45370362302054,
+      "certified": false
+    },
+    {
+      "policy_name": "constant16_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "predictable",
+      "cap": null,
+      "bound": {
+        "mean": 7.02653770973442,
+        "variance": 53943.50288136473,
+        "radius": 7.811310185884233,
+        "lower": -0.7904493008447034,
+        "upper": 14.837847895618653,
+        "range_lower": -206.45938054771543,
+        "range_upper": 5120.959600278399,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -0.7847724761498132,
+        "numerical_allowance": 0.005676824694890252
+      },
+      "booked_upper": -206.45370362302054,
+      "certified": false
+    },
+    {
+      "policy_name": "constant4_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 4
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "raw",
+      "cap": null,
+      "bound": {
+        "mean": -59.4268567154836,
+        "variance": 2131516.5736013292,
+        "radius": 462.8195728352936,
+        "lower": -522.2464296507771,
+        "upper": 403.39271611981,
+        "range_lower": -235050.40409061097,
+        "range_upper": 573543.40371529,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -522.2464295507772,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -55.957011137395746,
+      "certified": false
+    },
+    {
+      "policy_name": "constant4_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 4
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_raw",
+      "cap": 8192.0,
+      "bound": {
+        "mean": -59.74468617419509,
+        "variance": 2125810.192852949,
+        "radius": 161.01778172057254,
+        "lower": -220.76246799476763,
+        "upper": 101.27309554637745,
+        "range_lower": -235050.40409061097,
+        "range_upper": 8192.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -220.76246789476764,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -55.957011137395746,
+      "certified": false
+    },
+    {
+      "policy_name": "constant4_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 4
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_residual",
+      "cap": 32.0,
+      "bound": {
+        "mean": -55.90630654602248,
+        "variance": 8.700009655576343,
+        "radius": 0.11320589313097942,
+        "lower": -56.01951253915346,
+        "upper": -55.793100652891496,
+        "range_lower": -61.89528828954497,
+        "range_upper": 32.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -56.01951243915346,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -55.957011137395746,
+      "certified": false
+    },
+    {
+      "policy_name": "constant4_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 4
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_mean_cost_residual",
+      "cap": 32.0,
+      "bound": {
+        "mean": -55.896610164876,
+        "variance": 5.158511084471943,
+        "radius": 0.09553326047908563,
+        "lower": -55.997820250049976,
+        "upper": -55.801076904396915,
+        "range_lower": -55.962688062090635,
+        "range_upper": 32.00567692469489,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -55.99214342535509,
+        "numerical_allowance": 0.005676824694890252
+      },
+      "booked_upper": -55.957011137395746,
+      "certified": false
+    },
+    {
+      "policy_name": "constant4_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 4
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "predictable",
+      "cap": null,
+      "bound": {
+        "mean": -55.55379803274246,
+        "variance": 29.21507933416505,
+        "radius": 0.8775953209976574,
+        "lower": -56.43707017843501,
+        "upper": -54.67620271174481,
+        "range_lower": -55.962688062090635,
+        "range_upper": 1371.6273549158566,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -56.43139335374012,
+        "numerical_allowance": 0.005676824694890252
+      },
+      "booked_upper": -55.957011137395746,
+      "certified": false
+    },
+    {
+      "policy_name": "constant1_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 1
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "raw",
+      "cap": null,
+      "bound": {
+        "mean": -15.039065232914691,
+        "variance": 134748.18292017397,
+        "radius": 117.29035427429417,
+        "lower": -132.32941960720885,
+        "upper": 102.25128904137948,
+        "range_lower": -61649.32161442888,
+        "range_upper": 143385.8509288975,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -132.32941950720885,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -14.105200290869588,
+      "certified": false
+    },
+    {
+      "policy_name": "constant1_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 1
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_raw",
+      "cap": 2048.0,
+      "bound": {
+        "mean": -15.11800621091902,
+        "variance": 134393.72822011774,
+        "radius": 41.840030056267004,
+        "lower": -56.958036367186025,
+        "upper": 26.722023845347984,
+        "range_lower": -61649.32161442888,
+        "range_upper": 2048.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -56.958036267186024,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -14.105200290869588,
+      "certified": false
+    },
+    {
+      "policy_name": "constant1_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 1
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_residual",
+      "cap": 32.0,
+      "bound": {
+        "mean": -14.10781466110328,
+        "variance": 0.21233538534770266,
+        "radius": 0.03519550557193992,
+        "lower": -14.143010266675219,
+        "upper": -14.07261915553134,
+        "range_lower": -15.473822147386242,
+        "range_upper": 32.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -14.14301016667522,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -14.105200290869588,
+      "certified": false
+    },
+    {
+      "policy_name": "constant1_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 1
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_mean_cost_residual",
+      "cap": 32.0,
+      "bound": {
+        "mean": -14.105200290869588,
+        "variance": 0.0,
+        "radius": 0.02461500860683068,
+        "lower": -14.135492124171309,
+        "upper": -14.080585282262756,
+        "range_lower": -14.110877215564477,
+        "range_upper": 32.00567692469489,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -14.12981529947642,
+        "numerical_allowance": 0.005676824694890252
+      },
+      "booked_upper": -14.105200290869588,
+      "certified": false
+    },
+    {
+      "policy_name": "constant1_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 1
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "predictable",
+      "cap": null,
+      "bound": {
+        "mean": -14.105200290869588,
+        "variance": 0.0,
+        "radius": 0.19201535382442467,
+        "lower": -14.302892469388903,
+        "upper": -13.913184937045163,
+        "range_lower": -14.110877215564477,
+        "range_upper": 345.6325054435765,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -14.297215644694013,
+        "numerical_allowance": 0.005676824694890252
+      },
+      "booked_upper": -14.105200290869588,
+      "certified": false
+    },
+    {
+      "policy_name": "constant0.25_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 0.25
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "raw",
+      "cap": null,
+      "bound": {
+        "mean": -3.7675713765351873,
+        "variance": 8426.74446981096,
+        "radius": 30.863974945111295,
+        "lower": -34.63154642164648,
+        "upper": 27.096403568576108,
+        "range_lower": -18299.050995383353,
+        "range_upper": 35846.46273229938,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -34.63154632164648,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -3.533710510857094,
+      "certified": false
+    },
+    {
+      "policy_name": "constant0.25_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 0.25
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_raw",
+      "cap": 512.0,
+      "bound": {
+        "mean": -3.78725409723609,
+        "variance": 8404.657456453146,
+        "radius": 12.001402402048189,
+        "lower": -15.788656599284279,
+        "upper": 8.214148304812099,
+        "range_lower": -18299.050995383353,
+        "range_upper": 512.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -15.78865649928428,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -3.533710510857094,
+      "certified": false
+    },
+    {
+      "policy_name": "constant0.25_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 0.25
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_residual",
+      "cap": 32.0,
+      "bound": {
+        "mean": -3.5344377159252245,
+        "variance": 0.013133951242599095,
+        "radius": 0.021596279158329585,
+        "lower": -3.556034095083554,
+        "upper": -3.512841436766895,
+        "range_lower": -3.8684556118465605,
+        "range_upper": 32.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -3.556033995083554,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -3.533710510857094,
+      "certified": false
+    },
+    {
+      "policy_name": "constant0.25_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 0.25
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "clipped_mean_cost_residual",
+      "cap": 32.0,
+      "bound": {
+        "mean": -3.5337105108570963,
+        "variance": 1.9722124502000576e-31,
+        "radius": 0.018972407662913623,
+        "lower": -3.5583597432149,
+        "upper": -3.514738103194183,
+        "range_lower": -3.5393874355519843,
+        "range_upper": 32.00567692469489,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -3.5526829185200097,
+        "numerical_allowance": 0.005676824694890252
+      },
+      "booked_upper": -3.533710510857094,
+      "certified": false
+    },
+    {
+      "policy_name": "constant0.25_T96",
+      "policy": {
+        "kind": "constant",
+        "lev": 0.25
+      },
+      "active_duration": 96,
+      "factor": 1.0,
+      "method": "predictable",
+      "cap": null,
+      "bound": {
+        "mean": -3.5337105108570963,
+        "variance": 1.9722124502000576e-31,
+        "radius": 0.04808411371601517,
+        "lower": -3.5874714492680018,
+        "upper": -3.4856263971410812,
+        "range_lower": -3.5393874355519843,
+        "range_upper": 86.54685502286628,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -3.5817946245731114,
+        "numerical_allowance": 0.005676824694890252
+      },
+      "booked_upper": -3.533710510857094,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T1",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 1,
+      "factor": 0.38489607889348454,
+      "method": "raw",
+      "cap": null,
+      "bound": {
+        "mean": 0.41739144835690734,
+        "variance": 84316.83382931766,
+        "radius": 15.879968368794085,
+        "lower": -15.462577020437177,
+        "upper": 16.29735981715099,
+        "range_lower": -3848.960789034845,
+        "range_upper": 14266.327122718563,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -15.462576920437177,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -1.283833120773169,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T1",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 1,
+      "factor": 0.38489607889348454,
+      "method": "clipped_raw",
+      "cap": 2048.0,
+      "bound": {
+        "mean": -2.552725499274598,
+        "variance": 61857.69574518544,
+        "radius": 8.467256553325583,
+        "lower": -11.01998215260018,
+        "upper": 5.914531054050986,
+        "range_lower": -3848.960789034845,
+        "range_upper": 2048.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -11.01998205260018,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -1.283833120773169,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T1",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 1,
+      "factor": 0.38489607889348454,
+      "method": "clipped_residual",
+      "cap": 32.0,
+      "bound": {
+        "mean": -1.2595604140987233,
+        "variance": 1.0312977856466594,
+        "radius": 0.03962315873700634,
+        "lower": -1.2991836728357298,
+        "upper": -1.219937255361717,
+        "range_lower": -1.5395844155739382,
+        "range_upper": 32.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -1.2991835728357297,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -1.283833120773169,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T1",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 1,
+      "factor": 0.38489607889348454,
+      "method": "clipped_mean_cost_residual",
+      "cap": 32.0,
+      "bound": {
+        "mean": -1.2597122574774446,
+        "variance": 0.7910884980610009,
+        "radius": 0.03678958374134279,
+        "lower": -1.2965246015059293,
+        "upper": -1.2229226737361019,
+        "range_lower": -1.283855981060311,
+        "range_upper": 32.000022860287146,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -1.2965018412187874,
+        "numerical_allowance": 2.276028714196833e-05
+      },
+      "booked_upper": -1.283833120773169,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T1",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 1,
+      "factor": 0.38489607889348454,
+      "method": "predictable",
+      "cap": null,
+      "bound": {
+        "mean": -0.014332681592083256,
+        "variance": 1.2037429505615586e-35,
+        "radius": 0.02962021426705716,
+        "lower": -0.043975656146282384,
+        "upper": 0.015287532674973904,
+        "range_lower": -1.283855981060311,
+        "range_upper": 54.210019187188195,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -0.04395289585914042,
+        "numerical_allowance": 2.276028714196833e-05
+      },
+      "booked_upper": -1.283833120773169,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T4",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 4,
+      "factor": 0.3966778064220251,
+      "method": "raw",
+      "cap": null,
+      "bound": {
+        "mean": 1.9456491994180716,
+        "variance": 388866.92172534746,
+        "radius": 46.78075647650487,
+        "lower": -44.8351073770868,
+        "upper": 48.72640567592294,
+        "range_lower": -4719.611650945305,
+        "range_upper": 57935.77147635532,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -44.8351072770868,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -5.213665834203142,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T4",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 4,
+      "factor": 0.3966778064220251,
+      "method": "clipped_raw",
+      "cap": 8192.0,
+      "bound": {
+        "mean": 1.32074596579091,
+        "variance": 375647.4926657023,
+        "radius": 20.00102537302715,
+        "lower": -18.680279507236243,
+        "upper": 21.32177133881806,
+        "range_lower": -4719.611650945305,
+        "range_upper": 8192.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -18.68027940723624,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -5.213665834203142,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T4",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 4,
+      "factor": 0.3966778064220251,
+      "method": "clipped_residual",
+      "cap": 2048.0,
+      "bound": {
+        "mean": -1.0494844885895993,
+        "variance": 7803.085641690407,
+        "radius": 2.985874010150945,
+        "lower": -4.035358598740545,
+        "upper": 1.9363895215613456,
+        "range_lower": -6.252275426990166,
+        "range_upper": 2048.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -4.035358498740544,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -5.213665834203142,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T4",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 4,
+      "factor": 0.3966778064220251,
+      "method": "clipped_mean_cost_residual",
+      "cap": 2048.0,
+      "bound": {
+        "mean": -1.0475250624833943,
+        "variance": 7802.576326909742,
+        "radius": 2.985258083203062,
+        "lower": -4.032876973618432,
+        "upper": 1.937733020719668,
+        "range_lower": -5.213759762135117,
+        "range_upper": 2048.0000939279316,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -4.032783145686457,
+        "numerical_allowance": 9.382793197547696e-05
+      },
+      "booked_upper": -5.213665834203142,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T4",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 4,
+      "factor": 0.3966778064220251,
+      "method": "predictable",
+      "cap": null,
+      "bound": {
+        "mean": 0.054807711971878795,
+        "variance": 7.7353415195962505,
+        "radius": 0.17796912381833582,
+        "lower": -0.1232552397784325,
+        "upper": 0.23277683579021463,
+        "range_lower": -5.213759762135117,
+        "range_upper": 216.7617458844257,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -0.12316141184645703,
+        "numerical_allowance": 9.382793197547696e-05
+      },
+      "booked_upper": -5.213665834203142,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T16",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 16,
+      "factor": 0.4475232137638106,
+      "method": "raw",
+      "cap": null,
+      "bound": {
+        "mean": 4.013121352349482,
+        "variance": 1736180.735346909,
+        "radius": 171.4349465824032,
+        "lower": -167.4218253300537,
+        "upper": 175.4480679347527,
+        "range_lower": -21987.948610443615,
+        "range_upper": 246396.30760497673,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -167.4218252300537,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -22.173313272610027,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T16",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 16,
+      "factor": 0.4475232137638106,
+      "method": "clipped_raw",
+      "cap": 8192.0,
+      "bound": {
+        "mean": 0.4552005186457393,
+        "variance": 1657110.7867532107,
+        "radius": 43.64261655858546,
+        "lower": -43.18741613993972,
+        "upper": 44.0978170772312,
+        "range_lower": -21987.948610443615,
+        "range_upper": 8192.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -43.18741603993972,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -22.173313272610027,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T16",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 16,
+      "factor": 0.4475232137638106,
+      "method": "clipped_residual",
+      "cap": 8192.0,
+      "bound": {
+        "mean": 3.5679846660759975,
+        "variance": 98068.90485381207,
+        "radius": 11.08491186828314,
+        "lower": -7.516927302207143,
+        "upper": 14.652896534359137,
+        "range_lower": -26.590438363704344,
+        "range_upper": 8192.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -7.5169272022071425,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -22.173313272610027,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T16",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 16,
+      "factor": 0.4475232137638106,
+      "method": "clipped_mean_cost_residual",
+      "cap": 8192.0,
+      "bound": {
+        "mean": 3.5724452348329194,
+        "variance": 98082.6875531164,
+        "radius": 11.083025319559074,
+        "lower": -7.511003503198059,
+        "upper": 14.655470554391993,
+        "range_lower": -22.173736791081932,
+        "range_upper": 8192.000423518473,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -7.510580084726154,
+        "numerical_allowance": 0.0004234184719051748
+      },
+      "booked_upper": -22.173313272610027,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T16",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 16,
+      "factor": 0.4475232137638106,
+      "method": "predictable",
+      "cap": null,
+      "bound": {
+        "mean": 1.2099035288725921,
+        "variance": 366.7004095301962,
+        "radius": 0.8835115115293237,
+        "lower": 0.3259685988713632,
+        "upper": 2.093415040401916,
+        "range_lower": -22.173736791081932,
+        "range_upper": 865.7283814086494,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": 0.3263920173432684,
+        "numerical_allowance": 0.0004234184719051748
+      },
+      "booked_upper": -22.173313272610027,
+      "certified": true
+    },
+    {
+      "policy_name": "final16_T48",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 48,
+      "factor": 0.617290140942288,
+      "method": "raw",
+      "cap": null,
+      "bound": {
+        "mean": 4.678686150999163,
+        "variance": 7223207.778094913,
+        "radius": 628.8154543567125,
+        "lower": -624.1367683057133,
+        "upper": 633.4941405077117,
+        "range_lower": -194750.66709630846,
+        "range_upper": 875644.2138690894,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -624.1367682057133,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -78.79961212974425,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T48",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 48,
+      "factor": 0.617290140942288,
+      "method": "clipped_raw",
+      "cap": 32768.0,
+      "bound": {
+        "mean": 4.678686150999163,
+        "variance": 7223207.778094913,
+        "radius": 178.92483165804637,
+        "lower": -174.2461456070472,
+        "upper": 183.60351780904554,
+        "range_lower": -194750.66709630846,
+        "range_upper": 32768.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -174.2461455070472,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -78.79961212974425,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T48",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 48,
+      "factor": 0.617290140942288,
+      "method": "clipped_residual",
+      "cap": 8192.0,
+      "bound": {
+        "mean": 10.477899375756223,
+        "variance": 330682.6619390132,
+        "radius": 16.722749099882034,
+        "lower": -6.244849824125811,
+        "upper": 27.200648475638257,
+        "range_lower": -94.4972092350952,
+        "range_upper": 8192.0000001,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -6.24484972412581,
+        "numerical_allowance": 1e-07
+      },
+      "booked_upper": -78.79961212974425,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T48",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 48,
+      "factor": 0.617290140942288,
+      "method": "clipped_mean_cost_residual",
+      "cap": 8192.0,
+      "bound": {
+        "mean": 10.483739632419338,
+        "variance": 330733.1980409383,
+        "radius": 16.715312088523653,
+        "lower": -6.233324580062322,
+        "upper": 27.19905172094299,
+        "range_lower": -78.80136435370225,
+        "range_upper": 8192.00175222396,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": -6.231572456104315,
+        "numerical_allowance": 0.001752123958006732
+      },
+      "booked_upper": -78.79961212974425,
+      "certified": false
+    },
+    {
+      "policy_name": "final16_T48",
+      "policy": {
+        "kind": "constant",
+        "lev": 16
+      },
+      "active_duration": 48,
+      "factor": 0.617290140942288,
+      "method": "predictable",
+      "cap": null,
+      "bound": {
+        "mean": 7.928339554549881,
+        "variance": 8414.426948442782,
+        "radius": 3.383792754135851,
+        "lower": 4.542794676456023,
+        "upper": 11.312132308685731,
+        "range_lower": -78.80136435370225,
+        "range_upper": 2584.9059535825763,
+        "n": 32768,
+        "delta": 0.0011111111111111111,
+        "uncorrected_lower": 4.544546800414031,
+        "numerical_allowance": 0.001752123958006732
+      },
+      "booked_upper": -78.79961212974425,
+      "certified": true
+    }
+  ],
+  "nsearch": 8192,
+  "nconfirm": 32768,
+  "delta_per_bound": 0.0011111111111111111,
+  "family_error": 0.05,
+  "planned_bounds": 45,
+  "shared_unique_active_transitions": 22487040,
+  "represented_full_clock_transitions": 35389440,
+  "executed_actions": 20829759,
+  "conditional_oracle_points": 20829763,
+  "preprocessing_rows": 28059,
+  "repair": {
+    "ratio_by_action": {
+      "0.25": 42.69879657446042,
+      "1": 42.721128786323604,
+      "4": 42.7354632987737,
+      "16": 43.22511123116523
+    },
+    "rho": 43.22511123116523,
+    "alpha_all_state_safe": 0.9768652995558054,
+    "scope": "fixed empirical law, declared actions, no-edge, all adaptive policies and finite horizons; charged advantage over same-account flat (equals charged return for solvent starts)"
+  },
+  "cpu_seconds": 5.328125,
+  "wall_seconds": 5.387140399994678,
+  "numeric_threads": 1,
+  "input_sha256": {
+    "exploratory_novelty_2026-10-16\\predictable_accounting_audit\\run_fixed_policy_comparison.py": "3ff11c5b1fdb257f4df47125f0f87df8047fa248e49406881c13f928fbb86923",
+    "exploratory_novelty_2026-10-16\\predictable_accounting_audit\\FIXED_POLICY_PLAN.md": "b12265736639cd58748767d50ea3932bec057c4740ab186f240dcd2530c3fae5",
+    "exploratory_novelty_2026-10-16\\predictable_accounting_audit\\predictable_audit.py": "2b277e7ebe540553cfa9057a75b2aaf029af2d76e47d727c706b13d8c52457e4",
+    "exploratory_novelty_2026-10-16\\predictable_accounting_audit\\run_heldout_attempt2.py": "05a4cd7a38e29fbcfd5e9bd76947826179755914c43dae62fa38b723c2c76a67",
+    "exploratory_novelty_2026-10-16\\matched_multistep_baselines\\results.json": "fbd7f40bbd472d89ea5b58522d84937936fe635ff921b32b423b8daf29670f5d",
+    "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK1.pkl": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3"
+  },
+  "summary": [
+    {
+      "method": "raw",
+      "certified": 0
+    },
+    {
+      "method": "clipped_raw",
+      "certified": 0
+    },
+    {
+      "method": "clipped_residual",
+      "certified": 0
+    },
+    {
+      "method": "clipped_mean_cost_residual",
+      "certified": 0
+    },
+    {
+      "method": "predictable",
+      "certified": 3
+    }
+  ]
+}

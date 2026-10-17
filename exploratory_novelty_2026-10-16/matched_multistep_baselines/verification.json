@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checked_source_hashes": 7,
+  "complete_policy_bounds": 9,
+  "maximum_bound_recomputation_error": 0.0,
+  "maximum_exact_one_action_recomputation_error": 3.8163916471489756e-16,
+  "exact_one_action_direct_integration": {
+    "0.25": -0.021974391902150163,
+    "1": -0.08771324026050802,
+    "4": -0.3479688810467594,
+    "16": -0.014332681592083634
+  },
+  "positive_certificates": [
+    "frozen_adaptive",
+    "openloop16_T48"
+  ],
+  "conclusion": "A simple delayed constant exposure is also a certified witness; adaptive feedback necessity is not established."
+}

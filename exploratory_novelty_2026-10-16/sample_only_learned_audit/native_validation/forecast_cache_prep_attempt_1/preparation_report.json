@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "scope": "deterministic exact forecast-cache pre-materialization; zero actors, environment/audit steps, random draws or statistical endpoints",
+  "started_utc": "2026-10-16T09:43:40.134857+00:00",
+  "contexts": [
+    {
+      "context_id": 0,
+      "zone": "original",
+      "start_row": 0,
+      "rows": 480,
+      "columns": 12,
+      "source_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\forecast_cache_settlement_hourly_v2\\forecast_cache_eval_episode20_2025\\forecast_cache_eval_episode20_2025-full\\precomputed_forecasts_20250101_to_20250930_39312rows.csv",
+      "source_sha256": "8d16e1be6e258ae8289f93a1f861694d1b9f8e82d4133c0e34dd88611d367ea1",
+      "cache_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\exploratory_novelty_2026-10-16\\sample_only_learned_audit\\runtime_cache\\forecast_views\\76ef3a8e08b257634243\\precomputed_forecasts_native_view.csv",
+      "cache_sha256": "d19f1b0008c524e5932c87c506f6493208c7b8094eadbbebf7a6dc2ff2226804",
+      "action": "existing_complete_bytes_validated"
+    },
+    {
+      "context_id": 1,
+      "zone": "original",
+      "start_row": 12944,
+      "rows": 480,
+      "columns": 12,
+      "source_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\forecast_cache_settlement_hourly_v2\\forecast_cache_eval_episode20_2025\\forecast_cache_eval_episode20_2025-full\\precomputed_forecasts_20250101_to_20250930_39312rows.csv",
+      "source_sha256": "8d16e1be6e258ae8289f93a1f861694d1b9f8e82d4133c0e34dd88611d367ea1",
+      "cache_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\exploratory_novelty_2026-10-16\\sample_only_learned_audit\\runtime_cache\\forecast_views\\80caec63666de4ece152\\precomputed_forecasts_native_view.csv",
+      "cache_sha256": "272e68d2856fc7c03ecc76404a5e88257505fef7e9e5b222f1b2ee577696debb",
+      "action": "atomic_complete_publication"
+    },
+    {
+      "context_id": 2,
+      "zone": "original",
+      "start_row": 25888,
+      "rows": 480,
+      "columns": 12,
+      "source_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\forecast_cache_settlement_hourly_v2\\forecast_cache_eval_episode20_2025\\forecast_cache_eval_episode20_2025-full\\precomputed_forecasts_20250101_to_20250930_39312rows.csv",
+      "source_sha256": "8d16e1be6e258ae8289f93a1f861694d1b9f8e82d4133c0e34dd88611d367ea1",
+      "cache_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\exploratory_novelty_2026-10-16\\sample_only_learned_audit\\runtime_cache\\forecast_views\\9226e3d1f8c6026cd671\\precomputed_forecasts_native_view.csv",
+      "cache_sha256": "a61de24c32e1f4810187f6fba5e81bcb5ebb2b1c06f13a9932b6b21a8d1658c3",
+      "action": "atomic_complete_publication"
+    },
+    {
+      "context_id": 3,
+      "zone": "original",
+      "start_row": 38832,
+      "rows": 480,
+      "columns": 12,
+      "source_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\forecast_cache_settlement_hourly_v2\\forecast_cache_eval_episode20_2025\\forecast_cache_eval_episode20_2025-full\\precomputed_forecasts_20250101_to_20250930_39312rows.csv",
+      "source_sha256": "8d16e1be6e258ae8289f93a1f861694d1b9f8e82d4133c0e34dd88611d367ea1",
+      "cache_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\exploratory_novelty_2026-10-16\\sample_only_learned_audit\\runtime_cache\\forecast_views\\dc096a21c8ffba64c2ca\\precomputed_forecasts_native_view.csv",
+      "cache_sha256": "275c4c9af4d6a17fedf29b49eaf16320445be3d77536159248b34595e5cef6f8",
+      "action": "atomic_complete_publication"
+    },
+    {
+      "context_id": 4,
+      "zone": "v2",
+      "start_row": 0,
+      "rows": 480,
+      "columns": 12,
+      "source_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\forecast_cache_settlement_hourly_v2\\forecast_cache_eval_episode20_2025\\forecast_cache_eval_episode20_2025-unseendata_v2\\precomputed_forecasts_20250101_to_20250930_39312rows.csv",
+      "source_sha256": "7370d45397f872fc891dba403438c5327a4fec4e6a8fd38a43279e6018bdd76d",
+      "cache_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\exploratory_novelty_2026-10-16\\sample_only_learned_audit\\runtime_cache\\forecast_views\\aa5f60e0d084759dedf1\\precomputed_forecasts_native_view.csv",
+      "cache_sha256": "2f9d0ee5081d14bd9763df982f4d3bd739fd48dde1cd9826bee2d1944625a20b",
+      "action": "atomic_complete_publication"
+    },
+    {
+      "context_id": 5,
+      "zone": "v2",
+      "start_row": 12944,
+      "rows": 480,
+      "columns": 12,
+      "source_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\forecast_cache_settlement_hourly_v2\\forecast_cache_eval_episode20_2025\\forecast_cache_eval_episode20_2025-unseendata_v2\\precomputed_forecasts_20250101_to_20250930_39312rows.csv",
+      "source_sha256": "7370d45397f872fc891dba403438c5327a4fec4e6a8fd38a43279e6018bdd76d",
+      "cache_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\exploratory_novelty_2026-10-16\\sample_only_learned_audit\\runtime_cache\\forecast_views\\d7ead4582892baf06a4c\\precomputed_forecasts_native_view.csv",
+      "cache_sha256": "d04d4f207585367b9b8580b13f339f9fb263b110bdeee86da0a91c55b3b3e8cf",
+      "action": "atomic_complete_publication"
+    },
+    {
+      "context_id": 6,
+      "zone": "v2",
+      "start_row": 25888,
+      "rows": 480,
+      "columns": 12,
+      "source_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\forecast_cache_settlement_hourly_v2\\forecast_cache_eval_episode20_2025\\forecast_cache_eval_episode20_2025-unseendata_v2\\precomputed_forecasts_20250101_to_20250930_39312rows.csv",
+      "source_sha256": "7370d45397f872fc891dba403438c5327a4fec4e6a8fd38a43279e6018bdd76d",
+      "cache_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\exploratory_novelty_2026-10-16\\sample_only_learned_audit\\runtime_cache\\forecast_views\\9dd242582692c3cf62e8\\precomputed_forecasts_native_view.csv",
+      "cache_sha256": "5e95545c15a3df74030b90afafd00515e93c455f65b4e60f25be64f4ba07c04a",
+      "action": "atomic_complete_publication"
+    },
+    {
+      "context_id": 7,
+      "zone": "v2",
+      "start_row": 38832,
+      "rows": 480,
+      "columns": 12,
+      "source_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\forecast_cache_settlement_hourly_v2\\forecast_cache_eval_episode20_2025\\forecast_cache_eval_episode20_2025-unseendata_v2\\precomputed_forecasts_20250101_to_20250930_39312rows.csv",
+      "source_sha256": "7370d45397f872fc891dba403438c5327a4fec4e6a8fd38a43279e6018bdd76d",
+      "cache_path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\exploratory_novelty_2026-10-16\\sample_only_learned_audit\\runtime_cache\\forecast_views\\b63f94bd37310c3daca8\\precomputed_forecasts_native_view.csv",
+      "cache_sha256": "a54aa804ee8fd2e7a936d8465d378a3b7dea849962068d5102b74bf488347e04",
+      "action": "atomic_complete_publication"
+    }
+  ],
+  "actor_forward_calls": 0,
+  "native_steps": 0,
+  "audit_steps": 0,
+  "source_sha256": {
+    "prematerialize_native_forecast_views.py": "89b8a203e6b4f4dfb2890a7a74db9b2883a7ffc28e7850d2a5241561a1b8c6dc",
+    "native_engine_adapter.py": "da93030da39c1f2a4d0eaef3666177fc6628b7da97161ed892d1b9abfa38c879"
+  },
+  "wall_seconds": 99.5789611999935,
+  "cpu_seconds": 54.71875
+}

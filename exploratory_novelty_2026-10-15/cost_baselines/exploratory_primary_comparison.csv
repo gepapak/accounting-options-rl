@@ -1,0 +1,6 @@
+cohort,n_arms,learned_arms,frozen_DP_correct,frozen_exact_correct,dose_sigma_cost_canonical_correct,dose_sigma_cost_optimal_cutoff_correct_min,dose_sigma_cost_optimal_cutoff_correct_max,arm_AUC_dose_sigma_cost
+O_PPO_1M,7,5,6,6,4,3,7,1.0
+P_PPO_250000,5,3,4,3,4,3,5,1.0
+P_PPO_4000000,2,2,0,2,0,0,1,
+Q_A2C-n64_1M,4,3,3,3,2,2,4,1.0
+Q_DQN-default_1M,4,1,3,1,4,2,4,1.0

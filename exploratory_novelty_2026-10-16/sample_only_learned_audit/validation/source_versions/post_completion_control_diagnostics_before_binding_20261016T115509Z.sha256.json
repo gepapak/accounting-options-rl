@@ -1,0 +1,8 @@
+{
+  "snapshot": "post_completion_control_diagnostics_before_binding_20261016T115509Z.py",
+  "snapshot_sha256": "d6c7a1f4f58a5725c1d57cff1012ae11fa4277ea925ae8394e003f63d49741d8",
+  "source_sha256": "1b767b0152106a7b4812d01e4a04acb0398f8eb1fb48ca90fb157564d09d7488",
+  "plan_sha256": "39b3557e9a1867d73f9c9cc60d97912a830ad19a564257bde2d338273ce73da1",
+  "created_utc": "2026-10-16T11:55:09.647744+00:00",
+  "scope": "Metadata/readability-only binding changes; original exact source reconstructed and SHA verified"
+}

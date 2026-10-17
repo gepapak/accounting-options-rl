@@ -1,0 +1,61 @@
+{
+  "arithmetic": "fractions.Fraction only",
+  "counterexamples": [
+    {
+      "actual_cash": [
+        "0/1",
+        "1/1",
+        "0/1",
+        "-1/1"
+      ],
+      "financial": "-1/1",
+      "name": "financial_floor_only_does_not_justify_net_step_budget",
+      "net_step_excluded": "0/1",
+      "positive_event_credit": "1/1"
+    },
+    {
+      "name": "increasing_weights",
+      "proposed_lower": "0/1",
+      "weighted_financial": "-1/1"
+    },
+    {
+      "name": "terminal_nonnegativity_only",
+      "proposed_lower": "0/1",
+      "weighted_financial": "-1/2"
+    },
+    {
+      "financial": "-2/1",
+      "name": "financial_pre_only_without_post_floor",
+      "post_cash": "-1/1",
+      "pre_cash": "1/1"
+    },
+    {
+      "financial": "-2/1",
+      "invalid_lower": "0/1",
+      "name": "omitted_positive_excluded_transfer",
+      "true_credit_budget": "2/1"
+    },
+    {
+      "actual_cash_increment": "0/1",
+      "excluded_credit": "0/1",
+      "general_charged_return": "-alpha*C; unbounded below for alpha>0",
+      "gross": "0/1",
+      "initial_cash": "0/1",
+      "name": "partial_charge_same_dynamics"
+    }
+  ],
+  "counts": {
+    "capped_step_checks": 9828,
+    "event_credit_paths": 800,
+    "event_paths_with_negative_actual_cash": 116,
+    "nonnegative_step_paths": 4914,
+    "ordered_fair_floor_laws": 36,
+    "partial_charge_counterexamples": 9
+  },
+  "endpoint_reads": 0,
+  "interpretation": "Finite consistency checks of the accompanying cash-account proof, not native experiment evidence or generic mathematical novelty",
+  "native_queries": 0,
+  "new_confidence_limits": 0,
+  "source_sha256": "5d7937243da7ba5fe25b6f257a23e9b696942a6cb6999ed9d2ba6431e9f5e88a",
+  "status": "PASS EXACT TOY CHECKS"
+}

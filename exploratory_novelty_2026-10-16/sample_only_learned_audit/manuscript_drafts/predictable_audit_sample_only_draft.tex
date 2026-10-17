@@ -1,0 +1,49 @@
+% INTEGRATION DRAFT ONLY. Replace sections/predictable_audit.tex after results
+% and independent verification. Preserve the old conditional-kernel material in
+% the supplement. Every PENDING marker must be resolved before submission.
+\subsection{Sample-trajectory audits of frozen learned controllers}
+\label{sec:adaptiveaudit}
+Acquisition prediction and controller verification answer different questions. Here an exploratory audit tests whether a frozen executable RL controller has positive expected charged financial reward and negative expected booked financial profit. It samples the unknown magnitude law, without evaluating conditional payoff moments or treating a fitted critic as an expectation oracle. It still requires a trusted local financial-event map, fresh conditionally fair signs and a deterministic financial-cost bound. The target is the financial component; it is neither total fund performance nor the controller's shaped training reward.
+
+At financial event $k$, let $G_k\in\mathbb R$, $C_k\ge0$ and $I_k\ge0$ denote gross cash flow, executed cost and the native floor injection, respectively. With predictable event discount $w_k\ge0$, define
+\[
+Y_\alpha=\sum_k w_k\{G_k-C_k+(1-\alpha)I_k\},\qquad
+\mathcal C=\sum_k w_k C_k\le\overline C.
+\]
+Assume integrable gross flows and $\mathbb E[G_k\mid\mathcal H_k]=0$, where $\mathcal H_k$ contains all information available before the current sign, including the chosen action. Then expected booked financial profit is $-\mathbb E\mathcal C$. Interleaved battery, physical and distribution cash flows change the actual state but are excluded from this financial target, together with their own injections. Fees and maturities retain their native order; combining them before applying the floor changes the accounting object.
+
+At a fair-sign maturity, write $G_k=\varepsilon_k g_k^0$, with $\Pr(\varepsilon_k=\pm1\mid\mathcal H_k)=1/2$. Using the actual pre-event cash, evaluate only the two local financial injections $I_k^+$ and $I_k^-$. No counterfactual policy trajectory is required. At deterministic financial-fee events use the actual injection. Put
+\[
+A=\sum_k w_k\overline I_k,\qquad
+\overline I_k=(I_k^++I_k^-)/2,
+\qquad Z_0=(1-\alpha)A-\mathcal C.
+\]
+Conditional averaging gives $\mathbb EZ_0=\mathbb EY_\alpha$ and $Z_0\ge-\overline C$. Magnitudes and contexts may be history dependent; their conditional distribution need not be known. The current sign must remain fair after conditioning on everything used by the actor and auditor. This is conditional Monte Carlo applied to the native ledger, not an assumption justified by an approximately balanced sign sample.
+
+To reduce remaining trajectory noise, fit a continuation predictor $q_\theta$ on separate FIT paths. Both hypothetical branches use the \emph{same} frozen predictor and common pre-sign features. With fixed scale $\beta\ge0$ and remaining budget $R_k$, define
+\[
+\begin{aligned}
+\delta_k&=\tfrac12[q_\theta(\mathcal H_k,+1)-q_\theta(\mathcal H_k,-1)],\\
+a_k&=\operatorname{sign}(\delta_k)\min\{\beta|\delta_k|,R_k\},
+\qquad R_{k+1}=R_k-|a_k|,
+\end{aligned}
+\]
+where $R_0=B$ and the budget is debited before reading $\varepsilon_k$. The control $M=\sum_k\varepsilon_k a_k$ has expectation zero and $|M|\le B$, regardless of predictive accuracy. Consequently
+\[
+T_b=\min\{Z_0-M,b\},\qquad
+-\overline C-B\le T_b\le b,
+\qquad \mathbb ET_b\le\mathbb EY_\alpha.
+\]
+An independently chosen cap $b\ge0$ therefore permits bounded empirical-Bernstein confirmation \cite{maurer2009empirical}. Capping can reduce the mean, and a poor predictor can increase variance; an inconclusive lower limit requires abstention. A positive cost lower limit, or a known strictly positive compulsory fee, separately establishes booked harm.
+
+The branch-difference coefficient and its unbiased fitted version are already present in regression martingale controls \cite{belomestny2018regression}; general MDP innovation controls are also established \cite{belomestny2024primaldual}. Our construction specializes these tools to ordered financial events, separates the financial target from interleaved cash flows, and supplies a deterministic lower support for confirmation with an arbitrary frozen predictor. It is not a new generic antithetic or neural control-variate principle. The earlier exact conditional-kernel estimator and sharp uniform partial-charge repair remain in Supplementary Section~\ref{app:predictableaudit}; their moment-oracle and uniform-ratio assumptions are not inherited by the sample-trajectory audit.
+
+Under that stronger access model, predictable drift confirms 36/72 selected and 33/72 neutral cases versus 24/72 for the strongest capped residual, but no condition beyond those positive for an exact isolated-action reference. A separate nine-policy comparison gives 3/9 versus 0/9 for all four comparators; a larger budget also lets a simple capped open-loop policy confirm. In 16 Pareto cases the methods tie at 3/16 and predictable variance increases in 4/16. These retained results establish neither universal dominance nor a need for feedback (Supplementary Section~\ref{app:predictablebenchmark}).
+
+We retain all 20 saved native financial actors from two ten-seed MAPPO cohorts and cross each with guard-restored and deliberately vulnerable simulator profiles. Each of the 40 cases uses eight fixed chronological contexts, 384 causal warm-up steps and 96 audit steps. After warm-up, cash is set to $10^{-4}$ of the original sleeve capital while its notional sizing base is retained. This is a distressed intervention. Saved battery controllers, native observations, delayed maturity, nonlinear impact and financial fees remain active. Warm-up claims are retained and disclosed; their forgiveness cannot be attributed solely to new audit-window decisions. The financial actor controls one scalar exposure factor, not a multiasset portfolio.
+
+Each case has 32 FIT, 32 TUNE and 256 independent CONFIRM episodes. Ridge and a two-layer MLP are fitted on pooled FIT data only; cap, control scale and budget are frozen before confirmation. Six methods share the native paths: raw reward, capped raw reward, capped realized-injection residual, capped sign-paired residual, Ridge control and MLP control. Unselected raw and cost means use all 320 episodes; capped baselines use all 64 development episodes for cap selection, while learned controls tune on 32 TUNE episodes. Thus the simple baselines receive at least as much cap-selection data. Supervised fitting and branch-query costs are reported separately. The 480 charged limits and 40 cost limits share a 95\% family guarantee. Charge views $\alpha=0,1$ reuse the same actions and dynamics; full charging is an accounting check, not another trained policy.
+
+\textbf{[PENDING: insert independently verified six-method counts, strict/vulnerable breakdown, the best simple-baseline comparison, charged and cost lower limits, all full-charge checks, initial queued claims, and measured native/model CPU and wall time. Report ties and abstentions. No empirical benefit of learning is asserted in this draft.]}
+
+Supplementary Section~\ref{app:sampleonlyaudit} gives the proof, access assumptions, exact rational checks and frozen comparison design. The guarantee is conditional on the declared simulator/context law. It does not establish acquisition superiority, real-market performance, universal variance reduction or safety after abstention. If learned controls tie or lose to sign pairing, the evidence supports the financial audit construction rather than a demonstrated need for learned continuation models.

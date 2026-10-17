@@ -1,0 +1,14 @@
+{
+  "status": "PASS EXACT CASH-CONTROL CHECKS",
+  "arithmetic": "fractions.Fraction",
+  "fair_two_event_laws": 2304,
+  "complete_paths": 9216,
+  "raw_minus_full_local_equals_paired": 9216,
+  "capped_support_checks": 36864,
+  "native_queries": 0,
+  "actor_calls": 0,
+  "model_fits": 0,
+  "statistical_endpoint_reads": 0,
+  "interpretation": "Finite mathematical consistency checks, not empirical power or novelty evidence",
+  "source_sha256": "cdb0152a2cea0a035f44e53dd12cd6d2c7a61a34862b9ea7a1c4f64d2c02d573"
+}

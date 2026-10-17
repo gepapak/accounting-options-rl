@@ -5,3 +5,11 @@
 # Study folders are kept byte-exact: their files are covered by pre-registration hashes
 GENERALIZATION_STUDY_2026-09-29/** -text
 LIABILITY_STUDY_2026-09-29/** -text
+ACCOUNTING_OPTIONS_2026-10-14/study_n/** -text
+ACCOUNTING_OPTIONS_2026-10-14/study_o/** -text
+ACCOUNTING_OPTIONS_2026-10-14/study_p/** -text
+ACCOUNTING_OPTIONS_2026-10-14/study_q/** -text
+ACCOUNTING_OPTIONS_2026-10-14/study_r/** -text
+ACCOUNTING_OPTIONS_2026-10-14/study_s/** -text
+# Frozen Study L and M records: sources and manifests are covered by recorded hashes
+revision_experiments/** -text

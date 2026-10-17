@@ -1,0 +1,4 @@
+{'zone': 'DK1', 'cap_B_K': 3.431, 'zero_fixed_share': 0.727, 'zero_dp_share': 0.529, 'one_fixed_K': 1.611, 'one_dp_K': 0.817, 'one_closed_form_K': 0.367, 'one_learned_K': 0.42}
+{'zone': 'DK2', 'cap_B_K': 4.869, 'zero_fixed_share': 0.729, 'zero_dp_share': 0.386, 'one_fixed_K': 2.641, 'one_dp_K': 0.912, 'one_closed_form_K': 0.4, 'one_learned_K': 1.166}
+{'zone': 'FI', 'cap_B_K': 2.349, 'zero_fixed_share': 0.677, 'zero_dp_share': 0.706, 'one_fixed_K': 0.747, 'one_dp_K': 0.795, 'one_closed_form_K': nan, 'one_learned_K': 0.359}
+{'zone': 'NO2', 'cap_B_K': 1.64, 'zero_fixed_share': 0.557, 'zero_dp_share': 0.112, 'one_fixed_K': 0.195, 'one_dp_K': 0.0, 'one_closed_form_K': nan, 'one_learned_K': 0.193}

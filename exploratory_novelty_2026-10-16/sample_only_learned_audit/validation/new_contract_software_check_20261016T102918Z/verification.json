@@ -1,0 +1,21 @@
+{
+  "current_financial_endpoints_read": false,
+  "frozen_auxiliary_unchanged": true,
+  "literal_checks": 10,
+  "manifest_last_static_review": true,
+  "new_actor_inference": 0,
+  "new_model_fits": 0,
+  "new_simulator_calls": 0,
+  "primary_private_PASS_gates_refused_current_incomplete_run": true,
+  "public_artifacts_created": false,
+  "source_sha256": {
+    "public_export_new_contract.py": "cb32aa68efab2f9990dbc2a0979004dac2b8573689c4f2669d43570e01409760",
+    "reproduce_public_new_contract.py": "0e273be73cf100479342f0c9220b90eb1056dfefaac233debb0946427d2ef974",
+    "validation/verify_new_contract_component.py": "66e28ac63df6497ae9e9ee2efac7c5d0d029abf5b2ecbec98ca7515c1895db88"
+  },
+  "status": "PASS",
+  "synthetic_bounds_recomputed": 240,
+  "synthetic_data": "fixed literal software fixture only; no random or native outputs",
+  "synthetic_paths": 10240,
+  "synthetic_reproducer_checks": 66887
+}

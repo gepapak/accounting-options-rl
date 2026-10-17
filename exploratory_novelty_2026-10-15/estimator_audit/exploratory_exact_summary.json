@@ -1,0 +1,1283 @@
+{
+  "status": "EXPLORATORY exact empirical conditional-sign one-step diagnostic",
+  "calibration": [
+    {
+      "excludes_revised_FI": false,
+      "n": 10,
+      "largest_unlearned_pct": 0.007323513245505552,
+      "smallest_learned_pct": 1.0979017424880366,
+      "threshold_pct": 0.08966882375371477,
+      "rows": [
+        {
+          "zone": "DK1",
+          "learned": true,
+          "index": 1.2719845364390974
+        },
+        {
+          "zone": "DK1",
+          "learned": true,
+          "index": 1.2719845364390974
+        },
+        {
+          "zone": "DK1",
+          "learned": true,
+          "index": 1.2719845364390974
+        },
+        {
+          "zone": "DK1",
+          "learned": false,
+          "index": 0.0
+        },
+        {
+          "zone": "DK2",
+          "learned": true,
+          "index": 1.2161034730009563
+        },
+        {
+          "zone": "DK2",
+          "learned": true,
+          "index": 1.2161034730009563
+        },
+        {
+          "zone": "DK2",
+          "learned": true,
+          "index": 1.2161034730009563
+        },
+        {
+          "zone": "DK2",
+          "learned": false,
+          "index": 0.0
+        },
+        {
+          "zone": "FI",
+          "learned": true,
+          "index": 1.0979017424880366
+        },
+        {
+          "zone": "NO2",
+          "learned": false,
+          "index": 0.007323513245505552
+        }
+      ],
+      "calibration_consistent_separating_threshold_set_pct": [
+        0.007323513245505552,
+        1.0979017424880366
+      ],
+      "separating_set_lower_endpoint_is_open": true
+    },
+    {
+      "excludes_revised_FI": true,
+      "n": 9,
+      "largest_unlearned_pct": 0.007323513245505552,
+      "smallest_learned_pct": 1.2161034730009563,
+      "threshold_pct": 0.09437240005651974,
+      "rows": [
+        {
+          "zone": "DK1",
+          "learned": true,
+          "index": 1.2719845364390974
+        },
+        {
+          "zone": "DK1",
+          "learned": true,
+          "index": 1.2719845364390974
+        },
+        {
+          "zone": "DK1",
+          "learned": true,
+          "index": 1.2719845364390974
+        },
+        {
+          "zone": "DK1",
+          "learned": false,
+          "index": 0.0
+        },
+        {
+          "zone": "DK2",
+          "learned": true,
+          "index": 1.2161034730009563
+        },
+        {
+          "zone": "DK2",
+          "learned": true,
+          "index": 1.2161034730009563
+        },
+        {
+          "zone": "DK2",
+          "learned": true,
+          "index": 1.2161034730009563
+        },
+        {
+          "zone": "DK2",
+          "learned": false,
+          "index": 0.0
+        },
+        {
+          "zone": "NO2",
+          "learned": false,
+          "index": 0.007323513245505552
+        }
+      ],
+      "calibration_consistent_separating_threshold_set_pct": [
+        0.007323513245505552,
+        1.2161034730009563
+      ],
+      "separating_set_lower_endpoint_is_open": true
+    }
+  ],
+  "ranks": [
+    {
+      "subset": "all26",
+      "n": 26,
+      "spearman_DP": 0.9345364380621067,
+      "MAE_DP_pct": 0.2792682310314992
+    },
+    {
+      "subset": "legacy12",
+      "n": 12,
+      "spearman_DP": 0.6429353617616744,
+      "MAE_DP_pct": 0.4297046981914123
+    },
+    {
+      "subset": "exclude_revised_FI",
+      "n": 25,
+      "spearman_DP": 0.9263059307239266,
+      "MAE_DP_pct": 0.27277662317508644
+    }
+  ],
+  "transfer": [
+    {
+      "study": "O",
+      "learner": "PPO",
+      "budget": 1000000,
+      "alpha": 0.0,
+      "mean_zone_index_pct": 1.2440440047200267,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 14.4,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 46,
+      "cohort_runs_total": 70
+    },
+    {
+      "study": "O",
+      "learner": "PPO",
+      "budget": 1000000,
+      "alpha": 0.25,
+      "mean_zone_index_pct": 0.9254584827390406,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 14.4,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 46,
+      "cohort_runs_total": 70
+    },
+    {
+      "study": "O",
+      "learner": "PPO",
+      "budget": 1000000,
+      "alpha": 0.5,
+      "mean_zone_index_pct": 0.6070921667951727,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 11.625,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 46,
+      "cohort_runs_total": 70
+    },
+    {
+      "study": "O",
+      "learner": "PPO",
+      "budget": 1000000,
+      "alpha": 0.7,
+      "mean_zone_index_pct": 0.3526794692981477,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 8.025,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 46,
+      "cohort_runs_total": 70
+    },
+    {
+      "study": "O",
+      "learner": "PPO",
+      "budget": 1000000,
+      "alpha": 0.8,
+      "mean_zone_index_pct": 0.2258235646222218,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 6.5,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 46,
+      "cohort_runs_total": 70
+    },
+    {
+      "study": "O",
+      "learner": "PPO",
+      "budget": 1000000,
+      "alpha": 0.9,
+      "mean_zone_index_pct": 0.10013658966392508,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": -0.10000000000000009,
+      "observed_learned": false,
+      "arm_correct": false,
+      "cohort_runs_correct": 46,
+      "cohort_runs_total": 70
+    },
+    {
+      "study": "O",
+      "learner": "PPO",
+      "budget": 1000000,
+      "alpha": 0.95,
+      "mean_zone_index_pct": 0.03916874474870673,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": false,
+      "observed_gap": 1.4249999999999998,
+      "observed_learned": false,
+      "arm_correct": true,
+      "cohort_runs_correct": 46,
+      "cohort_runs_total": 70
+    },
+    {
+      "study": "P",
+      "learner": "PPO",
+      "budget": 250000,
+      "alpha": 0.0,
+      "mean_zone_index_pct": 1.2440440047200267,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 13.325,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 33,
+      "cohort_runs_total": 50
+    },
+    {
+      "study": "P",
+      "learner": "PPO",
+      "budget": 250000,
+      "alpha": 0.25,
+      "mean_zone_index_pct": 0.9254584827390406,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 12.125,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 33,
+      "cohort_runs_total": 50
+    },
+    {
+      "study": "P",
+      "learner": "PPO",
+      "budget": 250000,
+      "alpha": 0.5,
+      "mean_zone_index_pct": 0.6070921667951727,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 10.625,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 33,
+      "cohort_runs_total": 50
+    },
+    {
+      "study": "P",
+      "learner": "PPO",
+      "budget": 250000,
+      "alpha": 0.7,
+      "mean_zone_index_pct": 0.3526794692981477,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 3.075,
+      "observed_learned": false,
+      "arm_correct": false,
+      "cohort_runs_correct": 33,
+      "cohort_runs_total": 50
+    },
+    {
+      "study": "P",
+      "learner": "PPO",
+      "budget": 250000,
+      "alpha": 0.8,
+      "mean_zone_index_pct": 0.2258235646222218,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 3.175,
+      "observed_learned": false,
+      "arm_correct": false,
+      "cohort_runs_correct": 33,
+      "cohort_runs_total": 50
+    },
+    {
+      "study": "P",
+      "learner": "PPO",
+      "budget": 4000000,
+      "alpha": 0.8,
+      "mean_zone_index_pct": 0.2258235646222218,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 6.675000000000001,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 14,
+      "cohort_runs_total": 20
+    },
+    {
+      "study": "P",
+      "learner": "PPO",
+      "budget": 4000000,
+      "alpha": 0.9,
+      "mean_zone_index_pct": 0.10013658966392508,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 9.375,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 14,
+      "cohort_runs_total": 20
+    },
+    {
+      "study": "Q",
+      "learner": "A2C-n64",
+      "budget": 1000000,
+      "alpha": 0.0,
+      "mean_zone_index_pct": 1.2440440047200267,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 12.825,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 20,
+      "cohort_runs_total": 40
+    },
+    {
+      "study": "Q",
+      "learner": "A2C-n64",
+      "budget": 1000000,
+      "alpha": 0.5,
+      "mean_zone_index_pct": 0.6070921667951727,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 4.175,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 20,
+      "cohort_runs_total": 40
+    },
+    {
+      "study": "Q",
+      "learner": "A2C-n64",
+      "budget": 1000000,
+      "alpha": 0.8,
+      "mean_zone_index_pct": 0.2258235646222218,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 4.575,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 20,
+      "cohort_runs_total": 40
+    },
+    {
+      "study": "Q",
+      "learner": "A2C-n64",
+      "budget": 1000000,
+      "alpha": 0.9,
+      "mean_zone_index_pct": 0.10013658966392508,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 1.125,
+      "observed_learned": false,
+      "arm_correct": false,
+      "cohort_runs_correct": 20,
+      "cohort_runs_total": 40
+    },
+    {
+      "study": "Q",
+      "learner": "DQN-default",
+      "budget": 1000000,
+      "alpha": 0.0,
+      "mean_zone_index_pct": 1.2440440047200267,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 5.200000000000001,
+      "observed_learned": true,
+      "arm_correct": true,
+      "cohort_runs_correct": 28,
+      "cohort_runs_total": 40
+    },
+    {
+      "study": "Q",
+      "learner": "DQN-default",
+      "budget": 1000000,
+      "alpha": 0.5,
+      "mean_zone_index_pct": 0.6070921667951727,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 3.700000000000001,
+      "observed_learned": false,
+      "arm_correct": false,
+      "cohort_runs_correct": 28,
+      "cohort_runs_total": 40
+    },
+    {
+      "study": "Q",
+      "learner": "DQN-default",
+      "budget": 1000000,
+      "alpha": 0.8,
+      "mean_zone_index_pct": 0.2258235646222218,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 0.1750000000000007,
+      "observed_learned": false,
+      "arm_correct": false,
+      "cohort_runs_correct": 28,
+      "cohort_runs_total": 40
+    },
+    {
+      "study": "Q",
+      "learner": "DQN-default",
+      "budget": 1000000,
+      "alpha": 0.9,
+      "mean_zone_index_pct": 0.10013658966392508,
+      "threshold_pct": 0.08966882375371477,
+      "predicted_learned": true,
+      "observed_gap": 1.3000000000000007,
+      "observed_learned": false,
+      "arm_correct": false,
+      "cohort_runs_correct": 28,
+      "cohort_runs_total": 40
+    }
+  ],
+  "new_fee_design": [
+    {
+      "fee": 0.4,
+      "eligible_high_alphas": [
+        0.0,
+        0.25,
+        0.5,
+        0.7,
+        0.8
+      ],
+      "eligible_low_alphas": [
+        0.9,
+        0.95
+      ],
+      "closest_high": 0.8,
+      "closest_low": 0.9
+    },
+    {
+      "fee": 1.5,
+      "eligible_high_alphas": [
+        0.0,
+        0.25,
+        0.5
+      ],
+      "eligible_low_alphas": [
+        0.8,
+        0.9,
+        0.95
+      ],
+      "closest_high": 0.5,
+      "closest_low": 0.8
+    }
+  ],
+  "same_alpha_confident_cross_fee_disagreements": [
+    {
+      "alpha": 0.8,
+      "by_fee": {
+        "0.4": {
+          "mean_index_pct": 0.1568475327345108,
+          "both_high": true,
+          "both_low": false
+        },
+        "1.5": {
+          "mean_index_pct": 0.026688158332560077,
+          "both_high": false,
+          "both_low": true
+        }
+      }
+    }
+  ],
+  "prior_flat_MC": {
+    "n": 26,
+    "intervals_covering_exact": 26,
+    "mean_abs_error_pct": 0.058667749703234365
+  },
+  "sources": {
+    "DK1|base": {
+      "panel": "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK1.pkl",
+      "panel_sha256": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3",
+      "registered_panel_sha256": [],
+      "revised_J_panel": false,
+      "rows": 28059,
+      "suffix_vs_direct_max_error_eur": 2.1316282072803006e-13,
+      "alpha0_old_flat_row_sampling_noise": [
+        {
+          "equity_allocations": 0.02,
+          "mean_reward_alpha0_eur": 55.566717474785264,
+          "sd_of_antithetic_row_reward_eur": 376.28833783794425,
+          "MCSE_mean_with_old_6144_pairs_eur": 4.800595957619666,
+          "fraction_rows_with_any_injection": 0.1484372215688371,
+          "top_0p1pct_row_share_expected_injection": 0.14729892232209063,
+          "iid_rows_for_10pct_relative_MCSE": 4585.7675075411
+        },
+        {
+          "equity_allocations": 0.1,
+          "mean_reward_alpha0_eur": 21.488868266420756,
+          "sd_of_antithetic_row_reward_eur": 302.26721969854333,
+          "MCSE_mean_with_old_6144_pairs_eur": 3.8562523657873506,
+          "fraction_rows_with_any_injection": 0.015645603906055097,
+          "top_0p1pct_row_share_expected_injection": 0.3394316465423464,
+          "iid_rows_for_10pct_relative_MCSE": 19785.86381857051
+        },
+        {
+          "equity_allocations": 0.25,
+          "mean_reward_alpha0_eur": 9.686997153319792,
+          "sd_of_antithetic_row_reward_eur": 217.5884622447698,
+          "MCSE_mean_with_old_6144_pairs_eur": 2.7759411792527526,
+          "fraction_rows_with_any_injection": 0.004347981039951531,
+          "top_0p1pct_row_share_expected_injection": 0.5844904254337889,
+          "iid_rows_for_10pct_relative_MCSE": 50453.74194754424
+        },
+        {
+          "equity_allocations": 0.5,
+          "mean_reward_alpha0_eur": 2.962481545582523,
+          "sd_of_antithetic_row_reward_eur": 131.2729251563868,
+          "MCSE_mean_with_old_6144_pairs_eur": 1.6747483524776736,
+          "fraction_rows_with_any_injection": 0.0012830107986742223,
+          "top_0p1pct_row_share_expected_injection": 0.9930339960225919,
+          "iid_rows_for_10pct_relative_MCSE": 196353.66783875533
+        },
+        {
+          "equity_allocations": 1.0,
+          "mean_reward_alpha0_eur": 0.11167793756014116,
+          "sd_of_antithetic_row_reward_eur": 54.47301167836274,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.694953559190926,
+          "fraction_rows_with_any_injection": 0.00010691756655618518,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 23791838.55531455
+        },
+        {
+          "equity_allocations": 1.5,
+          "mean_reward_alpha0_eur": -0.2075722139064115,
+          "sd_of_antithetic_row_reward_eur": 21.102457912472804,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.2692200739797701,
+          "fraction_rows_with_any_injection": 3.5639188852061724e-05,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 1033540.8600491149
+        },
+        {
+          "equity_allocations": 2.0,
+          "mean_reward_alpha0_eur": -0.3335531825795645,
+          "sd_of_antithetic_row_reward_eur": 0.12734621420668565,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.0016246523202163852,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 14.57611881243561
+        }
+      ]
+    },
+    "DK2|base": {
+      "panel": "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK2.pkl",
+      "panel_sha256": "28fcb73457b67df176ba2a3bf1d651129ac08f1989fbb65656e2cb9c4e24059a",
+      "registered_panel_sha256": [],
+      "revised_J_panel": false,
+      "rows": 28059,
+      "suffix_vs_direct_max_error_eur": 1.0658141036401503e-13,
+      "alpha0_old_flat_row_sampling_noise": [
+        {
+          "equity_allocations": 0.02,
+          "mean_reward_alpha0_eur": 62.46619973760646,
+          "sd_of_antithetic_row_reward_eur": 352.1938155237466,
+          "MCSE_mean_with_old_6144_pairs_eur": 4.493203846859834,
+          "fraction_rows_with_any_injection": 0.20143269539185288,
+          "top_0p1pct_row_share_expected_injection": 0.12683504761206155,
+          "iid_rows_for_10pct_relative_MCSE": 3178.8737493616936
+        },
+        {
+          "equity_allocations": 0.1,
+          "mean_reward_alpha0_eur": 18.54057257698065,
+          "sd_of_antithetic_row_reward_eur": 273.89011874425154,
+          "MCSE_mean_with_old_6144_pairs_eur": 3.494224148508911,
+          "fraction_rows_with_any_injection": 0.017819594426030864,
+          "top_0p1pct_row_share_expected_injection": 0.3788167868927152,
+          "iid_rows_for_10pct_relative_MCSE": 21822.597597892272
+        },
+        {
+          "equity_allocations": 0.25,
+          "mean_reward_alpha0_eur": 8.186420388734454,
+          "sd_of_antithetic_row_reward_eur": 198.5673349378673,
+          "MCSE_mean_with_old_6144_pairs_eur": 2.5332742196984257,
+          "fraction_rows_with_any_injection": 0.002886774297017,
+          "top_0p1pct_row_share_expected_injection": 0.6587174627495821,
+          "iid_rows_for_10pct_relative_MCSE": 58833.88516169354
+        },
+        {
+          "equity_allocations": 0.5,
+          "mean_reward_alpha0_eur": 3.231366941088421,
+          "sd_of_antithetic_row_reward_eur": 102.06960834917085,
+          "MCSE_mean_with_old_6144_pairs_eur": 1.3021794724020326,
+          "fraction_rows_with_any_injection": 0.001568124309490716,
+          "top_0p1pct_row_share_expected_injection": 0.8519684466275955,
+          "iid_rows_for_10pct_relative_MCSE": 99774.67953868076
+        },
+        {
+          "equity_allocations": 1.0,
+          "mean_reward_alpha0_eur": -0.28809272425959587,
+          "sd_of_antithetic_row_reward_eur": 0.15051905654689843,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.0019202858599220256,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 27.29721838598991
+        },
+        {
+          "equity_allocations": 1.5,
+          "mean_reward_alpha0_eur": -0.28809272425959587,
+          "sd_of_antithetic_row_reward_eur": 0.15051905654689843,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.0019202858599220256,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 27.29721838598991
+        },
+        {
+          "equity_allocations": 2.0,
+          "mean_reward_alpha0_eur": -0.28809272425959587,
+          "sd_of_antithetic_row_reward_eur": 0.15051905654689843,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.0019202858599220256,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 27.29721838598991
+        }
+      ]
+    },
+    "DK1|H": {
+      "panel": "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK1.pkl",
+      "panel_sha256": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3",
+      "registered_panel_sha256": [],
+      "revised_J_panel": false,
+      "rows": 28059,
+      "suffix_vs_direct_max_error_eur": 1.4210854715202004e-13,
+      "alpha0_old_flat_row_sampling_noise": [
+        {
+          "equity_allocations": 0.02,
+          "mean_reward_alpha0_eur": -50.34539947882485,
+          "sd_of_antithetic_row_reward_eur": 348.84779951353494,
+          "MCSE_mean_with_old_6144_pairs_eur": 4.450516180733784,
+          "fraction_rows_with_any_injection": 0.2259168181332193,
+          "top_0p1pct_row_share_expected_injection": 0.1485658111047721,
+          "iid_rows_for_10pct_relative_MCSE": 4801.228697257577
+        },
+        {
+          "equity_allocations": 0.1,
+          "mean_reward_alpha0_eur": -87.01010617208422,
+          "sd_of_antithetic_row_reward_eur": 284.7287328592611,
+          "MCSE_mean_with_old_6144_pairs_eur": 3.6325005761167275,
+          "fraction_rows_with_any_injection": 0.012937025553298407,
+          "top_0p1pct_row_share_expected_injection": 0.40927983224521486,
+          "iid_rows_for_10pct_relative_MCSE": 1070.8365681057735
+        },
+        {
+          "equity_allocations": 0.25,
+          "mean_reward_alpha0_eur": -96.80834487716501,
+          "sd_of_antithetic_row_reward_eur": 214.6600740083988,
+          "MCSE_mean_with_old_6144_pairs_eur": 2.738581507649223,
+          "fraction_rows_with_any_injection": 0.0033500837520938024,
+          "top_0p1pct_row_share_expected_injection": 0.7197401491297796,
+          "iid_rows_for_10pct_relative_MCSE": 491.6736786593537
+        },
+        {
+          "equity_allocations": 0.5,
+          "mean_reward_alpha0_eur": -101.58595883389759,
+          "sd_of_antithetic_row_reward_eur": 144.37793868972065,
+          "MCSE_mean_with_old_6144_pairs_eur": 1.8419389578367151,
+          "fraction_rows_with_any_injection": 0.0008553405324494814,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 201.99206348830035
+        },
+        {
+          "equity_allocations": 1.0,
+          "mean_reward_alpha0_eur": -104.2835676207859,
+          "sd_of_antithetic_row_reward_eur": 79.72969581518487,
+          "MCSE_mean_with_old_6144_pairs_eur": 1.0171722504922824,
+          "fraction_rows_with_any_injection": 0.00010691756655618518,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 58.45322184562083
+        },
+        {
+          "equity_allocations": 1.5,
+          "mean_reward_alpha0_eur": -104.6049842901637,
+          "sd_of_antithetic_row_reward_eur": 61.504916908202716,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.7846649119654907,
+          "fraction_rows_with_any_injection": 3.5639188852061724e-05,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 34.57123665446668
+        },
+        {
+          "equity_allocations": 2.0,
+          "mean_reward_alpha0_eur": -104.73179481477496,
+          "sd_of_antithetic_row_reward_eur": 57.593426199834276,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.7347630558762189,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 30.240484017557257
+        }
+      ]
+    },
+    "DK2|H": {
+      "panel": "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK2.pkl",
+      "panel_sha256": "28fcb73457b67df176ba2a3bf1d651129ac08f1989fbb65656e2cb9c4e24059a",
+      "registered_panel_sha256": [],
+      "revised_J_panel": false,
+      "rows": 28059,
+      "suffix_vs_direct_max_error_eur": 3.765876499528531e-13,
+      "alpha0_old_flat_row_sampling_noise": [
+        {
+          "equity_allocations": 0.02,
+          "mean_reward_alpha0_eur": -36.00874253518529,
+          "sd_of_antithetic_row_reward_eur": 309.12130663446095,
+          "MCSE_mean_with_old_6144_pairs_eur": 3.9436951556085718,
+          "fraction_rows_with_any_injection": 0.2058875939983606,
+          "top_0p1pct_row_share_expected_injection": 0.145932944775342,
+          "iid_rows_for_10pct_relative_MCSE": 7369.566969116875
+        },
+        {
+          "equity_allocations": 0.1,
+          "mean_reward_alpha0_eur": -73.10178930779631,
+          "sd_of_antithetic_row_reward_eur": 250.20332994558288,
+          "MCSE_mean_with_old_6144_pairs_eur": 3.1920338037078153,
+          "fraction_rows_with_any_injection": 0.011190705299547382,
+          "top_0p1pct_row_share_expected_injection": 0.4671213003307712,
+          "iid_rows_for_10pct_relative_MCSE": 1171.4672619724115
+        },
+        {
+          "equity_allocations": 0.25,
+          "mean_reward_alpha0_eur": -80.36365508667953,
+          "sd_of_antithetic_row_reward_eur": 185.71261711433309,
+          "MCSE_mean_with_old_6144_pairs_eur": 2.3692768267030138,
+          "fraction_rows_with_any_injection": 0.0022809080865319503,
+          "top_0p1pct_row_share_expected_injection": 0.7296004267424658,
+          "iid_rows_for_10pct_relative_MCSE": 534.0272990774835
+        },
+        {
+          "equity_allocations": 0.5,
+          "mean_reward_alpha0_eur": -84.60335169100023,
+          "sd_of_antithetic_row_reward_eur": 104.93001318249983,
+          "MCSE_mean_with_old_6144_pairs_eur": 1.3386718281283179,
+          "fraction_rows_with_any_injection": 0.001318649987526284,
+          "top_0p1pct_row_share_expected_injection": 0.9130183834353419,
+          "iid_rows_for_10pct_relative_MCSE": 153.82407691667183
+        },
+        {
+          "equity_allocations": 1.0,
+          "mean_reward_alpha0_eur": -87.38085106555455,
+          "sd_of_antithetic_row_reward_eur": 60.53151794562527,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.7722465225151302,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 47.98777225287366
+        },
+        {
+          "equity_allocations": 1.5,
+          "mean_reward_alpha0_eur": -87.38085106555455,
+          "sd_of_antithetic_row_reward_eur": 60.53151794562527,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.7722465225151302,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 47.98777225287366
+        },
+        {
+          "equity_allocations": 2.0,
+          "mean_reward_alpha0_eur": -87.38085106555455,
+          "sd_of_antithetic_row_reward_eur": 60.53151794562527,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.7722465225151302,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 47.98777225287366
+        }
+      ]
+    },
+    "FI|base": {
+      "panel": "LIABILITY_STUDY_2026-09-29\\data_panel_j\\panel_FI.pkl",
+      "panel_sha256": "b8af3388aabcdbff58f718793d2ae5a5d81f96581734682effc53d970642ee13",
+      "registered_panel_sha256": [
+        "14de807360dd1916fe79bc5273cbfa0a8cac5b43c9788b3c4e8abab72d20b41e"
+      ],
+      "revised_J_panel": true,
+      "rows": 28883,
+      "suffix_vs_direct_max_error_eur": 2.6290081223123707e-13,
+      "alpha0_old_flat_row_sampling_noise": [
+        {
+          "equity_allocations": 0.02,
+          "mean_reward_alpha0_eur": 45.771906273752556,
+          "sd_of_antithetic_row_reward_eur": 445.7579653407557,
+          "MCSE_mean_with_old_6144_pairs_eur": 5.68687272846917,
+          "fraction_rows_with_any_injection": 0.17269674202818266,
+          "top_0p1pct_row_share_expected_injection": 0.2576245351208787,
+          "iid_rows_for_10pct_relative_MCSE": 9484.189544054729
+        },
+        {
+          "equity_allocations": 0.1,
+          "mean_reward_alpha0_eur": 16.900255288320466,
+          "sd_of_antithetic_row_reward_eur": 402.0161529991706,
+          "MCSE_mean_with_old_6144_pairs_eur": 5.128825225024069,
+          "fraction_rows_with_any_injection": 0.007339957760620434,
+          "top_0p1pct_row_share_expected_injection": 0.6419127345178648,
+          "iid_rows_for_10pct_relative_MCSE": 56584.89011917191
+        },
+        {
+          "equity_allocations": 0.25,
+          "mean_reward_alpha0_eur": 10.981554739145173,
+          "sd_of_antithetic_row_reward_eur": 347.3865783784157,
+          "MCSE_mean_with_old_6144_pairs_eur": 4.431874273533718,
+          "fraction_rows_with_any_injection": 0.002388948516428349,
+          "top_0p1pct_row_share_expected_injection": 0.8440206209110523,
+          "iid_rows_for_10pct_relative_MCSE": 100068.73474166902
+        },
+        {
+          "equity_allocations": 0.5,
+          "mean_reward_alpha0_eur": 6.815919590441785,
+          "sd_of_antithetic_row_reward_eur": 275.19417063879354,
+          "MCSE_mean_with_old_6144_pairs_eur": 3.5108609284033774,
+          "fraction_rows_with_any_injection": 0.0012464079216147907,
+          "top_0p1pct_row_share_expected_injection": 0.984081431750315,
+          "iid_rows_for_10pct_relative_MCSE": 163015.74146863638
+        },
+        {
+          "equity_allocations": 1.0,
+          "mean_reward_alpha0_eur": 2.40486218274331,
+          "sd_of_antithetic_row_reward_eur": 166.40291611867647,
+          "MCSE_mean_with_old_6144_pairs_eur": 2.1229283135516024,
+          "fraction_rows_with_any_injection": 0.0002769795381366202,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 478786.04050524265
+        },
+        {
+          "equity_allocations": 1.5,
+          "mean_reward_alpha0_eur": 1.0199644920602091,
+          "sd_of_antithetic_row_reward_eur": 83.20095659978729,
+          "MCSE_mean_with_old_6144_pairs_eur": 1.0614577592756633,
+          "fraction_rows_with_any_injection": 0.0002769795381366202,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 665405.7252338806
+        },
+        {
+          "equity_allocations": 2.0,
+          "mean_reward_alpha0_eur": -0.3647794749792265,
+          "sd_of_antithetic_row_reward_eur": 0.09353979234284952,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.0011933581348222834,
+          "fraction_rows_with_any_injection": 3.462244226707752e-05,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 6.575548948898412
+        }
+      ]
+    },
+    "NO2|base": {
+      "panel": "LIABILITY_STUDY_2026-09-29\\data_panel_j\\panel_NO2.pkl",
+      "panel_sha256": "9df2ee4c2698d133205126dd2848e69ee7c9f591fc12abbf94041c429b3036e5",
+      "registered_panel_sha256": [
+        "9df2ee4c2698d133205126dd2848e69ee7c9f591fc12abbf94041c429b3036e5"
+      ],
+      "revised_J_panel": false,
+      "rows": 28883,
+      "suffix_vs_direct_max_error_eur": 1.4432899320127035e-15,
+      "alpha0_old_flat_row_sampling_noise": [
+        {
+          "equity_allocations": 0.02,
+          "mean_reward_alpha0_eur": 0.608076063410094,
+          "sd_of_antithetic_row_reward_eur": 27.71254635991531,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.3535499898698743,
+          "fraction_rows_with_any_injection": 0.0046740297060554655,
+          "top_0p1pct_row_share_expected_injection": 0.8043618352277909,
+          "iid_rows_for_10pct_relative_MCSE": 207700.26437699315
+        },
+        {
+          "equity_allocations": 0.1,
+          "mean_reward_alpha0_eur": -0.1806912385364228,
+          "sd_of_antithetic_row_reward_eur": 9.430757313756446,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.12031532972252008,
+          "fraction_rows_with_any_injection": 0.0003116019804036977,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 272407.4298513836
+        },
+        {
+          "equity_allocations": 0.25,
+          "mean_reward_alpha0_eur": -0.3337490860047433,
+          "sd_of_antithetic_row_reward_eur": 0.11559231147018119,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.0014746988608896206,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 11.995482639401141
+        },
+        {
+          "equity_allocations": 0.5,
+          "mean_reward_alpha0_eur": -0.3337490860047433,
+          "sd_of_antithetic_row_reward_eur": 0.11559231147018119,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.0014746988608896206,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 11.995482639401141
+        },
+        {
+          "equity_allocations": 1.0,
+          "mean_reward_alpha0_eur": -0.3337490860047433,
+          "sd_of_antithetic_row_reward_eur": 0.11559231147018119,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.0014746988608896206,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 11.995482639401141
+        },
+        {
+          "equity_allocations": 1.5,
+          "mean_reward_alpha0_eur": -0.3337490860047433,
+          "sd_of_antithetic_row_reward_eur": 0.11559231147018119,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.0014746988608896206,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 11.995482639401141
+        },
+        {
+          "equity_allocations": 2.0,
+          "mean_reward_alpha0_eur": -0.3337490860047433,
+          "sd_of_antithetic_row_reward_eur": 0.11559231147018119,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.0014746988608896206,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 11.995482639401141
+        }
+      ]
+    },
+    "DK1|fee0.4": {
+      "panel": "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK1.pkl",
+      "panel_sha256": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3",
+      "registered_panel_sha256": [],
+      "revised_J_panel": false,
+      "rows": 28059,
+      "suffix_vs_direct_max_error_eur": 5.755396159656812e-13,
+      "alpha0_old_flat_row_sampling_noise": [
+        {
+          "equity_allocations": 0.02,
+          "mean_reward_alpha0_eur": 54.65309330339642,
+          "sd_of_antithetic_row_reward_eur": 376.3377860174571,
+          "MCSE_mean_with_old_6144_pairs_eur": 4.801226805580686,
+          "fraction_rows_with_any_injection": 0.14922128372358245,
+          "top_0p1pct_row_share_expected_injection": 0.14708071569652773,
+          "iid_rows_for_10pct_relative_MCSE": 4741.613559373626
+        },
+        {
+          "equity_allocations": 0.1,
+          "mean_reward_alpha0_eur": 20.497309408300364,
+          "sd_of_antithetic_row_reward_eur": 302.29708449444644,
+          "MCSE_mean_with_old_6144_pairs_eur": 3.8566333736583664,
+          "fraction_rows_with_any_injection": 0.015716882283759222,
+          "top_0p1pct_row_share_expected_injection": 0.33931779071361506,
+          "iid_rows_for_10pct_relative_MCSE": 21750.748339381476
+        },
+        {
+          "equity_allocations": 0.25,
+          "mean_reward_alpha0_eur": 8.688855514273493,
+          "sd_of_antithetic_row_reward_eur": 217.60780514565994,
+          "MCSE_mean_with_old_6144_pairs_eur": 2.776187951322159,
+          "fraction_rows_with_any_injection": 0.004347981039951531,
+          "top_0p1pct_row_share_expected_injection": 0.5844037975185254,
+          "iid_rows_for_10pct_relative_MCSE": 62722.561526640515
+        },
+        {
+          "equity_allocations": 0.5,
+          "mean_reward_alpha0_eur": 1.9625750984532586,
+          "sd_of_antithetic_row_reward_eur": 131.28396690673134,
+          "MCSE_mean_with_old_6144_pairs_eur": 1.6748892204683574,
+          "fraction_rows_with_any_injection": 0.0012830107986742223,
+          "top_0p1pct_row_share_expected_injection": 0.9929901841369507,
+          "iid_rows_for_10pct_relative_MCSE": 447477.09882954764
+        },
+        {
+          "equity_allocations": 1.0,
+          "mean_reward_alpha0_eur": -0.8889174596386188,
+          "sd_of_antithetic_row_reward_eur": 54.47851848798189,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.69502381374133,
+          "fraction_rows_with_any_injection": 0.00010691756655618518,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 375601.83421013434
+        },
+        {
+          "equity_allocations": 1.5,
+          "mean_reward_alpha0_eur": -1.2082103781317939,
+          "sd_of_antithetic_row_reward_eur": 21.110611854054113,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.2693241000019923,
+          "fraction_rows_with_any_injection": 3.5639188852061724e-05,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 30529.276888633438
+        },
+        {
+          "equity_allocations": 2.0,
+          "mean_reward_alpha0_eur": -1.334212730318258,
+          "sd_of_antithetic_row_reward_eur": 0.5093848568267426,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.006498609280865541,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 14.57611881243561
+        }
+      ]
+    },
+    "DK2|fee0.4": {
+      "panel": "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK2.pkl",
+      "panel_sha256": "28fcb73457b67df176ba2a3bf1d651129ac08f1989fbb65656e2cb9c4e24059a",
+      "registered_panel_sha256": [],
+      "revised_J_panel": false,
+      "rows": 28059,
+      "suffix_vs_direct_max_error_eur": 1.6342482922482304e-13,
+      "alpha0_old_flat_row_sampling_noise": [
+        {
+          "equity_allocations": 0.02,
+          "mean_reward_alpha0_eur": 61.71571998957554,
+          "sd_of_antithetic_row_reward_eur": 352.2261100090028,
+          "MCSE_mean_with_old_6144_pairs_eur": 4.4936158521222485,
+          "fraction_rows_with_any_injection": 0.20260878862397091,
+          "top_0p1pct_row_share_expected_injection": 0.12661518736829724,
+          "iid_rows_for_10pct_relative_MCSE": 3257.253001991123
+        },
+        {
+          "equity_allocations": 0.1,
+          "mean_reward_alpha0_eur": 17.686594976210838,
+          "sd_of_antithetic_row_reward_eur": 273.90930067845954,
+          "MCSE_mean_with_old_6144_pairs_eur": 3.4944688670041675,
+          "fraction_rows_with_any_injection": 0.017890872803734987,
+          "top_0p1pct_row_share_expected_injection": 0.378642117286114,
+          "iid_rows_for_10pct_relative_MCSE": 23984.19227179602
+        },
+        {
+          "equity_allocations": 0.25,
+          "mean_reward_alpha0_eur": 7.3238335182116225,
+          "sd_of_antithetic_row_reward_eur": 198.57992130816803,
+          "MCSE_mean_with_old_6144_pairs_eur": 2.5334347935783765,
+          "fraction_rows_with_any_injection": 0.002886774297017,
+          "top_0p1pct_row_share_expected_injection": 0.6586581607940817,
+          "iid_rows_for_10pct_relative_MCSE": 73518.00973032297
+        },
+        {
+          "equity_allocations": 0.5,
+          "mean_reward_alpha0_eur": 2.3680122687907614,
+          "sd_of_antithetic_row_reward_eur": 102.08062891906889,
+          "MCSE_mean_with_old_6144_pairs_eur": 1.302320070177683,
+          "fraction_rows_with_any_injection": 0.001568124309490716,
+          "top_0p1pct_row_share_expected_injection": 0.8519186343121843,
+          "iid_rows_for_10pct_relative_MCSE": 185831.26267945257
+        },
+        {
+          "equity_allocations": 1.0,
+          "mean_reward_alpha0_eur": -1.1523708970383835,
+          "sd_of_antithetic_row_reward_eur": 0.6020762261875937,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.007681143439688102,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 27.29721838598991
+        },
+        {
+          "equity_allocations": 1.5,
+          "mean_reward_alpha0_eur": -1.1523708970383835,
+          "sd_of_antithetic_row_reward_eur": 0.6020762261875937,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.007681143439688102,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 27.29721838598991
+        },
+        {
+          "equity_allocations": 2.0,
+          "mean_reward_alpha0_eur": -1.1523708970383835,
+          "sd_of_antithetic_row_reward_eur": 0.6020762261875937,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.007681143439688102,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 27.29721838598991
+        }
+      ]
+    },
+    "DK1|fee1.5": {
+      "panel": "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK1.pkl",
+      "panel_sha256": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3",
+      "registered_panel_sha256": [],
+      "revised_J_panel": false,
+      "rows": 28059,
+      "suffix_vs_direct_max_error_eur": 1.5631940186722204e-13,
+      "alpha0_old_flat_row_sampling_noise": [
+        {
+          "equity_allocations": 0.02,
+          "mean_reward_alpha0_eur": 51.307941424765666,
+          "sd_of_antithetic_row_reward_eur": 376.5219183206249,
+          "MCSE_mean_with_old_6144_pairs_eur": 4.8035759211427935,
+          "fraction_rows_with_any_injection": 0.1528208417976407,
+          "top_0p1pct_row_share_expected_injection": 0.14627391776697352,
+          "iid_rows_for_10pct_relative_MCSE": 5385.317896032444
+        },
+        {
+          "equity_allocations": 0.1,
+          "mean_reward_alpha0_eur": 16.861755397109665,
+          "sd_of_antithetic_row_reward_eur": 302.41074006170146,
+          "MCSE_mean_with_old_6144_pairs_eur": 3.858083364003165,
+          "fraction_rows_with_any_injection": 0.015823799850315408,
+          "top_0p1pct_row_share_expected_injection": 0.3388986223523389,
+          "iid_rows_for_10pct_relative_MCSE": 32165.39226030441
+        },
+        {
+          "equity_allocations": 0.25,
+          "mean_reward_alpha0_eur": 5.029002837770413,
+          "sd_of_antithetic_row_reward_eur": 217.68447472295026,
+          "MCSE_mean_with_old_6144_pairs_eur": 2.777166083317764,
+          "fraction_rows_with_any_injection": 0.004347981039951531,
+          "top_0p1pct_row_share_expected_injection": 0.5840865338571308,
+          "iid_rows_for_10pct_relative_MCSE": 187366.15779914375
+        },
+        {
+          "equity_allocations": 0.5,
+          "mean_reward_alpha0_eur": -1.703748541020706,
+          "sd_of_antithetic_row_reward_eur": 131.33396477821123,
+          "MCSE_mean_with_old_6144_pairs_eur": 1.6755270812670604,
+          "fraction_rows_with_any_injection": 0.0012830107986742223,
+          "top_0p1pct_row_share_expected_injection": 0.9928297116635693,
+          "iid_rows_for_10pct_relative_MCSE": 594214.3238019424
+        },
+        {
+          "equity_allocations": 1.0,
+          "mean_reward_alpha0_eur": -4.557767249367404,
+          "sd_of_antithetic_row_reward_eur": 54.52161529241027,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.6955736323892158,
+          "fraction_rows_with_any_injection": 0.00010691756655618518,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 14309.78607599724
+        },
+        {
+          "equity_allocations": 1.5,
+          "mean_reward_alpha0_eur": -4.877216980291528,
+          "sd_of_antithetic_row_reward_eur": 21.199469587663298,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.27045772555950615,
+          "fraction_rows_with_any_injection": 3.5639188852061724e-05,
+          "top_0p1pct_row_share_expected_injection": 1.0,
+          "iid_rows_for_10pct_relative_MCSE": 1889.3213647260045
+        },
+        {
+          "equity_allocations": 2.0,
+          "mean_reward_alpha0_eur": -5.003297738693467,
+          "sd_of_antithetic_row_reward_eur": 1.9101932131002848,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.024369784803245777,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 14.576118812435606
+        }
+      ]
+    },
+    "DK2|fee1.5": {
+      "panel": "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK2.pkl",
+      "panel_sha256": "28fcb73457b67df176ba2a3bf1d651129ac08f1989fbb65656e2cb9c4e24059a",
+      "registered_panel_sha256": [],
+      "revised_J_panel": false,
+      "rows": 28059,
+      "suffix_vs_direct_max_error_eur": 4.831690603168681e-13,
+      "alpha0_old_flat_row_sampling_noise": [
+        {
+          "equity_allocations": 0.02,
+          "mean_reward_alpha0_eur": 58.96975005791368,
+          "sd_of_antithetic_row_reward_eur": 352.3480741650353,
+          "MCSE_mean_with_old_6144_pairs_eur": 4.495171841440941,
+          "fraction_rows_with_any_injection": 0.20670729534195803,
+          "top_0p1pct_row_share_expected_injection": 0.12580428980821223,
+          "iid_rows_for_10pct_relative_MCSE": 3570.139862031649
+        },
+        {
+          "equity_allocations": 0.1,
+          "mean_reward_alpha0_eur": 14.555469223332977,
+          "sd_of_antithetic_row_reward_eur": 273.9859702642545,
+          "MCSE_mean_with_old_6144_pairs_eur": 3.4954469991082724,
+          "fraction_rows_with_any_injection": 0.01792651199258705,
+          "top_0p1pct_row_share_expected_injection": 0.37800078087562305,
+          "iid_rows_for_10pct_relative_MCSE": 35432.69852953205
+        },
+        {
+          "equity_allocations": 0.25,
+          "mean_reward_alpha0_eur": 4.16101499296126,
+          "sd_of_antithetic_row_reward_eur": 198.63484399840883,
+          "MCSE_mean_with_old_6144_pairs_eur": 2.534135484028329,
+          "fraction_rows_with_any_injection": 0.002886774297017,
+          "top_0p1pct_row_share_expected_injection": 0.6584409226155135,
+          "iid_rows_for_10pct_relative_MCSE": 227883.19824636687
+        },
+        {
+          "equity_allocations": 0.5,
+          "mean_reward_alpha0_eur": -0.7976215296339856,
+          "sd_of_antithetic_row_reward_eur": 102.13810511501003,
+          "MCSE_mean_with_old_6144_pairs_eur": 1.3030533376381623,
+          "fraction_rows_with_any_injection": 0.001568124309490716,
+          "top_0p1pct_row_share_expected_injection": 0.8517362125358356,
+          "iid_rows_for_10pct_relative_MCSE": 1639765.92303438
+        },
+        {
+          "equity_allocations": 1.0,
+          "mean_reward_alpha0_eur": -4.321390863893938,
+          "sd_of_antithetic_row_reward_eur": 2.2577858482034765,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.028804287898830383,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 27.29721838598991
+        },
+        {
+          "equity_allocations": 1.5,
+          "mean_reward_alpha0_eur": -4.321390863893938,
+          "sd_of_antithetic_row_reward_eur": 2.2577858482034765,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.028804287898830383,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 27.29721838598991
+        },
+        {
+          "equity_allocations": 2.0,
+          "mean_reward_alpha0_eur": -4.321390863893938,
+          "sd_of_antithetic_row_reward_eur": 2.2577858482034765,
+          "MCSE_mean_with_old_6144_pairs_eur": 0.028804287898830383,
+          "fraction_rows_with_any_injection": 0.0,
+          "top_0p1pct_row_share_expected_injection": null,
+          "iid_rows_for_10pct_relative_MCSE": 27.29721838598991
+        }
+      ]
+    }
+  },
+  "controls": [
+    {
+      "condition_id": "DK1|base|g0.99|a1",
+      "exact_index_pct": 0.0
+    },
+    {
+      "condition_id": "DK2|base|g0.99|a1",
+      "exact_index_pct": 0.0
+    }
+  ],
+  "max_interpolation_discrepancy_pct": 0.0862265913567859,
+  "seconds": 0.4327612000051886,
+  "script_sha256": "0cb18232bafaf87961eb79b73324a012c490af31c8e0fec49075c476304a9dbe",
+  "input_sha256": {
+    "ACCOUNTING_OPTIONS_2026-10-14\\study_o\\calibration_o.json": "097d964fd92dc8d3b8e7a5432f28305296e80b9c1c0099f1e2393edcfaca7f6e",
+    "ACCOUNTING_OPTIONS_2026-10-14\\study_o\\dp_o_DK1.json": "5105abbf59010aba34224319630c2b6def9b1f75c5a95a4422f5569bfe797f48",
+    "ACCOUNTING_OPTIONS_2026-10-14\\study_o\\dp_o_DK2.json": "2baa8ffe9cd44cbdf4ec7618d6907eb2dcee9c9bbad699d8a45cd41af5d7ebf2",
+    "ACCOUNTING_OPTIONS_2026-10-14\\study_o\\runs_o.csv": "42fe3766703c4ae382a8bb7aa6c6c1dca9305710cb3e75fba771078ff00894c2",
+    "ACCOUNTING_OPTIONS_2026-10-14\\study_p\\runs_p.csv": "4f8cdb1ca4cbfab99ff1973a285d6aeb290bef60bf91246452f593c57232a136",
+    "ACCOUNTING_OPTIONS_2026-10-14\\study_q\\runs_q.csv": "b49223917ca6668aa65f497abb4ff124f9eca9bec146288f726f06fd31f43b42",
+    "exploratory_codex_2026-10-15\\model_free\\outputs\\exploratory_indices.csv": "a48c9394789e7dbb9ae40fd03cab4e424a6352280bccd17af7fb93d70a31da16",
+    "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK1.pkl": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3",
+    "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK2.pkl": "28fcb73457b67df176ba2a3bf1d651129ac08f1989fbb65656e2cb9c4e24059a",
+    "LIABILITY_STUDY_2026-09-29\\data_panel_j\\panel_FI.pkl": "b8af3388aabcdbff58f718793d2ae5a5d81f96581734682effc53d970642ee13",
+    "LIABILITY_STUDY_2026-09-29\\data_panel_j\\panel_NO2.pkl": "9df2ee4c2698d133205126dd2848e69ee7c9f591fc12abbf94041c429b3036e5",
+    "LIABILITY_STUDY_2026-09-29\\PREREGISTRATION_HASHES.txt": "e55d28eb0245f9719d7b1fa173fabf7e446f68c4171841cef53f9c355d5a803b",
+    "LIABILITY_STUDY_2026-09-29\\results_k\\action_gap.csv": "4bbb1116e19d334c61ed33e3be47819f002de517573cefecea1425d9a0a995d6"
+  },
+  "limitations": [
+    "Known empirical distribution, not a black-box generative-simulator guarantee.",
+    "Exact one-step reward differs from optimal continuation; absence is not safety.",
+    "No MC uncertainty, but market/model/calibration/learner uncertainty remains.",
+    "Existing outcomes known; candidate new-fee conditions were previously inspected, not confirmatory."
+  ]
+}

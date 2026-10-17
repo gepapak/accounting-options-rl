@@ -1,0 +1,6 @@
+{
+  "created_utc": "2026-10-16T11:18:24.0017758Z",
+  "snapshot": "verify_native_results_before_report_sha_20261016T111823Z.py",
+  "sha256": "414d951985650f201586d8acd5bf0c1d960b7fc88c08d26b8cf9a7b3ece29cb8",
+  "reason": "Preserved before metadata-only executed verifier SHA binding; no formula/gate/tolerance change"
+}

@@ -1,0 +1,295 @@
+== Part 1: pre-registration hashes
+[ok] GENERALIZATION_STUDY_2026-09-29/PREREGISTRATION_A.md
+[ok] LIABILITY_STUDY_2026-09-29/PREREGISTRATION_B.md
+[ok] LIABILITY_STUDY_2026-09-29/PREREGISTRATION_E.md
+[ok] LIABILITY_STUDY_2026-09-29/PREREGISTRATION_F.md
+[ok] LIABILITY_STUDY_2026-09-29/PREREGISTRATION_H.md
+[ok] LIABILITY_STUDY_2026-09-29/PREREGISTRATION_I.md
+[ok] LIABILITY_STUDY_2026-09-29/PREREGISTRATION_J.md
+[ok] LIABILITY_STUDY_2026-09-29/PREREGISTRATION_K.md
+[ok] LIABILITY_STUDY_2026-09-29/aggregate_e.py
+[ok] LIABILITY_STUDY_2026-09-29/aggregate_f.py
+[ok] LIABILITY_STUDY_2026-09-29/aggregate_h.py
+[ok] LIABILITY_STUDY_2026-09-29/aggregate_i.py
+[ok] LIABILITY_STUDY_2026-09-29/aggregate_j.py
+[ok] LIABILITY_STUDY_2026-09-29/aggregate_k.py
+[ok] LIABILITY_STUDY_2026-09-29/build_panel_j.py
+[REVISED] LIABILITY_STUDY_2026-09-29/data_panel_j/panel_FI.pkl: rebuilt from revised eSett data, differs from the registered panel
+[ok] LIABILITY_STUDY_2026-09-29/data_panel_j/panel_NO2.pkl
+[ok] LIABILITY_STUDY_2026-09-29/dp_frictions.py
+[ok] LIABILITY_STUDY_2026-09-29/dp_j.py
+[ok] LIABILITY_STUDY_2026-09-29/env_audit/PREREGISTRATION_D.md
+[ok] LIABILITY_STUDY_2026-09-29/envs_b.py
+[ok] LIABILITY_STUDY_2026-09-29/envs_e.py
+[ok] LIABILITY_STUDY_2026-09-29/envs_h.py
+[ok] LIABILITY_STUDY_2026-09-29/envs_j.py
+[ok] LIABILITY_STUDY_2026-09-29/mtsim_study/PREREGISTRATION_G.md
+[ok] LIABILITY_STUDY_2026-09-29/mtsim_study/aggregate_g.py
+[ok] LIABILITY_STUDY_2026-09-29/mtsim_study/mtsim_common.py
+[ok] LIABILITY_STUDY_2026-09-29/mtsim_study/run_g.py
+[ok] LIABILITY_STUDY_2026-09-29/pilot_f.py
+[ok] LIABILITY_STUDY_2026-09-29/pilot_i.py
+[ok] LIABILITY_STUDY_2026-09-29/reflection_barrier.py
+[ok] LIABILITY_STUDY_2026-09-29/reflection_theory.py
+[ok] LIABILITY_STUDY_2026-09-29/results_j/dp_j.csv
+[ok] LIABILITY_STUDY_2026-09-29/results_k/theory_k.csv
+[ok] LIABILITY_STUDY_2026-09-29/run_b.py
+[ok] LIABILITY_STUDY_2026-09-29/run_e.py
+[ok] LIABILITY_STUDY_2026-09-29/run_f.py
+[ok] LIABILITY_STUDY_2026-09-29/run_h.py
+[ok] LIABILITY_STUDY_2026-09-29/run_i.py
+[ok] LIABILITY_STUDY_2026-09-29/run_j.py
+[ok] LIABILITY_STUDY_2026-09-29/run_k.py
+[ok] LIABILITY_STUDY_2026-09-29/scaling/PREREGISTRATION_C.md
+[ok] LIABILITY_STUDY_2026-09-29/scaling/run_c.py
+[ok] LIABILITY_STUDY_2026-09-29/select_pilot_i.py
+[ok] LIABILITY_STUDY_2026-09-29/theory_k.py
+[ok] study_n/PREREGISTRATION_N.md
+[ok] study_n/RUN_LOG_N.md (registered prefix)
+[ok] study_n/envs_n.py
+[ok] study_n/run_n.py
+[ok] study_n/aggregate_n.py
+[ok] study_n/dp_n.py
+[ok] study_n/dp_n_fee.py
+[ok] study_n/dp_n2.py
+[ok] study_n/dp_n2_DK1.json
+[ok] study_n/dp_n2_DK2.json
+[ok] study_n/dp_n_DK1.json
+[ok] study_n/dp_n_DK2.json
+[ok] study_o/PREREGISTRATION_O.md
+[ok] study_o/RUN_LOG_O.md (registered prefix)
+[ok] study_o/envs_o.py
+[ok] study_o/run_o.py
+[ok] study_o/aggregate_o.py
+[ok] study_o/dp_o.py
+[ok] study_o/calibrate_o.py
+[ok] study_o/dp_o_DK1.json
+[ok] study_o/dp_o_DK2.json
+[ok] study_o/calibration_o.json
+[ok] study_p/PREREGISTRATION_P.md
+[ok] study_p/RUN_LOG_P.md (registered prefix)
+[ok] study_p/run_p.py
+[ok] study_p/aggregate_p.py
+[ok] study_p/design_p.py
+[ok] study_p/design_p.json
+[ok] study_q/PREREGISTRATION_Q.md
+[ok] study_q/RUN_LOG_Q.md (registered prefix)
+[ok] study_q/run_q.py
+[ok] study_q/aggregate_q.py
+
+== Part 2: headline numbers
+[ok] B3 zero floor, placebo: lowest reported return (%): 38.44 (expected 38.440 +/- 0.01)
+[ok] B3 zero floor, placebo: highest reported return (%): 147.83 (expected 147.830 +/- 0.01)
+[ok] B3 zero floor, placebo: highest booked return (%): -15.08 (expected -15.080 +/- 0.01)
+[ok] B3 zero floor, placebo: lowest booked return (%): -57.35 (expected -57.350 +/- 0.01)
+[ok] C zero floor at 1.6M steps: lowest reported return (%): 124.72 (expected 124.720 +/- 0.01)
+[ok] C zero floor at 1.6M steps: highest reported return (%): 182.82 (expected 182.820 +/- 0.01)
+[ok] F3 gap L_ZF(0.1) - L_FL(0.1): 11.10 (expected 11.100 +/- 0.005)
+[ok] F1 floor-trained agents at leverage 16 (of 10): 10.00 (expected 10.000 +/- 0)
+[ok] I1 gap A2C-n256: 8.53 (expected 8.530 +/- 0.005)
+[ok] I1 gap A2C-n64: 11.95 (expected 11.950 +/- 0.005)
+[ok] I1 gap DQN-default: 7.15 (expected 7.150 +/- 0.005)
+[ok] I pooled gap (exploratory): 9.21 (expected 9.210 +/- 0.005)
+[ok] J1 Finland gap at 0.1: 8.18 (expected 8.180 +/- 0.005)
+[ok] J2 Finland L_ZF(0.1) > L_ZF(2) (runs of 10): 9.00 (expected 9.000 +/- 0)
+[ok] J4 Finland gap at 0.25: 8.47 (expected 8.470 +/- 0.005)
+[ok] J4 Norway gap at 0.25: 0.62 (expected 0.625 +/- 0.005)
+[ok] H2 full-liability agents at leverage <= 0.25 everywhere (of 10): 10.00 (expected 10.000 +/- 0)
+[ok] G gym-mtsim runs: 20.00 (expected 20.000 +/- 0)
+[ok] G largest exposure of any agent: 0.00 (expected 0.000 +/- 0)
+[ok] K mean gambling region, zero floor, gamma 0.95: 1.35 (expected 1.350 +/- 0.005)
+[ok] K mean gambling region, zero floor, gamma 0.98: 1.48 (expected 1.475 +/- 0.005)
+[ok] K mean gambling region, zero floor, gamma 0.99: 1.85 (expected 1.850 +/- 0.005)
+[ok] K mean gambling region, zero floor, gamma 0.995: 1.43 (expected 1.425 +/- 0.005)
+[ok] K full-liability agents with no gambling region (of 20): 17.00 (expected 17.000 +/- 0)
+[ok] Theorem 1: largest KS distance, reported vs running maximum (four zones): 0.08 (expected 0.079 +/- 0.0005)
+[ok] Theorem 1: DK1 mean reported equity (allocations): 2.55 (expected 2.551 +/- 0.001)
+[ok] D included environments: 18.00 (expected 18.000 +/- 0)
+[ok] D environments meeting both conditions: 1.00 (expected 1.000 +/- 0)
+[ok] L primary gap, low-equity leverage (zero charge - full charge): 9.60 (expected 9.600 +/- 0.05)
+[ok] M DK1 discovery winner, certification reported mean (%): 108.84 (expected 108.800 +/- 0.05)
+[ok] M DK2 discovery winner, certification reported mean (%): 104.26 (expected 104.300 +/- 0.05)
+[ok] N1 zombie-probe gap ZFG - ZBK: 11.91 (expected 11.910 +/- 0.005)
+[ok] N2 ZFG runs at leverage 16 when insolvent but undetected (of 10): 10.00 (expected 10.000 +/- 0)
+[ok] T1 terminal probe gap TFG - TBK: 9.12 (expected 9.125 +/- 0.005)
+[ok] O3 alpha 0.9 runs at leverage 16 (of 10): 0.00 (expected 0.000 +/- 0)
+[ok] O3 alpha 0.9 gap over control at 2% equity: -0.10 (expected -0.100 +/- 0.005)
+[ok] O4 alpha 0 gap over control at 2% equity: 14.40 (expected 14.400 +/- 0.005)
+[ok] O2 run-level Spearman(index, L(0.02)): 0.75 (expected 0.746 +/- 0.0005)
+[ok] P3 runs at leverage 16, alpha 0.8 and 0.9, 4M steps (of 20): 14.00 (expected 14.000 +/- 0)
+[ok] P3 runs at leverage 16, alpha 0.9, 4M steps (of 10): 8.00 (expected 8.000 +/- 0)
+[ok] Settlement: volume term not deterring, before go-live (%): 8.65 (expected 8.600 +/- 0.05)
+[ok] Settlement: volume term not deterring, after go-live (%): 36.84 (expected 36.800 +/- 0.05)
+[ok] S11 action gap DK1, gamma 0.99, at 0.1 allocations (EUR): 28.42 (expected 28.420 +/- 0.005)
+[ok] Corollary 3: DK1 gambling region with nothing booked (allocations): 1.75 (expected 1.750 +/- 0)
+[ok] Corollary 3: DK1 gambling region with 99.8% booked (allocations): 0.00 (expected 0.000 +/- 0)
+[ok] S11 Theorem 1, DK1 predicted mean reported equity (allocations): 2.72 (expected 2.722 +/- 0.001)
+[ok] S11 Theorem 2, DK1 cap B_T (allocations): 3.43 (expected 3.431 +/- 0.001)
+[ok] Factor two: smallest fee-free ZF/TERM ratio, 24 zone-years: 1.62 (expected 1.620 +/- 0.005)
+[ok] Factor two: largest fee-free ZF/TERM ratio, 24 zone-years: 1.99 (expected 1.990 +/- 0.005)
+[ok] Unique trained agents, Study B: 120.00 (expected 120.000 +/- 0)
+[ok] Unique trained agents, Study C: 24.00 (expected 24.000 +/- 0)
+[ok] Unique trained agents, Study E: 120.00 (expected 120.000 +/- 0)
+[ok] Unique trained agents, Study F: 60.00 (expected 60.000 +/- 0)
+[ok] Unique trained agents, Study G: 20.00 (expected 20.000 +/- 0)
+[ok] Unique trained agents, Study H: 40.00 (expected 40.000 +/- 0)
+[ok] Unique trained agents, Study I: 90.00 (expected 90.000 +/- 0)
+[ok] Unique trained agents, Study J: 60.00 (expected 60.000 +/- 0)
+[ok] Unique trained agents, Study K: 60.00 (expected 60.000 +/- 0)
+[ok] Unique trained agents, Study L: 20.00 (expected 20.000 +/- 0)
+[ok] Unique trained agents, Study N: 40.00 (expected 40.000 +/- 0)
+[ok] Unique trained agents, Study O: 80.00 (expected 80.000 +/- 0)
+[ok] Unique trained agents, Study P: 90.00 (expected 90.000 +/- 0)
+[ok] Completed main-study cohort B-P (M reuses L; excludes Q and separate A): 824.00 (expected 824.000 +/- 0)
+[ok] Separate Study A trained agents: 280.00 (expected 280.000 +/- 0)
+[ok] B supported registered primary verdicts: 3.00 (expected 3.000 +/- 0)
+[ok] B registered primary verdicts: 5.00 (expected 5.000 +/- 0)
+[ok] C supported registered primary verdicts: 4.00 (expected 4.000 +/- 0)
+[ok] C registered primary verdicts: 5.00 (expected 5.000 +/- 0)
+[ok] E supported registered primary verdicts: 5.00 (expected 5.000 +/- 0)
+[ok] E registered primary verdicts: 5.00 (expected 5.000 +/- 0)
+[ok] F supported registered primary verdicts: 5.00 (expected 5.000 +/- 0)
+[ok] F registered primary verdicts: 6.00 (expected 6.000 +/- 0)
+[ok] G supported registered primary verdicts: 0.00 (expected 0.000 +/- 0)
+[ok] G registered primary verdicts: 3.00 (expected 3.000 +/- 0)
+[ok] H supported registered primary verdicts: 2.00 (expected 2.000 +/- 0)
+[ok] H registered primary verdicts: 5.00 (expected 5.000 +/- 0)
+[ok] I supported registered primary verdicts: 2.00 (expected 2.000 +/- 0)
+[ok] I registered primary verdicts: 9.00 (expected 9.000 +/- 0)
+[ok] J supported registered primary verdicts: 3.00 (expected 3.000 +/- 0)
+[ok] J registered primary verdicts: 5.00 (expected 5.000 +/- 0)
+[ok] K supported registered primary verdicts: 0.00 (expected 0.000 +/- 0)
+[ok] K registered primary verdicts: 3.00 (expected 3.000 +/- 0)
+[ok] Original scorecard supported verdicts: 24.00 (expected 24.000 +/- 0)
+[ok] Original scorecard total verdicts: 46.00 (expected 46.000 +/- 0)
+[ok] N supported registered verdicts: 6.00 (expected 6.000 +/- 0)
+[ok] N total registered verdicts: 9.00 (expected 9.000 +/- 0)
+[ok] O supported registered verdicts: 4.00 (expected 4.000 +/- 0)
+[ok] O total registered verdicts: 4.00 (expected 4.000 +/- 0)
+[ok] P supported registered verdicts: 3.00 (expected 3.000 +/- 0)
+[ok] P total registered verdicts: 4.00 (expected 4.000 +/- 0)
+[ok] O registered threshold c* (%): 0.51 (expected 0.513 +/- 0.0005)
+[ok] O threshold geometric-midpoint identity: 0.51 (expected 0.513 +/- 1e-12)
+[ok] Logistic point fit gradient: 0.00 (expected 0.000 +/- 0.001)
+[ok] O exploratory logistic c50 (%): 0.43 (expected 0.429 +/- 0.0005)
+[ok] Logistic point fit gradient: 0.00 (expected 0.000 +/- 0.001)
+[ok] P joint logistic c50 at 1M (%): 0.33 (expected 0.330 +/- 0.0005)
+[ok] P joint logistic beta: -0.43 (expected -0.430 +/- 0.0005)
+[ok] P3 one-sided Fisher p: 0.00 (expected 0.002 +/- 5e-05)
+[ok] P4 one-sided Fisher p: 0.30 (expected 0.303 +/- 5e-05)
+[ok] Exploratory index pooled AUC: 0.96 (expected 0.963 +/- 1e-12)
+[ok] Exploratory index prospective O AUC: 0.92 (expected 0.915 +/- 1e-12)
+[ok] Exploratory index prospective O accuracy: 0.83 (expected 0.829 +/- 1e-12)
+[ok] Exploratory O treatment-only AUC(1-alpha): 0.92 (expected 0.919 +/- 1e-12)
+[ok] Q complete registered cohort: 100.00 (expected 100.000 +/- 0)
+[ok] Q unique learner/alpha/seed/zone runs: 100.00 (expected 100.000 +/- 0)
+[ok] Q runs per learner/alpha cell, minimum: 10.00 (expected 10.000 +/- 0)
+[ok] Q runs per learner/alpha cell, maximum: 10.00 (expected 10.000 +/- 0)
+[ok] Q reports all six registered verdicts: 6.00 (expected 6.000 +/- 0)
+[ok] Q supported registered verdicts: 6.00 (expected 6.000 +/- 0)
+[ok] Q2 A2C-n64 gap matches frozen verdict: 12.82 (expected 12.820 +/- 0.005)
+[ok] Q3 A2C-n64 gap matches frozen verdict: 1.12 (expected 1.120 +/- 0.005)
+[ok] Q1 A2C-n64 correlation matches frozen verdict: 0.50 (expected 0.500 +/- 0.0005)
+[ok] Q2 DQN-default gap matches frozen verdict: 5.20 (expected 5.200 +/- 0.005)
+[ok] Q3 DQN-default gap matches frozen verdict: 1.30 (expected 1.300 +/- 0.005)
+[ok] Q1 DQN-default correlation matches frozen verdict: 0.31 (expected 0.309 +/- 0.0005)
+[ok] Q exploratory DQN control low-equity leverage: 9.22 (expected 9.225 +/- 1e-10)
+[ok] Q DQN control runs at maximal low-equity leverage: 5.00 (expected 5.000 +/- 0)
+[ok] Q DQN alpha0.9 runs at maximal low-equity leverage: 6.00 (expected 6.000 +/- 0)
+[ok] Completed main-study cohort including Q: 924.00 (expected 924.000 +/- 0)
+[ok] Exploratory cost comparison reports every fixed score: 13.00 (expected 13.000 +/- 0)
+[ok] Exploratory historical labels reproduce original controls: 0.00 (expected 0.000 +/- 0)
+[ok] Exploratory cost snapshot matches current compare_completed_cost_baselines.py: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory cost snapshot matches current EXPLORATORY_PLAN.md: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory O_PPO_1M arm count: 7.00 (expected 7.000 +/- 0)
+[ok] Exploratory O_PPO_1M fixed DP correct: 6.00 (expected 6.000 +/- 0)
+[ok] Exploratory O_PPO_1M fixed exact correct: 6.00 (expected 6.000 +/- 0)
+[ok] Exploratory O_PPO_1M simple representative correct: 4.00 (expected 4.000 +/- 0)
+[ok] Exploratory O_PPO_1M simple admissible minimum: 3.00 (expected 3.000 +/- 1e-10)
+[ok] Exploratory O_PPO_1M simple admissible maximum: 7.00 (expected 7.000 +/- 1e-10)
+[ok] Exploratory O_PPO_1M arm AUC dose: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory O_PPO_1M arm AUC dose_sigma_over_cost: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory O_PPO_1M arm AUC cost_adjusted_gross_dose: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory O_PPO_1M arm AUC integrated_exact: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory O_PPO_1M arm AUC dp_index: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory O_PPO_1M arm AUC gaussian_moment_index: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory P_PPO_250000 arm count: 5.00 (expected 5.000 +/- 0)
+[ok] Exploratory P_PPO_250000 fixed DP correct: 4.00 (expected 4.000 +/- 0)
+[ok] Exploratory P_PPO_250000 fixed exact correct: 3.00 (expected 3.000 +/- 0)
+[ok] Exploratory P_PPO_250000 simple representative correct: 4.00 (expected 4.000 +/- 0)
+[ok] Exploratory P_PPO_250000 simple admissible minimum: 3.00 (expected 3.000 +/- 1e-10)
+[ok] Exploratory P_PPO_250000 simple admissible maximum: 5.00 (expected 5.000 +/- 1e-10)
+[ok] Exploratory P_PPO_250000 arm AUC dose: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory P_PPO_250000 arm AUC dose_sigma_over_cost: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory P_PPO_250000 arm AUC cost_adjusted_gross_dose: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory P_PPO_250000 arm AUC integrated_exact: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory P_PPO_250000 arm AUC dp_index: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory P_PPO_250000 arm AUC gaussian_moment_index: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory P_PPO_4000000 arm count: 2.00 (expected 2.000 +/- 0)
+[ok] Exploratory P_PPO_4000000 fixed DP correct: 0.00 (expected 0.000 +/- 0)
+[ok] Exploratory P_PPO_4000000 fixed exact correct: 2.00 (expected 2.000 +/- 0)
+[ok] Exploratory P_PPO_4000000 simple representative correct: 0.00 (expected 0.000 +/- 0)
+[ok] Exploratory P_PPO_4000000 simple admissible minimum: 0.00 (expected 0.000 +/- 1e-10)
+[ok] Exploratory P_PPO_4000000 simple admissible maximum: 1.00 (expected 1.000 +/- 1e-10)
+[ok] Exploratory Q_A2C-n64_1M arm count: 4.00 (expected 4.000 +/- 0)
+[ok] Exploratory Q_A2C-n64_1M fixed DP correct: 3.00 (expected 3.000 +/- 0)
+[ok] Exploratory Q_A2C-n64_1M fixed exact correct: 3.00 (expected 3.000 +/- 0)
+[ok] Exploratory Q_A2C-n64_1M simple representative correct: 2.00 (expected 2.000 +/- 0)
+[ok] Exploratory Q_A2C-n64_1M simple admissible minimum: 2.00 (expected 2.000 +/- 1e-10)
+[ok] Exploratory Q_A2C-n64_1M simple admissible maximum: 4.00 (expected 4.000 +/- 1e-10)
+[ok] Exploratory Q_A2C-n64_1M arm AUC dose: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory Q_A2C-n64_1M arm AUC dose_sigma_over_cost: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory Q_A2C-n64_1M arm AUC cost_adjusted_gross_dose: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory Q_A2C-n64_1M arm AUC integrated_exact: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory Q_A2C-n64_1M arm AUC dp_index: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory Q_A2C-n64_1M arm AUC gaussian_moment_index: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory Q_DQN-default_1M arm count: 4.00 (expected 4.000 +/- 0)
+[ok] Exploratory Q_DQN-default_1M fixed DP correct: 3.00 (expected 3.000 +/- 0)
+[ok] Exploratory Q_DQN-default_1M fixed exact correct: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory Q_DQN-default_1M simple representative correct: 4.00 (expected 4.000 +/- 0)
+[ok] Exploratory Q_DQN-default_1M simple admissible minimum: 2.00 (expected 2.000 +/- 1e-10)
+[ok] Exploratory Q_DQN-default_1M simple admissible maximum: 4.00 (expected 4.000 +/- 1e-10)
+[ok] Exploratory Q_DQN-default_1M arm AUC dose: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory Q_DQN-default_1M arm AUC dose_sigma_over_cost: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory Q_DQN-default_1M arm AUC cost_adjusted_gross_dose: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory Q_DQN-default_1M arm AUC integrated_exact: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory Q_DQN-default_1M arm AUC dp_index: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory Q_DQN-default_1M arm AUC gaussian_moment_index: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory bundled H comparison reports all scores: 13.00 (expected 13.000 +/- 0)
+[ok] Exploratory bundled H nominal-fee AUC: 1.00 (expected 1.000 +/- 0)
+[ok] Exploratory matched-moment pair gross_mean: 0.00 (expected 0.000 +/- 0)
+[ok] Exploratory matched-moment pair gross_variance: 0.31 (expected 0.312 +/- 0)
+[ok] Exploratory matched-moment pair gross_absolute_mean: 0.50 (expected 0.500 +/- 0)
+[ok] Exploratory matched-moment pair expected_executed_cost: 0.00 (expected 0.001 +/- 0)
+[ok] Exploratory matched-moment pair net_mean: -0.00 (expected -0.001 +/- 0)
+[ok] Exploratory matched-moment pair net_variance: 0.31 (expected 0.312 +/- 0)
+[ok] Exploratory matched-moment pair net_absolute_mean: 0.50 (expected 0.500 +/- 0)
+[ok] Exploratory matched-moment A charged reward: -0.00 (expected -0.001 +/- 0)
+[ok] Exploratory matched-moment B charged reward: 0.00 (expected 0.002 +/- 0)
+[ok] Exploratory matched-moment B booked harm: -0.00 (expected -0.001 +/- 0)
+[ok] Exploratory matched-moment A full-booking gate: 0.00 (expected 0.000 +/- 0)
+[ok] Exploratory matched-moment B full-booking gate: 0.00 (expected 0.000 +/- 0)
+[ok] R registered bytes: ACCOUNTING_OPTIONS_2026-10-14/study_o/calibration_o.json
+[ok] R registered bytes: ACCOUNTING_OPTIONS_2026-10-14/study_r/aggregate_r.py
+[ok] R registered bytes: ACCOUNTING_OPTIONS_2026-10-14/study_r/development_smoke/jobs/fee0.4__a1__PPO__s60__DK1.json
+[ok] R registered bytes: ACCOUNTING_OPTIONS_2026-10-14/study_r/envs_r.py
+[ok] R registered bytes: ACCOUNTING_OPTIONS_2026-10-14/study_r/hash_prereg_r.py
+[ok] R registered bytes: ACCOUNTING_OPTIONS_2026-10-14/study_r/predict_r.py
+[ok] R registered bytes: ACCOUNTING_OPTIONS_2026-10-14/study_r/predictions_r.json
+[ok] R registered bytes: ACCOUNTING_OPTIONS_2026-10-14/study_r/PREREGISTRATION_R.md
+[ok] R registered bytes: ACCOUNTING_OPTIONS_2026-10-14/study_r/RUN_LOG_R.md
+[ok] R registered bytes: ACCOUNTING_OPTIONS_2026-10-14/study_r/run_r.py
+[ok] R registered bytes: ACCOUNTING_OPTIONS_2026-10-14/study_r/validate_r.py
+[ok] R registered bytes: ACCOUNTING_OPTIONS_2026-10-14/study_r/validation_r.json
+[ok] R registered bytes: GENERALIZATION_STUDY_2026-09-29/data_panel/panel_DK1.pkl
+[ok] R registered bytes: GENERALIZATION_STUDY_2026-09-29/data_panel/panel_DK2.pkl
+[ok] R registered bytes: GENERALIZATION_STUDY_2026-09-29/envs.py
+[ok] R registered bytes: LIABILITY_STUDY_2026-09-29/data_panel_j/panel_FI.pkl
+[ok] R registered bytes: LIABILITY_STUDY_2026-09-29/data_panel_j/panel_NO2.pkl
+[ok] R registered bytes: LIABILITY_STUDY_2026-09-29/envs_b.py
+[ok] R registered bytes: LIABILITY_STUDY_2026-09-29/run_b.py
+[info] R outcome pending; interim jobs are not analyzed or included in the completed headline
+
+note: 1 rebuilt panel(s) differ from the registered ones because eSett revised the source data after the study (see THIRD_PARTY_LICENSES.md, 'eSett data'): ['LIABILITY_STUDY_2026-09-29/data_panel_j/panel_FI.pkl']
+
+all checks pass

@@ -1,0 +1,28 @@
+{
+  "actor_inference": 0,
+  "all_primary_innovations_and_choices_retained": true,
+  "auxiliary_frozen_utc": "2026-10-16T10:16:33.232934+00:00",
+  "bounds_checked": 240,
+  "checks": 324195,
+  "earliest_confirmation_utc": "2026-10-16T10:34:34.073600+00:00",
+  "interpretation": "separate 95% auxiliary component family; all actual inherited state effects and forward costs retained; no joint primary/auxiliary95% claim",
+  "maximum_absolute_recomputation_error": 3.725290298461914e-09,
+  "method_counts": {
+    "capped_raw": 0,
+    "capped_residual": 0,
+    "mlp_control": 0,
+    "paired": 0,
+    "raw": 0,
+    "ridge_control": 0
+  },
+  "model_fitting": 0,
+  "n_confirm": 256,
+  "new_simulator_calls": 0,
+  "paths_sha256": "80dddaa3c4dde4b932ee369580b4d54c368666741e7bb758c5937ebc563eeb9c",
+  "primary_private_verification_sha256": "02e32f8d9b6549f75ef1012af31244add74604edec385abe1833895e50e38610",
+  "result_sha256": "f7a1d3f8255286dc1b846b2b51a050672d5d004229544953c58daf23014a2550",
+  "source_claim_boundary_checked": true,
+  "source_freeze_sha256": "59e5b0b26ece045739b5aec0a525cf72a95bcdb8f32937e1225430decc0832b7",
+  "status": "PASS",
+  "verifier_sha256": "66e28ac63df6497ae9e9ee2efac7c5d0d029abf5b2ecbec98ca7515c1895db88"
+}

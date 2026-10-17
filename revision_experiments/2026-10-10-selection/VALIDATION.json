@@ -1,0 +1,9 @@
+{
+  "mathematics": "PASS: exact common-sign enumeration n=1..10 and 200 finite-policy frontiers",
+  "policy_evaluation": "PASS: 10000 probes per policy and four complete direct-network triple-path replays",
+  "original_studies": "verify_studies.py PASS; original hashes and registered results intact",
+  "original_release": "verify_release.py PASS",
+  "packaged_aggregation": "PASS: all 20 checkpoint hashes, frozen evaluator hashes, costs, draws and accounting identities",
+  "pdf": "All three documents compiled. No undefined citations/references or main-paper overfull boxes. New proofs, result tables and scientific figure visually checked.",
+  "scope": "Joint 95% certificate conditional on the no-edge model, fixed panels, policies and fee model. Breakpoints are descriptive."
+}

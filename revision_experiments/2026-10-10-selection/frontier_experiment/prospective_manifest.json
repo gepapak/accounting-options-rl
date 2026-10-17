@@ -1,0 +1,40 @@
+{
+  "frozen_utc": "2026-10-10T13:40:44.614963+00:00",
+  "draws": 1000,
+  "evaluation_seeds": {
+    "DK1": 2026101001,
+    "DK2": 2026101002
+  },
+  "discovery_winners": {
+    "DK1": "DK1_s0_a0",
+    "DK2": "DK2_s2_a0"
+  },
+  "runner_sha256": "2d1b2b25ad01a90d1e81bc830d9939bc26a48f2e0e35b2981c6bbef4fc3a2713",
+  "protocol": "All 20 frozen L policies; fresh 1000 sign draws per zone shared across policies; full chronological test panel from index 200; starting equity K; identical reflected continuation. Discovery winners fixed from old 100 draws. Primary: fresh reported/booked means of fixed discovery winner. Secondary: re-scored leaderboard frontier S(beta)=R-beta*F, beta in [0,1], paired ranks, breakpoints, Monte Carlo errors. No training or policy re-selection for primary. No external preregistration; conditional evaluation only.",
+  "hashes": {
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK1_s0_a0\\policy.zip": "1736c832ef82d5d9d6e31737edac7203874322fd1d21782c8fae972119706aca",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK1_s0_a1\\policy.zip": "2fe0bb987bbd3f7affadfd1173adf3335101c357572bc9a7362afe08195682ad",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK1_s1_a0\\policy.zip": "92e63cfa6277cb9155a096ce0736c1268d6ebdb3f1f51127135218fe5f1ea03d",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK1_s1_a1\\policy.zip": "8c3789ab66385220972512934e459a844e0058813c0bf3e584db8fc689fb10dd",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK1_s2_a0\\policy.zip": "6c702aa0ff59fcc62fd0fece463ffae886e244d8e460d378223b1c0f735d69f9",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK1_s2_a1\\policy.zip": "3573a87e1a83292422eeb49cb910d68beb524b1cda395a7e37fc06ed556ef960",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK1_s3_a0\\policy.zip": "7f2032096614e1c4344af2ce4400816dc457435fac6f2e9ca00a54ca8a2f8b22",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK1_s3_a1\\policy.zip": "821421d4be2a0cc63a9d50be258bf0dba25570e64e258671f73400c2467f7d1e",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK1_s4_a0\\policy.zip": "531b2a31f178693871b676ec630f2dbde6e3ceb5522230f37ae022c92ae3260d",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK1_s4_a1\\policy.zip": "4670a8aff4d5f6dfcf0664cac066128513e4f354662833b6881e88baa578b097",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK2_s0_a0\\policy.zip": "07582209719a2ef9c38f0685396f2d25e203c2ed094a6dcd39081afe1e104eec",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK2_s0_a1\\policy.zip": "b7d08fd9d269429e38771dd471cc1f4a934109da51471aa4a816ac91b91768e2",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK2_s1_a0\\policy.zip": "b0729dedb35bfe11c80e819b78a2ef2873a0be99b8c71673c293c389914fcd37",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK2_s1_a1\\policy.zip": "c67dd8f4080f0a0fb384b76da803623fdad76a2db177352275c4ab14d24651d3",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK2_s2_a0\\policy.zip": "6d957820f9641f86f0ed06d2e779ef64bb6e4ac85a70f45559cc737dbd28955f",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK2_s2_a1\\policy.zip": "e1d32d622e5478f2d282e8dc707d81e0115c9eb073574e2e79e17fb5ed38dfea",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK2_s3_a0\\policy.zip": "47723eb35a4812a1c9ac0a32925f579c0039f1065ee9a8d56197f4e6f80cdf79",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK2_s3_a1\\policy.zip": "3ce7bc4ce886d31e69ab8b0e28bb58caa9bf7596c10c41694ac556219f4006e8",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK2_s4_a0\\policy.zip": "81100a40e8fd4c463fc96e38fa1903c74aefcaff489dde636a0b7474920584be",
+    "revision_experiments\\2026-10-10\\continuation_experiment\\jobs\\DK2_s4_a1\\policy.zip": "938483516e57b4f6e9a75a28f6dfcdcac0bb063c8c9fe50160ded2cc439bbc74"
+  },
+  "panel_hashes": {
+    "DK1": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3",
+    "DK2": "28fcb73457b67df176ba2a3bf1d651129ac08f1989fbb65656e2cb9c4e24059a"
+  }
+}

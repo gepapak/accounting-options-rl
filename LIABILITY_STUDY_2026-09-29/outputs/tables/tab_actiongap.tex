@@ -1,0 +1,25 @@
+\begin{table}[!htbp]
+\centering
+\caption{Action gap of the dynamic program under the zero floor, $A(e) = Q(e, 16) - Q(e, 0)$, in euros of discounted reward, at probed equity levels (allocations), for every condition in which floor-trained agents were trained, on the full training distribution. $\sigma_{16}$: standard deviation of the one-quarter-hour P\&L at leverage~16 (EUR), the reward noise. Learned: whether equity-only PPO agents learned the gambling region's threshold shape (Studies F, J, K; at $\gamma \ne 0.99$ they matched the region's size but not its trend) or any gambling at all under the costs of Study H.}
+\label{tab:actiongap}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}llrrrrrrrrrl@{}}
+\toprule
+Zone & Condition & $\sigma_{16}$ & 0 & 0.02 & 0.1 & 0.25 & 0.5 & 1 & 1.5 & 2 & Learned \\
+\midrule
+DK1 & $\gamma = 0.95$ & 838 & $70.5$ & $57.1$ & $30.7$ & $13.9$ & $4.8$ & $0.2$ & $-0.3$ & $-0.3$ & size only \\
+DK1 & $\gamma = 0.98$ & 838 & $52.8$ & $46.6$ & $30.8$ & $16.6$ & $6.7$ & $0.8$ & $-0.2$ & $-0.3$ & size only \\
+DK1 & $\gamma = 0.99$ & 838 & $41.5$ & $38.1$ & $28.4$ & $17.6$ & $8.5$ & $1.8$ & $0.2$ & $-0.3$ & yes \\
+DK1 & $\gamma = 0.995$ & 838 & $32.0$ & $30.2$ & $24.6$ & $17.3$ & $9.9$ & $3.1$ & $0.8$ & $0.1$ & size only \\
+DK2 & $\gamma = 0.95$ & 818 & $73.6$ & $60.0$ & $31.1$ & $12.9$ & $4.7$ & $0.1$ & $-0.3$ & $-0.3$ & size only \\
+DK2 & $\gamma = 0.98$ & 818 & $54.1$ & $47.9$ & $31.2$ & $16.0$ & $6.5$ & $0.7$ & $-0.2$ & $-0.3$ & size only \\
+DK2 & $\gamma = 0.99$ & 818 & $42.0$ & $38.7$ & $28.6$ & $17.3$ & $8.2$ & $1.6$ & $0.2$ & $-0.2$ & yes \\
+DK2 & $\gamma = 0.995$ & 818 & $32.1$ & $30.3$ & $24.5$ & $17.0$ & $9.6$ & $2.9$ & $0.8$ & $0.1$ & size only \\
+DK1 & Study H costs & 749 & $20.3$ & $16.5$ & $3.6$ & $-91.3$ & $-100.3$ & $-104.5$ & $-104.8$ & $-104.8$ & no \\
+DK2 & Study H costs & 689 & $18.4$ & $14.6$ & $2.3$ & $-77.2$ & $-83.4$ & $-87.5$ & $-87.5$ & $-87.5$ & no \\
+FI & $\gamma = 0.99$ & 949 & $38.6$ & $35.3$ & $25.8$ & $16.6$ & $9.8$ & $4.0$ & $1.2$ & $0.1$ & yes \\
+NO2 & $\gamma = 0.99$ & 98 & $5.6$ & $3.0$ & $0.2$ & $-0.3$ & $-0.3$ & $-0.3$ & $-0.3$ & $-0.3$ & no effect \\
+\bottomrule
+\end{tabular}
+\end{table}

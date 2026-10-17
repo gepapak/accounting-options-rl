@@ -1,0 +1,53 @@
+fee 0.5 EUR/MWh
+            months  spread_sd  level    kappa  LEVEL_EUR  cov_LEVEL_med  LEVEL<1
+zone post                                                                       
+DK1  False      37      65.19  91.58   907.68    8864.17           7.51     0.00
+     True       19      96.68  89.54  2038.70    6908.29           3.04     0.00
+DK2  False      37      68.51  91.08   971.23    8700.67           8.26     0.00
+     True       19     126.28  92.11  3820.83    7099.02           1.83     0.11
+FI   False      37      75.77  62.75  1628.00    6288.11           2.86     0.14
+     True       19      93.52  45.41  2077.32    4021.70           1.30     0.26
+NO1  False      37      25.06  72.72    29.79    6715.49          29.15     0.00
+     True       19      18.72  73.08     0.00    5567.55           4.08     0.00
+NO2  False      37      27.00  74.44     0.00    7498.14          42.45     0.00
+     True       19      20.17  79.16     0.00    5813.56          15.32     0.00
+NO3  False      37      21.59  22.37     0.00    2522.88          19.50     0.00
+     True       19      24.06  62.43  2321.05    3671.41           0.67     0.37
+NO4  False      37      16.63  17.05     0.00    1848.62          12.60     0.00
+     True       19      30.94  16.83  1494.18    2033.68           0.32     0.37
+NO5  False      37      19.79  67.04     0.00    6664.91          41.64     0.00
+     True       19      15.56  68.34     0.00    5401.18          15.01     0.00
+SE1  False      37      25.66  32.00     0.00    2670.69          21.19     0.00
+     True       19      35.00  20.74   210.69    2111.94           6.10     0.32
+SE2  False      37      26.58  36.52     0.00    2795.14          16.77     0.00
+     True       19      44.10  22.33   296.01    2397.47           6.01     0.32
+SE3  False      37      48.34  61.82   415.06    5188.96          12.13     0.00
+     True       19      64.95  51.45  1304.13    4298.52           3.52     0.32
+SE4  False      37      52.37  66.17   499.82    6006.76          10.32     0.00
+     True       19      99.80  68.94  4323.11    5191.92           1.36     0.26
+share of zone-months in which collateral per MW < kappa (not deterred), and mean collateral per MW
+   zones  post                      rule  mean_collateral  fail
+FI+SE+NO False LEVEL (eSett volume term)         4819.969 0.014
+FI+SE+NO False                    VOL x1          670.712 0.327
+FI+SE+NO False                 VOL x1.25          838.390 0.265
+FI+SE+NO False                  VOL x1.5         1006.067 0.219
+FI+SE+NO False                    VOL x2         1341.423 0.189
+FI+SE+NO False                    VOL x3         2012.135 0.124
+FI+SE+NO  True LEVEL (eSett volume term)         4050.893 0.221
+FI+SE+NO  True                    VOL x1         2006.594 0.358
+FI+SE+NO  True                 VOL x1.25         2508.243 0.242
+FI+SE+NO  True                  VOL x1.5         3009.891 0.205
+FI+SE+NO  True                    VOL x2         4013.188 0.153
+FI+SE+NO  True                    VOL x3         6019.782 0.137
+      DK False LEVEL (eSett volume term)         8782.420 0.000
+      DK False                    VOL x1         1197.493 0.527
+      DK False                 VOL x1.25         1496.866 0.284
+      DK False                  VOL x1.5         1796.240 0.203
+      DK False                    VOL x2         2394.986 0.095
+      DK False                    VOL x3         3592.479 0.027
+      DK  True LEVEL (eSett volume term)         7003.659 0.053
+      DK  True                    VOL x1         3291.844 0.500
+      DK  True                 VOL x1.25         4114.805 0.158
+      DK  True                  VOL x1.5         4937.766 0.132
+      DK  True                    VOL x2         6583.688 0.079
+      DK  True                    VOL x3         9875.532 0.053

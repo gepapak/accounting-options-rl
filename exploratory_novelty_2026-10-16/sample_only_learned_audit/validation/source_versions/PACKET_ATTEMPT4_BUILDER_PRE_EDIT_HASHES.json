@@ -1,0 +1,12 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "1FF1D039BF083C1FB7A4B3A4836682E82C87F11EAD71253656E478E4AD39421D",
+    "Path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\exploratory_novelty_2026-10-16\\sample_only_learned_audit\\validation\\source_versions\\prepare_private_review_v2_addendum.before_packet_attempt4.py"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "4591EBCBCC0EBE61E105746BE2037FA534018DC2DD81A1611ED348E7B59424F8",
+    "Path": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\exploratory_novelty_2026-10-16\\sample_only_learned_audit\\validation\\source_versions\\check_private_v2_builder.before_packet_attempt4.py"
+  }
+]

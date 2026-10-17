@@ -1,28 +1,46 @@
 cff-version: 1.2.0
 message: "If you use this software, data or results, please cite it as below."
 type: software
-title: "When the Simulator Forgives Losses: Reinforcement-Learning Trading Agents Learn to Gamble for Resurrection in Electricity Balancing Markets"
+title: "Every Accounting Rule Is an Option: Reinforcement-Learning Traders Learn to Exploit Loss Forgiveness, and a Sign-Paired Reward Prevents It"
 authors:
   - alias: gepapak
-version: "2.0.0"
-date-released: "2026-10-05"
+version: "4.0.0"
+date-released: "2026-10-17"
+repository-code: "https://github.com/gepapak/accounting-options-rl"
 license:
   - MIT
   - CC-BY-4.0
 keywords:
   - reinforcement learning
+  - reward hacking
   - limited liability
+  - option pricing
+  - counterfactual reward
   - gambling for resurrection
   - simulation-based evaluation
   - reward misspecification
   - electricity markets
   - imbalance settlement
+  - collateral
   - pre-registration
 abstract: >-
-  Code, data pipelines, internal pre-registrations and aggregated results for a study of how a common simulator
-  accounting convention, flooring an account's cash at zero, teaches reinforcement-learning trading agents to gamble
-  for resurrection and makes standard evaluation report the behavior as profit. Includes the theory solvers, the
-  environments and runners of twelve studies (an engine audit, an environment-design study, and liability studies B-K
-  with PPO, A2C and DQN agents on Danish, Finnish and Norwegian imbalance spreads, a public simulator and realistic
-  trading costs), an audit of public RL trading environments, a reconciliation tool, a placebo-market test and an
-  evaluation checklist.
+  Simulators that train reinforcement-learning (RL) traders decide what happens to
+  losses beyond equity, and that decision is an option. Five common accounting rules,
+  from full liability to a zero cash floor, form an ordered ladder of options; for
+  fixed positions the floor is worth between one and two times Merton's call, and
+  reported equity cannot identify booked performance. In over a thousand internally
+  pre-registered agents trading Nordic imbalance spreads, RL traders learned to
+  exercise these options: where no policy can profit, floor-trained agents reported
+  +38% to +148% while booking -15% to -57%, and an audited energy-trading engine
+  reported +270% for a controller that booked -535%. A pre-training diagnostic
+  ordered when PPO and A2C acquire the exploit, but simple cost-aware scores ranked
+  conditions equally and a prospective transfer failed. To prevent it without the
+  ledger, we introduce a sign-paired reward that subtracts the same step's reward
+  with the market's sign reversed; uniquely, it recovers the booked objective in fair
+  markets while keeping any legitimate edge. In a pre-registered test with a real
+  edge, PPO trained on the reported reward gambled and booked -6.5% per week; with
+  the sign-paired reward it did not gamble, booking +22.6% and matching ledger
+  training, whereas a KL penalty toward a safe policy kept the gamble or lost over
+  half the edge; in fair markets it matched ledger training for PPO and A2C. After
+  the 2025 Nordic reform, a historical collateral component would not have deterred
+  a modeled three-week gamble in 36.8% of zone-months, up from 8.6%.

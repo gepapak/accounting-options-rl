@@ -1,0 +1,41 @@
+{
+  "actor_inference": 0,
+  "bounds_recomputed": 240,
+  "cases": 40,
+  "checks": 66887,
+  "manifest_sha256": "866e101887d0907738cc04ce33b2a0174c457676f41e90c73e7bc568f7b947e6",
+  "maximum_absolute_arithmetic_difference": 1.1641532182693481e-10,
+  "method_counts": {
+    "capped_raw": 0,
+    "capped_residual": 0,
+    "mlp_control": 0,
+    "paired": 0,
+    "raw": 0,
+    "ridge_control": 0
+  },
+  "model_fitting": 0,
+  "n_per_method": 256,
+  "native_simulator_calls": 0,
+  "policies": 20,
+  "profile_counts": {
+    "strict": {
+      "capped_raw": 0,
+      "capped_residual": 0,
+      "mlp_control": 0,
+      "paired": 0,
+      "raw": 0,
+      "ridge_control": 0
+    },
+    "vulnerable": {
+      "capped_raw": 0,
+      "capped_residual": 0,
+      "mlp_control": 0,
+      "paired": 0,
+      "raw": 0,
+      "ridge_control": 0
+    }
+  },
+  "scope": "separate95% auxiliary component family conditional on exported summaries and instrumented law; not jointprimary/auxiliary95%, no independent native replay, no no-prepaid counterfactual or new-acquisition claim",
+  "status": "PASS",
+  "whole_paths": 10240
+}

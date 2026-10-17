@@ -1,0 +1,5 @@
+4 jobs, 0 complete, running 4 with 4 workers
+11:48:19 done ZFG__PPO__s0__DK1.json (696.1s): zombie_n-0.1_k48=16 rep=-68.1 book=-98.5
+11:48:46 done TFG__PPO__s0__DK1.json (722.9s): L0.1_tau16=16 rep=-0.5 book=-0.5
+11:48:47 done ZBK__PPO__s0__DK1.json (724.0s): zombie_n-0.1_k48=0.25 rep=-15.5 book=-15.5
+11:48:48 done TBK__PPO__s0__DK1.json (724.8s): L0.1_tau16=0.25 rep=-0.1 book=-0.1

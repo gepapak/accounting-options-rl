@@ -1,0 +1,14 @@
+{
+  "checks": 23,
+  "current_financial_endpoints_read": false,
+  "new_actor_inference": 0,
+  "new_fitting": 0,
+  "new_simulator_calls": 0,
+  "public_artifacts_created": false,
+  "scope": "fixed literal arithmetic/support/control tests and refusal of incomplete-run export only",
+  "source_sha256": {
+    "public_export.py": "89b4808cf7a47c3e20024997f250556007fae52e98227963ad3078b6592a7be3",
+    "reproduce_public_native_audit.py": "0d7ab646642f27dbaf37dc42425491762bb37fa31735d7467e3c2bb19dfa7587"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,26 @@
+\begin{table}[!htbp]
+\centering
+\caption{Theorem~\ref{thm:best} in the twelve Nordic bidding zones: a fixed position of 4~MWh held from zero equity under the zero floor in the placebo market (eSett imbalance-minus-spot spread, January--August 2026, fee 0.10~EUR/MWh, 20,000 sign draws, no liquidity cap). KS: Kolmogorov--Smirnov distance between reported equity and the running maximum of the booked P\&L. Predicted: the law of the maximum of a Brownian motion with the fee drift, no fitted parameter. CV: coefficient of variation (diffusion limit 0.756). Power: share of five-draw placebo tests that flag the floor (diffusion limit 0.90).}
+\label{tab:zones}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+Zone & Mean $|$spread$|$ & Excess kurtosis & KS & Reported & Predicted & Error & CV & Power \\
+ & (EUR/MWh) & & & (alloc.) & (alloc.) & (\%) & & \\
+\midrule
+DK1 & 51.8 & 275 & 0.016 & 2.67 & 2.72 & $-2$ & 0.79 & 0.88 \\
+DK2 & 59.2 & 665 & 0.018 & 3.77 & 3.94 & $-4$ & 0.80 & 0.86 \\
+FI & 44.4 & 388 & 0.056 & 1.65 & 1.77 & $-7$ & 0.85 & 0.84 \\
+NO1 & 10.2 & 9,120 & 0.066 & 1.12 & 1.49 & $-25$ & 0.99 & 0.62 \\
+NO2 & 10.9 & 9,378 & 0.054 & 1.11 & 1.48 & $-25$ & 0.98 & 0.64 \\
+NO3 & 16.8 & 3,149 & 0.019 & 2.58 & 3.06 & $-16$ & 0.92 & 0.72 \\
+NO4 & 17.9 & 2,525 & 0.069 & 3.15 & 3.77 & $-17$ & 0.92 & 0.71 \\
+NO5 & 8.0 & 6,817 & 0.066 & 1.39 & 1.81 & $-23$ & 0.96 & 0.66 \\
+SE1 & 25.3 & 179 & 0.044 & 0.74 & 0.78 & $-5$ & 0.86 & 0.83 \\
+SE2 & 25.9 & 161 & 0.035 & 0.78 & 0.81 & $-4$ & 0.85 & 0.84 \\
+SE3 & 38.7 & 2,274 & 0.050 & 2.06 & 2.35 & $-12$ & 0.84 & 0.84 \\
+SE4 & 45.1 & 1,464 & 0.023 & 4.02 & 4.39 & $-8$ & 0.85 & 0.81 \\
+\bottomrule
+\end{tabular}
+\end{table}

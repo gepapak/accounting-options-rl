@@ -1,0 +1,34 @@
+{
+ "part": "B",
+ "learner": "A2C-n64",
+ "algo": "A2C",
+ "kwargs": {
+  "n_steps": 64,
+  "gae_lambda": 0.95,
+  "normalize_advantage": true
+ },
+ "arm": "ZF",
+ "alpha": 0.0,
+ "seed": 113,
+ "region": "DK1",
+ "steps": 1000000,
+ "eval_split": "test",
+ "lev": {
+  "0": 16.0,
+  "0.02": 16.0,
+  "0.05": 16.0,
+  "0.1": 16.0,
+  "0.25": 16.0,
+  "0.5": 16.0,
+  "0.75": 16.0,
+  "1": 16.0,
+  "1.25": 4.0,
+  "1.5": 4.0,
+  "2": 0.25,
+  "2.5": 0.25,
+  "3": 0.25
+ },
+ "drawmean_reported_return_pct": 70.56712385938506,
+ "drawmean_ledger_return_pct": -4.8977140624914295,
+ "seconds": 516.4
+}

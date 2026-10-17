@@ -1,0 +1,254 @@
+{
+  "completed_native_work": {
+    "audit_transitions": 480,
+    "learned_actor_forward_calls": 5568,
+    "native_transitions": 2784,
+    "warm_transitions": 2304
+  },
+  "created_utc": "2026-10-16T10:49:18.716064+00:00",
+  "exclusions": [
+    "running primary statistical experiment planned1474560native steps is separate and not read here",
+    "same-path auxiliary analysis adds no native queries",
+    "earlier study/novelty simulations and historical RL training are outside this software-stage inventory",
+    "report generation, source reads, syntax checks, unlogged arithmetic invocations and metadata guards with no timers have unknown CPU/wall",
+    "failed statistical-pipeline startup is outside this software-stage inventory; empty logs are not a measured CPU/wall total",
+    "source-derived actor counts mean two learned checkpoints(investor+battery) per completednative step, not all rule-controller operations"
+  ],
+  "frozen_files_modified": false,
+  "inventory_source_sha256": "beed8fdd24c2cfb63443df06a0042575afb5833d651729c9efe89b33c8d73528",
+  "mathematical_checks": [
+    {
+      "category": "exact Fraction identities",
+      "count_basis": "exact enumerated mathematical cases; no native engine",
+      "floor_certificate_cases": 864,
+      "learned_actor_forward_calls": 0,
+      "native_transitions": 0,
+      "report": "exact_sample_only_checks.json",
+      "report_sha256": "9bdfca3410a96aa955aa7898b94147ec8288aa5b71ed8e05720f6c7c357de6a8",
+      "terminal_cases": 81,
+      "timing": {
+        "cpu_seconds": null,
+        "wall_seconds": 12.273005099996226,
+        "wall_source_field": "elapsed_seconds(perf_counter)"
+      }
+    },
+    {
+      "category": "retained current core arithmetic verification",
+      "checks": 5995,
+      "count_basis": "stored software traces are reused; current report is not a complete invocation/time ledger",
+      "learned_actor_forward_calls": 0,
+      "native_transitions": 0,
+      "report": "validation/SAMPLE_CORE_VERIFICATION.json",
+      "report_sha256": "4a2a1f47f55c0c8c06df38f63e8736aac6347b4942f4ccd114cf89136c2e1502",
+      "timing": {
+        "cpu_seconds": null,
+        "wall_seconds": null,
+        "wall_source_field": null
+      }
+    },
+    {
+      "category": "saved development-record arithmetic only",
+      "checks": 8523,
+      "learned_actor_forward_calls": 0,
+      "native_transitions": 0,
+      "report": "validation/EARLY_PHASE_VERIFICATION_20261016T095340Z.json",
+      "report_sha256": "91f89e07dc983d719e866ce75f35962850369fba447809154b8bfeb20784e2dd",
+      "timing": {
+        "cpu_seconds": 3.296875,
+        "wall_seconds": 10.400503400000161,
+        "wall_source_field": "wall_seconds"
+      }
+    },
+    {
+      "category": "fixed-literal/source/gate or synthetic arithmetic software checks",
+      "learned_actor_forward_calls": 0,
+      "literal_checks": 10,
+      "native_transitions": 0,
+      "report": "validation/new_contract_software_check_20261016T102918Z/verification.json",
+      "report_sha256": "e5d009d628d0fca2d3a551512fc7b997e98fdf35c4bae6516e77e2997122dc80",
+      "synthetic_reproducer_checks": 66887,
+      "timing": {
+        "cpu_seconds": null,
+        "wall_seconds": null,
+        "wall_source_field": null
+      }
+    },
+    {
+      "category": "fixed-literal/source/gate or synthetic arithmetic software checks",
+      "learned_actor_forward_calls": 0,
+      "literal_checks": 16,
+      "native_transitions": 0,
+      "report": "validation/post_completion_tables_software_check_20261016T103542Z/verification.json",
+      "report_sha256": "5879c6c52e6e938b536175f2ae046f02f3203a9bff818b6d4d2e8ca9419e1142",
+      "synthetic_reproducer_checks": null,
+      "timing": {
+        "cpu_seconds": null,
+        "wall_seconds": null,
+        "wall_source_field": null
+      }
+    },
+    {
+      "category": "fixed-literal/source/gate or synthetic arithmetic software checks",
+      "learned_actor_forward_calls": 0,
+      "literal_checks": 23,
+      "native_transitions": 0,
+      "report": "validation/public_export_software_check_20261016T100335Z/verification.json",
+      "report_sha256": "dfdd891be8563087118dc19ea1855a3835bc8c365f0c1ec3a4d1af28dcf7ed35",
+      "synthetic_reproducer_checks": null,
+      "timing": {
+        "cpu_seconds": null,
+        "wall_seconds": null,
+        "wall_source_field": null
+      }
+    },
+    {
+      "category": "fixed-literal/source/gate or synthetic arithmetic software checks",
+      "learned_actor_forward_calls": 0,
+      "literal_checks": 29,
+      "native_transitions": 0,
+      "report": "validation/public_export_software_check_20261016T100643Z/verification.json",
+      "report_sha256": "5d4b4b6566e155c3211f65e2bf9d246d7ecdd55d52aa29d8879707f8b7d1b7e5",
+      "synthetic_reproducer_checks": null,
+      "timing": {
+        "cpu_seconds": null,
+        "wall_seconds": null,
+        "wall_source_field": null
+      }
+    }
+  ],
+  "metadata_guard_checks": 9,
+  "new_native_queries": 0,
+  "pending_packet_replay": {
+    "executed_native_transitions_included_here": 0,
+    "planned_learned_actor_forward_calls": 1920,
+    "planned_native_audit_transitions": 192,
+    "planned_native_warm_transitions": 768,
+    "planned_total_native_transitions": 960,
+    "status": "HELD NOT EXECUTED"
+  },
+  "reported_timing_subtotals": {
+    "cpu_records": 6,
+    "cpu_seconds": 244.03125,
+    "scope": "sum of retained reports with these fields; NOT complete total CPU or elapsed wall time; unknown/unrecorded invocations excluded",
+    "wall_records": 7,
+    "wall_seconds": 354.04522919999727
+  },
+  "retained_native_attempts": [
+    {
+      "category": "two completed cold deterministic software paths",
+      "completed_native_audit_transitions": 192,
+      "completed_native_warm_transitions": 0,
+      "count_basis": "audit steps recorded in both case summaries; two learned checkpoints per native step, source-derived actor count",
+      "cpu_seconds": 35.203125,
+      "learned_actor_forward_calls": 384,
+      "report": "native_validation/attempt_1/validation_report.json",
+      "report_sha256": "c1ec3abd5b57314fdc5570aa4478835c808923a2e0584d28b6e8174e77d60707",
+      "status": "PASS",
+      "unknown_additional_native_work": false,
+      "wall_seconds": 44.92460719999508,
+      "wall_source_field": "wall_seconds"
+    },
+    {
+      "category": "failed second-case fingerprint after completed warm loop",
+      "completed_native_audit_transitions": 96,
+      "completed_native_warm_transitions": 768,
+      "count_basis": "first case explicitly records384warm+96audit; traceback reaches second case native_state_sha AFTER its384-step loop. Second384 warm source/control-flow-derived, not separately timed. Both actors per step source-derived.",
+      "cpu_seconds": 33.125,
+      "failure_stage": "second case warm fingerprint; zero second-case audit steps",
+      "learned_actor_forward_calls": 1728,
+      "report": "native_validation/warm_attempt_1/validation_report.json",
+      "report_sha256": "17c15e28a217f2ded96c8afeeb9b48aa16ff71cad7f360d25782e9b866e7c363",
+      "status": "SOFTWARE_FAILURE",
+      "unknown_additional_native_work": false,
+      "wall_seconds": 37.043353799992474,
+      "wall_source_field": "wall_seconds"
+    },
+    {
+      "category": "two completed warm-clone deterministic software paths",
+      "completed_native_audit_transitions": 192,
+      "completed_native_warm_transitions": 768,
+      "count_basis": "two case summaries each explicitly record384warm+96audit; two learned actors per step source-derived",
+      "cpu_seconds": 33.953125,
+      "learned_actor_forward_calls": 1920,
+      "report": "native_validation/warm_attempt_2/validation_report.json",
+      "report_sha256": "f7216999ef8a32575ceb6841eec800736a12ea35803647e94ac1e2e7859dc070",
+      "status": "PASS",
+      "unknown_additional_native_work": false,
+      "wall_seconds": 37.79292210000858,
+      "wall_source_field": "wall_seconds"
+    },
+    {
+      "category": "fresh initial-state support plus reused old trace arithmetic",
+      "completed_native_audit_transitions": 0,
+      "completed_native_warm_transitions": 768,
+      "count_basis": "report explicitly records768newwarm and0newaudit; reused traces add ZERO native queries; actor count source-derived",
+      "cpu_seconds": 83.734375,
+      "learned_actor_forward_calls": 1536,
+      "report": "native_validation/calendar_support_attempt_1/validation_report.json",
+      "report_sha256": "c054810d65f43685e1aaee3bd8c985d224f5c8598ec366a5410ebea306d1d46a",
+      "status": "PASS",
+      "unknown_additional_native_work": false,
+      "wall_seconds": 112.03187640001124,
+      "wall_source_field": "wall_seconds"
+    },
+    {
+      "category": "deterministic forecast cache materialization only",
+      "completed_native_audit_transitions": 0,
+      "completed_native_warm_transitions": 0,
+      "count_basis": "report explicitly records zero native steps and zero actor calls; parsing/import/cache CPU still measured",
+      "cpu_seconds": 54.71875,
+      "learned_actor_forward_calls": 0,
+      "report": "native_validation/forecast_cache_prep_attempt_1/preparation_report.json",
+      "report_sha256": "22215041b311a6849e8d900c432f31dbb7a6101d2de7decd3287a26e5d2e1373",
+      "status": "PASS",
+      "unknown_additional_native_work": false,
+      "wall_seconds": 99.5789611999935,
+      "wall_source_field": "wall_seconds"
+    },
+    {
+      "category": "metadata/input hashing only; no financial outcome rows",
+      "completed_native_audit_transitions": 0,
+      "completed_native_warm_transitions": 0,
+      "count_basis": "source performs no native calls; reports completed-metadata checks, not newly generated episodes",
+      "cpu_seconds": null,
+      "learned_actor_forward_calls": 0,
+      "report": "native_validation/runtime_guard_20261016T094704200903Z/provenance_report.json",
+      "report_sha256": "d6394ea5cf623da1ce41b598ef6d2644cf5b20540ab83cbb0bbd0bd67b458791",
+      "status": "PENDING_FIRST_COMPLETE_PHASE",
+      "unknown_additional_native_work": false,
+      "wall_seconds": null,
+      "wall_source_field": null
+    },
+    {
+      "category": "metadata/input hashing only; no financial outcome rows",
+      "completed_native_audit_transitions": 0,
+      "completed_native_warm_transitions": 0,
+      "count_basis": "source performs no native calls; reports completed-metadata checks, not newly generated episodes",
+      "cpu_seconds": null,
+      "learned_actor_forward_calls": 0,
+      "report": "native_validation/runtime_guard_20261016T094811542972Z/provenance_report.json",
+      "report_sha256": "c8417cc1eee8f015c4ae7b09493d04ec135e16ad5c9cdeef9e160c17b7a027d7",
+      "status": "PASS",
+      "unknown_additional_native_work": false,
+      "wall_seconds": null,
+      "wall_source_field": null
+    },
+    {
+      "category": "metadata/input hashing only; no financial outcome rows",
+      "completed_native_audit_transitions": 0,
+      "completed_native_warm_transitions": 0,
+      "count_basis": "source performs no native calls; reports completed-metadata checks, not newly generated episodes",
+      "cpu_seconds": null,
+      "learned_actor_forward_calls": 0,
+      "report": "native_validation/runtime_guard_20261016T095042753498Z/provenance_report.json",
+      "report_sha256": "9f962a62624d4b0ceb452dedb07a7c6a0bf1691b47e2d690a8a46043d700ae7b",
+      "status": "PASS",
+      "unknown_additional_native_work": false,
+      "wall_seconds": null,
+      "wall_source_field": null
+    }
+  ],
+  "statistical_financial_endpoints_read": false,
+  "status": "READ-ONLY SOFTWARE INVENTORY",
+  "unique_metadata_phase_records": 6
+}

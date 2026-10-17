@@ -1,0 +1,41 @@
+{
+ "learner": "A2C-n64",
+ "algo": "A2C",
+ "kwargs": {
+  "n_steps": 64,
+  "gae_lambda": 0.95,
+  "normalize_advantage": true
+ },
+ "alpha": 1.0,
+ "gamma": 0.99,
+ "obsset": "EQ",
+ "seed": 50,
+ "region": "DK1",
+ "steps": 16384,
+ "eval_split": "train",
+ "lev": {
+  "0": 0.25,
+  "0.02": 0.25,
+  "0.05": 0.25,
+  "0.1": 0.25,
+  "0.25": 16.0,
+  "0.5": 16.0,
+  "0.75": 16.0,
+  "1": 16.0,
+  "1.25": 16.0,
+  "1.5": 16.0,
+  "2": 16.0,
+  "2.5": 16.0,
+  "3": 16.0
+ },
+ "drawmean_reported_return_pct": -86.8718489583329,
+ "drawmean_ledger_return_pct": -104.94529583333383,
+ "drawmean_mean_abs_lev_open": 0.3083769913396771,
+ "drawshare_floor_bound": 0.3333333333333333,
+ "draws_reported_return_pct": [
+  -93.36109062499875,
+  -83.91642187499973,
+  -83.33803437500022
+ ],
+ "seconds": 66.2
+}

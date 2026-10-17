@@ -1,0 +1,115 @@
+{
+  "actor_calls": 0,
+  "conclusion": "2024 normalization prime and declared ANN fit chronology precede all2025 contexts; full-scenario native risk/context summaries preclude a broad real-time leak-free-interface claim; fresh hidden sign independence is a distinct assumption.",
+  "created_utc": "2026-10-16T10:55:51.133210+00:00",
+  "forecast_metadata": {
+    "ann_input_includes_entry_price": true,
+    "entry_reference_column": "entry_price_index",
+    "forecast_information_set": "settlement_history_strictly_before_origin_plus_current_day_ahead_entry",
+    "horizon_steps": 1,
+    "look_back": 24,
+    "test_end": "2024-12-31 23:00:00",
+    "training_end": "2024-05-26 15:00:00",
+    "training_start": "2023-01-01 00:00:00",
+    "validation_end": "2024-09-13 06:00:00"
+  },
+  "forecast_metadata_sha256": "c2353b69cc43d8599207a16954e81e93fce758305ddd174cf2eb35c63d094d44",
+  "input_chronology": {
+    "evaluation_dataset_ffill/unseendata.csv": {
+      "first_timestamp": "2025-01-01 00:00:00",
+      "last_timestamp": "2025-09-30 23:50:00",
+      "risk_unique_count": 1,
+      "rows": 39312,
+      "sha256": "dbe19c2673c27f27cb47bdc944ad12308ee1c477f77884698ca75db0ec377105",
+      "windows": [
+        {
+          "audit_end": "2025-01-04 07:50:00",
+          "audit_start": "2025-01-03 16:00:00",
+          "start_row": 0,
+          "warm_start": "2025-01-01 00:00:00"
+        },
+        {
+          "audit_end": "2025-04-04 05:10:00",
+          "audit_start": "2025-04-03 13:20:00",
+          "start_row": 12944,
+          "warm_start": "2025-03-31 21:20:00"
+        },
+        {
+          "audit_end": "2025-07-03 02:30:00",
+          "audit_start": "2025-07-02 10:40:00",
+          "start_row": 25888,
+          "warm_start": "2025-06-29 18:40:00"
+        },
+        {
+          "audit_end": "2025-09-30 23:50:00",
+          "audit_start": "2025-09-30 08:00:00",
+          "start_row": 38832,
+          "warm_start": "2025-09-27 16:00:00"
+        }
+      ]
+    },
+    "evaluation_dataset_ffill/unseendata_v2.csv": {
+      "first_timestamp": "2025-01-01 00:00:00",
+      "last_timestamp": "2025-09-30 23:50:00",
+      "risk_unique_count": 1,
+      "rows": 39312,
+      "sha256": "ba160c40bab6d3ade5b4537de7fc721ff1fc98df629149b6679ff075826bbd8f",
+      "windows": [
+        {
+          "audit_end": "2025-01-04 07:50:00",
+          "audit_start": "2025-01-03 16:00:00",
+          "start_row": 0,
+          "warm_start": "2025-01-01 00:00:00"
+        },
+        {
+          "audit_end": "2025-04-04 05:10:00",
+          "audit_start": "2025-04-03 13:20:00",
+          "start_row": 12944,
+          "warm_start": "2025-03-31 21:20:00"
+        },
+        {
+          "audit_end": "2025-07-03 02:30:00",
+          "audit_start": "2025-07-02 10:40:00",
+          "start_row": 25888,
+          "warm_start": "2025-06-29 18:40:00"
+        },
+        {
+          "audit_end": "2025-09-30 23:50:00",
+          "audit_start": "2025-09-30 08:00:00",
+          "start_row": 38832,
+          "warm_start": "2025-09-27 16:00:00"
+        }
+      ]
+    },
+    "rolling_past_history_dataset_ffill/history_019.csv": {
+      "first_timestamp": "2024-01-01 00:00:00",
+      "last_timestamp": "2024-06-30 23:50:00",
+      "rows": 26208,
+      "sha256": "aa6ff7a4062e61f2ed2f38e13e637c6e940c20b55431303fabb13045fe98f0a9"
+    },
+    "rolling_past_history_dataset_ffill/history_020.csv": {
+      "first_timestamp": "2024-07-01 00:00:00",
+      "last_timestamp": "2024-12-31 23:50:00",
+      "rows": 26496,
+      "sha256": "db1ca34b3aebbb1a82828207669d3e3477bbcab4722a4236e5015b45326d96e3"
+    }
+  },
+  "native_steps": 0,
+  "scope": "timestamps, forecast metadata and source provenance only; no native queries, actor inference or scientific endpoint reads",
+  "source_sha256": {
+    "dataset generation/datagenerationforevaluationyear2025.py": "eab3643c21d0daefc4ab52c8a1681c7fbf2296745637eb075cbd77f6018f50a0",
+    "dataset generation/datagenerationforevaluationyear2025_unseendata_v2.py": "db8cff0cf3d844996053a4877cfeca71ab84eb1a05e56d9b2a90ba9c157a7683",
+    "environment.py": "61d446064bf6dacadaed5314487b72437d02e97860da0cb6e192a67aee2f0d63",
+    "evaluation.py": "8f3b331ade20189973319caa8d6c9645ca0bf56121af9d85ebbfba121fb95c6b",
+    "forecast_price_experts.py": "adf3bd304d9fb09b60ab01c64cbdede18f75ea3929245fd2efc33d3aac04381a",
+    "forecast_prior.py": "703687d70e0a60ed7e54ae0f65fd087569acea8748996886cff246f5218afdb5",
+    "frozen_auditor/native_engine_adapter.py": "da93030da39c1f2a4d0eaef3666177fc6628b7da97161ed892d1b9abfa38c879",
+    "generator.py": "3e3a7122e075bcffef05a84995d85b96245eddd0ced70efdad38e0e4643db06e",
+    "observation_builder.py": "c00f7dc38dfee02980607786c01130f7ffef937a8c30624acac9ad2a612f60be",
+    "risk.py": "080293abc0c5f663819760bd91e9446577863af4cdb3bef4fc3417d28edd7a99",
+    "scripts/build_ffill_training_protocol.py": "5ea465969e676849125047574b0bf78fa7b9a883670c609c149f3c57571b91e6",
+    "scripts/complete_evaluation_window.py": "9d66dc69bfb14544b13aa560d0c207975eef7bccc16a178f385afc9bede98695",
+    "scripts/precompute_hourly_forecast_cache_v2.py": "32e79b03ff882ec6c86ba56f9d8a658a1d99fa7794a881b1064279ebcdee26d1"
+  },
+  "status": "SOURCE_METADATA_REVIEW"
+}

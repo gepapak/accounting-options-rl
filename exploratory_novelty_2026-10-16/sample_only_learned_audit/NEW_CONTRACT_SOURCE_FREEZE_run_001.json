@@ -1,0 +1,22 @@
+{
+  "alpha": 0.0,
+  "cases_sha256": "bdee72b1cbe50001986d54d312432efb5fefb7555fd17564866bb7148292302a",
+  "classification": "exploratory auxiliary; not primary-plan revision or preregistration",
+  "confirmation_phase_directories_present": false,
+  "created_utc": "2026-10-16T10:16:33.232934+00:00",
+  "delta_per_limit": 0.00020833333333333335,
+  "family_limits": 240,
+  "n_cases": 40,
+  "n_confirm": 256,
+  "n_methods": 6,
+  "no_auxiliary_endpoints_inspected": true,
+  "primary_family_limits_unchanged": 520,
+  "primary_source_freeze_sha256": "6152949392bd8de0f494bc21ffb5fd7d9be4a16a6c8866f4eb5595254da523d4",
+  "run_id": "run_001",
+  "source_sha256": {
+    "EXPLORATORY_NEW_CONTRACT_PLAN.md": "d6cf689a9ef323a7ef1c8fb87e6cf6cea5a2d5ed2ad00ccc40ffde4a1072e79b",
+    "NEW_CONTRACT_INDEPENDENT_REVIEW.md": "9e1229076da9d8cc97ff761d347b2fd42ce441d68faff8822de2ef83f00002c4",
+    "analyze_new_contract_component.py": "79fba5c56ae7bd5dc40a699ce6ad727117c527b2029b750ff8ae482fcad36e52"
+  },
+  "status": "AUXILIARY SOURCE-FROZEN BEFORE CONFIRMATION"
+}

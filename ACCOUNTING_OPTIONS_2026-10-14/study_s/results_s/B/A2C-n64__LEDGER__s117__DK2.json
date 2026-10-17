@@ -1,0 +1,34 @@
+{
+ "part": "B",
+ "learner": "A2C-n64",
+ "algo": "A2C",
+ "kwargs": {
+  "n_steps": 64,
+  "gae_lambda": 0.95,
+  "normalize_advantage": true
+ },
+ "arm": "LEDGER",
+ "alpha": 1.0,
+ "seed": 117,
+ "region": "DK2",
+ "steps": 1000000,
+ "eval_split": "test",
+ "lev": {
+  "0": 16.0,
+  "0.02": 16.0,
+  "0.05": 16.0,
+  "0.1": 16.0,
+  "0.25": 4.0,
+  "0.5": 4.0,
+  "0.75": 4.0,
+  "1": 4.0,
+  "1.25": 4.0,
+  "1.5": 4.0,
+  "2": 4.0,
+  "2.5": 4.0,
+  "3": 4.0
+ },
+ "drawmean_reported_return_pct": 17.260625640629012,
+ "drawmean_ledger_return_pct": -98.95371592186967,
+ "seconds": 513.6
+}

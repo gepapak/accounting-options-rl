@@ -1,0 +1,17 @@
+REVISION EXPERIMENT L: MATCHED CONTINUATION AND STATE, REWARD CORRECTION ONLY
+Design fixed before full-budget training and held-out evaluation, 10 October 2026.
+This is prospective additional work during revision, not part of Studies B--K or an externally registered protocol.
+
+Question: does full charging of recapitalization reduce learned low-equity leverage when bankruptcy termination and equity observations are identical?
+Two treatments: alpha=0 reward (x+injection)/K0*100; alpha=1 reward x/K0*100.
+Both states follow E'=max(E+x,0), continue after losses, and terminate only at the same 672-step horizon.
+Common original Danish train/test market panels, fixed allocation EUR20,000, leverage actions +/-16,4,1,.25 and zero, position=.25*leverage clipped by the same empirical cap, fee EUR.10/MWh.
+Eight parallel environments, chronological train blocks beginning at uniformly selected indices, initial equity log-uniform .05--2 allocations. Signs drawn fresh and independently at each training step; this avoids learning any fixed training sign realization. Equity alone is observed, clipped to [0,5].
+PPO [64,64], gamma=.99, n_steps=1024, batch_size=256, SB3 defaults otherwise; reward normalization with gamma=.99 (clip default10), no observation normalization. This numerical preprocessing is identical but its realized statistics can differ by treatment. The experiment tests learned policies, not an assertion that normalized PPO exactly optimizes the unnormalized monetary theorem.
+Training seeds0--4 paired across DK1/DK2 and treatments. Target1,000,000 steps; SB3 completes the final rollout (1,007,616 actual steps). All20 trained policies retained, no seed or checkpoint selection, no adaptive training budget.
+Development smoke:16,384 steps, DK1 seed0 only, TRAIN-only evaluation. Smoke artifacts excluded from all results.
+Primary endpoint: absolute leverage at equity=.1 allocation, paired alpha0 minus alpha1, pooled across zones. Secondary endpoints: leverage at equity2; grid of 0,.02,.05,.1,.25,.5,1,2,3; mean absolute leverage, reported and booked returns, and injections during held-out paths starting at1 allocation.
+Evaluation100 independent fresh signs per agent over the entire original held-out chronological market panel beginning at index200. Same sign draws per zone across seeds/treatments, evaluation seeds810010 and810020. Neither test prices nor test signs enter training or checkpoint selection.
+Inference: descriptive all10 pair differences; percentile paired bootstrap over5 seed clusters, retaining both zones within a seed (20,000 draws, seed20261010). CI is exploratory/descriptive because five seed clusters and two fixed zones cannot support a broad-market claim. Report zone-specific results and all failures, including lack of separation if observed. No use of100 sign draws as100 training replicates. No significance success gate.
+Save model checkpoints, normalization state, per-draw outputs, source SHA256, panel SHA256, package versions, timestamps. Verify NumPy greedy action equals SB3 deterministic action on the equity grid; check E-ledger=injections for every held-out draw.
+Interpretation: a difference identifies the total effect of changing reward under fixed state/continuation, including optimization/normalization responses. It does not imply sample-efficient learning, optimal threshold convergence, or real-market profit.

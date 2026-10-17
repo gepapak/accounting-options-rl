@@ -1,0 +1,9 @@
+# Descriptive control ablation prepared before financial endpoint access
+
+This unfrozen follow-up was requested after the experiment design was frozen and while confirmation was running. No partial financial endpoints were read to define it. Execute only after full independent primary520/auxiliary240 PASS, both archived and fresh public arithmetic reproductions, and the unchanged eighteen-file descriptive report are complete. Preserve all original artifacts. This is not a new inferential family or preregistration.
+
+For all40cases, primaryalpha0/1 and auxiliaryalpha0, and both frozen learned controls, use the same256 CONFIRM paths. Reconstruct the original ordered predictable-budget controlM. Report descriptive mean and ddof1 samplevariance of uncapped pairedZ0 andZ0−M. Separately compare upper-cappedZ0 and upper-capped(Z0−M) at the SAME frozen learned cap, including strict-clipping frequencies. No confidence score or limit is added and no cap, beta, budget, model, policy or sample is changed.
+
+Cross-tab existing learned-only versus PAIR certificates by both settings nonzero and exact cap equality. Primary learned caps use32TUNE paths whereas PAIR caps use64development paths; existing exclusive certificates can therefore result from cap choices even when control amplitude iszero. Compare controlled/reference variance and preserve undefined0/0 andpositive/0 cases explicitly; zero/positive equalszero. Samplevariances and means are descriptive, and neither aggregate count differences nor this diagnostic establish model or estimator superiority. Auxiliary choices are reused, not independently tuned.
+
+The new tool `post_completion_control_diagnostics.py` binds its own source SHA and private-verifier/public-manifest/path/report hashes. It writes exclusively to `control_diagnostics/run_001`, creates no native query, and does not modify the original eighteen-file report or its completion manifest.

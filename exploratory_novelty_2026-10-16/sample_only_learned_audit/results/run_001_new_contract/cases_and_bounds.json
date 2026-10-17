@@ -1,0 +1,642 @@
+[
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 0,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 7,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 0,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 1,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 7,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 0,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 2,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 42,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 1,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 3,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 42,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 1,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 4,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 123,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 2,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 5,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 123,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 2,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 6,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 2025,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 3,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 7,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 2025,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 3,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 8,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 3007,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 4,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 9,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 3007,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 4,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 10,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 5001,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 5,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 11,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 5001,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 5,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 12,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 8102,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 6,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 13,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 8102,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 6,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 14,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 9005,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 7,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 15,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 9005,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 7,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 16,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 10001,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 8,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 17,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 10001,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 8,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 18,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 11202,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 9,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4481545.036129697,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 19,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 11202,
+    "horizon": 96,
+    "policy_family": "plain_mappo",
+    "policy_index": 9,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 20,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 7,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 10,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 21,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 7,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 10,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 22,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 42,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 11,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 23,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 42,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 11,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 24,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 123,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 12,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 25,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 123,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 12,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 26,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 2025,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 13,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 27,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 2025,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 13,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 28,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 3007,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 14,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 29,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 3007,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 14,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 30,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 5001,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 15,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 31,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 5001,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 15,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 32,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 8102,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 16,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 33,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 8102,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 16,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 34,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 9005,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 17,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 35,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 9005,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 17,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 36,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 10001,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 18,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 37,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 10001,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 18,
+    "profile": "vulnerable",
+    "profile_index": 1
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 38,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 11202,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 19,
+    "profile": "strict",
+    "profile_index": 0
+  },
+  {
+    "bounds": {
+      "discounted_cost_bound": 293.9514322923699,
+      "discounted_gross_bound": 4086033.4349977896,
+      "unavoidable_discounted_access_cost": 232.6436713163064
+    },
+    "burn_in": 384,
+    "case_id": 39,
+    "cash_fraction": 0.0001,
+    "checkpoint_seed": 11202,
+    "horizon": 96,
+    "policy_family": "feasible_mappo",
+    "policy_index": 19,
+    "profile": "vulnerable",
+    "profile_index": 1
+  }
+]

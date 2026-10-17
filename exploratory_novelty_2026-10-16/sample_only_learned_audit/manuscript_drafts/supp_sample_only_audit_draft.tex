@@ -1,0 +1,139 @@
+% APPEND-ONLY INTEGRATION DRAFT. Do not replace S19's exact-oracle theory,
+% repair theorem, held-out benchmarks, Pareto results or negative findings.
+% Results and implementation validation below remain explicitly PENDING.
+\subsection{Sample-trajectory financial-component certificates}
+\label{app:sampleonlyaudit}
+
+\subsubsection{Access, target and information ordering}
+The auditor can replay a controller with frozen learned weights, sample independent whole episodes from a declared simulator law, observe ordered financial events, and evaluate the two local financial ledger updates associated with a known fair-sign primitive. This is simulator instrumentation, not arbitrary black-box access. No conditional magnitude, cost or continuation expectation is evaluated. Native causal observation normalization and controller buffers continue to update from the actual past as the engine prescribes; they are not refitted using full audit samples. Only the supervised audit feature/target scalers are fitted on FIT and then fixed. Audit regressors are distinct from the RL actor and centralized critic.
+
+Index the finitely many financial events by $k$, with predictable actual step discount $w_k\ge0$. Use the physical pre-event cash reached on the actual trajectory. A native floor makes this cash nonnegative before each financial event. At event $k$, the attributed financial cash increment is $G_k-C_k+I_k$, with $C_k\ge0$ and native injection $I_k\ge0$. The charged and booked component returns are
+\[
+Y_\alpha=\sum_k w_k[G_k-C_k+(1-\alpha)I_k],\qquad
+Y_{\rm book}=\sum_k w_k(G_k-C_k),\qquad 0\le\alpha\le1.
+\]
+All nonfinancial cash increments and their own injections are excluded from these sums. They may occur between events, affect subsequent cash and observations, and influence the frozen controller. The component is not fund NAV, total distribution income or shaped training reward. If a flat policy pays idle fees, an advantage over flat needs a separately bounded difference; it is not implied by $\mathbb EY_\alpha>0$.
+
+Let $\mathcal H_k$ contain the actual past, the action already chosen for event $k$, common exogenous quantities and all features used by the auditor before its current sign. For each randomized maturity assume
+\[
+G_k=\varepsilon_k g_k^0,\qquad
+\Pr(\varepsilon_k=+1\mid\mathcal H_k)
+=\Pr(\varepsilon_k=-1\mid\mathcal H_k)=1/2,
+\]
+where $g_k^0$ is finite and $\mathcal H_k$-measurable. It may be signed; its absolute value is the maturity magnitude. Conditional fairness is required after revealing all common features, not merely before the controller observes them. The magnitude/context law can be unknown and history dependent. Assume integrability of the finite-horizon gross flows and injections, and a known deterministic executed-cost envelope
+$\mathcal C=\sum_k w_k C_k\le\overline C$.
+The controller cannot access the current fair coin before the associated financial action. Recurrent policies are allowed under the same information ordering.
+
+Fees and maturities remain separate if the engine applies their floors separately. An action selected between two events must be selected from the actual history before the second sign; the auditor pairs only that second event with its action held fixed. It cannot net multiple native events and clamp once, or replace actual cash by model-predicted cash in only one branch. Nonfinancial floor injections must never enter financial forgiveness.
+
+\subsubsection{Local pairing and bounded learned controls}
+\begin{proposition}[Local financial pairing]
+\label{prop:sampleonlyfinancial}
+For each randomized event evaluate its two native injections $I_k^+$ and $I_k^-$ at the same actual pre-event state and common information. Define $\overline I_k=(I_k^++I_k^-)/2$. For deterministic financial-cost events let $\overline I_k=I_k$. With
+\[
+A=\sum_k w_k\overline I_k,\qquad
+Z_0=(1-\alpha)A-\mathcal C,
+\]
+one has $\mathbb EZ_0=\mathbb EY_\alpha$, $Z_0\ge-\overline C$, and
+$\mathbb EY_{\rm book}=-\mathbb E\mathcal C$.
+\end{proposition}
+\begin{proof}
+At each randomized event, conditional fairness gives
+$\mathbb E[I_k\mid\mathcal H_k]=\overline I_k$ and
+$\mathbb E[G_k\mid\mathcal H_k]=0$. A deterministic cost event has the same realized and paired injection. Summing conditional expectations with the event weights gives both mean identities. Every paired injection is nonnegative and $1-\alpha\ge0$, so $Z_0\ge-\mathcal C\ge-\overline C$. Actual-state adaptation and interleaved nonfinancial flows are included in $\mathcal H_k$ and therefore do not change the argument.
+\end{proof}
+
+\begin{proposition}[Frozen branch control with a path budget]
+\label{prop:budgetedsigncontrol}
+Condition on FIT and TUNE data independent of confirmation. Freeze any finite-valued predictor $q_\theta$, scale $\beta\ge0$, budget $B\ge0$ and cap $b\ge0$. Query the same predictor at both hypothetical branches using a common, correctly timed feature map. At randomized event $k$, form
+\[
+\begin{aligned}
+\delta_k&=\tfrac12[q_\theta(\mathcal H_k,+1)-q_\theta(\mathcal H_k,-1)],\\
+a_k&=\operatorname{sign}(\delta_k)\min(\beta|\delta_k|,R_k),
+\qquad R_{k+1}=R_k-|a_k|,\quad R_0=B.
+\end{aligned}
+\]
+Determine and debit $a_k$ before revealing $\varepsilon_k$. Put
+$M=\sum_k\varepsilon_k a_k$ and $T_b=\min(Z_0-M,b)$. Then
+\[
+\mathbb E[M\mid{\rm FIT,TUNE}]=0,\quad |M|\le B,\quad
+-\overline C-B\le T_b\le b,\quad
+\mathbb E[T_b\mid{\rm FIT,TUNE}]\le\mathbb EY_\alpha.
+\]
+No accuracy or value-function bound for $q_\theta$ is required.
+\end{proposition}
+\begin{proof}
+The branch difference, remaining budget and amplitude are measurable before the current fair coin. Thus
+$\mathbb E[\varepsilon_k a_k\mid\mathcal H_k,{\rm FIT,TUNE}]=0$.
+The finite sum is integrable because $\sum_k|a_k|\le B$ pathwise, which also gives $|M|\le B$. Proposition~\ref{prop:sampleonlyfinancial} yields the uncapped equality and negative endpoint. Pointwise $T_b\le Z_0-M$, while $b\ge0\ge-\overline C-B$, so upper capping preserves the lower endpoint and can only lower the expectation.
+\end{proof}
+
+The amplitude is already expressed in global discounted-return units. Applying another time discount changes its intended scale, although predictable rescaling still preserves centering. Training on another target also preserves validity but can reduce efficiency. A predictor may be wrong in every state and still define a centered control. It can increase variance and worsen a confidence limit; including $\beta=0$ or $B=0$ is essential for a fair comparison. Learned controls do not confer a distribution-free variance advantage.
+
+This control is a specialization of existing innovation-basis regression martingales. In \citet{belomestny2018regression}, Proposition~3.3, Equation~(3.8), reduces to the same branch difference for one Rademacher innovation; Section~4.2, Equation~(4.3), retains conditional zero mean after independent coefficient fitting. The MDP construction of \citet{belomestny2024primaldual}, Equation~(5.6), likewise combines learned coefficients with known centered innovations. Neural martingale controls also preserve unbiasedness without an exact neural solution \cite{sabatevidales2021unbiased}. These antecedents preclude a claim of a new generic branch-control or misspecification-robust neural estimator. The domain-specific proof concerns native financial attribution, predictable absolute support and the resulting one-sided certificate.
+
+The guarantee differs from doubly robust off-policy evaluation \cite{jiang2016doublyrobust}: the present actor is executed on-policy, no behavior likelihood ratio is estimated, and exact centering comes from a known simulator coin. An approximate transition model is not an exact transition law. In particular, $V(S_{k+1}^{\rm true})-\mathbb E_{\widehat P}V(\widehat S_{k+1})$ need not have zero mean. If true next cash is $2$ or $0$ equally likely, $V(s)=s$, and a model predicts $2$ in both branches, that mixed expression has mean $-1$. Subtracting it can create a spurious positive mean. Evaluating both branches of the same frozen model and multiplying their predictable half-difference by the true fair sign avoids that error.
+
+\subsubsection{Support, confirmation and abstention}
+Without an upper magnitude envelope, Proposition~\ref{prop:budgetedsigncontrol} still supplies the finite range width $b+\overline C+B$ after capping. A finite mean alone does not bound negative realized costs. Unbounded costs require an independently justified negative-tail correction or abstention; a fitted cost model cannot supply a missing deterministic support endpoint.
+
+The native experiment additionally has source-derived envelopes
+$\sum_k w_k|g_k^0|\le\overline G$ and $\mathcal C\le\overline C$ over every allowed path. For a pure maturity at pre-cash $e\ge0$,
+\[
+I(\varepsilon)=(-e-\varepsilon g^0)^+,
+\quad \overline I=\tfrac12(|g^0|-e)^+\le |g^0|/2.
+\]
+For a financial cost-only event, $(1-\alpha)(C-e)^+-C\le0$. Consequently the raw financial target, realized-injection residual, sign-paired residual and controlled residual have respective supports
+\[
+[-\overline G-\overline C,\overline G],\quad
+[-\overline C,(1-\alpha)\overline G],\quad
+[-\overline C,(1-\alpha)\overline G/2],\quad
+[-\overline C-B,(1-\alpha)\overline G/2+B].
+\]
+For example, a single combined financial event satisfies
+$G-C+(1-\alpha)(-e-G+C)^+\le G^+$; its lower bound is $-|G|-C$. Upper capping reduces each upper endpoint to its minimum with $b$. Native event separation is required for the paired half-magnitude endpoint. Envelopes include carried warm-up claims, permitted quantities, configured settlement bounds, all fee branches and the source's zero-cap fallback. A maximum observed on sampled paths is not an envelope.
+
+For independent whole-path values $T_1,\ldots,T_n\in[L,U]$, let $s^2$ be the unbiased sample variance. The fixed-sample empirical-Bernstein lower limit \cite{maurer2009empirical} is
+\[
+\ell=\overline T-
+\sqrt{\frac{2s^2\log(2/\delta)}{n}}
+-\frac{7(U-L)\log(2/\delta)}{3(n-1)}.
+\]
+It lower-bounds $\mathbb ET_b$ with probability at least $1-\delta$ and hence also lower-bounds $\mathbb EY_\alpha$. A search-chosen cap, budget or predictor cannot be reselected on these confirmation values. Whole episodes, rather than individual transitions, are the independent sampling units. A sequential stopping rule would require a time-uniform procedure; the native plan uses a fixed sample size.
+
+A positive $\ell$ establishes positive charged component reward. Strict booked harm additionally needs a positive lower limit for $\mathbb E\mathcal C$ or a known positive unavoidable fee. The native plan allocates $\delta=.05/520$ to each of 480 charged limits and 40 cost limits. A union bound does not require independence between these limits. Learned limits are valid conditional on independent development data; unselected raw and cost means may use all same-law episodes. Audit-model fitting and choice do not alter the already frozen controller's cost distribution. A full-charge view has mean $-\mathbb E\mathcal C\le0$ under identical actions; any positive certificate there is a validation failure to investigate. A guard-restored profile is not necessarily a zero-injection control.
+
+The implementation expands supports and subtracts its predeclared numerical allowance from the lower limit. This allowance is conservative engineering, not a formal floating-point proof. Support violations stop the computation. A nonpositive lower limit means abstention, not safety. Nothing in these propositions supplies the uniform conditional stop-loss/fee ratio needed for Proposition~\ref{prop:kernelrepair}; the earlier policy-independent repair theorem remains conditional on its stronger moment assumptions.
+
+\subsubsection{Terminal ledger identity without sign symmetry}
+For a separately declared additive booked financial ledger $N_{k+1}=n+G-C$ with conditionally mean-zero $G$ and $C\ge0$, let $d(n)=(-n)^+$ and define
+\[
+T(n,G,C)=d(n+G-C)-d(n)+\mathbf 1_{\{n<0\}}G
+=\begin{cases}
+d(n+G-C),&n\ge0,\\
+C+(n+G-C)^+,&n<0.
+\end{cases}
+\]
+This is nonnegative and its conditional expectation equals the expected debt increment. Thus terminal forgiveness relative to the initial terminal claim has the sample statistic
+\[
+(1-\alpha)\gamma^{H-1}\sum_k T(N_k,G_k,C_k)
+-\sum_k\gamma^{t(k)}C_k.
+\]
+The sum already telescopes $d(N_H)-d(N_0)$ in expectation; do not subtract $d(N_0)$ a second time. The potential term uses the constant terminal discount $\gamma^{H-1}$, not eventwise floor discounts. Conditional zero mean, integrability and bounded costs suffice for the capped certificate. Sign symmetry is unnecessary for this identity, but remains necessary for the particular fair-sign learned control above. At a native floor, pre-event cash is nonnegative and this correction is exactly the ordinary realized injection. It is not a seventh or newly distinct floor estimator. Unrelated flows entering the booked ledger require explicit potential attribution; they cannot be silently credited to financial forgiveness.
+
+\subsubsection{Exact checks and native comparison design}
+The separate rational enumeration uses 864 contextual floor cases and 81 terminal cases. It checks actual-state adaptive policies, both fee/maturity orders, interleaved nonfinancial flows, zero/linear/rational-ReLU/wrong-model controls, zero control means, absolute budgets, capped supports and lower-mean inequalities. The terminal law includes an asymmetric mean-zero gross payoff. Retained counterexamples show invalid true/model mixing, aggregation before clamping, nonfinancial injection misattribution and failure of fair-sign centering for asymmetric gross laws. These finite examples check theorem and implementation consistency; they are not an empirical gain for a trained neural model or an exhaustive proof.
+
+The native design is exploratory and internally hash-frozen, not a newly registered learner study. It replays all saved policies in the two ten-seed plain and feasible-action MAPPO cohorts; the financial actor has native 12D/20D observations and one controlled exposure factor, and its matching saved battery DQN is retained. Twenty policies crossed with strict/vulnerable profiles give 40 cases. Strict restores native guards; vulnerable disables the sleeve margin gate and MTM loss exit. Both set post-warm-up cash to $10^{-4}F$ while preserving the original sizing base $F=662{,}068{,}965.5172415$~DKK. These cases assess a declared distressed intervention, not original deployment profitability.
+
+Each case samples uniformly from eight original/v2 chronological contexts, with 384 causal warm-up steps followed by 96 audit steps and $\gamma=.995$. Warm-up queues and all economic state are retained, financial maturity signs are freshly randomized after action mapping, and terminal queues must be empty. Initial prepaid claims and their later forgiveness are reported because inherited claim risk need not arise from post-intervention actions. Cash transfers, histories, forecasts, delayed settlement, nonlinear impact and native cost mechanisms remain active. Claiming many controlled financial assets would be inaccurate.
+
+There are 32 FIT, 32 TUNE and 256 CONFIRM whole episodes per case: 12,800 audit episodes, 1,228,800 audit steps and 245,760 deterministic warm-up steps, before any retained technical replay. All six methods share the native paths. Raw and cost means are unselected and pool 320 episodes; simple capped methods tune caps on all 64 development episodes. Ridge and MLP use pooled FIT only and tune on each case's 32 TUNE episodes. No endpoint-dependent extension or case exclusion is allowed. Software attempts and technical replays are retained with their source hashes and exact streams.
+
+The regressor inputs contain the padded native actor observation and presign/branch financial context. Targets are globally discounted future paired injection minus cost, strictly after the current event. Scalers and 1\%/99\% target clipping use FIT only. Ridge has penalty 1; the MLP has two 64-unit ReLU layers, Adam, weight penalty $10^{-3}$, initial learning rate $10^{-3}$, at most 120 iterations, 20\% internal FIT validation, patience 12 and batches of 256. These are audit nuisance fits, not new RL training. Both branches use the same frozen predictor and feature map. Choices are frozen before any confirmation episode.
+
+Caps in DKK are $\{1000,4000,16000,64000,256000,1024000,4096000,16384000\}$, scales are $\{0,.25,.5,1,2\}$, and budget/cap ratios are $\{0,1/16,1/4,1,4\}$. A development empirical-Bernstein projection selects the fixed-confirmation candidate; it is a tuning score, not a confidence statement. Zero controls are deduplicated. Deterministic ties prefer smaller budget, scale and cap. Predictor fitting CPU, branch queries, support widths and confirmation costs are additional measurements, not assumed equal arithmetic work.
+
+\textbf{[PENDING: insert the independently verified 40-case, six-method, two-charge table with all abstentions and cost bounds; strict/vulnerable splits; initial-claim attribution; paired differences from the strongest simple baseline; empirical control variances and selected budgets; model-fit/query cost and native total wall/CPU time; support/queue checks; hashes and retained technical attempts. Populate only after full completion and independent verification. Do not infer a neural benefit from better FIT/TUNE scores.]}
+
+The original exact conditional-kernel results remain in Sections~\ref{app:predictableaudit} and~\ref{app:predictablebenchmark}, including their stronger unbounded-cost support result, 36/72 versus 24/72 selected and 33/72 versus 24/72 neutral comparisons, lack of additional positive states, and Pareto ties/variance failures. They address a different access model and must not be pooled with the native sample-trajectory comparison. The older 524,288-path simple-policy success also remains evidence against claiming that feedback or a learned audit model is inherently necessary.

@@ -1,0 +1,9 @@
+# Native joint-fault v2: prepared implementation
+
+The canonical plan is `EXPLORATORY_EXECUTION_PLAN.md`: final family340, with320 charged views and20 cost bounds over all20 original actors. Four alpha0 cash methods supplement the six original representations; alpha1 retains six. The two additional RAW-future regressors and local-only baseline provide fairer comparisons of known current accounting versus learned continuation. All original negative evidence remains intact.
+
+The original vulnerable25% capped384-step warm-up is preserved. Cap0 applies only after a fresh96-step audit clone, before authentic observation rebuilding and actor inference. The NEW primary target excludes direct inherited maturity G/I/A in ALL phases; all forward costs, actual state effects and old/new control coins remain. Planned statistical native work is737280 transitions, separate from the two released engineering smoke paths.
+
+`run_joint_fault_audit.py` is the full runner; freeze/run/aggregate require an explicit coordinator release. No statistical freeze or launch is authorized merely by source implementation. `run_joint_fault_v2.py`, `EXPLORATORY_PROTOCOL_DRAFT.md` and their original source-only check are retained historical proposals and are superseded by the canonical plan. Run `validation/check_pipeline_sources.py` for source/literal-array checks without native execution, model fitting or statistical draws.
+
+Post-completion reconstruction uses `validation/verify_joint_fault_results.py`, then `public_export_joint_fault.py` and standalone `reproduce_public_joint_fault.py`. Frozen-setting ablations use `post_joint_fault_diagnostics.py` only after private/public PASS. Public numeric summaries contain no actor observations, raw panels or private model bundles. Each native confidence family is separate95%; joint coverage across the original520, auxiliary240 and new340 native families is at least85%, not paper-wide95%.

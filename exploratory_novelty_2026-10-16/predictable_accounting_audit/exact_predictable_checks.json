@@ -1,0 +1,3855 @@
+{
+  "status": "exploratory exact finite-law predictable-compensator checks",
+  "no_monte_carlo": true,
+  "learners_trained": 0,
+  "dp_solved": false,
+  "inputs_read": [],
+  "drift_bound_checks": [
+    {
+      "action": "flat",
+      "expected_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "h_at_zero": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "positive_net_mean": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "state_checks": [
+        {
+          "ledger": {
+            "exact": "-4",
+            "decimal": -4.0
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "4",
+            "decimal": 4.0
+          }
+        },
+        {
+          "ledger": {
+            "exact": "-2",
+            "decimal": -2.0
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "2",
+            "decimal": 2.0
+          }
+        },
+        {
+          "ledger": {
+            "exact": "-1",
+            "decimal": -1.0
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "1",
+            "decimal": 1.0
+          }
+        },
+        {
+          "ledger": {
+            "exact": "-1/10",
+            "decimal": -0.1
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "1/10",
+            "decimal": 0.1
+          }
+        },
+        {
+          "ledger": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        },
+        {
+          "ledger": {
+            "exact": "1/10",
+            "decimal": 0.1
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        },
+        {
+          "ledger": {
+            "exact": "7/10",
+            "decimal": 0.7
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        },
+        {
+          "ledger": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        },
+        {
+          "ledger": {
+            "exact": "2",
+            "decimal": 2.0
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        },
+        {
+          "ledger": {
+            "exact": "4",
+            "decimal": 4.0
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "action": "trade",
+      "expected_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "h_at_zero": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "positive_net_mean": {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      "state_checks": [
+        {
+          "ledger": {
+            "exact": "-4",
+            "decimal": -4.0
+          },
+          "delta": {
+            "exact": "2/5",
+            "decimal": 0.4
+          },
+          "h": {
+            "exact": "22/5",
+            "decimal": 4.4
+          }
+        },
+        {
+          "ledger": {
+            "exact": "-2",
+            "decimal": -2.0
+          },
+          "delta": {
+            "exact": "2/5",
+            "decimal": 0.4
+          },
+          "h": {
+            "exact": "12/5",
+            "decimal": 2.4
+          }
+        },
+        {
+          "ledger": {
+            "exact": "-1",
+            "decimal": -1.0
+          },
+          "delta": {
+            "exact": "2/5",
+            "decimal": 0.4
+          },
+          "h": {
+            "exact": "7/5",
+            "decimal": 1.4
+          }
+        },
+        {
+          "ledger": {
+            "exact": "-1/10",
+            "decimal": -0.1
+          },
+          "delta": {
+            "exact": "13/20",
+            "decimal": 0.65
+          },
+          "h": {
+            "exact": "3/4",
+            "decimal": 0.75
+          }
+        },
+        {
+          "ledger": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "delta": {
+            "exact": "7/10",
+            "decimal": 0.7
+          },
+          "h": {
+            "exact": "7/10",
+            "decimal": 0.7
+          }
+        },
+        {
+          "ledger": {
+            "exact": "1/10",
+            "decimal": 0.1
+          },
+          "delta": {
+            "exact": "13/20",
+            "decimal": 0.65
+          },
+          "h": {
+            "exact": "13/20",
+            "decimal": 0.65
+          }
+        },
+        {
+          "ledger": {
+            "exact": "7/10",
+            "decimal": 0.7
+          },
+          "delta": {
+            "exact": "7/20",
+            "decimal": 0.35
+          },
+          "h": {
+            "exact": "7/20",
+            "decimal": 0.35
+          }
+        },
+        {
+          "ledger": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "delta": {
+            "exact": "1/5",
+            "decimal": 0.2
+          },
+          "h": {
+            "exact": "1/5",
+            "decimal": 0.2
+          }
+        },
+        {
+          "ledger": {
+            "exact": "2",
+            "decimal": 2.0
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        },
+        {
+          "ledger": {
+            "exact": "4",
+            "decimal": 4.0
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "action": "small",
+      "expected_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "h_at_zero": {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      "positive_net_mean": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "state_checks": [
+        {
+          "ledger": {
+            "exact": "-4",
+            "decimal": -4.0
+          },
+          "delta": {
+            "exact": "1/10",
+            "decimal": 0.1
+          },
+          "h": {
+            "exact": "41/10",
+            "decimal": 4.1
+          }
+        },
+        {
+          "ledger": {
+            "exact": "-2",
+            "decimal": -2.0
+          },
+          "delta": {
+            "exact": "1/10",
+            "decimal": 0.1
+          },
+          "h": {
+            "exact": "21/10",
+            "decimal": 2.1
+          }
+        },
+        {
+          "ledger": {
+            "exact": "-1",
+            "decimal": -1.0
+          },
+          "delta": {
+            "exact": "1/10",
+            "decimal": 0.1
+          },
+          "h": {
+            "exact": "11/10",
+            "decimal": 1.1
+          }
+        },
+        {
+          "ledger": {
+            "exact": "-1/10",
+            "decimal": -0.1
+          },
+          "delta": {
+            "exact": "1/4",
+            "decimal": 0.25
+          },
+          "h": {
+            "exact": "7/20",
+            "decimal": 0.35
+          }
+        },
+        {
+          "ledger": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "delta": {
+            "exact": "3/10",
+            "decimal": 0.3
+          },
+          "h": {
+            "exact": "3/10",
+            "decimal": 0.3
+          }
+        },
+        {
+          "ledger": {
+            "exact": "1/10",
+            "decimal": 0.1
+          },
+          "delta": {
+            "exact": "1/4",
+            "decimal": 0.25
+          },
+          "h": {
+            "exact": "1/4",
+            "decimal": 0.25
+          }
+        },
+        {
+          "ledger": {
+            "exact": "7/10",
+            "decimal": 0.7
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        },
+        {
+          "ledger": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        },
+        {
+          "ledger": {
+            "exact": "2",
+            "decimal": 2.0
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        },
+        {
+          "ledger": {
+            "exact": "4",
+            "decimal": 4.0
+          },
+          "delta": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "h": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "fixed_policy_scenarios": [
+    {
+      "accounting": "floor",
+      "policy": "constant_trade",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 1,
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 2,
+      "expected": {
+        "charged": {
+          "exact": "-1/20",
+          "decimal": -0.05
+        },
+        "residual": {
+          "exact": "-1/20",
+          "decimal": -0.05
+        },
+        "compensator": {
+          "exact": "-1/20",
+          "decimal": -0.05
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        "actual_forgiveness": {
+          "exact": "7/20",
+          "decimal": 0.35
+        },
+        "predictable_forgiveness": {
+          "exact": "7/20",
+          "decimal": 0.35
+        },
+        "actual_cost": {
+          "exact": "2/5",
+          "decimal": 0.4
+        },
+        "predictable_cost": {
+          "exact": "2/5",
+          "decimal": 0.4
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "169/400",
+          "decimal": 0.4225
+        },
+        "residual": {
+          "exact": "49/400",
+          "decimal": 0.1225
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        {
+          "exact": "3/10",
+          "decimal": 0.3
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-1/20",
+          "decimal": -0.05
+        },
+        {
+          "exact": "-1/20",
+          "decimal": -0.05
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "constant_trade",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 1,
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 2,
+      "expected": {
+        "charged": {
+          "exact": "-3/25",
+          "decimal": -0.12
+        },
+        "residual": {
+          "exact": "-3/25",
+          "decimal": -0.12
+        },
+        "compensator": {
+          "exact": "-3/25",
+          "decimal": -0.12
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        "actual_forgiveness": {
+          "exact": "7/20",
+          "decimal": 0.35
+        },
+        "predictable_forgiveness": {
+          "exact": "7/20",
+          "decimal": 0.35
+        },
+        "actual_cost": {
+          "exact": "2/5",
+          "decimal": 0.4
+        },
+        "predictable_cost": {
+          "exact": "2/5",
+          "decimal": 0.4
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "324/625",
+          "decimal": 0.5184
+        },
+        "residual": {
+          "exact": "49/625",
+          "decimal": 0.0784
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        {
+          "exact": "4/25",
+          "decimal": 0.16
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-3/25",
+          "decimal": -0.12
+        },
+        {
+          "exact": "-3/25",
+          "decimal": -0.12
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "constant_trade",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 1,
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 2,
+      "expected": {
+        "charged": {
+          "exact": "-33/100",
+          "decimal": -0.33
+        },
+        "residual": {
+          "exact": "-33/100",
+          "decimal": -0.33
+        },
+        "compensator": {
+          "exact": "-33/100",
+          "decimal": -0.33
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        "actual_forgiveness": {
+          "exact": "7/20",
+          "decimal": 0.35
+        },
+        "predictable_forgiveness": {
+          "exact": "7/20",
+          "decimal": 0.35
+        },
+        "actual_cost": {
+          "exact": "2/5",
+          "decimal": 0.4
+        },
+        "predictable_cost": {
+          "exact": "2/5",
+          "decimal": 0.4
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "8649/10000",
+          "decimal": 0.8649
+        },
+        "residual": {
+          "exact": "49/10000",
+          "decimal": 0.0049
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-33/100",
+          "decimal": -0.33
+        },
+        {
+          "exact": "-33/100",
+          "decimal": -0.33
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "constant_trade",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 1,
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 2,
+      "expected": {
+        "charged": {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        "residual": {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        "compensator": {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        "actual_forgiveness": {
+          "exact": "7/20",
+          "decimal": 0.35
+        },
+        "predictable_forgiveness": {
+          "exact": "7/20",
+          "decimal": 0.35
+        },
+        "actual_cost": {
+          "exact": "2/5",
+          "decimal": 0.4
+        },
+        "predictable_cost": {
+          "exact": "2/5",
+          "decimal": 0.4
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "residual": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 3,
+      "expected": {
+        "charged": {
+          "exact": "197/2000",
+          "decimal": 0.0985
+        },
+        "residual": {
+          "exact": "197/2000",
+          "decimal": 0.0985
+        },
+        "compensator": {
+          "exact": "197/2000",
+          "decimal": 0.0985
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "actual_forgiveness": {
+          "exact": "1393/2000",
+          "decimal": 0.6965
+        },
+        "predictable_forgiveness": {
+          "exact": "1393/2000",
+          "decimal": 0.6965
+        },
+        "actual_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        },
+        "predictable_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "1182427/4000000",
+          "decimal": 0.29560675
+        },
+        "residual": {
+          "exact": "1954507/4000000",
+          "decimal": 0.48862675
+        },
+        "compensator": {
+          "exact": "88209/4000000",
+          "decimal": 0.02205225
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "597/1000",
+          "decimal": 0.597
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-1/20",
+          "decimal": -0.05
+        },
+        {
+          "exact": "247/1000",
+          "decimal": 0.247
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 3,
+      "expected": {
+        "charged": {
+          "exact": "-51/1250",
+          "decimal": -0.0408
+        },
+        "residual": {
+          "exact": "-51/1250",
+          "decimal": -0.0408
+        },
+        "compensator": {
+          "exact": "-51/1250",
+          "decimal": -0.0408
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "actual_forgiveness": {
+          "exact": "1393/2000",
+          "decimal": 0.6965
+        },
+        "predictable_forgiveness": {
+          "exact": "1393/2000",
+          "decimal": 0.6965
+        },
+        "actual_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        },
+        "predictable_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "6318729/12500000",
+          "decimal": 0.50549832
+        },
+        "residual": {
+          "exact": "883451/3125000",
+          "decimal": 0.28270432
+        },
+        "compensator": {
+          "exact": "9801/1562500",
+          "decimal": 0.00627264
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "199/625",
+          "decimal": 0.3184
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-3/25",
+          "decimal": -0.12
+        },
+        {
+          "exact": "24/625",
+          "decimal": 0.0384
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 3,
+      "expected": {
+        "charged": {
+          "exact": "-4587/10000",
+          "decimal": -0.4587
+        },
+        "residual": {
+          "exact": "-4587/10000",
+          "decimal": -0.4587
+        },
+        "compensator": {
+          "exact": "-4587/10000",
+          "decimal": -0.4587
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "actual_forgiveness": {
+          "exact": "1393/2000",
+          "decimal": 0.6965
+        },
+        "predictable_forgiveness": {
+          "exact": "1393/2000",
+          "decimal": 0.6965
+        },
+        "actual_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        },
+        "predictable_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "148328667/100000000",
+          "decimal": 1.48328667
+        },
+        "residual": {
+          "exact": "1305067/100000000",
+          "decimal": 0.01305067
+        },
+        "compensator": {
+          "exact": "1656369/100000000",
+          "decimal": 0.01656369
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-2937/5000",
+          "decimal": -0.5874
+        },
+        {
+          "exact": "-33/100",
+          "decimal": -0.33
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 3,
+      "expected": {
+        "charged": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "residual": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "compensator": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "actual_forgiveness": {
+          "exact": "1393/2000",
+          "decimal": 0.6965
+        },
+        "predictable_forgiveness": {
+          "exact": "1393/2000",
+          "decimal": 0.6965
+        },
+        "actual_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        },
+        "predictable_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "962627/500000",
+          "decimal": 1.925254
+        },
+        "residual": {
+          "exact": "9801/250000",
+          "decimal": 0.039204
+        },
+        "compensator": {
+          "exact": "9801/250000",
+          "decimal": 0.039204
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 3,
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 4,
+      "expected": {
+        "charged": {
+          "exact": "68803/400000",
+          "decimal": 0.1720075
+        },
+        "residual": {
+          "exact": "68803/400000",
+          "decimal": 0.1720075
+        },
+        "compensator": {
+          "exact": "68803/400000",
+          "decimal": 0.1720075
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-69601/100000",
+          "decimal": -0.69601
+        },
+        "actual_forgiveness": {
+          "exact": "347207/400000",
+          "decimal": 0.8680175
+        },
+        "predictable_forgiveness": {
+          "exact": "347207/400000",
+          "decimal": 0.8680175
+        },
+        "actual_cost": {
+          "exact": "69601/100000",
+          "decimal": 0.69601
+        },
+        "predictable_cost": {
+          "exact": "69601/100000",
+          "decimal": 0.69601
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "34566198463/160000000000",
+          "decimal": 0.21603874039375
+        },
+        "residual": {
+          "exact": "127628510623/160000000000",
+          "decimal": 0.79767819139375
+        },
+        "compensator": {
+          "exact": "9615045627/160000000000",
+          "decimal": 0.06009403516875
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "89103/100000",
+          "decimal": 0.89103
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-1/20",
+          "decimal": -0.05
+        },
+        {
+          "exact": "54103/100000",
+          "decimal": 0.54103
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 3,
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 4,
+      "expected": {
+        "charged": {
+          "exact": "-399/250000",
+          "decimal": -0.001596
+        },
+        "residual": {
+          "exact": "-399/250000",
+          "decimal": -0.001596
+        },
+        "compensator": {
+          "exact": "-399/250000",
+          "decimal": -0.001596
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-69601/100000",
+          "decimal": -0.69601
+        },
+        "actual_forgiveness": {
+          "exact": "347207/400000",
+          "decimal": 0.8680175
+        },
+        "predictable_forgiveness": {
+          "exact": "347207/400000",
+          "decimal": 0.8680175
+        },
+        "actual_cost": {
+          "exact": "69601/100000",
+          "decimal": 0.69601
+        },
+        "predictable_cost": {
+          "exact": "69601/100000",
+          "decimal": 0.69601
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "118050914133/250000000000",
+          "decimal": 0.472203656532
+        },
+        "residual": {
+          "exact": "6785304013/15625000000",
+          "decimal": 0.434259456832
+        },
+        "compensator": {
+          "exact": "1068338403/62500000000",
+          "decimal": 0.017093414448
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "29701/62500",
+          "decimal": 0.475216
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-3/25",
+          "decimal": -0.12
+        },
+        {
+          "exact": "12201/62500",
+          "decimal": 0.195216
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 3,
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 4,
+      "expected": {
+        "charged": {
+          "exact": "-1044813/2000000",
+          "decimal": -0.5224065
+        },
+        "residual": {
+          "exact": "-1044813/2000000",
+          "decimal": -0.5224065
+        },
+        "compensator": {
+          "exact": "-1044813/2000000",
+          "decimal": -0.5224065
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-69601/100000",
+          "decimal": -0.69601
+        },
+        "actual_forgiveness": {
+          "exact": "347207/400000",
+          "decimal": 0.8680175
+        },
+        "predictable_forgiveness": {
+          "exact": "347207/400000",
+          "decimal": 0.8680175
+        },
+        "actual_cost": {
+          "exact": "69601/100000",
+          "decimal": 0.69601
+        },
+        "predictable_cost": {
+          "exact": "69601/100000",
+          "decimal": 0.69601
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "7665791991903/4000000000000",
+          "decimal": 1.91644799797575
+        },
+        "residual": {
+          "exact": "79011384703/4000000000000",
+          "decimal": 0.01975284617575
+        },
+        "compensator": {
+          "exact": "180549190107/4000000000000",
+          "decimal": 0.04513729752675
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-421113/500000",
+          "decimal": -0.842226
+        },
+        {
+          "exact": "-33/100",
+          "decimal": -0.33
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 3,
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 4,
+      "expected": {
+        "charged": {
+          "exact": "-69601/100000",
+          "decimal": -0.69601
+        },
+        "residual": {
+          "exact": "-69601/100000",
+          "decimal": -0.69601
+        },
+        "compensator": {
+          "exact": "-69601/100000",
+          "decimal": -0.69601
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-69601/100000",
+          "decimal": -0.69601
+        },
+        "actual_forgiveness": {
+          "exact": "347207/400000",
+          "decimal": 0.8680175
+        },
+        "predictable_forgiveness": {
+          "exact": "347207/400000",
+          "decimal": 0.8680175
+        },
+        "actual_cost": {
+          "exact": "69601/100000",
+          "decimal": 0.69601
+        },
+        "predictable_cost": {
+          "exact": "69601/100000",
+          "decimal": 0.69601
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "6557781607/2500000000",
+          "decimal": 2.6231126428
+        },
+        "residual": {
+          "exact": "1068338403/10000000000",
+          "decimal": 0.1068338403
+        },
+        "compensator": {
+          "exact": "1068338403/10000000000",
+          "decimal": 0.1068338403
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "barrier",
+      "initial_ledger": {
+        "exact": "3/2",
+        "decimal": 1.5
+      },
+      "horizon": 3,
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 5,
+      "expected": {
+        "charged": {
+          "exact": "-34399/160000",
+          "decimal": -0.21499375
+        },
+        "residual": {
+          "exact": "-34399/160000",
+          "decimal": -0.21499375
+        },
+        "compensator": {
+          "exact": "-34399/160000",
+          "decimal": -0.21499375
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "actual_forgiveness": {
+          "exact": "463221/800000",
+          "decimal": 0.57902625
+        },
+        "predictable_forgiveness": {
+          "exact": "463221/800000",
+          "decimal": 0.57902625
+        },
+        "actual_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        },
+        "predictable_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "513664392943/640000000000",
+          "decimal": 0.8026006139734375
+        },
+        "residual": {
+          "exact": "328605017103/640000000000",
+          "decimal": 0.5134453392234375
+        },
+        "compensator": {
+          "exact": "31319320923/640000000000",
+          "decimal": 0.0489364389421875
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "89103/100000",
+          "decimal": 0.89103
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        {
+          "exact": "14153/100000",
+          "decimal": 0.14153
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "barrier",
+      "initial_ledger": {
+        "exact": "3/2",
+        "decimal": 1.5
+      },
+      "horizon": 3,
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 5,
+      "expected": {
+        "charged": {
+          "exact": "-330799/1000000",
+          "decimal": -0.330799
+        },
+        "residual": {
+          "exact": "-330799/1000000",
+          "decimal": -0.330799
+        },
+        "compensator": {
+          "exact": "-330799/1000000",
+          "decimal": -0.330799
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "actual_forgiveness": {
+          "exact": "463221/800000",
+          "decimal": 0.57902625
+        },
+        "predictable_forgiveness": {
+          "exact": "463221/800000",
+          "decimal": 0.57902625
+        },
+        "actual_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        },
+        "predictable_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "1094490136279/1000000000000",
+          "decimal": 1.094490136279
+        },
+        "residual": {
+          "exact": "311488315479/1000000000000",
+          "decimal": 0.311488315479
+        },
+        "compensator": {
+          "exact": "14202619299/1000000000000",
+          "decimal": 0.014202619299
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "29701/62500",
+          "decimal": 0.475216
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        {
+          "exact": "-3887/31250",
+          "decimal": -0.124384
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "barrier",
+      "initial_ledger": {
+        "exact": "3/2",
+        "decimal": 1.5
+      },
+      "horizon": 3,
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 5,
+      "expected": {
+        "charged": {
+          "exact": "-2712859/4000000",
+          "decimal": -0.67821475
+        },
+        "residual": {
+          "exact": "-2712859/4000000",
+          "decimal": -0.67821475
+        },
+        "compensator": {
+          "exact": "-2712859/4000000",
+          "decimal": -0.67821475
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "actual_forgiveness": {
+          "exact": "463221/800000",
+          "decimal": 0.57902625
+        },
+        "predictable_forgiveness": {
+          "exact": "463221/800000",
+          "decimal": 0.57902625
+        },
+        "actual_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        },
+        "predictable_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "37777818034159/16000000000000",
+          "decimal": 2.3611136271349373
+        },
+        "residual": {
+          "exact": "1545154690959/16000000000000",
+          "decimal": 0.0965721681849375
+        },
+        "compensator": {
+          "exact": "1247868994779/16000000000000",
+          "decimal": 0.0779918121736875
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-990733/1000000",
+          "decimal": -0.990733
+        },
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "floor",
+      "policy": "barrier",
+      "initial_ledger": {
+        "exact": "3/2",
+        "decimal": 1.5
+      },
+      "horizon": 3,
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 5,
+      "expected": {
+        "charged": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "residual": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "compensator": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "actual_forgiveness": {
+          "exact": "463221/800000",
+          "decimal": 0.57902625
+        },
+        "predictable_forgiveness": {
+          "exact": "463221/800000",
+          "decimal": 0.57902625
+        },
+        "actual_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        },
+        "predictable_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "14568198827/5000000000",
+          "decimal": 2.9136397654
+        },
+        "residual": {
+          "exact": "388129401/2500000000",
+          "decimal": 0.1552517604
+        },
+        "compensator": {
+          "exact": "388129401/2500000000",
+          "decimal": 0.1552517604
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false
+    },
+    {
+      "accounting": "terminal",
+      "policy": "barrier",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 3,
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 5,
+      "expected": {
+        "charged": {
+          "exact": "1849/800000",
+          "decimal": 0.00231125
+        },
+        "residual": {
+          "exact": "1849/800000",
+          "decimal": 0.00231125
+        },
+        "compensator": {
+          "exact": "1849/800000",
+          "decimal": 0.00231125
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "actual_forgiveness": {
+          "exact": "127413/160000",
+          "decimal": 0.79633125
+        },
+        "predictable_forgiveness": {
+          "exact": "127413/160000",
+          "decimal": 0.79633125
+        },
+        "actual_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        },
+        "predictable_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "243844921351/640000000000",
+          "decimal": 0.3810076896109375
+        },
+        "residual": {
+          "exact": "579081803751/640000000000",
+          "decimal": 0.9048153183609375
+        },
+        "compensator": {
+          "exact": "7051731291/640000000000",
+          "decimal": 0.0110183301421875
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "87017/100000",
+          "decimal": 0.87017
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-2437/40000",
+          "decimal": -0.060925
+        },
+        {
+          "exact": "1841/10000",
+          "decimal": 0.1841
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "barrier",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 3,
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 5,
+      "expected": {
+        "charged": {
+          "exact": "-31391/200000",
+          "decimal": -0.156955
+        },
+        "residual": {
+          "exact": "-31391/200000",
+          "decimal": -0.156955
+        },
+        "compensator": {
+          "exact": "-31391/200000",
+          "decimal": -0.156955
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "actual_forgiveness": {
+          "exact": "127413/160000",
+          "decimal": 0.79633125
+        },
+        "predictable_forgiveness": {
+          "exact": "127413/160000",
+          "decimal": 0.79633125
+        },
+        "actual_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        },
+        "predictable_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "26687895799/40000000000",
+          "decimal": 0.667197394975
+        },
+        "residual": {
+          "exact": "21382635879/40000000000",
+          "decimal": 0.534565896975
+        },
+        "compensator": {
+          "exact": "5787872739/1000000000000",
+          "decimal": 0.005787872739
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "14329/31250",
+          "decimal": 0.458528
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-71587/250000",
+          "decimal": -0.286348
+        },
+        {
+          "exact": "-11291/125000",
+          "decimal": -0.090328
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "barrier",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 3,
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 5,
+      "expected": {
+        "charged": {
+          "exact": "-507803/800000",
+          "decimal": -0.63475375
+        },
+        "residual": {
+          "exact": "-507803/800000",
+          "decimal": -0.63475375
+        },
+        "compensator": {
+          "exact": "-507803/800000",
+          "decimal": -0.63475375
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "actual_forgiveness": {
+          "exact": "127413/160000",
+          "decimal": 0.79633125
+        },
+        "predictable_forgiveness": {
+          "exact": "127413/160000",
+          "decimal": 0.79633125
+        },
+        "actual_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        },
+        "predictable_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "1399537049887/640000000000",
+          "decimal": 2.1867766404484374
+        },
+        "residual": {
+          "exact": "54289767807/640000000000",
+          "decimal": 0.0848277621984375
+        },
+        "compensator": {
+          "exact": "1477246894299/16000000000000",
+          "decimal": 0.0923279308936875
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-962617/1000000",
+          "decimal": -0.962617
+        },
+        {
+          "exact": "-331393/1000000",
+          "decimal": -0.331393
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "barrier",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 3,
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 5,
+      "expected": {
+        "charged": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "residual": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "compensator": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-39701/50000",
+          "decimal": -0.79402
+        },
+        "actual_forgiveness": {
+          "exact": "127413/160000",
+          "decimal": 0.79633125
+        },
+        "predictable_forgiveness": {
+          "exact": "127413/160000",
+          "decimal": 0.79633125
+        },
+        "actual_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        },
+        "predictable_cost": {
+          "exact": "39701/50000",
+          "decimal": 0.79402
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "14568198827/5000000000",
+          "decimal": 2.9136397654
+        },
+        "residual": {
+          "exact": "388129401/2500000000",
+          "decimal": 0.1552517604
+        },
+        "compensator": {
+          "exact": "388129401/2500000000",
+          "decimal": 0.1552517604
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-29701/25000",
+          "decimal": -1.18804
+        },
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "3/2",
+        "decimal": 1.5
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 3,
+      "expected": {
+        "charged": {
+          "exact": "-221/800",
+          "decimal": -0.27625
+        },
+        "residual": {
+          "exact": "-221/800",
+          "decimal": -0.27625
+        },
+        "compensator": {
+          "exact": "-221/800",
+          "decimal": -0.27625
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "actual_forgiveness": {
+          "exact": "1287/4000",
+          "decimal": 0.32175
+        },
+        "predictable_forgiveness": {
+          "exact": "1287/4000",
+          "decimal": 0.32175
+        },
+        "actual_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        },
+        "predictable_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "13245523/16000000",
+          "decimal": 0.8278451875
+        },
+        "residual": {
+          "exact": "3557763/16000000",
+          "decimal": 0.2223601875
+        },
+        "compensator": {
+          "exact": "9801/640000",
+          "decimal": 0.0153140625
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "59/100",
+          "decimal": 0.59
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        {
+          "exact": "-61/400",
+          "decimal": -0.1525
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "3/2",
+        "decimal": 1.5
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 3,
+      "expected": {
+        "charged": {
+          "exact": "-1703/5000",
+          "decimal": -0.3406
+        },
+        "residual": {
+          "exact": "-1703/5000",
+          "decimal": -0.3406
+        },
+        "compensator": {
+          "exact": "-1703/5000",
+          "decimal": -0.3406
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "actual_forgiveness": {
+          "exact": "1287/4000",
+          "decimal": 0.32175
+        },
+        "predictable_forgiveness": {
+          "exact": "1287/4000",
+          "decimal": 0.32175
+        },
+        "actual_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        },
+        "predictable_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "24940897/25000000",
+          "decimal": 0.99763588
+        },
+        "residual": {
+          "exact": "3400947/25000000",
+          "decimal": 0.13603788
+        },
+        "compensator": {
+          "exact": "88209/25000000",
+          "decimal": 0.00352836
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "391/1250",
+          "decimal": 0.3128
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        },
+        {
+          "exact": "-703/2500",
+          "decimal": -0.2812
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "3/2",
+        "decimal": 1.5
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 3,
+      "expected": {
+        "charged": {
+          "exact": "-10673/20000",
+          "decimal": -0.53365
+        },
+        "residual": {
+          "exact": "-10673/20000",
+          "decimal": -0.53365
+        },
+        "compensator": {
+          "exact": "-10673/20000",
+          "decimal": -0.53365
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "actual_forgiveness": {
+          "exact": "1287/4000",
+          "decimal": 0.32175
+        },
+        "predictable_forgiveness": {
+          "exact": "1287/4000",
+          "decimal": 0.32175
+        },
+        "actual_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        },
+        "predictable_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "662432467/400000000",
+          "decimal": 1.6560811675
+        },
+        "residual": {
+          "exact": "10457667/400000000",
+          "decimal": 0.0261441675
+        },
+        "compensator": {
+          "exact": "7144929/400000000",
+          "decimal": 0.0178623225
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-6673/10000",
+          "decimal": -0.6673
+        },
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "3/2",
+        "decimal": 1.5
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 3,
+      "expected": {
+        "charged": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "residual": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "compensator": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-299/500",
+          "decimal": -0.598
+        },
+        "actual_forgiveness": {
+          "exact": "1287/4000",
+          "decimal": 0.32175
+        },
+        "predictable_forgiveness": {
+          "exact": "1287/4000",
+          "decimal": 0.32175
+        },
+        "actual_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        },
+        "predictable_cost": {
+          "exact": "299/500",
+          "decimal": 0.598
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "962627/500000",
+          "decimal": 1.925254
+        },
+        "residual": {
+          "exact": "9801/250000",
+          "decimal": 0.039204
+        },
+        "compensator": {
+          "exact": "9801/250000",
+          "decimal": 0.039204
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "-2/5",
+          "decimal": -0.4
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "constant_trade",
+      "initial_ledger": {
+        "exact": "-1/2",
+        "decimal": -0.5
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 4,
+      "expected": {
+        "charged": {
+          "exact": "677/4000",
+          "decimal": 0.16925
+        },
+        "residual": {
+          "exact": "677/4000",
+          "decimal": 0.16925
+        },
+        "compensator": {
+          "exact": "677/4000",
+          "decimal": 0.16925
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        "actual_forgiveness": {
+          "exact": "3861/4000",
+          "decimal": 0.96525
+        },
+        "predictable_forgiveness": {
+          "exact": "3861/4000",
+          "decimal": 0.96525
+        },
+        "actual_cost": {
+          "exact": "199/250",
+          "decimal": 0.796
+        },
+        "predictable_cost": {
+          "exact": "199/250",
+          "decimal": 0.796
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "1497787/16000000",
+          "decimal": 0.0936116875
+        },
+        "residual": {
+          "exact": "21826827/16000000",
+          "decimal": 1.3641766875
+        },
+        "compensator": {
+          "exact": "9801/640000",
+          "decimal": 0.0153140625
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "59/100",
+          "decimal": 0.59
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "91/2000",
+          "decimal": 0.0455
+        },
+        {
+          "exact": "293/1000",
+          "decimal": 0.293
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "constant_trade",
+      "initial_ledger": {
+        "exact": "-1/2",
+        "decimal": -0.5
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 4,
+      "expected": {
+        "charged": {
+          "exact": "-119/5000",
+          "decimal": -0.0238
+        },
+        "residual": {
+          "exact": "-119/5000",
+          "decimal": -0.0238
+        },
+        "compensator": {
+          "exact": "-119/5000",
+          "decimal": -0.0238
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        "actual_forgiveness": {
+          "exact": "3861/4000",
+          "decimal": 0.96525
+        },
+        "predictable_forgiveness": {
+          "exact": "3861/4000",
+          "decimal": 0.96525
+        },
+        "actual_cost": {
+          "exact": "199/250",
+          "decimal": 0.796
+        },
+        "predictable_cost": {
+          "exact": "199/250",
+          "decimal": 0.796
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "6316027/25000000",
+          "decimal": 0.25264108
+        },
+        "residual": {
+          "exact": "21826827/25000000",
+          "decimal": 0.87307308
+        },
+        "compensator": {
+          "exact": "9801/1000000",
+          "decimal": 0.009801
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "391/1250",
+          "decimal": 0.3128
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-307/2500",
+          "decimal": -0.1228
+        },
+        {
+          "exact": "47/625",
+          "decimal": 0.0752
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "constant_trade",
+      "initial_ledger": {
+        "exact": "-1/2",
+        "decimal": -0.5
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 4,
+      "expected": {
+        "charged": {
+          "exact": "-12059/20000",
+          "decimal": -0.60295
+        },
+        "residual": {
+          "exact": "-12059/20000",
+          "decimal": -0.60295
+        },
+        "compensator": {
+          "exact": "-12059/20000",
+          "decimal": -0.60295
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        "actual_forgiveness": {
+          "exact": "3861/4000",
+          "decimal": 0.96525
+        },
+        "predictable_forgiveness": {
+          "exact": "3861/4000",
+          "decimal": 0.96525
+        },
+        "actual_cost": {
+          "exact": "199/250",
+          "decimal": 0.796
+        },
+        "predictable_cost": {
+          "exact": "199/250",
+          "decimal": 0.796
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "553813627/400000000",
+          "decimal": 1.3845340675
+        },
+        "residual": {
+          "exact": "21826827/400000000",
+          "decimal": 0.0545670675
+        },
+        "compensator": {
+          "exact": "9801/16000000",
+          "decimal": 0.0006125625
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-6277/10000",
+          "decimal": -0.6277
+        },
+        {
+          "exact": "-2891/5000",
+          "decimal": -0.5782
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "constant_trade",
+      "initial_ledger": {
+        "exact": "-1/2",
+        "decimal": -0.5
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 4,
+      "expected": {
+        "charged": {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        "residual": {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        "compensator": {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        "actual_forgiveness": {
+          "exact": "3861/4000",
+          "decimal": 0.96525
+        },
+        "predictable_forgiveness": {
+          "exact": "3861/4000",
+          "decimal": 0.96525
+        },
+        "actual_cost": {
+          "exact": "199/250",
+          "decimal": 0.796
+        },
+        "predictable_cost": {
+          "exact": "199/250",
+          "decimal": 0.796
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "19801/10000",
+          "decimal": 1.9801
+        },
+        "residual": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "flat",
+      "initial_ledger": {
+        "exact": "-1/2",
+        "decimal": -0.5
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 1,
+      "expected": {
+        "charged": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "residual": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "actual_forgiveness": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "predictable_forgiveness": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "actual_cost": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "predictable_cost": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "residual": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "59/100",
+          "decimal": 0.59
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "flat",
+      "initial_ledger": {
+        "exact": "-1/2",
+        "decimal": -0.5
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 1,
+      "expected": {
+        "charged": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "residual": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "actual_forgiveness": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "predictable_forgiveness": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "actual_cost": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "predictable_cost": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "residual": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "391/1250",
+          "decimal": 0.3128
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "flat",
+      "initial_ledger": {
+        "exact": "-1/2",
+        "decimal": -0.5
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 1,
+      "expected": {
+        "charged": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "residual": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "actual_forgiveness": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "predictable_forgiveness": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "actual_cost": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "predictable_cost": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "residual": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "flat",
+      "initial_ledger": {
+        "exact": "-1/2",
+        "decimal": -0.5
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "gamma": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "enumerated_paths": 1,
+      "expected": {
+        "charged": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "residual": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "actual_forgiveness": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "predictable_forgiveness": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "actual_cost": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "predictable_cost": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "residual": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "compensator": {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-199/250",
+          "decimal": -0.796
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": true
+    }
+  ],
+  "fixed_policy_alpha_families": [
+    {
+      "accounting": "floor",
+      "policy": "constant_trade",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 1,
+      "expected_predictable_forgiveness": {
+        "exact": "7/20",
+        "decimal": 0.35
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "strict_harmful_alpha_upper": null,
+      "fixed_policy_affine_identity_checked": true
+    },
+    {
+      "accounting": "floor",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 2,
+      "expected_predictable_forgiveness": {
+        "exact": "1393/2000",
+        "decimal": 0.6965
+      },
+      "expected_predictable_cost": {
+        "exact": "299/500",
+        "decimal": 0.598
+      },
+      "strict_harmful_alpha_upper": {
+        "exact": "197/1393",
+        "decimal": 0.1414213926776741
+      },
+      "fixed_policy_affine_identity_checked": true
+    },
+    {
+      "accounting": "floor",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 3,
+      "expected_predictable_forgiveness": {
+        "exact": "347207/400000",
+        "decimal": 0.8680175
+      },
+      "expected_predictable_cost": {
+        "exact": "69601/100000",
+        "decimal": 0.69601
+      },
+      "strict_harmful_alpha_upper": {
+        "exact": "9829/49601",
+        "decimal": 0.1981613273925929
+      },
+      "fixed_policy_affine_identity_checked": true
+    },
+    {
+      "accounting": "floor",
+      "policy": "barrier",
+      "initial_ledger": {
+        "exact": "3/2",
+        "decimal": 1.5
+      },
+      "horizon": 3,
+      "expected_predictable_forgiveness": {
+        "exact": "463221/800000",
+        "decimal": 0.57902625
+      },
+      "expected_predictable_cost": {
+        "exact": "39701/50000",
+        "decimal": 0.79402
+      },
+      "strict_harmful_alpha_upper": null,
+      "fixed_policy_affine_identity_checked": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "barrier",
+      "initial_ledger": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "horizon": 3,
+      "expected_predictable_forgiveness": {
+        "exact": "127413/160000",
+        "decimal": 0.79633125
+      },
+      "expected_predictable_cost": {
+        "exact": "39701/50000",
+        "decimal": 0.79402
+      },
+      "strict_harmful_alpha_upper": {
+        "exact": "1849/637065",
+        "decimal": 0.002902372599342296
+      },
+      "fixed_policy_affine_identity_checked": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "prefix_gate",
+      "initial_ledger": {
+        "exact": "3/2",
+        "decimal": 1.5
+      },
+      "horizon": 2,
+      "expected_predictable_forgiveness": {
+        "exact": "1287/4000",
+        "decimal": 0.32175
+      },
+      "expected_predictable_cost": {
+        "exact": "299/500",
+        "decimal": 0.598
+      },
+      "strict_harmful_alpha_upper": null,
+      "fixed_policy_affine_identity_checked": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "constant_trade",
+      "initial_ledger": {
+        "exact": "-1/2",
+        "decimal": -0.5
+      },
+      "horizon": 2,
+      "expected_predictable_forgiveness": {
+        "exact": "3861/4000",
+        "decimal": 0.96525
+      },
+      "expected_predictable_cost": {
+        "exact": "199/250",
+        "decimal": 0.796
+      },
+      "strict_harmful_alpha_upper": {
+        "exact": "677/3861",
+        "decimal": 0.17534317534317534
+      },
+      "fixed_policy_affine_identity_checked": true
+    },
+    {
+      "accounting": "terminal",
+      "policy": "flat",
+      "initial_ledger": {
+        "exact": "-1/2",
+        "decimal": -0.5
+      },
+      "horizon": 2,
+      "expected_predictable_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "strict_harmful_alpha_upper": null,
+      "fixed_policy_affine_identity_checked": true
+    }
+  ],
+  "uniform_partial_charge_checks": [
+    {
+      "actions": [
+        "flat",
+        "trade"
+      ],
+      "rho": {
+        "exact": "7/4",
+        "decimal": 1.75
+      },
+      "alpha_star": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "pointwise_checks": 180,
+      "sharp_action": "trade",
+      "alpha_below_boundary": {
+        "exact": "293/700",
+        "decimal": 0.4185714285714286
+      },
+      "one_action_at_zero_reward_below_boundary": {
+        "exact": "7/1000",
+        "decimal": 0.007
+      },
+      "one_action_at_zero_reward_at_boundary": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "terminal_deadline_H3_reward_below_boundary": {
+        "exact": "68607/10000000",
+        "decimal": 0.0068607
+      },
+      "scope": "Uniform all-state/all-policy sufficient and sharp criterion for this action kernel; not minimal for one fixed positive start."
+    },
+    {
+      "actions": [
+        "flat",
+        "trade",
+        "small"
+      ],
+      "rho": {
+        "exact": "3",
+        "decimal": 3.0
+      },
+      "alpha_star": {
+        "exact": "2/3",
+        "decimal": 0.6666666666666666
+      },
+      "pointwise_checks": 270,
+      "sharp_action": "small",
+      "alpha_below_boundary": {
+        "exact": "197/300",
+        "decimal": 0.6566666666666666
+      },
+      "one_action_at_zero_reward_below_boundary": {
+        "exact": "3/1000",
+        "decimal": 0.003
+      },
+      "one_action_at_zero_reward_at_boundary": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "terminal_deadline_H3_reward_below_boundary": {
+        "exact": "29403/10000000",
+        "decimal": 0.0029403
+      },
+      "scope": "Uniform all-state/all-policy sufficient and sharp criterion for this action kernel; not minimal for one fixed positive start."
+    }
+  ],
+  "zero_cost_exception": {
+    "expected_cost": {
+      "exact": "0",
+      "decimal": 0.0
+    },
+    "h0": {
+      "exact": "1/2",
+      "decimal": 0.5
+    },
+    "implication": "rho infinite; every alpha<1 leaves a positive zero-equity one-action incentive, with booked mean zero rather than strict harm"
+  },
+  "counterexamples": {
+    "no_universal_variance_reduction": {
+      "accounting": "floor",
+      "policy": "random_fee_feedback",
+      "initial_ledger": {
+        "exact": "2",
+        "decimal": 2.0
+      },
+      "horizon": 2,
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "gamma": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "enumerated_paths": 2,
+      "expected": {
+        "charged": {
+          "exact": "-1",
+          "decimal": -1.0
+        },
+        "residual": {
+          "exact": "-1",
+          "decimal": -1.0
+        },
+        "compensator": {
+          "exact": "-1",
+          "decimal": -1.0
+        },
+        "gross": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "booked": {
+          "exact": "-1",
+          "decimal": -1.0
+        },
+        "actual_forgiveness": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "predictable_forgiveness": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "actual_cost": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "predictable_cost": {
+          "exact": "1",
+          "decimal": 1.0
+        }
+      },
+      "variance": {
+        "charged": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "residual": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "compensator": {
+          "exact": "1/4",
+          "decimal": 0.25
+        }
+      },
+      "safe_additive_compensator_range": [
+        {
+          "exact": "-2",
+          "decimal": -2.0
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "actual_compensator_range": [
+        {
+          "exact": "-3/2",
+          "decimal": -1.5
+        },
+        {
+          "exact": "-1/2",
+          "decimal": -0.5
+        }
+      ],
+      "range_caveat": "Sharp per-state/action bounds need not be jointly attainable by a full trajectory.",
+      "same_account_flat_terminal_claim_subtracted": false,
+      "paths": [
+        {
+          "probability": {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          "residual": {
+            "exact": "-1",
+            "decimal": -1.0
+          },
+          "compensator": {
+            "exact": "-3/2",
+            "decimal": -1.5
+          },
+          "realized_cost": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "predictable_cost": {
+            "exact": "3/2",
+            "decimal": 1.5
+          }
+        },
+        {
+          "probability": {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          "residual": {
+            "exact": "-1",
+            "decimal": -1.0
+          },
+          "compensator": {
+            "exact": "-1/2",
+            "decimal": -0.5
+          },
+          "realized_cost": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "predictable_cost": {
+            "exact": "1/2",
+            "decimal": 0.5
+          }
+        }
+      ]
+    },
+    "cash_dependent_kernel": {
+      "zero_state_law": "fair gross +/-1; cost .1",
+      "one_state_law": "fair gross +/-4; cost .1",
+      "actual_zero_state_h0": {
+        "exact": "11/20",
+        "decimal": 0.55
+      },
+      "delta_at_ledger_one": {
+        "exact": "31/20",
+        "decimal": 1.55
+      },
+      "counterfactual_zero_under_current_one_state_law": {
+        "exact": "41/20",
+        "decimal": 2.05
+      },
+      "actual_zero_state_bound_fails": true
+    },
+    "conditional_gross_edge": {
+      "ledger": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "deterministic_gross": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "delta": {
+        "exact": "-9/10",
+        "decimal": -0.9
+      },
+      "nonnegative_drift_bound_fails": true
+    }
+  },
+  "scope": [
+    "Exact conditional moments and known uniform first-moment bounds are required; unknown black-box curves do not inherit this guarantee.",
+    "Per-state/action ranges are sharp; summed whole-path ranges can be conservative due to reachability.",
+    "Uniform partial-charge result is kernel/action-set specific; it is not a universal constant across arbitrary markets.",
+    "Predictable compensation is established martingale-control theory; no general AI-method priority is claimed."
+  ],
+  "script_sha256": "f4589cc044948b57c302c78a9c2741f6c836bf8c493cf8f6eb16b6c55b44e74d"
+}

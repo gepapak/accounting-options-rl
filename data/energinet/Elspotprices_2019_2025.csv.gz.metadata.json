@@ -1,0 +1,24 @@
+{
+  "source": "https://api.energidataservice.dk/dataset/Elspotprices",
+  "dataset": "Elspotprices",
+  "retrieval_parameters": {
+    "start": "2019-10-31",
+    "end": "2025-10-01",
+    "areas": [
+      "DK1",
+      "DK2"
+    ]
+  },
+  "rows": 103774,
+  "start_utc": "2019-10-30 23:00:00",
+  "end_utc": "2025-09-30 21:00:00",
+  "fields": [
+    "HourUTC",
+    "HourDK",
+    "PriceArea",
+    "SpotPriceDKK",
+    "SpotPriceEUR"
+  ],
+  "sha256": "d4da856be2c0088ba0028f8b3c083d48c5af6e99b3da196d6305acc234388f79",
+  "license": "Energi Data Service CC BY 4.0"
+}

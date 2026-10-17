@@ -1,0 +1,21 @@
+{
+  "auxiliary_source_freeze_sha256": "59e5b0b26ece045739b5aec0a525cf72a95bcdb8f32937e1225430decc0832b7",
+  "complete": true,
+  "created_utc": "2026-10-16T12:19:47.775703+00:00",
+  "delta_per_limit": 0.00020833333333333335,
+  "family_limits": 240,
+  "file_sha256": {
+    "EXPORT_ARITHMETIC_CHECK.json": "535f790be1078fad268a509cfbdf5488be68307994242ccb3636728ddb7e18e2",
+    "README.md": "85385f1ae5eb7314697c45d5f980159b1e92eddd0c4da5a07481aa33bb09ed73",
+    "cases_and_bounds.json": "68662394f1894072ecd86146c5aba86e55d5afe55ce10b8a91ac7d2efc9d27c6",
+    "paths.jsonl.gz": "b14212c00360be34acb965fac37f7fc17ccf076191f33713b653e23cdeab343d",
+    "provenance.json": "ea485dc9c4d7accd6309a8c416c542a80953fb4151a4b8f12b3ffbfec8f69b8f",
+    "reproduce_public_new_contract.py": "0e273be73cf100479342f0c9220b90eb1056dfefaac233debb0946427d2ef974",
+    "results.json": "1b00ea1759b1204d23eaf1237832c97098c804ba5b60f95307f751a5c9c75d83",
+    "selection.json": "bc3a74d82cc84649c93272b8a16f810f8c305a523023f84f107c143a01e42024"
+  },
+  "paths": 10240,
+  "run_id": "run_001",
+  "schema": "sample_only_new_contract_public_v1",
+  "total_delta": 0.05
+}

@@ -1,0 +1,5290 @@
+{
+  "status": "exploratory exact harm-corollary verification",
+  "cases": 120,
+  "all_checks_passed": true,
+  "no_monte_carlo": true,
+  "law": "Independent fair gross +/-1, cost2/5; flat action available",
+  "rho": {
+    "exact": "7/4",
+    "decimal": 1.75
+  },
+  "alpha_star": {
+    "exact": "3/7",
+    "decimal": 0.42857142857142855
+  },
+  "optional_policy_example": {
+    "account": "floor",
+    "initial": {
+      "exact": "0",
+      "decimal": 0.0
+    },
+    "trade_time": 0,
+    "trade_probability": {
+      "exact": "1/4",
+      "decimal": 0.25
+    },
+    "alpha": {
+      "exact": "0",
+      "decimal": 0.0
+    },
+    "kappa": {
+      "exact": "3/4",
+      "decimal": 0.75
+    },
+    "charged": {
+      "exact": "3/40",
+      "decimal": 0.075
+    },
+    "booked": {
+      "exact": "-1/10",
+      "decimal": -0.1
+    },
+    "expected_predictable_cost": {
+      "exact": "1/10",
+      "decimal": 0.1
+    },
+    "expected_forgiveness": {
+      "exact": "7/40",
+      "decimal": 0.175
+    },
+    "uniform_upper": {
+      "exact": "3/40",
+      "decimal": 0.075
+    },
+    "can_remain_flat": true,
+    "mandatory_trade": false,
+    "exact_lower_bound": {
+      "exact": "3/80",
+      "decimal": 0.0375
+    },
+    "booked_harm_upper_from_charge_only": {
+      "exact": "-1/20",
+      "decimal": -0.05
+    }
+  },
+  "optional_fixed_policy_cases": [
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "3/40",
+        "decimal": 0.075
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "7/40",
+        "decimal": 0.175
+      },
+      "uniform_upper": {
+        "exact": "3/40",
+        "decimal": 0.075
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false,
+      "exact_lower_bound": {
+        "exact": "3/80",
+        "decimal": 0.0375
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-1/20",
+        "decimal": -0.05
+      }
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "1/25",
+        "decimal": 0.04
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "7/40",
+        "decimal": 0.175
+      },
+      "uniform_upper": {
+        "exact": "1/25",
+        "decimal": 0.04
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false,
+      "exact_lower_bound": {
+        "exact": "1/50",
+        "decimal": 0.02
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-1/20",
+        "decimal": -0.05
+      }
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "7/40",
+        "decimal": 0.175
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-13/200",
+        "decimal": -0.065
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "7/40",
+        "decimal": 0.175
+      },
+      "uniform_upper": {
+        "exact": "-13/200",
+        "decimal": -0.065
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "7/40",
+        "decimal": 0.175
+      },
+      "uniform_upper": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "uniform_upper": {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true,
+      "exact_lower_bound": {
+        "exact": "3/20",
+        "decimal": 0.15
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-1/5",
+        "decimal": -0.2
+      }
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "4/25",
+        "decimal": 0.16
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "uniform_upper": {
+        "exact": "4/25",
+        "decimal": 0.16
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true,
+      "exact_lower_bound": {
+        "exact": "2/25",
+        "decimal": 0.08
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-1/5",
+        "decimal": -0.2
+      }
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-13/50",
+        "decimal": -0.26
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "uniform_upper": {
+        "exact": "-13/50",
+        "decimal": -0.26
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "uniform_upper": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "297/4000",
+        "decimal": 0.07425
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "297/4000",
+        "decimal": 0.07425
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false,
+      "exact_lower_bound": {
+        "exact": "297/8000",
+        "decimal": 0.037125
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-99/2000",
+        "decimal": -0.0495
+      }
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "99/2500",
+        "decimal": 0.0396
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "99/2500",
+        "decimal": 0.0396
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false,
+      "exact_lower_bound": {
+        "exact": "99/5000",
+        "decimal": 0.0198
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-99/2000",
+        "decimal": -0.0495
+      }
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-1287/20000",
+        "decimal": -0.06435
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "-1287/20000",
+        "decimal": -0.06435
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "297/1000",
+        "decimal": 0.297
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "297/1000",
+        "decimal": 0.297
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true,
+      "exact_lower_bound": {
+        "exact": "297/2000",
+        "decimal": 0.1485
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-99/500",
+        "decimal": -0.198
+      }
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "99/625",
+        "decimal": 0.1584
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "99/625",
+        "decimal": 0.1584
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true,
+      "exact_lower_bound": {
+        "exact": "99/1250",
+        "decimal": 0.0792
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-99/500",
+        "decimal": -0.198
+      }
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-1287/5000",
+        "decimal": -0.2574
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "-1287/5000",
+        "decimal": -0.2574
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "-1/80",
+        "decimal": -0.0125
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "7/80",
+        "decimal": 0.0875
+      },
+      "uniform_upper": {
+        "exact": "3/40",
+        "decimal": 0.075
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "-3/100",
+        "decimal": -0.03
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "7/80",
+        "decimal": 0.0875
+      },
+      "uniform_upper": {
+        "exact": "1/25",
+        "decimal": 0.04
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "-1/20",
+        "decimal": -0.05
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "7/80",
+        "decimal": 0.0875
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-33/400",
+        "decimal": -0.0825
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "7/80",
+        "decimal": 0.0875
+      },
+      "uniform_upper": {
+        "exact": "-13/200",
+        "decimal": -0.065
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "7/80",
+        "decimal": 0.0875
+      },
+      "uniform_upper": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "-1/20",
+        "decimal": -0.05
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "7/20",
+        "decimal": 0.35
+      },
+      "uniform_upper": {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "-3/25",
+        "decimal": -0.12
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "7/20",
+        "decimal": 0.35
+      },
+      "uniform_upper": {
+        "exact": "4/25",
+        "decimal": 0.16
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "-1/5",
+        "decimal": -0.2
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "7/20",
+        "decimal": 0.35
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-33/100",
+        "decimal": -0.33
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "7/20",
+        "decimal": 0.35
+      },
+      "uniform_upper": {
+        "exact": "-13/50",
+        "decimal": -0.26
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "7/20",
+        "decimal": 0.35
+      },
+      "uniform_upper": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "-99/8000",
+        "decimal": -0.012375
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "297/4000",
+        "decimal": 0.07425
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "-297/10000",
+        "decimal": -0.0297
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "99/2500",
+        "decimal": 0.0396
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "-99/2000",
+        "decimal": -0.0495
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-3267/40000",
+        "decimal": -0.081675
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "-1287/20000",
+        "decimal": -0.06435
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "-99/2000",
+        "decimal": -0.0495
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "297/1000",
+        "decimal": 0.297
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "-297/2500",
+        "decimal": -0.1188
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "99/625",
+        "decimal": 0.1584
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "-99/500",
+        "decimal": -0.198
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-3267/10000",
+        "decimal": -0.3267
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "-1287/5000",
+        "decimal": -0.2574
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "floor",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "293/4000",
+        "decimal": 0.07325
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "3/40",
+        "decimal": 0.075
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false,
+      "exact_lower_bound": {
+        "exact": "293/8000",
+        "decimal": 0.036625
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-293/6000",
+        "decimal": -0.04883333333333333
+      }
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "193/5000",
+        "decimal": 0.0386
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "1/25",
+        "decimal": 0.04
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false,
+      "exact_lower_bound": {
+        "exact": "193/10000",
+        "decimal": 0.0193
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-193/4000",
+        "decimal": -0.04825
+      }
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "-1/1000",
+        "decimal": -0.001
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-1307/20000",
+        "decimal": -0.06535
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "-13/200",
+        "decimal": -0.065
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "293/1000",
+        "decimal": 0.293
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true,
+      "exact_lower_bound": {
+        "exact": "293/2000",
+        "decimal": 0.1465
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-293/1500",
+        "decimal": -0.19533333333333333
+      }
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "193/1250",
+        "decimal": 0.1544
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "4/25",
+        "decimal": 0.16
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true,
+      "exact_lower_bound": {
+        "exact": "193/2500",
+        "decimal": 0.0772
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-193/1000",
+        "decimal": -0.193
+      }
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "-1/250",
+        "decimal": -0.004
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-1307/5000",
+        "decimal": -0.2614
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "-13/50",
+        "decimal": -0.26
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "297/4000",
+        "decimal": 0.07425
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "297/4000",
+        "decimal": 0.07425
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false,
+      "exact_lower_bound": {
+        "exact": "297/8000",
+        "decimal": 0.037125
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-99/2000",
+        "decimal": -0.0495
+      }
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "99/2500",
+        "decimal": 0.0396
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "99/2500",
+        "decimal": 0.0396
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false,
+      "exact_lower_bound": {
+        "exact": "99/5000",
+        "decimal": 0.0198
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-99/2000",
+        "decimal": -0.0495
+      }
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-1287/20000",
+        "decimal": -0.06435
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "-1287/20000",
+        "decimal": -0.06435
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/4000",
+        "decimal": 0.17325
+      },
+      "uniform_upper": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "297/1000",
+        "decimal": 0.297
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "297/1000",
+        "decimal": 0.297
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true,
+      "exact_lower_bound": {
+        "exact": "297/2000",
+        "decimal": 0.1485
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-99/500",
+        "decimal": -0.198
+      }
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "99/625",
+        "decimal": 0.1584
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "99/625",
+        "decimal": 0.1584
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true,
+      "exact_lower_bound": {
+        "exact": "99/1250",
+        "decimal": 0.0792
+      },
+      "booked_harm_upper_from_charge_only": {
+        "exact": "-99/500",
+        "decimal": -0.198
+      }
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-1287/5000",
+        "decimal": -0.2574
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "-1287/5000",
+        "decimal": -0.2574
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/1000",
+        "decimal": 0.693
+      },
+      "uniform_upper": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "-107/8000",
+        "decimal": -0.013375
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "3/40",
+        "decimal": 0.075
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "-307/10000",
+        "decimal": -0.0307
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "1/25",
+        "decimal": 0.04
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "-101/2000",
+        "decimal": -0.0505
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-3307/40000",
+        "decimal": -0.082675
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "-13/200",
+        "decimal": -0.065
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "booked": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "expected_predictable_cost": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "-107/2000",
+        "decimal": -0.0535
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "-307/2500",
+        "decimal": -0.1228
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "4/25",
+        "decimal": 0.16
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "-101/500",
+        "decimal": -0.202
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-3307/10000",
+        "decimal": -0.3307
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "-13/50",
+        "decimal": -0.26
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 0,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "booked": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "expected_predictable_cost": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "booked": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_predictable_cost": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_forgiveness": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "-99/8000",
+        "decimal": -0.012375
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "297/4000",
+        "decimal": 0.07425
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "-297/10000",
+        "decimal": -0.0297
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "99/2500",
+        "decimal": 0.0396
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "-99/2000",
+        "decimal": -0.0495
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-3267/40000",
+        "decimal": -0.081675
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "-1287/20000",
+        "decimal": -0.06435
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1/4",
+        "decimal": 0.25
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "booked": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "expected_predictable_cost": {
+        "exact": "99/1000",
+        "decimal": 0.099
+      },
+      "expected_forgiveness": {
+        "exact": "693/8000",
+        "decimal": 0.086625
+      },
+      "uniform_upper": {
+        "exact": "-99/1000",
+        "decimal": -0.099
+      },
+      "can_remain_flat": true,
+      "mandatory_trade": false
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "kappa": {
+        "exact": "3/4",
+        "decimal": 0.75
+      },
+      "charged": {
+        "exact": "-99/2000",
+        "decimal": -0.0495
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "297/1000",
+        "decimal": 0.297
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "kappa": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "charged": {
+        "exact": "-297/2500",
+        "decimal": -0.1188
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "99/625",
+        "decimal": 0.1584
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "3/7",
+        "decimal": 0.42857142857142855
+      },
+      "kappa": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged": {
+        "exact": "-99/500",
+        "decimal": -0.198
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "kappa": {
+        "exact": "-13/20",
+        "decimal": -0.65
+      },
+      "charged": {
+        "exact": "-3267/10000",
+        "decimal": -0.3267
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "-1287/5000",
+        "decimal": -0.2574
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    },
+    {
+      "account": "terminal",
+      "initial": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "trade_time": 1,
+      "trade_probability": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "alpha": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "kappa": {
+        "exact": "-1",
+        "decimal": -1.0
+      },
+      "charged": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "booked": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "expected_predictable_cost": {
+        "exact": "99/250",
+        "decimal": 0.396
+      },
+      "expected_forgiveness": {
+        "exact": "693/2000",
+        "decimal": 0.3465
+      },
+      "uniform_upper": {
+        "exact": "-99/250",
+        "decimal": -0.396
+      },
+      "can_remain_flat": false,
+      "mandatory_trade": true
+    }
+  ],
+  "zero_cost_counterexample": {
+    "alpha": {
+      "exact": "4/5",
+      "decimal": 0.8
+    },
+    "trade_probability": {
+      "exact": "1/4",
+      "decimal": 0.25
+    },
+    "charged": {
+      "exact": "1/40",
+      "decimal": 0.025
+    },
+    "booked": {
+      "exact": "0",
+      "decimal": 0.0
+    },
+    "rho": "infinity",
+    "explanation": "Positive charged value with zero booked harm; finite-rho premise cannot be dropped"
+  },
+  "conditional_envelope_is_only_sufficient": {
+    "true_threshold": {
+      "exact": "3/7",
+      "decimal": 0.42857142857142855
+    },
+    "loose_envelope_rho": {
+      "exact": "7/2",
+      "decimal": 3.5
+    },
+    "loose_envelope_threshold": {
+      "exact": "5/7",
+      "decimal": 0.7142857142857143
+    },
+    "charge_with_actual_uniform_repair_but_envelope_condition_fails": {
+      "exact": "1/2",
+      "decimal": 0.5
+    }
+  },
+  "zero_admissibility_scope": {
+    "rule": "Trade allowed only at ledger>=2; otherwise flat",
+    "maximum_unit_net_loss": {
+      "exact": "7/5",
+      "decimal": 1.4
+    },
+    "smallest_post_trade_ledger": {
+      "exact": "3/5",
+      "decimal": 0.6
+    },
+    "implication": "From solvent starts this restriction never reaches the floor/debt, so all-policy repair holds even below the unconstrained zero-state threshold"
+  },
+  "scope": "The ratio and probability arguments are classical. The corollary specializes their economic-harm implication under the declared accounting kernels.",
+  "inputs_read": [],
+  "learners_trained": 0,
+  "dp_solved": false,
+  "script_sha256": "675d3019b15e92f7bac6e8525a45a6b580253c4ec5c61da6a09b465f6423a9a9"
+}

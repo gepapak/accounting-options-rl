@@ -147,7 +147,7 @@ def tab_false_profit() -> str:
     ne = C[C.market == "NE"]
     f = lambda x: f"${x:+.0f}$"  # noqa: E731
     lines = [r"\begin{table}[!htbp]", r"\centering",
-             r"\caption{No-edge market: seed-mean return over the test period (mean of 20 independent sign draws; 5 seeds per cell), reported and booked (ledger), with two-way bootstrap 95\% intervals for the reported return (seeds and the 20 shared market draws resampled jointly). Every policy has an expected return of at most zero in this market.}",
+             r"\caption{No-edge market: seed-mean return over the test period (mean of 20 independent sign draws; 5 seeds per cell), reported and booked (ledger), with two-way bootstrap 95\% intervals for the reported return (seeds and the 20 shared market draws resampled jointly). Every policy has an expected booked return of at most zero in this market.}",
              r"\label{tab:falseprofit}", r"\footnotesize", r"\setlength{\tabcolsep}{4pt}",
              r"\begin{tabular}{@{}llrrrrr@{}}", r"\toprule",
              r" & & \multicolumn{1}{c}{Full liability} & \multicolumn{2}{c}{Capped loss} & \multicolumn{2}{c}{Zero floor} \\",

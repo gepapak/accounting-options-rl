@@ -1,0 +1,477 @@
+{
+  "threshold_pct": 0.08966882375371477,
+  "calibration_largest_unlearned_pct": 0.007323513245505552,
+  "calibration_smallest_learned_pct": 1.0979017424880366,
+  "calibration": [
+    {
+      "zone": "DK1",
+      "condition": "gamma 0.99",
+      "learned": true,
+      "index_pct": 1.2719845364390974,
+      "gap_at_2pct_eur": 55.56671747478549,
+      "mean_cost_eur": 0.3335531825795645,
+      "sigma16_eur": 847.989505303779,
+      "gaps_eur": [
+        55.56671747478549,
+        21.488868266420774,
+        9.686997153319789,
+        2.9624815455825217,
+        0.11167793756014127,
+        -0.20757221390641145,
+        -0.3335531825795645
+      ],
+      "empirical_train_rows": 28059
+    },
+    {
+      "zone": "DK1",
+      "condition": "gamma 0.95",
+      "learned": true,
+      "index_pct": 1.2719845364390974,
+      "gap_at_2pct_eur": 55.56671747478549,
+      "mean_cost_eur": 0.3335531825795645,
+      "sigma16_eur": 847.989505303779,
+      "gaps_eur": [
+        55.56671747478549,
+        21.488868266420774,
+        9.686997153319789,
+        2.9624815455825217,
+        0.11167793756014127,
+        -0.20757221390641145,
+        -0.3335531825795645
+      ],
+      "empirical_train_rows": 28059
+    },
+    {
+      "zone": "DK1",
+      "condition": "gamma 0.995",
+      "learned": true,
+      "index_pct": 1.2719845364390974,
+      "gap_at_2pct_eur": 55.56671747478549,
+      "mean_cost_eur": 0.3335531825795645,
+      "sigma16_eur": 847.989505303779,
+      "gaps_eur": [
+        55.56671747478549,
+        21.488868266420774,
+        9.686997153319789,
+        2.9624815455825217,
+        0.11167793756014127,
+        -0.20757221390641145,
+        -0.3335531825795645
+      ],
+      "empirical_train_rows": 28059
+    },
+    {
+      "zone": "DK1",
+      "condition": "Study H costs",
+      "learned": false,
+      "index_pct": 0.0,
+      "gap_at_2pct_eur": -50.34539947882501,
+      "mean_cost_eur": 104.73179481477496,
+      "sigma16_eur": 763.1078572447021,
+      "gaps_eur": [
+        -50.34539947882501,
+        -87.01010617208425,
+        -96.80834487716504,
+        -101.58595883389762,
+        -104.2835676207859,
+        -104.6049842901637,
+        -104.73179481477496
+      ],
+      "empirical_train_rows": 28059
+    },
+    {
+      "zone": "DK2",
+      "condition": "gamma 0.99",
+      "learned": true,
+      "index_pct": 1.2161034730009563,
+      "gap_at_2pct_eur": 62.46619973760636,
+      "mean_cost_eur": 0.28809272425959587,
+      "sigma16_eur": 818.5158702803249,
+      "gaps_eur": [
+        62.46619973760636,
+        18.540572576980622,
+        8.186420388734453,
+        3.23136694108842,
+        -0.28809272425959587,
+        -0.28809272425959587,
+        -0.28809272425959587
+      ],
+      "empirical_train_rows": 28059
+    },
+    {
+      "zone": "DK2",
+      "condition": "gamma 0.95",
+      "learned": true,
+      "index_pct": 1.2161034730009563,
+      "gap_at_2pct_eur": 62.46619973760636,
+      "mean_cost_eur": 0.28809272425959587,
+      "sigma16_eur": 818.5158702803249,
+      "gaps_eur": [
+        62.46619973760636,
+        18.540572576980622,
+        8.186420388734453,
+        3.23136694108842,
+        -0.28809272425959587,
+        -0.28809272425959587,
+        -0.28809272425959587
+      ],
+      "empirical_train_rows": 28059
+    },
+    {
+      "zone": "DK2",
+      "condition": "gamma 0.995",
+      "learned": true,
+      "index_pct": 1.2161034730009563,
+      "gap_at_2pct_eur": 62.46619973760636,
+      "mean_cost_eur": 0.28809272425959587,
+      "sigma16_eur": 818.5158702803249,
+      "gaps_eur": [
+        62.46619973760636,
+        18.540572576980622,
+        8.186420388734453,
+        3.23136694108842,
+        -0.28809272425959587,
+        -0.28809272425959587,
+        -0.28809272425959587
+      ],
+      "empirical_train_rows": 28059
+    },
+    {
+      "zone": "DK2",
+      "condition": "Study H costs",
+      "learned": false,
+      "index_pct": 0.0,
+      "gap_at_2pct_eur": -36.00874253518566,
+      "mean_cost_eur": 87.38085106555455,
+      "sigma16_eur": 691.7541736403407,
+      "gaps_eur": [
+        -36.00874253518566,
+        -73.10178930779628,
+        -80.36365508667953,
+        -84.60335169100023,
+        -87.38085106555455,
+        -87.38085106555455,
+        -87.38085106555455
+      ],
+      "empirical_train_rows": 28059
+    },
+    {
+      "zone": "FI",
+      "condition": "gamma 0.99",
+      "learned": true,
+      "index_pct": 1.0979017424880366,
+      "gap_at_2pct_eur": 45.77190627375282,
+      "mean_cost_eur": 0.36492488923674826,
+      "sigma16_eur": 963.000995140442,
+      "gaps_eur": [
+        45.77190627375282,
+        16.90025528832049,
+        10.98155473914518,
+        6.815919590441786,
+        2.40486218274331,
+        1.0199644920602087,
+        -0.3647794749792265
+      ],
+      "empirical_train_rows": 28883
+    },
+    {
+      "zone": "NO2",
+      "condition": "gamma 0.99",
+      "learned": false,
+      "index_pct": 0.007323513245505552,
+      "gap_at_2pct_eur": 0.6080760634100927,
+      "mean_cost_eur": 0.3337490860047433,
+      "sigma16_eur": 97.96869787460473,
+      "gaps_eur": [
+        0.6080760634100927,
+        -0.18069123853642288,
+        -0.3337490860047433,
+        -0.3337490860047433,
+        -0.3337490860047433,
+        -0.3337490860047433,
+        -0.3337490860047433
+      ],
+      "empirical_train_rows": 28883
+    }
+  ],
+  "predictions": [
+    {
+      "fee": 0.4,
+      "alpha": 0,
+      "zone": "DK1",
+      "index_pct": 1.1798499023199793,
+      "gap_at_2pct_eur": 54.65309330339585,
+      "mean_cost_eur": 1.334212730318258,
+      "sigma16_eur": 847.9896487347131,
+      "gaps_eur": [
+        54.65309330339585,
+        20.497309408300367,
+        8.688855514273493,
+        1.9625750984532575,
+        -0.8889174596386189,
+        -1.2082103781317939,
+        -1.334212730318258
+      ],
+      "empirical_train_rows": 28059,
+      "predicts_learned": true,
+      "confident_high": true,
+      "confident_low": false
+    },
+    {
+      "fee": 0.4,
+      "alpha": 0,
+      "zone": "DK2",
+      "index_pct": 1.1354620912546196,
+      "gap_at_2pct_eur": 61.715719989575376,
+      "mean_cost_eur": 1.1523708970383835,
+      "sigma16_eur": 818.5160778754155,
+      "gaps_eur": [
+        61.715719989575376,
+        17.686594976210888,
+        7.323833518211628,
+        2.368012268790761,
+        -1.1523708970383835,
+        -1.1523708970383835,
+        -1.1523708970383835
+      ],
+      "empirical_train_rows": 28059,
+      "predicts_learned": true,
+      "confident_high": true,
+      "confident_low": false
+    },
+    {
+      "fee": 0.4,
+      "alpha": 0.8,
+      "zone": "DK1",
+      "index_pct": 0.1581972080289945,
+      "gap_at_2pct_eur": 9.86324847642456,
+      "mean_cost_eur": 1.334212730318258,
+      "sigma16_eur": 847.9896487347131,
+      "gaps_eur": [
+        9.86324847642456,
+        3.0320916974054652,
+        0.6704009186000917,
+        -0.6748551645639551,
+        -1.2451536761823303,
+        -1.3090122598809653,
+        -1.334212730318258
+      ],
+      "empirical_train_rows": 28059,
+      "predicts_learned": true,
+      "confident_high": true,
+      "confident_low": false
+    },
+    {
+      "fee": 0.4,
+      "alpha": 0.8,
+      "zone": "DK2",
+      "index_pct": 0.15549785744002706,
+      "gap_at_2pct_eur": 11.421247280284366,
+      "mean_cost_eur": 1.1523708970383835,
+      "sigma16_eur": 818.5160778754155,
+      "gaps_eur": [
+        11.421247280284366,
+        2.61542227761147,
+        0.5428699860116184,
+        -0.4482942638725548,
+        -1.1523708970383835,
+        -1.1523708970383835,
+        -1.1523708970383835
+      ],
+      "empirical_train_rows": 28059,
+      "predicts_learned": true,
+      "confident_high": true,
+      "confident_low": false
+    },
+    {
+      "fee": 0.4,
+      "alpha": 1,
+      "zone": "DK1",
+      "index_pct": 0.0,
+      "gap_at_2pct_eur": -1.334212730318258,
+      "mean_cost_eur": 1.334212730318258,
+      "sigma16_eur": 847.9896487347131,
+      "gaps_eur": [
+        -1.334212730318258,
+        -1.334212730318258,
+        -1.334212730318258,
+        -1.334212730318258,
+        -1.334212730318258,
+        -1.334212730318258,
+        -1.334212730318258
+      ],
+      "empirical_train_rows": 28059,
+      "predicts_learned": false,
+      "confident_high": false,
+      "confident_low": true
+    },
+    {
+      "fee": 0.4,
+      "alpha": 1,
+      "zone": "DK2",
+      "index_pct": 0.0,
+      "gap_at_2pct_eur": -1.1523708970383835,
+      "mean_cost_eur": 1.1523708970383835,
+      "sigma16_eur": 818.5160778754155,
+      "gaps_eur": [
+        -1.1523708970383835,
+        -1.1523708970383835,
+        -1.1523708970383835,
+        -1.1523708970383835,
+        -1.1523708970383835,
+        -1.1523708970383835,
+        -1.1523708970383835
+      ],
+      "empirical_train_rows": 28059,
+      "predicts_learned": false,
+      "confident_high": false,
+      "confident_low": true
+    },
+    {
+      "fee": 1.5,
+      "alpha": 0,
+      "zone": "DK1",
+      "index_pct": 0.9026446600088293,
+      "gap_at_2pct_eur": 51.30794142476552,
+      "mean_cost_eur": 5.003297738693467,
+      "sigma16_eur": 847.9916472032027,
+      "gaps_eur": [
+        51.30794142476552,
+        16.861755397109654,
+        5.029002837770417,
+        -1.7037485410207052,
+        -4.557767249367404,
+        -4.877216980291529,
+        -5.003297738693467
+      ],
+      "empirical_train_rows": 28059,
+      "predicts_learned": true,
+      "confident_high": true,
+      "confident_low": false
+    },
+    {
+      "fee": 1.5,
+      "alpha": 0,
+      "zone": "DK2",
+      "index_pct": 0.8807161744155901,
+      "gap_at_2pct_eur": 58.969750057913195,
+      "mean_cost_eur": 4.321390863893938,
+      "sigma16_eur": 818.518970361535,
+      "gaps_eur": [
+        58.969750057913195,
+        14.555469223332945,
+        4.1610149929612605,
+        -0.7976215296339864,
+        -4.321390863893938,
+        -4.321390863893938,
+        -4.321390863893938
+      ],
+      "empirical_train_rows": 28059,
+      "predicts_learned": true,
+      "confident_high": true,
+      "confident_low": false
+    },
+    {
+      "fee": 1.5,
+      "alpha": 0.8,
+      "zone": "DK1",
+      "index_pct": 0.020683398214744395,
+      "gap_at_2pct_eur": 6.258950093998328,
+      "mean_cost_eur": 5.003297738693467,
+      "sigma16_eur": 847.9916472032027,
+      "gaps_eur": [
+        6.258950093998328,
+        -0.6302871115328443,
+        -2.996837623400691,
+        -4.343387899158915,
+        -4.914191640828254,
+        -4.9780815870130795,
+        -5.003297738693467
+      ],
+      "empirical_train_rows": 28059,
+      "predicts_learned": false,
+      "confident_high": false,
+      "confident_low": true
+    },
+    {
+      "fee": 1.5,
+      "alpha": 0.8,
+      "zone": "DK2",
+      "index_pct": 0.03269291845037576,
+      "gap_at_2pct_eur": 8.336837320467485,
+      "mean_cost_eur": 4.321390863893938,
+      "sigma16_eur": 818.518970361535,
+      "gaps_eur": [
+        8.336837320467485,
+        -0.5460188464485616,
+        -2.6249096925228983,
+        -3.6166369970419474,
+        -4.321390863893938,
+        -4.321390863893938,
+        -4.321390863893938
+      ],
+      "empirical_train_rows": 28059,
+      "predicts_learned": false,
+      "confident_high": false,
+      "confident_low": true
+    },
+    {
+      "fee": 1.5,
+      "alpha": 1,
+      "zone": "DK1",
+      "index_pct": 0.0,
+      "gap_at_2pct_eur": -5.003297738693467,
+      "mean_cost_eur": 5.003297738693467,
+      "sigma16_eur": 847.9916472032027,
+      "gaps_eur": [
+        -5.003297738693467,
+        -5.003297738693467,
+        -5.003297738693467,
+        -5.003297738693467,
+        -5.003297738693467,
+        -5.003297738693467,
+        -5.003297738693467
+      ],
+      "empirical_train_rows": 28059,
+      "predicts_learned": false,
+      "confident_high": false,
+      "confident_low": true
+    },
+    {
+      "fee": 1.5,
+      "alpha": 1,
+      "zone": "DK2",
+      "index_pct": 0.0,
+      "gap_at_2pct_eur": -4.321390863893938,
+      "mean_cost_eur": 4.321390863893938,
+      "sigma16_eur": 818.518970361535,
+      "gaps_eur": [
+        -4.321390863893938,
+        -4.321390863893938,
+        -4.321390863893938,
+        -4.321390863893938,
+        -4.321390863893938,
+        -4.321390863893938,
+        -4.321390863893938
+      ],
+      "empirical_train_rows": 28059,
+      "predicts_learned": false,
+      "confident_high": false,
+      "confident_low": true
+    }
+  ],
+  "input_sha256": {
+    "ACCOUNTING_OPTIONS_2026-10-14/study_o/calibration_o.json": "097d964fd92dc8d3b8e7a5432f28305296e80b9c1c0099f1e2393edcfaca7f6e",
+    "GENERALIZATION_STUDY_2026-09-29/data_panel/panel_DK1.pkl": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3",
+    "GENERALIZATION_STUDY_2026-09-29/data_panel/panel_DK2.pkl": "28fcb73457b67df176ba2a3bf1d651129ac08f1989fbb65656e2cb9c4e24059a",
+    "LIABILITY_STUDY_2026-09-29/data_panel_j/panel_FI.pkl": "b8af3388aabcdbff58f718793d2ae5a5d81f96581734682effc53d970642ee13",
+    "LIABILITY_STUDY_2026-09-29/data_panel_j/panel_NO2.pkl": "9df2ee4c2698d133205126dd2848e69ee7c9f591fc12abbf94041c429b3036e5"
+  },
+  "limitations": [
+    "Exact conditional on empirical TRAIN rows, not future-market certainty.",
+    "Myopic contrast, not Q-star or a generic algorithmic complexity result.",
+    "Geometric midpoint is a chosen heuristic in a wide separating interval.",
+    "FI calibration panel is disclosed REVISED; exclusion sensitivity is exploratory.",
+    "R condition design uses prior predictor calculations, never R learner outcomes."
+  ]
+}

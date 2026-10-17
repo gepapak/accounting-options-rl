@@ -1,0 +1,11 @@
+{
+  "pid": 22496,
+  "started_utc": "2026-10-15T14:45:50.1685591Z",
+  "workers": 6,
+  "planned_jobs": 60,
+  "requested_steps_per_job": 1000000,
+  "registration_sha256": "e97684fcbc72a3c3373de13eaa94ebdec9b75293dbd1d966cdd9980832bce007",
+  "stdout": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\ACCOUNTING_OPTIONS_2026-10-14\\study_r\\run_attempt2_r.log",
+  "stderr": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\ACCOUNTING_OPTIONS_2026-10-14\\study_r\\run_attempt2_r.err",
+  "initial_runtime_estimate": "Several hours; refine after the first complete jobs."
+}

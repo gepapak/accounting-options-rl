@@ -1,0 +1,16 @@
+{
+  "frozen_utc": "2026-10-10T09:13:00.875585+00:00",
+  "files": {
+    "C:\\Users\\gepap\\Documents\\Codex\\2026-10-10\\tev\\work\\run_continuation.py": "b56732f23c7eff3bca36c4aee573c93af263a582f2b39b37ceb1a0318bd1731f",
+    "C:\\Users\\gepap\\Documents\\Codex\\2026-10-10\\tev\\work\\continuation_protocol.txt": "3ffa8985b825248b4ba7ba7e6325f8877a377df6215dbcd37562706f26f63b79",
+    "C:\\Users\\gepap\\Documents\\GitHub\\rl-trading-reality-check\\GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK1.pkl": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3",
+    "C:\\Users\\gepap\\Documents\\GitHub\\rl-trading-reality-check\\GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK2.pkl": "28fcb73457b67df176ba2a3bf1d651129ac08f1989fbb65656e2cb9c4e24059a"
+  },
+  "packages": {
+    "numpy": "1.26.4",
+    "torch": "2.8.0",
+    "stable-baselines3": "2.7.0",
+    "gymnasium": "1.2.0",
+    "pandas": "2.3.2"
+  }
+}

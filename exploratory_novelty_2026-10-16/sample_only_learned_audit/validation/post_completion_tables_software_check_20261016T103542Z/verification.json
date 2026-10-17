@@ -1,0 +1,11 @@
+{
+  "both_verified_families_gate_refused_current_run": true,
+  "current_endpoints_read": false,
+  "frozen_auxiliary_unchanged": true,
+  "literal_checks": 16,
+  "manuscript_modified": false,
+  "new_simulator_calls": 0,
+  "scope": "fixed artificial matched/zero-variance fixtures and LaTeX syntax/gate only; no native endpoint",
+  "source_sha256": "8cf2c7c6af85b8769f34eb24dc692452a6fe71fad7de49e110195c80f6499a21",
+  "status": "PASS"
+}

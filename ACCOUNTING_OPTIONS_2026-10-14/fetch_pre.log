@@ -1,0 +1,14 @@
+C:\Users\gepap\Desktop\Thesis\Paper1\SETTLEMENT_LAG_STUDY_2026-10-14\fetch_esett_pre.py:31: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat(frames, ignore_index=True).drop_duplicates("timestampUTC").sort_values("timestampUTC")
+FI 76206 2021-11-01T00:00:00Z 2025-03-03T23:45:00Z
+NO1 76206 2021-11-01T00:00:00Z 2025-03-03T23:45:00Z
+NO2 76206 2021-11-01T00:00:00Z 2025-03-03T23:45:00Z
+NO3 76206 2021-11-01T00:00:00Z 2025-03-03T23:45:00Z
+NO4 76206 2021-11-01T00:00:00Z 2025-03-03T23:45:00Z
+NO5 76206 2021-11-01T00:00:00Z 2025-03-03T23:45:00Z
+DK1 76206 2021-11-01T00:00:00Z 2025-03-03T23:45:00Z
+DK2 76206 2021-11-01T00:00:00Z 2025-03-03T23:45:00Z
+SE1 76206 2021-11-01T00:00:00Z 2025-03-03T23:45:00Z
+SE2 76206 2021-11-01T00:00:00Z 2025-03-03T23:45:00Z
+SE3 76206 2021-11-01T00:00:00Z 2025-03-03T23:45:00Z
+SE4 76206 2021-11-01T00:00:00Z 2025-03-03T23:45:00Z

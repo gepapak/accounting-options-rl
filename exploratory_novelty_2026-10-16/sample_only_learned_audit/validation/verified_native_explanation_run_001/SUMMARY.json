@@ -1,0 +1,359 @@
+{
+  "activity": [
+    {
+      "cases": 10,
+      "confirm_episodes": 2560,
+      "episodes_with_initial_prepaid_claims": 2560,
+      "episodes_with_new_maturity": 0,
+      "max_terminal_open_contracts": 0,
+      "mean_nonzero_actor_request_steps": 96.0,
+      "new_maturity_events": 0,
+      "policy_family": "plain_mappo",
+      "profile": "strict",
+      "terminal_margin_active_episodes": 2560
+    },
+    {
+      "cases": 10,
+      "confirm_episodes": 2560,
+      "episodes_with_initial_prepaid_claims": 2560,
+      "episodes_with_new_maturity": 2560,
+      "max_terminal_open_contracts": 0,
+      "mean_nonzero_actor_request_steps": 96.0,
+      "new_maturity_events": 38400,
+      "policy_family": "plain_mappo",
+      "profile": "vulnerable",
+      "terminal_margin_active_episodes": 0
+    },
+    {
+      "cases": 10,
+      "confirm_episodes": 2560,
+      "episodes_with_initial_prepaid_claims": 344,
+      "episodes_with_new_maturity": 0,
+      "max_terminal_open_contracts": 0,
+      "mean_nonzero_actor_request_steps": 96.0,
+      "new_maturity_events": 0,
+      "policy_family": "feasible_mappo",
+      "profile": "strict",
+      "terminal_margin_active_episodes": 2560
+    },
+    {
+      "cases": 10,
+      "confirm_episodes": 2560,
+      "episodes_with_initial_prepaid_claims": 300,
+      "episodes_with_new_maturity": 0,
+      "max_terminal_open_contracts": 0,
+      "mean_nonzero_actor_request_steps": 96.0,
+      "new_maturity_events": 0,
+      "policy_family": "feasible_mappo",
+      "profile": "vulnerable",
+      "terminal_margin_active_episodes": 0
+    }
+  ],
+  "actual_work": {
+    "actual_work": {
+      "actor_forward_calls": 2457600,
+      "audit_native_transitions": 1228800,
+      "branch_injection_arithmetic_evaluations": 5128016,
+      "critic_branch_rows_per_model": 88328,
+      "critic_predict_calls": 40960,
+      "fresh_audit_clones": 12800,
+      "phase_cpu_seconds": 18142.875,
+      "preparation_cpu_seconds": 3835.484375,
+      "warm_actor_forward_calls": 491520,
+      "warm_native_transitions": 245760,
+      "zero_step_support_initializations": 640
+    },
+    "additional_parent_tune_critic_predict_calls": 160,
+    "confirmation_wall_seconds": 6081.758566499993,
+    "development_wall_seconds": 2653.99331179999,
+    "model_fit": {
+      "mlp_cpu_seconds": 3.203125,
+      "mlp_iterations": 71,
+      "mlp_training_samples_seen": 313891,
+      "mlp_wall_seconds": 3.24497899999551,
+      "n_features": 32,
+      "n_rows": 5527,
+      "preprocessing_cpu_seconds": 0.015625,
+      "ridge_cpu_seconds": 0.015625,
+      "ridge_wall_seconds": 0.02074469999934081,
+      "total_cpu_seconds": 11.65625,
+      "total_wall_seconds": 14.922201499997755
+    },
+    "scope": "Shared native queries; extra fitting/branch arithmetic measured separately. Worker critic calls are CONFIRM only. Phase/preparationCPU excludes process imports/model loading; no equalCPU or generic query-complexity claim.",
+    "selection_cpu_seconds": 153.21875,
+    "selection_wall_seconds": 194.40605890000006,
+    "separate_software_validation_snapshot": {
+      "completed_native_work": {
+        "audit_transitions": 480,
+        "learned_actor_forward_calls": 5568,
+        "native_transitions": 2784,
+        "warm_transitions": 2304
+      },
+      "created_utc": "2026-10-16T10:49:18.716064+00:00",
+      "inventory_file": "SOFTWARE_COMPUTE_INVENTORY_20261016T104918Z.json",
+      "inventory_sha256": "68933d7347e7846431468df2631d29ed15996aa46dc545ec2d7f9a3c6528dc8b",
+      "pending_packet_replay_as_of_inventory": {
+        "executed_native_transitions_included_here": 0,
+        "planned_learned_actor_forward_calls": 1920,
+        "planned_native_audit_transitions": 192,
+        "planned_native_warm_transitions": 768,
+        "planned_total_native_transitions": 960,
+        "status": "HELD NOT EXECUTED"
+      },
+      "reported_timing_subtotals": {
+        "cpu_records": 6,
+        "cpu_seconds": 244.03125,
+        "scope": "sum of retained reports with these fields; NOT complete total CPU or elapsed wall time; unknown/unrecorded invocations excluded",
+        "wall_records": 7,
+        "wall_seconds": 354.04522919999727
+      },
+      "scope": "Additional retained software work, separate from primary1474560steps. Snapshot status is not an assertion about later packet replay. Missing/unlogged timings remain unknown."
+    }
+  },
+  "all_learned_settings_zero": true,
+  "cash_diagnostics": {
+    "engineering_acceptance_threshold_unchanged": -1e-06,
+    "financial_events_checked": 2564008,
+    "minimum_financial_cash_before": 28217.973551389623,
+    "negative_cash_before_within_engineering_tolerance": 0,
+    "phases_checked": 120,
+    "scope": "exact saved finite pre-event cash diagnostics only; no tolerance/engine/CI change or native-flat-executability claim",
+    "strictly_negative_cash_before": 0,
+    "theoretical_nonnegative_cash_requirement": 0.0
+  },
+  "confidence_and_mean_ranges": [
+    {
+      "alpha": 0.0,
+      "bundle": "run_001",
+      "cases": 40,
+      "lower_max": -594577.333612453,
+      "lower_min": -653958.6672420566,
+      "mean_max": 415.5398143095214,
+      "mean_min": -757.1892067363482,
+      "method": "raw"
+    },
+    {
+      "alpha": 0.0,
+      "bundle": "run_001",
+      "cases": 40,
+      "lower_max": -372093.8039851704,
+      "lower_min": -410808.3982769642,
+      "mean_max": -232.62025225920195,
+      "mean_min": -1438.1095409440845,
+      "method": "capped_raw"
+    },
+    {
+      "alpha": 0.0,
+      "bundle": "run_001",
+      "cases": 40,
+      "lower_max": -350.4124841810562,
+      "lower_min": -383.0320018584405,
+      "mean_max": -232.64367141630646,
+      "mean_min": -259.82229467965703,
+      "method": "capped_residual"
+    },
+    {
+      "alpha": 0.0,
+      "bundle": "run_001",
+      "cases": 40,
+      "lower_max": -350.4124841810562,
+      "lower_min": -383.0320018584405,
+      "mean_max": -232.64367141630646,
+      "mean_min": -259.82229467965703,
+      "method": "paired"
+    },
+    {
+      "alpha": 0.0,
+      "bundle": "run_001",
+      "cases": 40,
+      "lower_max": -350.4124841810562,
+      "lower_min": -383.0320018584405,
+      "mean_max": -232.64367141630646,
+      "mean_min": -259.82229467965703,
+      "method": "ridge_control"
+    },
+    {
+      "alpha": 0.0,
+      "bundle": "run_001",
+      "cases": 40,
+      "lower_max": -350.4124841810562,
+      "lower_min": -383.0320018584405,
+      "mean_max": -232.64367141630646,
+      "mean_min": -259.82229467965703,
+      "method": "mlp_control"
+    },
+    {
+      "alpha": 1.0,
+      "bundle": "run_001",
+      "cases": 40,
+      "lower_max": -594577.333612453,
+      "lower_min": -653958.6672420566,
+      "mean_max": 415.5398143095214,
+      "mean_min": -757.1892067363482,
+      "method": "raw"
+    },
+    {
+      "alpha": 1.0,
+      "bundle": "run_001",
+      "cases": 40,
+      "lower_max": -372093.8039851704,
+      "lower_min": -410808.3982769642,
+      "mean_max": -232.62025225920195,
+      "mean_min": -1438.1095409440845,
+      "method": "capped_raw"
+    },
+    {
+      "alpha": 1.0,
+      "bundle": "run_001",
+      "cases": 40,
+      "lower_max": -259.4334542989308,
+      "lower_min": -292.0529719763152,
+      "mean_max": -232.64367141630646,
+      "mean_min": -259.82229467965703,
+      "method": "capped_residual"
+    },
+    {
+      "alpha": 1.0,
+      "bundle": "run_001",
+      "cases": 40,
+      "lower_max": -259.4334542989308,
+      "lower_min": -292.0529719763152,
+      "mean_max": -232.64367141630646,
+      "mean_min": -259.82229467965703,
+      "method": "paired"
+    },
+    {
+      "alpha": 1.0,
+      "bundle": "run_001",
+      "cases": 40,
+      "lower_max": -259.4334542989308,
+      "lower_min": -292.0529719763152,
+      "mean_max": -232.64367141630646,
+      "mean_min": -259.82229467965703,
+      "method": "ridge_control"
+    },
+    {
+      "alpha": 1.0,
+      "bundle": "run_001",
+      "cases": 40,
+      "lower_max": -259.4334542989308,
+      "lower_min": -292.0529719763152,
+      "mean_max": -232.64367141630646,
+      "mean_min": -259.82229467965703,
+      "method": "mlp_control"
+    },
+    {
+      "alpha": 0.0,
+      "bundle": "run_001_new_contract",
+      "cases": 40,
+      "lower_max": -685927.1851366507,
+      "lower_min": -754424.612499349,
+      "mean_max": 391.7851392580636,
+      "mean_min": -965.9647705136651,
+      "method": "raw"
+    },
+    {
+      "alpha": 0.0,
+      "bundle": "run_001_new_contract",
+      "cases": 40,
+      "lower_max": -343176.1732632663,
+      "lower_min": -378976.23644115863,
+      "mean_max": -232.64367141630646,
+      "mean_min": -1395.6758405148717,
+      "method": "capped_raw"
+    },
+    {
+      "alpha": 0.0,
+      "bundle": "run_001_new_contract",
+      "cases": 40,
+      "lower_max": -341.2573001535495,
+      "lower_min": -373.661106880929,
+      "mean_max": -232.64367141630646,
+      "mean_min": -259.822294679657,
+      "method": "capped_residual"
+    },
+    {
+      "alpha": 0.0,
+      "bundle": "run_001_new_contract",
+      "cases": 40,
+      "lower_max": -341.2573001535495,
+      "lower_min": -373.661106880929,
+      "mean_max": -232.64367141630646,
+      "mean_min": -259.822294679657,
+      "method": "paired"
+    },
+    {
+      "alpha": 0.0,
+      "bundle": "run_001_new_contract",
+      "cases": 40,
+      "lower_max": -341.2573001535495,
+      "lower_min": -373.661106880929,
+      "mean_max": -232.64367141630646,
+      "mean_min": -259.822294679657,
+      "method": "ridge_control"
+    },
+    {
+      "alpha": 0.0,
+      "bundle": "run_001_new_contract",
+      "cases": 40,
+      "lower_max": -341.2573001535495,
+      "lower_min": -373.661106880929,
+      "mean_max": -232.64367141630646,
+      "mean_min": -259.822294679657,
+      "method": "mlp_control"
+    }
+  ],
+  "created_utc": "2026-10-16T12:22:16.100783+00:00",
+  "forgiveness": [
+    {
+      "bundle": "run_001",
+      "max_actual_forgiveness": 0.0,
+      "max_paired_forgiveness": 0.0,
+      "paths": 10240,
+      "phase": "confirm",
+      "positive_actual_forgiveness_paths": 0,
+      "positive_paired_forgiveness_paths": 0
+    },
+    {
+      "bundle": "run_001",
+      "max_actual_forgiveness": 0.0,
+      "max_paired_forgiveness": 0.0,
+      "paths": 1280,
+      "phase": "fit",
+      "positive_actual_forgiveness_paths": 0,
+      "positive_paired_forgiveness_paths": 0
+    },
+    {
+      "bundle": "run_001",
+      "max_actual_forgiveness": 0.0,
+      "max_paired_forgiveness": 0.0,
+      "paths": 1280,
+      "phase": "tune",
+      "positive_actual_forgiveness_paths": 0,
+      "positive_paired_forgiveness_paths": 0
+    },
+    {
+      "bundle": "run_001_new_contract",
+      "max_actual_forgiveness": 0.0,
+      "max_paired_forgiveness": 0.0,
+      "paths": 10240,
+      "phase": "confirm",
+      "positive_actual_forgiveness_paths": 0,
+      "positive_paired_forgiveness_paths": 0
+    }
+  ],
+  "gate_sha256": {
+    "control_diagnostics/run_001/COMPLETION.json": "ad2cca20a6c3106f2b8aba30b54bfb54da58e5b676f733055520d68c022a7639",
+    "report_tables/run_001/COMPLETION.json": "c3c81fc3744059326752eb72912b33e0580b742f6082fbfe876ab98d65696926",
+    "results/run_001/MANIFEST.json": "e48b630831fd74f6376db97fbd173285142f22a719acbcca8eefd1d3bbf04022",
+    "results/run_001/REPRODUCTION.json": "d9484100904ef3c8c0d64c0831d52d3cd0d3c4affede4457becaa2d76c5033cf",
+    "results/run_001_new_contract/MANIFEST.json": "866e101887d0907738cc04ce33b2a0174c457676f41e90c73e7bc568f7b947e6",
+    "results/run_001_new_contract/REPRODUCTION.json": "0215ba4beb7c03d2a4a99edd93e01159fe7801ee4a4b2e6a2c7543f09596d47a",
+    "validation/NATIVE_VERIFICATION_run_001_critics.json": "02e32f8d9b6549f75ef1012af31244add74604edec385abe1833895e50e38610",
+    "validation/NEW_CONTRACT_VERIFICATION_run_001.json": "4adc46fd273415364fb572cdf1a3be238c1a313a0c7e62c65aea77211c0e20a8"
+  },
+  "interpretation": "Observed zero actual and paired injections is descriptive, not a global safety proof. Frozen policy inference did not imply new financial execution: strict guards and feasible-policy native gates suppressed new contracts. The learned tuner selected zero control everywhere, so this run establishes no learned-control performance benefit. Separate520/240 families remain separate; no retuning or sample expansion.",
+  "new_confidence_limits": 0,
+  "new_native_queries": 0,
+  "source_sha256": "5eb086bf1e5cd0c549d051ee4a1a0a439858c458ad02dc2e3815fc99edd0b6c8"
+}

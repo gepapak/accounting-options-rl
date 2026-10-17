@@ -1,0 +1,719 @@
+{
+  "access_limit": "Native source/checkpoints/context/history/forecast files are outside this code repository. Hashes establish identity and do not supply access or redistribution rights. Independent full-pipeline reproduction currently requires an authorized copy of these exact external dependencies; the public repository alone is insufficient.",
+  "advisory_static_import_closure": [
+    "config.py",
+    "distributional_forecast_prior.py",
+    "environment.py",
+    "evaluation.py",
+    "feasible_action_mappo.py",
+    "financial_engine.py",
+    "forecast_mirror_mappo.py",
+    "forecast_price_experts.py",
+    "forecast_prior.py",
+    "forecast_prior_cli.py",
+    "generator.py",
+    "logger.py",
+    "market_fee_protocol.py",
+    "metacontroller.py",
+    "observation_builder.py",
+    "policy.py",
+    "risk.py",
+    "runtime_contract.py",
+    "trading_engine.py",
+    "utils.py",
+    "wrapper.py"
+  ],
+  "checkpoint_artifacts": [
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed10001/tier1_forecast_utilization_seed10001/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "31eeb2b713b87fac0720376cd941975b245de33c77053cde7fc1d4e9998373d9"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed10001/tier1_forecast_utilization_seed10001/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "e760ea86613849622b27d506ebf88c0464f6eaf53c85b6100d9167b3cd3754d5"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed10001/tier1_forecast_utilization_seed10001/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "31bc527df9c909d1fd968d56bf27dc85798ca01f724a8e702dcaa24362fa4d3c"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed11202/tier1_forecast_utilization_seed11202/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "055a539d1bd48bc37034a5effd7259f0ac4f58a7e4d1c0c7ccc851a69834e503"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed11202/tier1_forecast_utilization_seed11202/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "13a07d20a325b71f160fe19834096eb0093cf51debb050c7ad93d98fcd693738"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed11202/tier1_forecast_utilization_seed11202/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "da82443878617dd5ada905fe4e70b2ef805674550ac929256819538593b6a57a"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed123/tier1_forecast_utilization_seed123/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "94367ac8bed04d47528f5d734c01edb3cdff7142ce451fe5c623389631627310"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed123/tier1_forecast_utilization_seed123/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "d68b539268aa12daedd100ff41f30602eddbba971daf85819715e0257dffb558"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed123/tier1_forecast_utilization_seed123/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "a88e88849bf0cecd2aff98cdb5486411af856d8bf82acf330638d7c65f3c8d29"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed2025/tier1_forecast_utilization_seed2025/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "97079be8f047013c4793158d422c0cef3de0c7a1b053d2703ad31d7a13336859"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed2025/tier1_forecast_utilization_seed2025/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "1a488e32d730b2614d60df65f1b74f216938eefdb6c2f954236320fe7472c7c4"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed2025/tier1_forecast_utilization_seed2025/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "44d1b3de3b08774d7a8a9f150b7c9868ec8810136d74c0d731dc93e787968442"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed3007/tier1_forecast_utilization_seed3007/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "997b6bc7f9140e1f4695c18dfe42f7d764acbd25e5e72955bd99071ab7853713"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed3007/tier1_forecast_utilization_seed3007/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "12aa4d46c0eb23502d29c7871b8b87862bbba0d248cb37d2a2a22013e0d29eb0"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed3007/tier1_forecast_utilization_seed3007/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "11340e263e2704c81cbf6d82c2be8fc0263a2b1be825350878e4834c261ade9c"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed42/tier1_forecast_utilization_seed42/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "ff00d5a861cb9f0dae52ecb292b348a49d782ea32ae58aa9327c8aa338dafe0d"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed42/tier1_forecast_utilization_seed42/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "7323e77ea375cb19b9b365ae934160ab02f08e10fc3c0cf0f1ad38ad59dbc4c8"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed42/tier1_forecast_utilization_seed42/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "a06868226184faa5ad5a7276f0f638bfd224c11fc085b2501b48835bf0b7bb5b"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed5001/tier1_forecast_utilization_seed5001/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "9bd38aa341654191376f79185ce7381a7eba94a82f6dfb9dd9b373b71a96cff6"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed5001/tier1_forecast_utilization_seed5001/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "0a3a0e1395352e3ec27168a21faef90951171b6d93a710b871d99ad70f4dca61"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed5001/tier1_forecast_utilization_seed5001/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "fed5a6348ae1363878975f02e57b092528e0cf01e7ab774aabd785b8cf9b89aa"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed7/tier1_forecast_utilization_seed7/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "73a65ac1b065a31e676671468301f670f8b19b2270b4492a09b1c30cc73d177a"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed7/tier1_forecast_utilization_seed7/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "b4644070e5d93131495380656e79e4a541a424c084a3b5d9b1059e07bced2398"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed7/tier1_forecast_utilization_seed7/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "0b64437fbf0e0e085ed1e1f2e6128a549761bbf4cfeffd69fc32ea54eefffa42"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed8102/tier1_forecast_utilization_seed8102/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "e1e97a15f200f4f16c05397b74491afa4de3544efaf601bc4c7920cc0131f277"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed8102/tier1_forecast_utilization_seed8102/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "8c8bd86476b03ea519af197f63291ec6c1f7c213ea481de4b03c2796e1a1b87e"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed8102/tier1_forecast_utilization_seed8102/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "739c2001520162484e57d567e995ad21e8713dcaf45a5098d06a7ba6afe006d8"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed9005/tier1_forecast_utilization_seed9005/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "37d189516de45cff72ceb920ba4dca4027186187c74b55d75f0382068fe837fc"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed9005/tier1_forecast_utilization_seed9005/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "3e4a75d4645ad07745919e841a4938f6eb91c5c958f19032b5f88a2e46f783ad"
+    },
+    {
+      "path_from_native_engine": "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed9005/tier1_forecast_utilization_seed9005/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "6219fb79fcce8c466015ba22c90e7021372397fa003fddd9f505134ee0fb1f4b"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed10001/tier1_seed10001/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "6fcda6b09728c8193472b61dc10965f841a95c3a614ab6639815271205873c32"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed10001/tier1_seed10001/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "d70f5d7c5c8c7f98984b634cab0f9712ec9f865b4e94e424487afddbdbb14a1f"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed10001/tier1_seed10001/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "f8157202c650b2c8a983268bf19dddcd5f8b3ec7e6920ebda0c8fea70a07e711"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed11202/tier1_seed11202/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "58adfdc6a8d29a2c43a3e067d34aa88cfcb9144bfb0a44550c571855aa49852d"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed11202/tier1_seed11202/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "9db51ae14cf3cfbe27c83eb57b24c496b392b02502de3ae493f0fde5b1096ddf"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed11202/tier1_seed11202/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "c9628445287fa67ec01399b90523eddfedf67945392487b7d742f9e35796ed2b"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed123/tier1_seed123/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "8ceae61660c620454c074de448cd62687fbf437ba015281fd3cf97e51ba805a3"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed123/tier1_seed123/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "5e5d2a8431a446654d125c65f50023b61cd15219b94f3695ab3d4f87224ee823"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed123/tier1_seed123/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "d1f10d60e816d7123ecfb0aa1afdd22429610176505762991dc9be7897a78920"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed2025/tier1_seed2025/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "f6c5d4b6d10d9816f6d051219ddfb7ed53d717a171998053d9dd6953746c4f4e"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed2025/tier1_seed2025/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "979bcd1c717a70bddd455f98a5bb1c6918986676fec1af564079a88e2393d2ee"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed2025/tier1_seed2025/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "898d5392ee1a29aa1487076cf4c5011f4df87e05a67cfc78081595f67198065b"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed3007/tier1_seed3007/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "ecf7625811bc79c014c3e4041c7a76f368fb8130b9359759c45611e448a3a69b"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed3007/tier1_seed3007/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "8bf1b199f4dc6582ed61289776c548afe784a1b4b573b71ca497b122c49bcc39"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed3007/tier1_seed3007/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "b125ae84037092a809b82b287af8e6fa473610d651909e5aed8ddc0049bae35c"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed42/tier1_seed42/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "21dd5433c0a63befb6cac9a976e4b3ee88dddb384bcb05f73ddd6894bc224b18"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed42/tier1_seed42/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "5b46ea6b2fb8cbe61de25b40f9916ec06b9e89641b4ebaa97d488f3e30c7f5d4"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed42/tier1_seed42/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "25a14b6c6b67f1e5a9bb0ae704d6cbb64d4b34dd1302793b96d938a4b5eb4d50"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed5001/tier1_seed5001/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "a4b9d9c14c05241191f88975d4b0bf76f37d7abd68697e0d1d4e4b0e6bf7def9"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed5001/tier1_seed5001/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "21484b439a4714426b7e676bb941921fc7fb2c11a50408cec1cb2abe47a4943b"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed5001/tier1_seed5001/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "ab5f7db71ea9234aca454a43b79897fdc1b62c6192148877e9390b14021eb877"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed7/tier1_seed7/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "0c0f18e83e119edfbaef85ef2852aff4911099974cfa12c2a7f640a2701ca792"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed7/tier1_seed7/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "50b0f20797c177b14601e01b8467af365e55587fa1968deb0068e794018c02cb"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed7/tier1_seed7/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "50fe39f379e5ad0afa1d259132a37d0f13f1b952744393be01c5ea5327f5af01"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed8102/tier1_seed8102/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "fdbe5ae64a0135663337566392dadc73b026862f6eb80a539a488aebf61557b5"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed8102/tier1_seed8102/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "4e7213d85df332ab0bc3f0a07e679918de94b6460538b622ba9a7f62b7b4fba2"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed8102/tier1_seed8102/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "1c7164170ff95e900dda19247c570a417c777adea7dbc0d24494399996d731dd"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed9005/tier1_seed9005/final_models/battery_operator_0_policy.zip",
+      "role": "matching frozen battery controller",
+      "sha256": "27b425fa4382cbe78c94926c96dde52a9b60f9e5b98f2b62dde7df8bd6db4b62"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed9005/tier1_seed9005/final_models/investor_0_policy.zip",
+      "role": "frozen native actor",
+      "sha256": "0ac1264d64d35875d087c5c2e3c3b90d5a3877a791e989444b1095af2f457ef4"
+    },
+    {
+      "path_from_native_engine": "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed9005/tier1_seed9005/final_models/training_config.json",
+      "role": "saved native training/runtime contract",
+      "sha256": "0b9c511ac8896ff75af777e5175f3dcf348baa224d5286883d31ab93aa31a2f4"
+    }
+  ],
+  "created_utc": "2026-10-16T09:46:55.486821+00:00",
+  "derived_runtime_forecast_views": "8 deterministic480-row views; generated from the two hashed forecast sources; source/view hashes and zero-step preparation recorded in native_validation/forecast_cache_prep_attempt_1/preparation_report.json; not copied into this public manifest",
+  "external_engine_root": "<Paper1>/Prototype5",
+  "full_frozen_native_module_bundle": [
+    {
+      "path_from_native_engine": "baselines.py",
+      "sha256": "f1d0053b9e0df674ad44143fdefdc29a3792afb8e9567535f03dc72d208789ae"
+    },
+    {
+      "path_from_native_engine": "config.py",
+      "sha256": "37e19f521721160946a070e9220be99d278f4116f65eb8af726b6c8128afd4c2"
+    },
+    {
+      "path_from_native_engine": "distributional_forecast_prior.py",
+      "sha256": "fc961a4add66d1f5a733314aa6a594d478e3a4ecf937c2f555b58e6d68164957"
+    },
+    {
+      "path_from_native_engine": "environment.py",
+      "sha256": "61d446064bf6dacadaed5314487b72437d02e97860da0cb6e192a67aee2f0d63"
+    },
+    {
+      "path_from_native_engine": "evaluation.py",
+      "sha256": "8f3b331ade20189973319caa8d6c9645ca0bf56121af9d85ebbfba121fb95c6b"
+    },
+    {
+      "path_from_native_engine": "feasible_action_mappo.py",
+      "sha256": "7b53be3aa1e492a5f39ecc7060aed8027601af87c5d52b15bb16084eec53374a"
+    },
+    {
+      "path_from_native_engine": "financial_engine.py",
+      "sha256": "7627a46cdcd404c3abf55b51c67f8e128e794693f10c411451af4a2619dda09a"
+    },
+    {
+      "path_from_native_engine": "forecast_engine.py",
+      "sha256": "f0cbb6156f02e898337d4e0b465a453a30d739bbea3f314ef2c2ae12c945e032"
+    },
+    {
+      "path_from_native_engine": "forecast_mirror_mappo.py",
+      "sha256": "05f6312ee886de2265c374744856ccd3725d58a400bb6f65e8c86c67b7bd4ab4"
+    },
+    {
+      "path_from_native_engine": "forecast_price_experts.py",
+      "sha256": "adf3bd304d9fb09b60ab01c64cbdede18f75ea3929245fd2efc33d3aac04381a"
+    },
+    {
+      "path_from_native_engine": "forecast_prior.py",
+      "sha256": "703687d70e0a60ed7e54ae0f65fd087569acea8748996886cff246f5218afdb5"
+    },
+    {
+      "path_from_native_engine": "forecast_prior_cli.py",
+      "sha256": "48f9d27812391ccb4f1081405ca0eeb1fe41fc4f3d7bc39ef264d2e0395f4fa1"
+    },
+    {
+      "path_from_native_engine": "generator.py",
+      "sha256": "3e3a7122e075bcffef05a84995d85b96245eddd0ced70efdad38e0e4643db06e"
+    },
+    {
+      "path_from_native_engine": "harness1.py",
+      "sha256": "b1f680c871f331f4b1b292fdd77e0b440c67050b530916ff9fbeb604b160ed97"
+    },
+    {
+      "path_from_native_engine": "harness2.py",
+      "sha256": "fd2570292dbbeadf8abaf772b52963717a3139b7e25cde7f5ed5f11028a6e989"
+    },
+    {
+      "path_from_native_engine": "harness3.py",
+      "sha256": "a711556f2b40f3e0c78af584184f96931aca04db44264c8272bd43bd210b7ffc"
+    },
+    {
+      "path_from_native_engine": "harness4.py",
+      "sha256": "f38c831fece68e061740a1d9ac6a17d4fa31f27cd4b06e2baff6f221c48c8097"
+    },
+    {
+      "path_from_native_engine": "harness_common.py",
+      "sha256": "11bcb9692d38724b2f48eeabca22aeb22fa7a696fa83a4b1c3df6204228bf772"
+    },
+    {
+      "path_from_native_engine": "learning_wall_analysis.py",
+      "sha256": "c68b2aa636c8a7f8f05d8be301a85659c19b9d4334646f93823a48cc03180fbf"
+    },
+    {
+      "path_from_native_engine": "logger.py",
+      "sha256": "2f030ec089187aed24492cc2bb0343da57f34c28247606debd129312cc0fcca2"
+    },
+    {
+      "path_from_native_engine": "main.py",
+      "sha256": "166af9f68dfa713823d35115460c014ea1a128bf9d3ca218d0980e1b17870490"
+    },
+    {
+      "path_from_native_engine": "make_forecast_cache_ablation.py",
+      "sha256": "362d6382e048273fa33559c5ed68836d9f5b347a48a7bc8f2976634f5f1f174b"
+    },
+    {
+      "path_from_native_engine": "market_fee_protocol.py",
+      "sha256": "4d749cbb4de866e5dd0fdcca29a5e0b6d1f36834c0590458f2ebbe1d06ce73a7"
+    },
+    {
+      "path_from_native_engine": "marl.py",
+      "sha256": "69c71f291680c7e3d7894418e6a9b4c35be9429fe03eefac35debe8e95571dbb"
+    },
+    {
+      "path_from_native_engine": "metacontroller.py",
+      "sha256": "a9fe3a712c98641784da199c238189d8a0a13af2f8c9935c4fd365e715b8f674"
+    },
+    {
+      "path_from_native_engine": "observation_builder.py",
+      "sha256": "c00f7dc38dfee02980607786c01130f7ffef937a8c30624acac9ad2a612f60be"
+    },
+    {
+      "path_from_native_engine": "policy.py",
+      "sha256": "878dd668d77c7e49540a92f5aa27425f678b9f4178a2bdc7f946449a9861782b"
+    },
+    {
+      "path_from_native_engine": "protocol_preflight.py",
+      "sha256": "3f7c25246a2f49cf38621a3fc08dc0017a202b61b3d6bb0160a3629e4b005471"
+    },
+    {
+      "path_from_native_engine": "risk.py",
+      "sha256": "080293abc0c5f663819760bd91e9446577863af4cdb3bef4fc3417d28edd7a99"
+    },
+    {
+      "path_from_native_engine": "run_tier_phase_multi_seed.py",
+      "sha256": "a46349248e98cc24b5673ac0cdef4d5674fc1469c69e73dee0c831b136ed7602"
+    },
+    {
+      "path_from_native_engine": "runtime_contract.py",
+      "sha256": "c4fcf9532e1c016baecbde2a3e7ad4e93f5b47216f3a8a54b18e01930de0b741"
+    },
+    {
+      "path_from_native_engine": "trading_engine.py",
+      "sha256": "7e467148f63b0f30fbb9dadf20591c723d15724b75dba8c40e790c60761d3130"
+    },
+    {
+      "path_from_native_engine": "utils.py",
+      "sha256": "bf49a2711ef8868dd7b37620a5293cc36906d27abe148c1e47f57ad37daafec0"
+    },
+    {
+      "path_from_native_engine": "wrapper.py",
+      "sha256": "3635cfd33fd0aee12292f219286b961b1020cf9969dac0b851c7e014b954607b"
+    }
+  ],
+  "installed_packages_from_preexecution_inventory": {
+    "gymnasium": "1.2.0",
+    "numpy": "1.26.4",
+    "pandas": "2.3.2",
+    "pettingzoo": "1.22.0",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.15.3",
+    "stable-baselines3": "2.7.0",
+    "tensorflow": null,
+    "torch": "2.8.0"
+  },
+  "market_history_forecast_resources": [
+    {
+      "bytes": 5739863,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "evaluation_dataset_ffill/unseendata.csv",
+      "role": "chronological physical/price context",
+      "sha256": "dbe19c2673c27f27cb47bdc944ad12308ee1c477f77884698ca75db0ec377105"
+    },
+    {
+      "bytes": 3591211,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "evaluation_dataset_ffill/unseendata_settlement_real_v2.csv",
+      "role": "aligned financial settlement",
+      "sha256": "7803e4eb0611d1fcc9b0c51518927242dba9f42cc9bb2410eb27bff9fb1e0d13"
+    },
+    {
+      "bytes": 7960287,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "evaluation_dataset_ffill/unseendata_liquidity_volume_real_v1.csv",
+      "role": "activated liquidity and impact reference",
+      "sha256": "0738a6b84aecfc65791d94b6ceda4fe7282be2c7e857dac893f8d78550c4275f"
+    },
+    {
+      "bytes": 5795302,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "evaluation_dataset_ffill/unseendata_v2.csv",
+      "role": "chronological physical/price context",
+      "sha256": "ba160c40bab6d3ade5b4537de7fc721ff1fc98df629149b6679ff075826bbd8f"
+    },
+    {
+      "bytes": 3596051,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "evaluation_dataset_ffill/unseendata_v2_settlement_real_v2.csv",
+      "role": "aligned financial settlement",
+      "sha256": "870c12a214ddc3298525c73155cd79d901d95d311a7d633cc1a1ad1fac55c22a"
+    },
+    {
+      "bytes": 7965987,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "evaluation_dataset_ffill/unseendata_v2_liquidity_volume_real_v1.csv",
+      "role": "activated liquidity and impact reference",
+      "sha256": "5d0a5acbca8734a6b5e4d52f223d98c73799795498e1f44b69e6dd0aec154caf"
+    },
+    {
+      "bytes": 9077811,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_000.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "dcd19fd8544933ab37a85b76f9a051bb8b73753ad87f51db1b13b31d182f3904"
+    },
+    {
+      "bytes": 3784131,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_001.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "0e82d7a26851882aebe7bb049d40437949fe41430c977532211faf3d36e38f6d"
+    },
+    {
+      "bytes": 3811852,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_002.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "2267b435f1a014c2718bfd9665e9b001ad0d1252709a027ac98822dd9fe5712d"
+    },
+    {
+      "bytes": 3794966,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_003.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "0738a67291e65c365e41ead312e142b43e538b6400540b2ea63c54df88aa4b40"
+    },
+    {
+      "bytes": 3844764,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_004.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "c640ce79207aee7f613f9ef4e6459396213d37636253ab1817732efb6a21851e"
+    },
+    {
+      "bytes": 3786120,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_005.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "0136f25ca8a50c82e34f2e1d59b860ec3fabd5360e93ed178035fce87956f409"
+    },
+    {
+      "bytes": 3826923,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_006.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "c5417444ab56d49af50e4cd2a05b132bf912b44a1792b987480188efb08f1b19"
+    },
+    {
+      "bytes": 3810082,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_007.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "0fd683299b145411fe64914383c715b33003bf09819da6030f7ff9fecfd77ee5"
+    },
+    {
+      "bytes": 3870658,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_008.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "c579f01f23907ed89f131d341d45ae85827baca70a395dba6eb3e2542fb8a518"
+    },
+    {
+      "bytes": 3806991,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_009.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "76deb40ef9780dbde165f84ac3b9795b8212297bc7803bdcf0e8cbbbfd9b2e08"
+    },
+    {
+      "bytes": 3877495,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_010.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "23c50bcc0023ec8cf4c1a1e6186be28aa15998d8cb125636e77b921d1b20f002"
+    },
+    {
+      "bytes": 3780715,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_011.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "acd7dd6af016e79bdd5ab062d298eae065a36ddbfcdc3e0f2c720bb91f08fb4e"
+    },
+    {
+      "bytes": 3802357,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_012.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "5570bda571af5d2bf7cd2f9e78208390416abf1b9d63cd7605ea82797dd4fbe3"
+    },
+    {
+      "bytes": 3806232,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_013.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "07e3da7991dfd53e7870624a7bc40e3d0a7812a85b8f973ef953b47ee5eb7e9a"
+    },
+    {
+      "bytes": 3852439,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_014.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "96bf54dae1ee5e2e40cb879ca144fab5df649a9c3f618d9d4efa1098c820bd5f"
+    },
+    {
+      "bytes": 3800760,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_015.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "167dfaddbe580252358e5a60c8c3b057a704822f0a5d1b63f40b3bd32ab968d0"
+    },
+    {
+      "bytes": 3882034,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_016.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "2bbdbce30c8a00afce34e138d1a5bc3fe2554efcfa9233fa4814178187c624ac"
+    },
+    {
+      "bytes": 3815432,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_017.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "9c754b945ad65be7a93aa92f62e3f685734b92a09d21c903a4f2d894cfecb7b3"
+    },
+    {
+      "bytes": 3857412,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_018.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "971266d88e0cd9a1350be35ecb90e011c3cd076f49e66f0b783799eecba8d013"
+    },
+    {
+      "bytes": 3791792,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_019.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "aa6ff7a4062e61f2ed2f38e13e637c6e940c20b55431303fabb13045fe98f0a9"
+    },
+    {
+      "bytes": 3864916,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_020.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "db1ca34b3aebbb1a82828207669d3e3477bbcab4722a4236e5015b45326d96e3"
+    },
+    {
+      "bytes": 4380,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "rolling_past_history_dataset_ffill/history_manifest.csv",
+      "role": "rolling-past native normalization history or history manifest",
+      "sha256": "af4b2aca7ab5a8860599c91d51f5ed043251c31940914fcae7ccafa2cf23ce9e"
+    },
+    {
+      "bytes": 5805547,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "forecast_cache_settlement_hourly_v2/forecast_cache_eval_episode20_2025/forecast_cache_eval_episode20_2025-full/precomputed_forecasts_20250101_to_20250930_39312rows.csv",
+      "role": "trained forecast/constraint actor's native exogenous feature source",
+      "sha256": "8d16e1be6e258ae8289f93a1f861694d1b9f8e82d4133c0e34dd88611d367ea1"
+    },
+    {
+      "bytes": 5799607,
+      "included_in_public_code_repository": false,
+      "path_from_native_engine": "forecast_cache_settlement_hourly_v2/forecast_cache_eval_episode20_2025/forecast_cache_eval_episode20_2025-unseendata_v2/precomputed_forecasts_20250101_to_20250930_39312rows.csv",
+      "role": "trained forecast/constraint actor's native exogenous feature source",
+      "sha256": "7370d45397f872fc891dba403438c5327a4fec4e6a8fd38a43279e6018bdd76d"
+    }
+  ],
+  "metadata_builder_sha256": "989d12982ef57731cc15912c83a24a8c265c88b45812c774cd542958061ff3f0",
+  "minimal_bundle_caveat": "Static closure is advisory: dynamic imports and saved custom-policy deserialization are not established by AST analysis. Full frozen native module bundle is the currently verified source dependency set; no standalone public-native bundle has been tested.",
+  "public_audit_source_sha256": {
+    "EXPLORATORY_EXECUTION_PLAN.md": "5d4a57dccb7ce099ffd9084c32ae774c42968e9e2e970ccd81e30e2ed676ebf4",
+    "SAMPLE_ONLY_THEORY.md": "f3a7c3b254e6a04f8903c25e2106dfdae0564e51ef5e92f3d2cfa251e09effbe",
+    "audit_models.py": "7a2fdb094554f27a72556ddde4cfaf90c914cab069627cf74a6b59688b321b33",
+    "checkpoint_inventory.json": "666a7b2be79e0a7ac21ed6225fe7d6517146b03e461f119c25f4d9c328d7d5dc",
+    "exact_sample_only_checks.json": "9bdfca3410a96aa955aa7898b94147ec8288aa5b71ed8e05720f6c7c357de6a8",
+    "exact_sample_only_checks.py": "450b1d13313a3d74ccd3c09af5899ef9523656acab6caab7c0c3a55cd359f1f8",
+    "native_engine_adapter.py": "da93030da39c1f2a4d0eaef3666177fc6628b7da97161ed892d1b9abfa38c879",
+    "native_phase_worker.py": "a7ef05169daee3e202f4229f3182ae7b94595e5e765762b0ef2224b6b85f5fc3",
+    "native_support.py": "b6134d8bc41151d417c61197ecc07117a4ccdc5204427f69d432e9953aa3411a",
+    "run_native_audit.py": "8233361239cb937526c29f9f46dbc859a36cbee686e5ac5681fe122e1df7ba59",
+    "sample_estimators.py": "9db926793138665765db9d0dd9d38f25384309564ecbae083c502969e2ae3c71"
+  },
+  "public_vs_private": "Only filenames, role/size/version metadata and SHA256 values are included here. No raw data, actor/battery weights, feature rows, derived private forecasts or fitted nuisance-model files are copied.",
+  "purpose": "honest dependency/access manifest; no scientific endpoint results and no private input copies",
+  "python_version_from_preexecution_inventory": "3.10.0",
+  "remaining_packaging_work": [
+    "Provide or archive an authorized versioned native source bundle, checkpoint bundles and complete input-access instructions.",
+    "Validate a clean installation of the saved custom policy classes and native observation/normalization contract.",
+    "Publish aggregate frozen choices, all case/method outcomes, support and arithmetic-verifier records after completion; keep licensed raw/derived inputs private.",
+    "Perform a separate clean-room re-execution when authorized dependencies can be supplied; matching a hash manifest is not that re-execution."
+  ],
+  "required_public_code_location": "<Paper1>/github/accounting-options-rl/exploratory_novelty_2026-10-16/sample_only_learned_audit",
+  "schema": "native_audit_public_reproduction_dependencies_v1",
+  "source_freeze_sha256": "6152949392bd8de0f494bc21ffb5fd7d9be4a16a6c8866f4eb5595254da523d4"
+}

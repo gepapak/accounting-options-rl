@@ -1,0 +1,6289 @@
+{
+  "alpha": 0.0,
+  "auxiliary_frozen_utc": "2026-10-16T10:16:33.232934+00:00",
+  "charged_results": [
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 0,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -752300.7370811338,
+        "mean": -235.23449441991636,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 752065.4595610499,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 10.686300817997882
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 0,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 0,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -376364.6843377725,
+        "mean": -235.23449441991636,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 376129.40681768866,
+        "support_lower": -4481839.030587654,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.686300817997882
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 0,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 0,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.7275046828522,
+        "mean": -235.23449441991636,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.44998459905527,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.686300817997882
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 0,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 0,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.7275046828522,
+        "mean": -235.23449441991636,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.44998459905527,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.686300817997882
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 0,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 0,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.7275046828522,
+        "mean": -235.23449441991636,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.44998459905527,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.686300817997882
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 0,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 0,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.7275046828522,
+        "mean": -235.23449441991636,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.44998459905527,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.686300817997882
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 0,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 1,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -753053.952359792,
+        "mean": 391.7851392580636,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 753445.694473386,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 26626856.383051172
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 0,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 1,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -377841.08190216817,
+        "mean": -410.50508372215455,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 377430.5337927821,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4000.0430256638806,
+        "variance": 15398613.509739988
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 4000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 0,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 1,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -370.43626545113295,
+        "mean": -256.8892872449228,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.50395254232953,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 339.1299713540275
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 0,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 1,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -370.43626545113295,
+        "mean": -256.8892872449228,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.50395254232953,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 339.1299713540275
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 0,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 1,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -370.43626545113295,
+        "mean": -256.8892872449228,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.50395254232953,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 339.1299713540275
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 0,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 1,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -370.43626545113295,
+        "mean": -256.8892872449228,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.50395254232953,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 339.1299713540275
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 0,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 2,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -752300.9576641348,
+        "mean": -235.37195320481743,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 752065.542685266,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 12.813254372460769
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 1,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 2,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -376364.9049207734,
+        "mean": -235.37195320481743,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 376129.4899419047,
+        "support_lower": -4481839.030587654,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.813254372460769
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 1,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 2,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.9480876838064,
+        "mean": -235.37195320481743,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.53310881510839,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.813254372460769
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 1,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 2,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.9480876838064,
+        "mean": -235.37195320481743,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.53310881510839,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.813254372460769
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 1,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 2,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.9480876838064,
+        "mean": -235.37195320481743,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.53310881510839,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.813254372460769
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 1,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 2,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.9480876838064,
+        "mean": -235.37195320481743,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.53310881510839,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.813254372460769
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 1,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 3,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -753597.4542092915,
+        "mean": -74.57932676097704,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 753522.8318568666,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 29684228.950656217
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 1,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 3,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -378325.77278541535,
+        "mean": -770.2675086651785,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 377555.4622510863,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4000.0430256638806,
+        "variance": 19279705.520357963
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 4000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 1,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 3,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -371.21757366221544,
+        "mean": -257.6788155701193,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.49573242821553,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 337.999758203017
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 1,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 3,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -371.21757366221544,
+        "mean": -257.6788155701193,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.49573242821553,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 337.999758203017
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 1,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 3,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -371.21757366221544,
+        "mean": -257.6788155701193,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.49573242821553,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 337.999758203017
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 1,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 3,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -371.21757366221544,
+        "mean": -257.6788155701193,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.49573242821553,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 337.999758203017
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 1,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 4,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -752301.0618523064,
+        "mean": -235.47854216838,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 752065.540284474,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 12.749118427641573
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 2,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 4,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -376365.00910894497,
+        "mean": -235.47854216838,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 376129.4875411127,
+        "support_lower": -4481839.030587654,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.749118427641573
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 2,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 4,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -345.05227585536204,
+        "mean": -235.47854216838,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.53070802310144,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.749118427641573
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 2,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 4,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -345.05227585536204,
+        "mean": -235.47854216838,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.53070802310144,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.749118427641573
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 2,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 4,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -345.05227585536204,
+        "mean": -235.47854216838,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.53070802310144,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.749118427641573
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 2,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 4,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -345.05227585536204,
+        "mean": -235.47854216838,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.53070802310144,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.749118427641573
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 2,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 5,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -753371.2960388766,
+        "mean": 59.909591630809985,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 753431.1626048435,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 26069475.205929313
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 2,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 5,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -378066.80919515406,
+        "mean": -617.6110240398882,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 377449.15514545026,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4000.0430256638806,
+        "variance": 15949480.501582092
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 4000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 2,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 5,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -371.23624719465744,
+        "mean": -257.3028312040651,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.89039032671171,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 394.391638736742
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 2,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 5,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -371.23624719465744,
+        "mean": -257.3028312040651,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.89039032671171,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 394.391638736742
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 2,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 5,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -371.23624719465744,
+        "mean": -257.3028312040651,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.89039032671171,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 394.391638736742
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 2,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 5,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -371.23624719465744,
+        "mean": -257.3028312040651,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.89039032671171,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 394.391638736742
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 2,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 6,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -752300.6189737071,
+        "mean": -235.09070010736994,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 752065.4852479358,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 11.322972577611102
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 3,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 6,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -376364.56623034575,
+        "mean": -235.09070010736994,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 376129.4325045745,
+        "support_lower": -4481839.030587654,
+        "support_upper": 1000.0430256638806,
+        "variance": 11.322972577611102
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 3,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 6,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.6093972561257,
+        "mean": -235.09070010736994,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.47567148487514,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 11.322972577611102
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 3,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 6,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.6093972561257,
+        "mean": -235.09070010736994,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.47567148487514,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 11.322972577611102
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 3,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 6,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.6093972561257,
+        "mean": -235.09070010736994,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.47567148487514,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 11.322972577611102
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 3,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 6,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.6093972561257,
+        "mean": -235.09070010736994,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.47567148487514,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 11.322972577611102
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 3,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 7,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -753656.530898711,
+        "mean": -135.6797840076215,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 753520.8080890394,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 29601894.0760859
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 3,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 7,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -378380.7350124925,
+        "mean": -819.6071143800123,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 377561.08487244864,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4000.0430256638806,
+        "variance": 19464627.44967675
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 4000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 3,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 7,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -372.07241435877154,
+        "mean": -258.21895617893944,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.8104325159515,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 382.61537258015306
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 3,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 7,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -372.07241435877154,
+        "mean": -258.21895617893944,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.8104325159515,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 382.61537258015306
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 3,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 7,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -372.07241435877154,
+        "mean": -258.21895617893944,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.8104325159515,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 382.61537258015306
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 3,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 7,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -372.07241435877154,
+        "mean": -258.21895617893944,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.8104325159515,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 382.61537258015306
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 3,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 8,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -752300.7009967563,
+        "mean": -235.1874964088142,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 752065.4704746836,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 10.954554043701114
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 4,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 8,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -376364.64825339493,
+        "mean": -235.1874964088142,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 376129.41773132223,
+        "support_lower": -4481839.030587654,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.954554043701114
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 4,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 8,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.69142030533334,
+        "mean": -235.1874964088142,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.46089823263853,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.954554043701114
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 4,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 8,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.69142030533334,
+        "mean": -235.1874964088142,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.46089823263853,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.954554043701114
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 4,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 8,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.69142030533334,
+        "mean": -235.1874964088142,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.46089823263853,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.954554043701114
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 4,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 8,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.69142030533334,
+        "mean": -235.1874964088142,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.46089823263853,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.954554043701114
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 4,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 9,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -753313.6291140105,
+        "mean": 271.3983796641157,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 753584.9844680107,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 32268522.68984851
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 4,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 9,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -378166.8164805578,
+        "mean": -620.0800086177045,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 377546.6934462762,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4000.0430256638806,
+        "variance": 18993070.625176728
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 4000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 4,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 9,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -370.6753790976313,
+        "mean": -257.23386479084024,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.39848864291048,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 324.7725217177561
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 4,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 9,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -370.6753790976313,
+        "mean": -257.23386479084024,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.39848864291048,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 324.7725217177561
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 4,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 9,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -370.6753790976313,
+        "mean": -257.23386479084024,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.39848864291048,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 324.7725217177561
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 4,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 9,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -370.6753790976313,
+        "mean": -257.23386479084024,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.39848864291048,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 324.7725217177561
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 4,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 10,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -752300.9195051435,
+        "mean": -235.3441268496734,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 752065.5323526299,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 12.538367283666162
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 5,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 10,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -376364.8667617822,
+        "mean": -235.3441268496734,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 376129.47960926866,
+        "support_lower": -4481839.030587654,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.538367283666162
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 5,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 10,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.9099286926157,
+        "mean": -235.3441268496734,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.52277617906175,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.538367283666162
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 5,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 10,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.9099286926157,
+        "mean": -235.3441268496734,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.52277617906175,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.538367283666162
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 5,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 10,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.9099286926157,
+        "mean": -235.3441268496734,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.52277617906175,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.538367283666162
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 5,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 10,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.9099286926157,
+        "mean": -235.3441268496734,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.52277617906175,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 12.538367283666162
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 5,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 11,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -753935.1865486356,
+        "mean": -325.29660605802565,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 753609.8469169136,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 33332498.222527172
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 5,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 11,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -378674.32680091436,
+        "mean": -1032.0445096269614,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 377642.2392656235,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4000.0430256638806,
+        "variance": 22232013.615846764
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 4000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 5,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 11,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -373.661106880929,
+        "mean": -259.822294679657,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.79578653739146,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 380.4776397527237
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 5,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 11,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -373.661106880929,
+        "mean": -259.822294679657,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.79578653739146,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 380.4776397527237
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 5,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 11,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -373.661106880929,
+        "mean": -259.822294679657,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.79578653739146,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 380.4776397527237
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 5,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 11,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -373.661106880929,
+        "mean": -259.822294679657,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.79578653739146,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 380.4776397527237
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 5,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 12,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -752300.7147417092,
+        "mean": -235.23854562926275,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 752065.4331704159,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 10.05137112682817
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 6,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 12,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -376364.6619983478,
+        "mean": -235.23854562926275,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 376129.38042705465,
+        "support_lower": -4481839.030587654,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.05137112682817
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 6,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 12,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.70516525820966,
+        "mean": -235.23854562926275,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.4235939650663,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.05137112682817
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 6,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 12,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.70516525820966,
+        "mean": -235.23854562926275,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.4235939650663,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.05137112682817
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 6,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 12,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.70516525820966,
+        "mean": -235.23854562926275,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.4235939650663,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.05137112682817
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 6,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 12,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.70516525820966,
+        "mean": -235.23854562926275,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.4235939650663,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.05137112682817
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 6,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 13,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -753991.2869276492,
+        "mean": -546.792661732157,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 753444.451240253,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 26578940.584731486
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 6,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 13,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -378616.1404597012,
+        "mean": -1079.795216828385,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 377536.3022172089,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4000.0430256638806,
+        "variance": 18656181.131951615
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 4000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 6,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 13,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -372.96353286473766,
+        "mean": -259.25540141866577,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.6651057821913,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 361.6685316332067
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 6,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 13,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -372.96353286473766,
+        "mean": -259.25540141866577,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.6651057821913,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 361.6685316332067
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 6,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 13,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -372.96353286473766,
+        "mean": -259.25540141866577,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.6651057821913,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 361.6685316332067
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 6,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 13,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -372.96353286473766,
+        "mean": -259.25540141866577,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.6651057821913,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 361.6685316332067
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 6,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 14,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -752300.7564041194,
+        "mean": -235.23635419010563,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 752065.4770242653,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 11.117137049824313
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 7,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 14,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -376364.70366075804,
+        "mean": -235.23635419010563,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 376129.42428090406,
+        "support_lower": -4481839.030587654,
+        "support_upper": 1000.0430256638806,
+        "variance": 11.117137049824313
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 7,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 14,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.7468276684204,
+        "mean": -235.23635419010563,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.46744781443418,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 11.117137049824313
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 7,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 14,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.7468276684204,
+        "mean": -235.23635419010563,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.46744781443418,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 11.117137049824313
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 7,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 14,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.7468276684204,
+        "mean": -235.23635419010563,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.46744781443418,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 11.117137049824313
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 7,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 14,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.7468276684204,
+        "mean": -235.23635419010563,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.46744781443418,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 11.117137049824313
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 7,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 15,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -754424.612499349,
+        "mean": -965.9647705136651,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 753458.6047031714,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 27126983.889596257
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 7,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 15,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -378976.23644115863,
+        "mean": -1395.6758405148717,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 377580.51757497987,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4000.0430256638806,
+        "variance": 20110544.674834386
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 4000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 7,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 15,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -368.63971363893785,
+        "mean": -255.5068404980477,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.08984747700956,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 284.5394359879178
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 7,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 15,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -368.63971363893785,
+        "mean": -255.5068404980477,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.08984747700956,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 284.5394359879178
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 7,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 15,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -368.63971363893785,
+        "mean": -255.5068404980477,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.08984747700956,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 284.5394359879178
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 7,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 15,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -368.63971363893785,
+        "mean": -255.5068404980477,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.08984747700956,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 284.5394359879178
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 7,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 16,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -752300.6789252057,
+        "mean": -235.16634739373958,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 752065.469552148,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 10.931749784521385
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 8,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 16,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -376364.6261818444,
+        "mean": -235.16634739373958,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 376129.41680878674,
+        "support_lower": -4481839.030587654,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.931749784521385
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 8,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 16,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.6693487547416,
+        "mean": -235.16634739373958,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.45997569712138,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.931749784521385
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 8,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 16,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.6693487547416,
+        "mean": -235.16634739373958,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.45997569712138,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.931749784521385
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 8,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 16,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.6693487547416,
+        "mean": -235.16634739373958,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.45997569712138,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.931749784521385
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 8,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 16,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -344.6693487547416,
+        "mean": -235.16634739373958,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.45997569712138,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 10.931749784521385
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 8,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 17,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -753675.6191308931,
+        "mean": -122.90780919129669,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 753552.6682960379,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 30911362.867361125
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 8,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 17,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -378426.6202510426,
+        "mean": -867.6855142879829,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 377558.89171109075,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4000.0430256638806,
+        "variance": 19392391.754163083
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 4000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 8,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 17,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -373.1849143718646,
+        "mean": -259.3746776552452,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.76721105273882,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 376.3239914670903
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 8,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 17,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -373.1849143718646,
+        "mean": -259.3746776552452,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.76721105273882,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 376.3239914670903
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 8,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 17,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -373.1849143718646,
+        "mean": -259.3746776552452,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.76721105273882,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 376.3239914670903
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 8,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 17,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -373.1849143718646,
+        "mean": -259.3746776552452,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.76721105273882,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 376.3239914670903
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 8,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 18,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -752301.0544985904,
+        "mean": -235.4536179115609,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 752065.5578550149,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 13.222227265579118
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 9,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 18,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -376365.0017552291,
+        "mean": -235.4536179115609,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 376129.50511165365,
+        "support_lower": -4481839.030587654,
+        "support_upper": 1000.0430256638806,
+        "variance": 13.222227265579118
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 9,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 18,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -345.0449221394511,
+        "mean": -235.4536179115609,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.54827856400958,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 13.222227265579118
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 9,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 18,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -345.0449221394511,
+        "mean": -235.4536179115609,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.54827856400958,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 13.222227265579118
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 9,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 18,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -345.0449221394511,
+        "mean": -235.4536179115609,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.54827856400958,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 13.222227265579118
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 9,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 18,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -345.0449221394511,
+        "mean": -235.4536179115609,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 109.54827856400958,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 13.222227265579118
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 9,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 19,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -753559.9884525173,
+        "mean": -74.41469816727496,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 753485.5307286861,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4481545.079155361,
+        "variance": 28185040.44583825
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 9,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 19,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -378280.01446417824,
+        "mean": -780.7385282498574,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 377499.2329102645,
+        "support_lower": -4481839.030587654,
+        "support_upper": 4000.0430256638806,
+        "variance": 17478932.335596494
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 4000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "plain_mappo",
+      "policy_index": 9,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 19,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -372.15682410040097,
+        "mean": -258.15052415119385,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.96327428532653,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 405.28156341860716
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "plain_mappo",
+      "policy_index": 9,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 19,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -372.15682410040097,
+        "mean": -258.15052415119385,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.96327428532653,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 405.28156341860716
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "plain_mappo",
+      "policy_index": 9,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 19,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -372.15682410040097,
+        "mean": -258.15052415119385,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.96327428532653,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 405.28156341860716
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 9,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 19,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -372.15682410040097,
+        "mean": -258.15052415119385,
+        "n": 256,
+        "numerical_allowance": 0.0430256638805951,
+        "radius": 113.96327428532653,
+        "support_lower": -293.99445795625047,
+        "support_upper": 1000.0430256638806,
+        "variance": 405.28156341860716
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "plain_mappo",
+      "policy_index": 9,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 20,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 10,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 20,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 10,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 20,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 10,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 20,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 10,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 20,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 10,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 20,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 10,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 21,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 10,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 21,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 10,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 21,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 10,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 21,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 10,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 21,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 10,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 21,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 10,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 22,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 11,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 22,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 11,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 22,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 11,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 22,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 11,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 22,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 11,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 22,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 11,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 23,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 11,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 23,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 11,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 23,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 11,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 23,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 11,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 23,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 11,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 23,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 11,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 24,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 12,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 24,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 12,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 24,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 12,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 24,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 12,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 24,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 12,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 24,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 12,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 25,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 12,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 25,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 12,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 25,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 12,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 25,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 12,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 25,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 12,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 25,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 12,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 26,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 13,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 26,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 13,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 26,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 13,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 26,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 13,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 26,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 13,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 26,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 13,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 27,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 13,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 27,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 13,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 27,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 13,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 27,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 13,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 27,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 13,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 27,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 13,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 28,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 14,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 28,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 14,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 28,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 14,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 28,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 14,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 28,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 14,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 28,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 14,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 29,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 14,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 29,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 14,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 29,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 14,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 29,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 14,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 29,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 14,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 29,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 14,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 30,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 15,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 30,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 15,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 30,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 15,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 30,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 15,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 30,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 15,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 30,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 15,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 31,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 15,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 31,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 15,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 31,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 15,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 31,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 15,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 31,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 15,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 31,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 15,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 32,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 16,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 32,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 16,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 32,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 16,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 32,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 16,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 32,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 16,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 32,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 16,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 33,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 16,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 33,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 16,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 33,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 16,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 33,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 16,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 33,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 16,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 33,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 16,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 34,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 17,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 34,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 17,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 34,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 17,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 34,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 17,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 34,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 17,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 34,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 17,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 35,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 17,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 35,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 17,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 35,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 17,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 35,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 17,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 35,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 17,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 35,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 17,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 36,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 18,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 36,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 18,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 36,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 18,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 36,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 18,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 36,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 18,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 36,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 18,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 37,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 18,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 37,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 18,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 37,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 18,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 37,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 18,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 37,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 18,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 37,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 18,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 38,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 19,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 38,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 19,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 38,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 19,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 38,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 19,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 38,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 19,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 38,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 19,
+      "positive": false,
+      "profile": "strict"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 39,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -685927.1851366507,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 685694.5022364819,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 4086033.4742265423,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": null
+      },
+      "method": "raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 19,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 39,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -343176.1732632663,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 342943.49036309746,
+        "support_lower": -4086327.4256588346,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_raw",
+      "policy_family": "feasible_mappo",
+      "policy_index": 19,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 39,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "capped_residual",
+      "policy_family": "feasible_mappo",
+      "policy_index": 19,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 39,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "paired",
+      "policy_family": "feasible_mappo",
+      "policy_index": 19,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 39,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "ridge_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 19,
+      "positive": false,
+      "profile": "vulnerable"
+    },
+    {
+      "alpha": 0.0,
+      "booked_expectation_upper": -232.6436713163064,
+      "case_id": 39,
+      "certificate": {
+        "delta": 0.00020833333333333335,
+        "lower": -341.2573001535495,
+        "mean": -232.64367141630646,
+        "n": 256,
+        "numerical_allowance": 0.039228752509728786,
+        "radius": 108.57439998473335,
+        "support_lower": -293.9906610448796,
+        "support_upper": 1000.0392287525098,
+        "variance": 0.0
+      },
+      "choice": {
+        "beta": 0.0,
+        "budget": 0.0,
+        "cap": 1000.0
+      },
+      "method": "mlp_control",
+      "policy_family": "feasible_mappo",
+      "policy_index": 19,
+      "positive": false,
+      "profile": "vulnerable"
+    }
+  ],
+  "earliest_confirmation_utc": "2026-10-16T10:34:34.073600+00:00",
+  "excluded_old_maturity_events": 5764,
+  "method_counts": {
+    "capped_raw": 0,
+    "capped_residual": 0,
+    "mlp_control": 0,
+    "paired": 0,
+    "raw": 0,
+    "ridge_control": 0
+  },
+  "monetary_units": "DKK",
+  "multiplicity": {
+    "delta_per_limit": 0.00020833333333333335,
+    "family_limits": 240,
+    "joint_primary_auxiliary_95_percent_claim": false,
+    "total_delta": 0.05
+  },
+  "n_cases": 40,
+  "n_confirm_per_method": 256,
+  "n_policies": 20,
+  "new_model_fits": 0,
+  "new_native_queries": 0,
+  "profile_counts": {
+    "strict": {
+      "capped_raw": 0,
+      "capped_residual": 0,
+      "mlp_control": 0,
+      "paired": 0,
+      "raw": 0,
+      "ridge_control": 0
+    },
+    "vulnerable": {
+      "capped_raw": 0,
+      "capped_residual": 0,
+      "mlp_control": 0,
+      "paired": 0,
+      "raw": 0,
+      "ridge_control": 0
+    }
+  },
+  "schema": "sample_only_new_contract_public_v1",
+  "scope": "Old direct maturity G/I/A excluded; all forward financial costs/cost injections and actual inherited state effects retained. Original-objective choices reused. Not a no-prepaid/flat counterfactual, new acquisition, lifecycle profit or future-market performance.",
+  "status": "COMPLETE SEPARATE EXPLORATORY AUXILIARY"
+}

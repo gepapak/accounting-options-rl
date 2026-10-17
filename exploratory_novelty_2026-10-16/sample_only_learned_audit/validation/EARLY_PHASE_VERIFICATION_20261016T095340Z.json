@@ -1,0 +1,72 @@
+{
+  "checked_utc": "2026-10-16T09:53:40.847474+00:00",
+  "checks": 8523,
+  "cpu_seconds": 3.296875,
+  "independence_scope": "unique prescribed SeedSequence identifiers and deterministic slot replay; independence is the frozen generator/source contract, not a test inferred from outcomes",
+  "maximum_recomputation_errors": {
+    "arithmetic": 9.094947017729282e-13,
+    "event": 0.0,
+    "future_target": 1.723066134218243e-13,
+    "summary": 0.0
+  },
+  "monetary_endpoints_emitted": false,
+  "new_actor_inference": 0,
+  "new_experimental_randomness": 0,
+  "new_fits": 0,
+  "new_simulator_steps": 0,
+  "purpose": "early software/arithmetic gate only; no statistical endpoint selection",
+  "source_freeze_sha256": "6152949392bd8de0f494bc21ffb5fd7d9be4a16a6c8866f4eb5595254da523d4",
+  "status": "PASS",
+  "verified_phases": [
+    {
+      "case_id": 0,
+      "completion_sha256": "64c6b3706d6dd08442553b12963fc76cd9ff8557c01a1486f770ce121e3299d6",
+      "metadata_sha256": "a2ac25778a07c1227a7179d71f9f6b6b57c132456d70491afc11970c22cc8c71",
+      "phase": "fit",
+      "status": "PASS",
+      "whole_episodes": 32
+    },
+    {
+      "case_id": 0,
+      "completion_sha256": "73dc6f33ee1664b72072386f0dd92450ea8105b4418098f31652fb01b72901e8",
+      "metadata_sha256": "136881c9a910a210d30ce211fec5ff2317cb23335dc390ff45d15d041e6418df",
+      "phase": "tune",
+      "status": "PASS",
+      "whole_episodes": 32
+    },
+    {
+      "case_id": 1,
+      "completion_sha256": "e0fa45544cfe6a0ed6cc4585506e40bde77ad44cec4acd705382b1cc9a85e231",
+      "metadata_sha256": "68b0bc00e15c36b0c3f0084908735d61644af5dc6d799e57b368ad1cf37b9e6f",
+      "phase": "fit",
+      "status": "PASS",
+      "whole_episodes": 32
+    },
+    {
+      "case_id": 1,
+      "completion_sha256": "ce975fec7d9d59f9a967990e4d498af8ecfaf8f9ca1953bafec573319550c143",
+      "metadata_sha256": "9014fdccd27a9476774a2abc62eac44d994e7d1c982252abe81f4d7dcfbdbb1b",
+      "phase": "tune",
+      "status": "PASS",
+      "whole_episodes": 32
+    },
+    {
+      "case_id": 2,
+      "completion_sha256": "216525b07b39e482e6fa7fa2c456c67bd97e993ca077574a9796fd1d5c7482c0",
+      "metadata_sha256": "f75fed2b358a0def14a78a4cf90ee98b929f714fbced5c993448e6ac2fa9aab2",
+      "phase": "fit",
+      "status": "PASS",
+      "whole_episodes": 32
+    },
+    {
+      "case_id": 2,
+      "completion_sha256": "08dae8d5ce10e44a6b6606a833a61d232f1823028afcbfedd98842852e34f363",
+      "metadata_sha256": "feb8d3b8ec02172df214ac44598b191a13f42efdcf9b9ebecbcfda065e9b1511",
+      "phase": "tune",
+      "status": "PASS",
+      "whole_episodes": 32
+    }
+  ],
+  "verifier_sha256": "261bb0b830ff287605cc00ed13ce89de2dc0a1d94e6cbc71aae393e3c80b92e6",
+  "wall_seconds": 10.400503400000161
+}

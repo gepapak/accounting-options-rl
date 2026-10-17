@@ -1,0 +1,47 @@
+Novelty assessment and stronger revision — 10 October 2026
+
+Recommended framing
+When the Simulator Picks the Winner: Loss Forgiveness in Reinforcement-Learning Trading.
+The strongest result is a certified failure of model selection: an agent can win on reported profits, yet be worst in expected booked performance. This extends the previous reward-versus-evaluation diagnosis into a concrete acceptance failure with independent discovery and certification data. It is an applied mechanism and evaluation contribution, not a claim of a new general concentration inequality.
+
+New independent evaluations
+All 20 frozen policies from experiment L were evaluated on 1,000 fresh exploratory sign draws per zone (M1). A separate 2,000-draw certification cohort per zone (M2) followed a frozen procedure. The original winners were retained throughout: DK1 seed 0 and DK2 seed 2, both trained with uncharged rewards. Policies shared signs within each zone; the independent draw, not policy count, is the replication unit. No agent was retrained or selected from M2. All original registered studies remain intact.
+
+The certification procedure was specified after M1 and before M2, including upper truncation of reported returns at 200%, all 20 policies, a total error of .05 split equally between cost and reported-profit bounds, and independent sign seeds. Source/checkpoint/data hashes and both manifests are retained. The base evaluator's generic protocol prose says 1,000 draws; M2's explicit numeric fields and wrapper correctly specify 2,000. This discrepancy is disclosed rather than silently rewriting the frozen record.
+
+Results
+DK1: discovery-selected winner DK1_s0_a0 reported +108.84%. Realized booked mean -15.23% has Monte Carlo standard error 4.75 percentage points. The no-edge cost-identity estimate of expected booked return is -17.61%, with simultaneous interval [-18.53, -16.68]%. The expected reported-profit lower bound is 93.54%. Its cost lower bound 16.6811 exceeds every other policy's cost upper bound in the zone, at most 10.8676. It is therefore certified worst in expected booked return among its ten-agent set.
+
+DK2: discovery-selected winner DK2_s2_a0 reported +104.26%. Realized booked mean -5.39% has Monte Carlo standard error 4.69 percentage points. The no-edge cost-identity estimate of expected booked return is -10.32%, with simultaneous interval [-10.81, -9.83]%. The expected reported-profit lower bound is 85.11%. Its cost lower bound 9.8332 exceeds every other policy's cost upper bound in the zone, at most 8.2627. It is therefore certified worst in expected booked return among its ten-agent set.
+
+Both positive-reported/worst-expected-booked conclusions hold on one event of probability at least 95%, conditional on the fixed policies, panels and randomized no-edge model. This is not a statement about real-market skill, a guarantee on every realized rank, or certification of the highest population reported mean. Expected booked returns use minus expected executed costs. In a no-edge market this removes zero-mean gross trading noise from estimation; it is not valid for a real market with possible edge.
+
+Mathematical additions
+1. Repeated evaluation can consistently choose a losing policy. For a finite policy set, sample reported means converge to population reported means, including their capital subsidies. When the reported winner is worse on booked profit, increasing the evaluation budget locks in the wrong criterion. Full reconciliation changes the target.
+2. An exact one-period example uses common fair signs, the same spread and fee, flat and two fixed positions, starting at zero equity. The largest position is best by reported return and worst by expected booked return. It is selected with probability 1 - 2^(-n) after n shared-sign draws (flat breaks an all-zero tie). This is an elementary accounting counterexample, not a general statement about every learner or market.
+3. A finite-policy evaluation frontier S_j(beta)=R_j-beta*F_j separates training charge alpha from evaluation charge beta. The upper envelope is piecewise linear and convex. Increasing beta decreases injections and increases booked performance along population maximizing choices. Exact empirical breakpoints measure subsidy dependence of a frozen leaderboard. They are descriptive estimates, not population confidence limits. In M2 the original winners change at charges 87.7% and 83.0%.
+4. A simultaneous certificate combines the no-edge cost identity with empirical Bernstein intervals for bounded per-draw costs, plus a Hoeffding lower bound for upper-truncated reported profit. Sharing evaluation signs between policies is allowed by the union bound. The inequalities are classical; the conditional accounting-based certificate and its application to the independent audit are the contribution.
+
+Validation
+The exact counterexample was checked by enumerating every common-sign sequence for n=1,...,10. Two hundred random finite-policy sets checked the affine frontier and monotonicity statements. The certificates check all source/checkpoint hashes, actual draw counts, cost limits and pathwise reconciliation. Cached scalar-network evaluation uses a Lipschitz margin and falls back to the original network near action boundaries; each model matches direct outputs at 10,000 random input probes. Four policies, including both selected winners, were replayed on three complete M2 paths using the direct network; all final cash, booked, injection and cost totals agreed.
+
+Closest literature and novelty limits
+Grądzki (2026), Unstable Gains: Multiplicity-Aware Evaluation of Financial Deep Reinforcement Learning, Journal of Finance and Data Science 12, 100205. https://doi.org/10.1016/j.jfds.2026.100205
+This is the close reference for multi-run instability, leaderboard selection and multiplicity. The new accounting diagnosis changes the population target; additional runs and multiplicity corrections alone cannot remove an unbooked funding subsidy. The paper already cited this work and now makes the distinction explicit.
+
+Jarne Ornia et al. (NeurIPS 2025), Emergent Risk Awareness in Rational Agents under Resource Constraints. https://proceedings.neurips.cc/paper_files/paper/2025/file/ad52da7034c78e61a7dc1e09f1a24585-Paper-Conference.pdf
+Liability-driven agent risk preferences and reward mitigation have close precedents. The claimed distinction is repeated reflected funding and its consequences for trained-policy acceptance.
+
+Bo, Huang and Yu (2025), On Optimal Tracking Portfolio in Incomplete Markets: The Reinforcement Learning Approach. https://epubs.siam.org/doi/10.1137/23M1620892
+Reflected-account RL and capital injection control already exist. Reflection itself is not novel.
+
+Maurer and Pontil (COLT 2009), Empirical Bernstein Bounds and Sample Variance Penalization. https://www.learningtheory.org/colt2009/papers/012.pdf
+The cost confidence bounds are rescaled applications of its existing Theorem 4, with explicit multiplicity allocation. No new statistical inequality is claimed.
+
+Howard et al. (2021), Time-uniform, nonparametric, nonasymptotic confidence sequences. https://arxiv.org/abs/1810.08240
+Karampatziakis et al. (ICML 2021), Off-Policy Confidence Sequences. https://proceedings.mlr.press/v139/karampatziakis21a.html
+Chen and Weng (2026 preprint), Sim-to-Real Betting on the E-Process. https://arxiv.org/abs/2606.24038
+Sequential certificates are already well developed, including off-policy and simulator work. Adding an e-process and calling it new would weaken the novelty argument. The selected direction instead uses observable accounting structure to certify a concrete model-selection failure.
+
+Research judgment
+This is more compelling than adding another algorithm: a fair-payoff benchmark can repeatedly endorse the agent with the largest expected monetary loss. The new evidence has independent discovery and certification, controlled multiplicity, explicit accounting and all frozen policies. General probability, limited liability, reflection, and scalarized frontiers remain established mathematics. The defensible novelty is the combined mechanism, controlled learning response, subsidy-dependent acceptance and certified winner-to-worst evaluation result. Literature searches do not establish absolute priority or guarantee acceptance. Fixed historical panels, selected architectures, one fee/volume model and internally frozen records remain limitations.

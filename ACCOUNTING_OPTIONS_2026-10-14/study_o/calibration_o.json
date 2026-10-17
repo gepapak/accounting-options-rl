@@ -1,0 +1,98 @@
+{
+ "rows": [
+  {
+   "zone": "DK1",
+   "condition": "gamma 0.99",
+   "index_pct": 1.7889366822280035,
+   "gap_002": 11.1,
+   "learned": true,
+   "n_zf": 10,
+   "n_fl": 5
+  },
+  {
+   "zone": "DK1",
+   "condition": "gamma 0.95",
+   "index_pct": 1.7455697964892518,
+   "gap_002": 9.4,
+   "learned": true,
+   "n_zf": 5,
+   "n_fl": 5
+  },
+  {
+   "zone": "DK1",
+   "condition": "gamma 0.995",
+   "index_pct": 1.6794062879777076,
+   "gap_002": 14.0,
+   "learned": true,
+   "n_zf": 5,
+   "n_fl": 5
+  },
+  {
+   "zone": "DK1",
+   "condition": "Study H costs",
+   "index_pct": 0.16258943410926277,
+   "gap_002": -0.04999999999999999,
+   "learned": false,
+   "n_zf": 5,
+   "n_fl": 5
+  },
+  {
+   "zone": "DK2",
+   "condition": "gamma 0.99",
+   "index_pct": 1.8212951556994847,
+   "gap_002": 11.1,
+   "learned": true,
+   "n_zf": 10,
+   "n_fl": 5
+  },
+  {
+   "zone": "DK2",
+   "condition": "gamma 0.95",
+   "index_pct": 1.7845027301325742,
+   "gap_002": 12.35,
+   "learned": true,
+   "n_zf": 5,
+   "n_fl": 5
+  },
+  {
+   "zone": "DK2",
+   "condition": "gamma 0.995",
+   "index_pct": 1.7015831204593483,
+   "gap_002": 14.75,
+   "learned": true,
+   "n_zf": 5,
+   "n_fl": 5
+  },
+  {
+   "zone": "DK2",
+   "condition": "Study H costs",
+   "index_pct": 0.1381245241562985,
+   "gap_002": 0.0,
+   "learned": false,
+   "n_zf": 5,
+   "n_fl": 5
+  },
+  {
+   "zone": "FI",
+   "condition": "gamma 0.99",
+   "index_pct": 1.5394601699298553,
+   "gap_002": 8.175,
+   "learned": true,
+   "n_zf": 10,
+   "n_fl": 10
+  },
+  {
+   "zone": "NO2",
+   "condition": "gamma 0.99",
+   "index_pct": 0.17117292838364762,
+   "gap_002": 0.9000000000000004,
+   "learned": false,
+   "n_zf": 10,
+   "n_fl": 10
+  }
+ ],
+ "largest_unlearned_index_pct": 0.17117292838364762,
+ "smallest_learned_index_pct": 1.5394601699298553,
+ "c_star_pct": 0.5133360550525173,
+ "separated": true
+}

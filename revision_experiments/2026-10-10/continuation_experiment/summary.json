@@ -1,0 +1,120 @@
+{
+  "primary_gap": 9.6,
+  "primary_seed_cluster_ci": [
+    4.5,
+    13.8
+  ],
+  "primary_pair_differences": [
+    [
+      15.0,
+      0.0
+    ],
+    [
+      15.0,
+      15.0
+    ],
+    [
+      15.0,
+      12.0
+    ],
+    [
+      12.0,
+      12.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "positive_pairs": 7,
+  "zones": {
+    "DK1": {
+      "0": {
+        "reported_returns": 29.932465714376047,
+        "booked_returns": -9.603599155623925,
+        "injections_pct": 39.53606486999994,
+        "costs_pct": 7.0548632062488235,
+        "mean_leverage": 3.1890874175981656,
+        "leverage_grid_mean": [
+          16.0,
+          16.0,
+          16.0,
+          16.0,
+          16.0,
+          16.0,
+          4.45,
+          2.05,
+          2.05
+        ],
+        "max_abs_reconciliation_error_pct": 2.6489033189136535e-11,
+        "simultaneous_gross_cutoff_pct": 118.7776861610417,
+        "maximum_agent_reconciled_gross_mean_pct": 0.3258549062540703
+      },
+      "1": {
+        "reported_returns": -3.308606637502286,
+        "booked_returns": -3.425587266877282,
+        "injections_pct": 0.11698062937499706,
+        "costs_pct": 2.918324481249287,
+        "mean_leverage": 1.2762367440527371,
+        "leverage_grid_mean": [
+          5.8,
+          5.8,
+          5.8,
+          4.6,
+          1.45,
+          4.45,
+          1.45,
+          1.45,
+          1.45
+        ],
+        "max_abs_reconciliation_error_pct": 6.536993168992922e-13,
+        "simultaneous_gross_cutoff_pct": 118.7776861610417,
+        "maximum_agent_reconciled_gross_mean_pct": 1.2619709999885007
+      }
+    },
+    "DK2": {
+      "0": {
+        "reported_returns": 42.653811140009665,
+        "booked_returns": -2.1222419943654716,
+        "injections_pct": 44.77605313437418,
+        "costs_pct": 3.8264963312491154,
+        "mean_leverage": 2.032517626827171,
+        "leverage_grid_mean": [
+          16.0,
+          16.0,
+          16.0,
+          16.0,
+          16.0,
+          16.0,
+          4.9,
+          1.0,
+          1.3
+        ],
+        "max_abs_reconciliation_error_pct": 2.3362645151792094e-11,
+        "simultaneous_gross_cutoff_pct": 168.5446727836188,
+        "maximum_agent_reconciled_gross_mean_pct": 6.572163428132464
+      },
+      "1": {
+        "reported_returns": 19.888034491876805,
+        "booked_returns": -4.150508373122829,
+        "injections_pct": 24.038542864999755,
+        "costs_pct": 4.210268781249399,
+        "mean_leverage": 2.1638080634374703,
+        "leverage_grid_mean": [
+          8.2,
+          8.2,
+          8.2,
+          8.2,
+          8.2,
+          5.05,
+          5.05,
+          2.05,
+          2.05
+        ],
+        "max_abs_reconciliation_error_pct": 9.663381206337363e-12,
+        "simultaneous_gross_cutoff_pct": 168.5446727836188,
+        "maximum_agent_reconciled_gross_mean_pct": 11.213565000003769
+      }
+    }
+  }
+}

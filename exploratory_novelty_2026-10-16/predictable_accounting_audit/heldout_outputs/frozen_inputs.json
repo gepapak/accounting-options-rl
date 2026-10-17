@@ -1,0 +1,25 @@
+{
+  "status": "EXPLORATORY_FROZEN_before_evaluation",
+  "input_sha256": {
+    "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK1.pkl": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3",
+    "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK2.pkl": "28fcb73457b67df176ba2a3bf1d651129ac08f1989fbb65656e2cb9c4e24059a",
+    "exploratory_novelty_2026-10-16\\predictable_accounting_audit\\run_heldout_benchmark.py": "378a28ed39a144ce05401ed17d59a4fc6cc6170a078c8bf9244b76879b33db6c",
+    "exploratory_novelty_2026-10-16\\predictable_accounting_audit\\predictable_audit.py": "2b277e7ebe540553cfa9057a75b2aaf029af2d76e47d727c706b13d8c52457e4",
+    "exploratory_novelty_2026-10-16\\predictable_accounting_audit\\EXPLORATORY_PLAN.md": "9d2e38ba2ceee442968848ae0e5d903c2f1a34887fb8428561b126e8b8678fb5",
+    "exploratory_novelty_2026-10-15\\adaptive_witness_empirical\\benchmark_adaptive_witness.py": "58e186edac7849f0f8dee84fc3ff8a489ebede1d7c4109c007143214c53043d6",
+    "LIABILITY_STUDY_2026-09-29\\envs_b.py": "76800482f11cbcc2fdb363fbe2bb0e818be6ac9307398bb9fa92677f3ee49042",
+    "GENERALIZATION_STUDY_2026-09-29\\envs.py": "d877e09ec29847f3ad2521fc10fa7e9b44b87e2462df1e63b1db4b89cd2bff68"
+  },
+  "cases": 24,
+  "repeats": 3,
+  "bounds_per_case_repeat": 10,
+  "delta_per_bound": 6.944444444444444e-05,
+  "family_error": 0.05,
+  "search_transition_budget": 262144,
+  "confirmation_transition_budget": 2097152,
+  "versions": {
+    "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "pandas": "2.3.2"
+  }
+}

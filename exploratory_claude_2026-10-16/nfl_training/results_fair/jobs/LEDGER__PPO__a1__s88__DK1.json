@@ -1,0 +1,33 @@
+{
+ "method": "LEDGER",
+ "learner": "PPO",
+ "algo": "PPO",
+ "kwargs": {
+  "n_steps": 1024,
+  "batch_size": 256
+ },
+ "alpha": 1.0,
+ "seed": 88,
+ "region": "DK1",
+ "steps": 1000000,
+ "eval_split": "test",
+ "lev": {
+  "0": 16.0,
+  "0.02": 4.0,
+  "0.05": 4.0,
+  "0.1": 4.0,
+  "0.25": 4.0,
+  "0.5": 4.0,
+  "0.75": 4.0,
+  "1": 4.0,
+  "1.25": 4.0,
+  "1.5": 4.0,
+  "2": 4.0,
+  "2.5": 4.0,
+  "3": 4.0
+ },
+ "drawmean_reported_return_pct": 10.41488187500561,
+ "drawmean_ledger_return_pct": -9.278882828118968,
+ "drawmean_mean_abs_lev_open": 4.014646030381198,
+ "seconds": 2640.4
+}

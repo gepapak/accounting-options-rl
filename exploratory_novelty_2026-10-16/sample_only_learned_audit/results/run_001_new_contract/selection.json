@@ -1,0 +1,2402 @@
+[
+  {
+    "alpha": 0.0,
+    "case_id": 0,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 0,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 0,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 0,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 0,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 0,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 1,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 1,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 4000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 1,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 1,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 1,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 1,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 2,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 2,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 2,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 2,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 2,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 2,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 3,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 3,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 4000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 3,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 3,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 3,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 3,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 4,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 4,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 4,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 4,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 4,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 4,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 5,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 5,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 4000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 5,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 5,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 5,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 5,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 6,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 6,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 6,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 6,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 6,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 6,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 7,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 7,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 4000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 7,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 7,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 7,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 7,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 8,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 8,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 8,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 8,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 8,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 8,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 9,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 9,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 4000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 9,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 9,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 9,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 9,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 10,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 10,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 10,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 10,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 10,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 10,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 11,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 11,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 4000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 11,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 11,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 11,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 11,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 12,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 12,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 12,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 12,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 12,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 12,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 13,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 13,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 4000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 13,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 13,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 13,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 13,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 14,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 14,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 14,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 14,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 14,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 14,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 15,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 15,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 4000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 15,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 15,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 15,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 15,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 16,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 16,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 16,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 16,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 16,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 16,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 17,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 17,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 4000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 17,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 17,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 17,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 17,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 18,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 18,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 18,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 18,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 18,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 18,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 19,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 19,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 4000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 19,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 19,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 19,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 19,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 20,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 20,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 20,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 20,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 20,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 20,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 21,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 21,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 21,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 21,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 21,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 21,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 22,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 22,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 22,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 22,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 22,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 22,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 23,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 23,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 23,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 23,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 23,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 23,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 24,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 24,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 24,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 24,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 24,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 24,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 25,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 25,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 25,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 25,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 25,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 25,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 26,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 26,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 26,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 26,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 26,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 26,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 27,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 27,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 27,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 27,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 27,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 27,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 28,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 28,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 28,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 28,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 28,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 28,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 29,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 29,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 29,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 29,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 29,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 29,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 30,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 30,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 30,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 30,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 30,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 30,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 31,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 31,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 31,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 31,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 31,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 31,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 32,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 32,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 32,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 32,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 32,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 32,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 33,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 33,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 33,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 33,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 33,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 33,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 34,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 34,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 34,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 34,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 34,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 34,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 35,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 35,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 35,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 35,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 35,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 35,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 36,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 36,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 36,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 36,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 36,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 36,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 37,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 37,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 37,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 37,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 37,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 37,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 38,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 38,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 38,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 38,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 38,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 38,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 39,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": null
+    },
+    "method": "raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 39,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_raw"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 39,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "capped_residual"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 39,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "paired"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 39,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "ridge_control"
+  },
+  {
+    "alpha": 0.0,
+    "case_id": 39,
+    "choice": {
+      "beta": 0.0,
+      "budget": 0.0,
+      "cap": 1000.0
+    },
+    "method": "mlp_control"
+  }
+]

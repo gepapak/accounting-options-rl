@@ -1,0 +1,11 @@
+{
+  "status": "PENDING_FIRST_COMPLETE_PHASE",
+  "run_id": "run_001",
+  "source_freeze_sha256": "6152949392bd8de0f494bc21ffb5fd7d9be4a16a6c8866f4eb5595254da523d4",
+  "validator_sha256": "4c5140b9dc980555b6236f01c4285649a8b52d83656e6116d100c91f1f030942",
+  "scope": "read-only completed metadata, support and input hashes only; financial outcomes never loaded",
+  "checks": [],
+  "warnings": [],
+  "startup_note": "Earlier detached PID2984 attempt produced zero-byte logs and no LAUNCH record; root reports zero queries. Managed execution began with actual PID26404, LAUNCH09:43:18UTC; no scientific stream/sample change.",
+  "completed_phase_metadata_checked": 0
+}

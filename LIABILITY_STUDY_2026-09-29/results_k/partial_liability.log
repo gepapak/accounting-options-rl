@@ -1,0 +1,19 @@
+{'zone': 'DK1', 'alpha': 0.0, 'threshold_K': 1.75}
+{'zone': 'DK1', 'alpha': 0.5, 'threshold_K': 1.52}
+{'zone': 'DK1', 'alpha': 0.9, 'threshold_K': 0.97}
+{'zone': 'DK1', 'alpha': 0.99, 'threshold_K': 0.19}
+{'zone': 'DK1', 'alpha': 0.995, 'threshold_K': 0.05}
+{'zone': 'DK1', 'alpha': 0.996, 'threshold_K': 0.025}
+{'zone': 'DK1', 'alpha': 0.997, 'threshold_K': 0.01}
+{'zone': 'DK1', 'alpha': 0.998, 'threshold_K': 0.0}
+{'zone': 'DK1', 'alpha': 0.999, 'threshold_K': 0.0}
+{'zone': 'DK2', 'alpha': 0.0, 'threshold_K': 1.75}
+{'zone': 'DK2', 'alpha': 0.5, 'threshold_K': 1.52}
+{'zone': 'DK2', 'alpha': 0.9, 'threshold_K': 1.0}
+{'zone': 'DK2', 'alpha': 0.99, 'threshold_K': 0.235}
+{'zone': 'DK2', 'alpha': 0.995, 'threshold_K': 0.085}
+{'zone': 'DK2', 'alpha': 0.996, 'threshold_K': 0.055}
+{'zone': 'DK2', 'alpha': 0.997, 'threshold_K': 0.025}
+{'zone': 'DK2', 'alpha': 0.998, 'threshold_K': 0.0}
+{'zone': 'DK2', 'alpha': 0.999, 'threshold_K': 0.0}
+width removed per tenfold reduction of the unbooked share (alpha 0-0.99, both zones): 0.77 allocations

@@ -1,0 +1,6 @@
+# Private native traces, caches, models and rich source-path metadata.
+execution/
+runtime_cache/
+joint_fault_results_run_*.json
+validation/**/*.npz
+validation/**/native_stdout_stderr.log

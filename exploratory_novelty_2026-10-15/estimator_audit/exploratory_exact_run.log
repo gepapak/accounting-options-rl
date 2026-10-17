@@ -1,0 +1,203 @@
+{
+  "calibration": [
+    {
+      "excludes_revised_FI": false,
+      "n": 10,
+      "largest_unlearned_pct": 0.007323513245505552,
+      "smallest_learned_pct": 1.0979017424880366,
+      "threshold_pct": 0.08966882375371477,
+      "rows": [
+        {
+          "zone": "DK1",
+          "learned": true,
+          "index": 1.2719845364390974
+        },
+        {
+          "zone": "DK1",
+          "learned": true,
+          "index": 1.2719845364390974
+        },
+        {
+          "zone": "DK1",
+          "learned": true,
+          "index": 1.2719845364390974
+        },
+        {
+          "zone": "DK1",
+          "learned": false,
+          "index": 0.0
+        },
+        {
+          "zone": "DK2",
+          "learned": true,
+          "index": 1.2161034730009563
+        },
+        {
+          "zone": "DK2",
+          "learned": true,
+          "index": 1.2161034730009563
+        },
+        {
+          "zone": "DK2",
+          "learned": true,
+          "index": 1.2161034730009563
+        },
+        {
+          "zone": "DK2",
+          "learned": false,
+          "index": 0.0
+        },
+        {
+          "zone": "FI",
+          "learned": true,
+          "index": 1.0979017424880366
+        },
+        {
+          "zone": "NO2",
+          "learned": false,
+          "index": 0.007323513245505552
+        }
+      ],
+      "calibration_consistent_separating_threshold_set_pct": [
+        0.007323513245505552,
+        1.0979017424880366
+      ],
+      "separating_set_lower_endpoint_is_open": true
+    },
+    {
+      "excludes_revised_FI": true,
+      "n": 9,
+      "largest_unlearned_pct": 0.007323513245505552,
+      "smallest_learned_pct": 1.2161034730009563,
+      "threshold_pct": 0.09437240005651974,
+      "rows": [
+        {
+          "zone": "DK1",
+          "learned": true,
+          "index": 1.2719845364390974
+        },
+        {
+          "zone": "DK1",
+          "learned": true,
+          "index": 1.2719845364390974
+        },
+        {
+          "zone": "DK1",
+          "learned": true,
+          "index": 1.2719845364390974
+        },
+        {
+          "zone": "DK1",
+          "learned": false,
+          "index": 0.0
+        },
+        {
+          "zone": "DK2",
+          "learned": true,
+          "index": 1.2161034730009563
+        },
+        {
+          "zone": "DK2",
+          "learned": true,
+          "index": 1.2161034730009563
+        },
+        {
+          "zone": "DK2",
+          "learned": true,
+          "index": 1.2161034730009563
+        },
+        {
+          "zone": "DK2",
+          "learned": false,
+          "index": 0.0
+        },
+        {
+          "zone": "NO2",
+          "learned": false,
+          "index": 0.007323513245505552
+        }
+      ],
+      "calibration_consistent_separating_threshold_set_pct": [
+        0.007323513245505552,
+        1.2161034730009563
+      ],
+      "separating_set_lower_endpoint_is_open": true
+    }
+  ],
+  "ranks": [
+    {
+      "subset": "all26",
+      "n": 26,
+      "spearman_DP": 0.9345364380621067,
+      "MAE_DP_pct": 0.2792682310314992
+    },
+    {
+      "subset": "legacy12",
+      "n": 12,
+      "spearman_DP": 0.6429353617616744,
+      "MAE_DP_pct": 0.4297046981914123
+    },
+    {
+      "subset": "exclude_revised_FI",
+      "n": 25,
+      "spearman_DP": 0.9263059307239266,
+      "MAE_DP_pct": 0.27277662317508644
+    }
+  ],
+  "new_fee_design": [
+    {
+      "fee": 0.4,
+      "eligible_high_alphas": [
+        0.0,
+        0.25,
+        0.5,
+        0.7,
+        0.8
+      ],
+      "eligible_low_alphas": [
+        0.9,
+        0.95
+      ],
+      "closest_high": 0.8,
+      "closest_low": 0.9
+    },
+    {
+      "fee": 1.5,
+      "eligible_high_alphas": [
+        0.0,
+        0.25,
+        0.5
+      ],
+      "eligible_low_alphas": [
+        0.8,
+        0.9,
+        0.95
+      ],
+      "closest_high": 0.5,
+      "closest_low": 0.8
+    }
+  ],
+  "same_alpha_confident_cross_fee_disagreements": [
+    {
+      "alpha": 0.8,
+      "by_fee": {
+        "0.4": {
+          "mean_index_pct": 0.1568475327345108,
+          "both_high": true,
+          "both_low": false
+        },
+        "1.5": {
+          "mean_index_pct": 0.026688158332560077,
+          "both_high": false,
+          "both_low": true
+        }
+      }
+    }
+  ],
+  "prior_flat_MC": {
+    "n": 26,
+    "intervals_covering_exact": 26,
+    "mean_abs_error_pct": 0.058667749703234365
+  },
+  "seconds": 0.4327612000051886
+}

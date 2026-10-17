@@ -10,7 +10,7 @@ queries used in the study and checks them against the hashes recorded at downloa
 Data published after the study's download is cut at the study's last timestamp, so an unrevised re-download
 reproduces the study files exactly. Values eSett corrected later are reported as a warning, not an error.
 
-Usage: python data/fetch_esett.py            (writes data/esett/esett_EXP1{3,4}_<zone>.csv.gz)
+Usage: python data/fetch_esett.py            (writes data/esett/esett_EXP1{3,4}_<zone>.csv.gz; EXP14 only for DK and SE zones)
 """
 from __future__ import annotations
 
@@ -28,7 +28,11 @@ import pandas as pd
 OUT = Path(__file__).resolve().parent / "esett"
 API = "https://api.opendata.esett.com"
 MBAS = {"FI": "10YFI_1________U", "NO1": "10YNO_1________2", "NO2": "10YNO_2________T", "NO3": "10YNO_3________J",
-        "NO4": "10YNO_4________9", "NO5": "10Y1001A1001A48H"}
+        "NO4": "10YNO_4________9", "NO5": "10Y1001A1001A48H",
+        # prices only (EXP14): twelve-zone checks (best_moment_zones.py) and the Nordic settlement analysis
+        "DK1": "10YDK-1--------W", "DK2": "10YDK-2--------M", "SE1": "10Y1001A1001A44P", "SE2": "10Y1001A1001A45N",
+        "SE3": "10Y1001A1001A46L", "SE4": "10Y1001A1001A47J"}
+VOLUME_ZONES = ("FI", "NO1", "NO2", "NO3", "NO4", "NO5")   # EXP13 volumes are needed only for these
 START, END = pd.Timestamp("2025-03-04", tz="UTC"), pd.Timestamp("2026-09-28", tz="UTC")  # study window, fixed
 
 
@@ -68,21 +72,39 @@ def verify(path: Path, content: dict) -> bool:
     return hashlib.sha256(gzip.decompress(path.read_bytes())).hexdigest() == content[path.name]["sha256_uncompressed_csv"]
 
 
+def record(path: Path, content: dict, time_column: str, df: pd.DataFrame) -> None:
+    """First download of a file without a recorded hash: record its content hash for later re-downloads."""
+    content[path.name] = {"sha256_uncompressed_csv": hashlib.sha256(gzip.decompress(path.read_bytes())).hexdigest(),
+                          "rows": int(len(df)), "time_column": time_column, "last_timestamp": str(df[time_column].astype(str).max()),
+                          "recorded": "first download"}
+
+
 def main() -> int:
     OUT.mkdir(exist_ok=True)
     m14 = json.loads((OUT / "esett_download_manifest.json").read_text(encoding="utf-8"))["areas"]
     content = json.loads((OUT / "CONTENT_SHA256.json").read_text(encoding="utf-8"))
-    warnings = 0
+    warnings, recorded = 0, 0
     for zone, code in MBAS.items():
         # EXP14 prices: same processing as the original download (dedupe on timestampUTC, sort)
         frames, hashes = fetch("EXP14/Prices", code)
-        rec = [c["sha256"] for c in m14[zone]["calls"]]
+        rec = [c["sha256"] for c in m14[zone]["calls"]] if zone in m14 else []
         same = sum(h == r for h, r in zip(hashes, rec))
         df = pd.concat(frames, ignore_index=True).drop_duplicates("timestampUTC").sort_values("timestampUTC")
-        df, cut14 = cutoff(df, content[f"esett_EXP14_{zone}.csv.gz"])
         f14 = OUT / f"esett_EXP14_{zone}.csv.gz"
-        df.to_csv(f14, index=False)
-        ok14 = same == len(rec) == len(hashes) or verify(f14, content)
+        if f14.name in content:
+            df, cut14 = cutoff(df, content[f14.name])
+            df.to_csv(f14, index=False)
+            ok14 = (rec and same == len(rec) == len(hashes)) or verify(f14, content)
+            msg14 = "identical to the study data" if ok14 else f"{same}/{len(rec)} API responses identical; values REVISED by eSett since the study"
+        else:
+            cut14 = 0
+            df.to_csv(f14, index=False)
+            record(f14, content, "timestampUTC", df); recorded += 1
+            ok14, msg14 = True, f"{same}/{len(rec)} API responses identical to the price manifest; content hash recorded (first download)"
+        if zone not in VOLUME_ZONES:
+            warnings += not ok14
+            print(f"{zone}: EXP14 {len(df)} rows ({cut14} later rows cut), {msg14}", flush=True)
+            continue
         # EXP13 volumes: same processing as cross_market_liquidity_test.download_volumes (dedupe on timestamp)
         frames, _ = fetch("EXP13/ImbalancePowerVolume", code)
         dv = pd.concat(frames, ignore_index=True).drop_duplicates("timestamp")
@@ -91,9 +113,11 @@ def main() -> int:
         dv.to_csv(f13, index=False)
         ok13 = verify(f13, content)
         warnings += (not ok14) + (not ok13)
-        print(f"{zone}: EXP14 {len(df)} rows ({cut14} later rows cut), "
-              f"{'identical to the study data' if ok14 else f'{same}/{len(rec)} API responses identical; values REVISED by eSett since the study'}; "
+        print(f"{zone}: EXP14 {len(df)} rows ({cut14} later rows cut), {msg14}; "
               f"EXP13 {len(dv)} rows ({cut13} later rows cut), {'identical' if ok13 else 'values REVISED by eSett since the study'}", flush=True)
+    if recorded:
+        (OUT / "CONTENT_SHA256.json").write_text(json.dumps(content, indent=2), encoding="utf-8")
+        print(f"recorded content hashes for {recorded} file(s) downloaded for the first time")
     print("all files identical to the study data" if not warnings else f"{warnings} file(s) differ from the study data (see above)")
     return 0
 

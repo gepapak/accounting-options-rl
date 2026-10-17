@@ -1,0 +1,96 @@
+{
+  "n": 60,
+  "primary_R1_supported": false,
+  "components": {
+    "low_fee_gap_at_least_4": true,
+    "high_fee_gap_below_4": false,
+    "mean_interaction_at_least_4": false,
+    "exact_one_sided_seed_sign_p_at_most_0p05": false
+  },
+  "low_fee_G": 4.5,
+  "high_fee_G": 4.475,
+  "mean_interaction": 0.025,
+  "paired_seed_interactions": {
+    "60": -1.5,
+    "61": 0.125,
+    "62": 9.0,
+    "63": -7.5,
+    "64": 0.0
+  },
+  "positive_seed_clusters": 2,
+  "exact_one_sided_sign_p": 0.8125,
+  "descriptive_paired_seed_bootstrap_95pct": [
+    -4.475,
+    5.125
+  ],
+  "arms": [
+    {
+      "fee": 0.4,
+      "alpha": 0,
+      "n": 10,
+      "mean_L002": 16.0,
+      "gap_over_matched_control": 12.9,
+      "max16_runs": 10,
+      "mean_index_pct": 1.1576559967872995,
+      "predicted_learned": true,
+      "observed_learned": true
+    },
+    {
+      "fee": 0.4,
+      "alpha": 0.8,
+      "n": 10,
+      "mean_L002": 7.6,
+      "gap_over_matched_control": 4.5,
+      "max16_runs": 4,
+      "mean_index_pct": 0.1568475327345108,
+      "predicted_learned": true,
+      "observed_learned": true
+    },
+    {
+      "fee": 0.4,
+      "alpha": 1,
+      "n": 10,
+      "mean_L002": 3.1,
+      "gap_over_matched_control": 0.0,
+      "max16_runs": 1,
+      "mean_index_pct": 0.0,
+      "predicted_learned": false,
+      "observed_learned": false
+    },
+    {
+      "fee": 1.5,
+      "alpha": 0,
+      "n": 10,
+      "mean_L002": 16.0,
+      "gap_over_matched_control": 14.875,
+      "max16_runs": 10,
+      "mean_index_pct": 0.8916804172122097,
+      "predicted_learned": true,
+      "observed_learned": true
+    },
+    {
+      "fee": 1.5,
+      "alpha": 0.8,
+      "n": 10,
+      "mean_L002": 5.6,
+      "gap_over_matched_control": 4.475,
+      "max16_runs": 3,
+      "mean_index_pct": 0.026688158332560077,
+      "predicted_learned": false,
+      "observed_learned": true
+    },
+    {
+      "fee": 1.5,
+      "alpha": 1,
+      "n": 10,
+      "mean_L002": 1.125,
+      "gap_over_matched_control": 0.0,
+      "max16_runs": 0,
+      "mean_index_pct": 0.0,
+      "predicted_learned": false,
+      "observed_learned": false
+    }
+  ],
+  "inferential_target": "seed-wise probability of a positive interaction; fixed two zones",
+  "limitations": "Operational cohort thresholds do not prove population equivalence/nonlearning. Single primary composite; anchors and bootstrap are descriptive."
+}

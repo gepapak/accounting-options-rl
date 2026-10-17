@@ -1,0 +1,13 @@
+{'zone': 'DK1', 'T': 23328, 'mean_abs_spread': 51.756, 'excess_kurtosis': 275.034, 'ks_D': 0.016, 'mean_reported_K': 2.669, 'predicted_K': 2.722, 'error_pct': -1.943, 'cv': 0.791, 'power_n5': 0.883}
+{'zone': 'DK2', 'T': 23328, 'mean_abs_spread': 59.164, 'excess_kurtosis': 665.283, 'ks_D': 0.018, 'mean_reported_K': 3.774, 'predicted_K': 3.939, 'error_pct': -4.195, 'cv': 0.801, 'power_n5': 0.863}
+{'zone': 'FI', 'T': 23328, 'mean_abs_spread': 44.449, 'excess_kurtosis': 387.81, 'ks_D': 0.056, 'mean_reported_K': 1.652, 'predicted_K': 1.769, 'error_pct': -6.611, 'cv': 0.846, 'power_n5': 0.838}
+{'zone': 'NO1', 'T': 23328, 'mean_abs_spread': 10.192, 'excess_kurtosis': 9119.56, 'ks_D': 0.066, 'mean_reported_K': 1.123, 'predicted_K': 1.49, 'error_pct': -24.621, 'cv': 0.993, 'power_n5': 0.615}
+{'zone': 'NO2', 'T': 23328, 'mean_abs_spread': 10.85, 'excess_kurtosis': 9377.874, 'ks_D': 0.054, 'mean_reported_K': 1.113, 'predicted_K': 1.477, 'error_pct': -24.615, 'cv': 0.976, 'power_n5': 0.642}
+{'zone': 'NO3', 'T': 23328, 'mean_abs_spread': 16.78, 'excess_kurtosis': 3148.602, 'ks_D': 0.019, 'mean_reported_K': 2.577, 'predicted_K': 3.056, 'error_pct': -15.682, 'cv': 0.92, 'power_n5': 0.722}
+{'zone': 'NO4', 'T': 23328, 'mean_abs_spread': 17.855, 'excess_kurtosis': 2525.121, 'ks_D': 0.069, 'mean_reported_K': 3.146, 'predicted_K': 3.769, 'error_pct': -16.532, 'cv': 0.924, 'power_n5': 0.714}
+{'zone': 'NO5', 'T': 23328, 'mean_abs_spread': 7.986, 'excess_kurtosis': 6816.756, 'ks_D': 0.066, 'mean_reported_K': 1.39, 'predicted_K': 1.809, 'error_pct': -23.168, 'cv': 0.965, 'power_n5': 0.662}
+{'zone': 'SE1', 'T': 23328, 'mean_abs_spread': 25.341, 'excess_kurtosis': 178.833, 'ks_D': 0.044, 'mean_reported_K': 0.742, 'predicted_K': 0.783, 'error_pct': -5.224, 'cv': 0.857, 'power_n5': 0.826}
+{'zone': 'SE2', 'T': 23328, 'mean_abs_spread': 25.898, 'excess_kurtosis': 161.499, 'ks_D': 0.035, 'mean_reported_K': 0.779, 'predicted_K': 0.811, 'error_pct': -3.958, 'cv': 0.849, 'power_n5': 0.843}
+{'zone': 'SE3', 'T': 23328, 'mean_abs_spread': 38.72, 'excess_kurtosis': 2274.026, 'ks_D': 0.05, 'mean_reported_K': 2.061, 'predicted_K': 2.346, 'error_pct': -12.151, 'cv': 0.837, 'power_n5': 0.84}
+{'zone': 'SE4', 'T': 23328, 'mean_abs_spread': 45.059, 'excess_kurtosis': 1463.858, 'ks_D': 0.023, 'mean_reported_K': 4.022, 'predicted_K': 4.39, 'error_pct': -8.388, 'cv': 0.85, 'power_n5': 0.813}
+Spearman(kurtosis, over-prediction) = 0.94

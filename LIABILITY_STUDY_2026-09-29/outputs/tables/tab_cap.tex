@@ -1,0 +1,20 @@
+\begin{table}[!htbp]
+\centering
+\caption{The universal cap of Theorem~\ref{thm:cap} in the four zones of the learning studies (placebo market, test period, liquidity cap applied, fee 0.10~EUR/MWh, 20,000 sign draws shared by all policies; allocations of 20,000~EUR). Cap: $B_T$. From zero equity: expected reported equity of the fixed maximal position and of the optimal threshold policy (dynamic program on the full training distribution, $\gamma = 0.99$), as a share of the cap. From one allocation: expected reported profit of the fixed maximal position, of the threshold policies with the dynamic-program barrier and the closed-form barrier of Proposition~\ref{prop:barrier}, and of the learned floor-trained agents with equity as their only input (Studies F, J and K at $\gamma = 0.99$).}
+\label{tab:cap}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+ & & \multicolumn{2}{c}{From zero (share of cap)} & \multicolumn{4}{c}{From one allocation (allocations)} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-8}
+Zone & Cap & Fixed & Threshold & Fixed & Threshold & Threshold & Learned \\
+ & $B_T$ & maximal & (DP) & maximal & (DP) & (closed form) & agents \\
+\midrule
+DK1 & 3.43 & 0.73 & 0.53 & 1.61 & 0.82 & 0.37 & 0.42 \\
+DK2 & 4.87 & 0.73 & 0.39 & 2.64 & 0.91 & 0.40 & 1.17 \\
+FI & 2.35 & 0.68 & 0.71 & 0.75 & 0.80 & -- & 0.36 \\
+NO2 & 1.64 & 0.56 & 0.11 & 0.20 & 0.00 & -- & 0.19 \\
+\bottomrule
+\end{tabular}
+\end{table}

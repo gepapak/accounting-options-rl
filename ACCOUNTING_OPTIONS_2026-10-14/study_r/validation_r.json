@@ -1,0 +1,17 @@
+{
+  "no_RL_training": true,
+  "no_TEST_evaluation": true,
+  "matching_transitions": 12096,
+  "max_reward_abs_error": 0.0,
+  "same_states_dynamics_observations": true,
+  "visitation_counter_check": true,
+  "synthetic_primary_supported_and_failed_checks": true,
+  "incomplete_cohort_refused": true,
+  "runtime_versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.2",
+    "torch": "2.8.0",
+    "gymnasium": "1.2.0",
+    "stable-baselines3": "2.7.0"
+  }
+}

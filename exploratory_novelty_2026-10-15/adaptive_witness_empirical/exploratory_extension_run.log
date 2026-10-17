@@ -1,0 +1,101 @@
+{
+  "status": "EXPLORATORY_complete",
+  "state_method_pairs": 70,
+  "planned_state_method_pairs": 70,
+  "calendar_rows": 420,
+  "calendar_rows_not_independent_trials": true,
+  "delta_per_bound": 0.00011904761904761905,
+  "familywise_error_budget": 0.05,
+  "planned_bounds": 420,
+  "summary_by_method": [
+    {
+      "method": "one_action",
+      "states": 14,
+      "one_action_exact_positive": 9,
+      "raw_certified": 3,
+      "residual_certified": 3,
+      "clipped_raw_certified": 4,
+      "clipped_residual_certified": 6,
+      "new_clipped_certificates_beyond_one_action": 0,
+      "search_active_transitions": 3670016,
+      "confirmation_active_transitions": 458752
+    },
+    {
+      "method": "forced_prefix_myopic",
+      "states": 14,
+      "one_action_exact_positive": 9,
+      "raw_certified": 5,
+      "residual_certified": 5,
+      "clipped_raw_certified": 4,
+      "clipped_residual_certified": 7,
+      "new_clipped_certificates_beyond_one_action": 0,
+      "search_active_transitions": 3669904,
+      "confirmation_active_transitions": 4390912
+    },
+    {
+      "method": "fixed_barrier",
+      "states": 14,
+      "one_action_exact_positive": 9,
+      "raw_certified": 5,
+      "residual_certified": 5,
+      "clipped_raw_certified": 4,
+      "clipped_residual_certified": 6,
+      "new_clipped_certificates_beyond_one_action": 0,
+      "search_active_transitions": 3669904,
+      "confirmation_active_transitions": 4390912
+    },
+    {
+      "method": "structured_feedback",
+      "states": 14,
+      "one_action_exact_positive": 9,
+      "raw_certified": 4,
+      "residual_certified": 5,
+      "clipped_raw_certified": 4,
+      "clipped_residual_certified": 7,
+      "new_clipped_certificates_beyond_one_action": 0,
+      "search_active_transitions": 3666432,
+      "confirmation_active_transitions": 4489216
+    },
+    {
+      "method": "random_parameter_search",
+      "states": 14,
+      "one_action_exact_positive": 9,
+      "raw_certified": 4,
+      "residual_certified": 4,
+      "clipped_raw_certified": 4,
+      "clipped_residual_certified": 7,
+      "new_clipped_certificates_beyond_one_action": 0,
+      "search_active_transitions": 3666432,
+      "confirmation_active_transitions": 4849664
+    }
+  ],
+  "environment_check": {
+    "feedback_paths": 24,
+    "arm_path_checks": 48,
+    "max_abs_error_eur": 3.637978807091713e-12
+  },
+  "calendar_compiler_environment_check": {
+    "delayed_arm_path_checks": 40,
+    "outer_horizon": 48,
+    "max_abs_error_eur": 4.547473508864641e-13
+  },
+  "max_accounting_identity_error": 3.637978807091713e-12,
+  "cpu_seconds": 16.078125,
+  "wall_seconds": 17.335869499998807,
+  "numeric_threads": 1,
+  "R_files_read": false,
+  "registered_files_modified": false,
+  "dp_solved": false,
+  "learners_trained": 0,
+  "input_sha256": {
+    "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK1.pkl": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3",
+    "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK2.pkl": "28fcb73457b67df176ba2a3bf1d651129ac08f1989fbb65656e2cb9c4e24059a",
+    "LIABILITY_STUDY_2026-09-29\\envs_b.py": "76800482f11cbcc2fdb363fbe2bb0e818be6ac9307398bb9fa92677f3ee49042",
+    "ACCOUNTING_OPTIONS_2026-10-14\\study_n\\envs_n.py": "685a47953405c9dc77d6620270b13597cb3933b2941b20a9773218cf92371757"
+  },
+  "script_sha256": "13bc16467aefec1d4f0fe2017cf6a2666bfd3b2876cac83410c8e48280084f6f",
+  "kernel_script_sha256": "58e186edac7849f0f8dee84fc3ff8a489ebede1d7c4109c007143214c53043d6",
+  "plan_sha256": "58a3dfe4f410b8be07bd7432b476d021f906dc26a47dda772d496a0f49e3d34f",
+  "compiler": "latest local-controller placement; algebraic gamma^(H-T) scaling for H>=T; no extra simulator calls",
+  "interpretation": "All fixed states/methods retained. Positive means policy-specific empirical IID incentive, not acquisition or global safety; abstain outside compatible horizons or failed certificates."
+}

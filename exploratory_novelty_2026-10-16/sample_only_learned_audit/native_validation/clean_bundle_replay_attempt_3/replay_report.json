@@ -1,0 +1,917 @@
+{
+  "allowed_external_dependency_roots": [
+    "C:\\Users\\gepap\\AppData\\Local\\Programs\\Python\\Python310",
+    "C:\\Users\\gepap\\AppData\\Local\\Programs\\Python\\Python310",
+    "C:\\Users\\gepap\\AppData\\Roaming\\Python\\Python310\\site-packages",
+    "C:\\Users\\gepap\\AppData\\Local\\Packages\\sandbox.{402afeb8-73d7-4a22-8809-eb4f10be907f}\\AC\\Microsoft\\Windows\\Fonts",
+    "C:\\Users\\gepap\\AppData\\Roaming\\Microsoft\\Windows\\Fonts",
+    "C:\\Windows"
+  ],
+  "allowed_readonly_wrapper_source": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\exploratory_novelty_2026-10-16\\sample_only_learned_audit\\replay_private_bundle_attempt3.py",
+  "blocked_access": [
+    {
+      "event": "os.scandir",
+      "path": "C:\\Users\\gepap\\AppData\\Local\\Microsoft\\Windows\\Fonts",
+      "write": false
+    },
+    {
+      "event": "os.scandir",
+      "path": "C:\\Users\\gepap\\AppData\\Local\\Microsoft\\Windows\\Fonts",
+      "write": false
+    },
+    {
+      "event": "open",
+      "path": "C:\\Users\\gepap\\AppData\\Local\\Microsoft\\Windows\\Fonts\\fontawesome5-brands-webfont-5.15.4.ttf",
+      "write": false
+    },
+    {
+      "event": "open",
+      "path": "C:\\Users\\gepap\\AppData\\Local\\Microsoft\\Windows\\Fonts\\fontawesome5-regular-webfont-5.15.4.ttf",
+      "write": false
+    },
+    {
+      "event": "open",
+      "path": "C:\\Users\\gepap\\AppData\\Local\\Microsoft\\Windows\\Fonts\\phosphor-1.3.0.ttf",
+      "write": false
+    },
+    {
+      "event": "open",
+      "path": "C:\\Users\\gepap\\AppData\\Local\\Microsoft\\Windows\\Fonts\\elusiveicons-webfont-2.0.ttf",
+      "write": false
+    },
+    {
+      "event": "open",
+      "path": "C:\\Users\\gepap\\AppData\\Local\\Microsoft\\Windows\\Fonts\\codicon-0.0.35.ttf",
+      "write": false
+    },
+    {
+      "event": "open",
+      "path": "C:\\Users\\gepap\\AppData\\Local\\Microsoft\\Windows\\Fonts\\remixicon-2.5.0.ttf",
+      "write": false
+    },
+    {
+      "event": "open",
+      "path": "C:\\Users\\gepap\\AppData\\Local\\Microsoft\\Windows\\Fonts\\materialdesignicons5-webfont-5.9.55.ttf",
+      "write": false
+    },
+    {
+      "event": "open",
+      "path": "C:\\Users\\gepap\\AppData\\Local\\Microsoft\\Windows\\Fonts\\materialdesignicons6-webfont-6.9.96.ttf",
+      "write": false
+    },
+    {
+      "event": "open",
+      "path": "C:\\Users\\gepap\\AppData\\Local\\Microsoft\\Windows\\Fonts\\fontawesome5-solid-webfont-5.15.4.ttf",
+      "write": false
+    },
+    {
+      "event": "open",
+      "path": "C:\\Users\\gepap\\AppData\\Local\\Microsoft\\Windows\\Fonts\\fontawesome4-webfont-4.7.ttf",
+      "write": false
+    }
+  ],
+  "cases": [
+    {
+      "case": "plain7_strict",
+      "compared_arrays": [
+        {
+          "array": "event_actor_action",
+          "atol": 1e-07,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-07,
+          "shape": [
+            223
+          ]
+        },
+        {
+          "array": "event_actor_observation",
+          "atol": 1e-07,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-07,
+          "shape": [
+            223,
+            12
+          ]
+        },
+        {
+          "array": "event_cash_after",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            223
+          ]
+        },
+        {
+          "array": "event_cash_before",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            223
+          ]
+        },
+        {
+          "array": "event_cost",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            223
+          ]
+        },
+        {
+          "array": "event_gross",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            223
+          ]
+        },
+        {
+          "array": "event_injection",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            223
+          ]
+        },
+        {
+          "array": "event_kind",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            223
+          ]
+        },
+        {
+          "array": "event_native_step",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            223
+          ]
+        },
+        {
+          "array": "event_sign_epsilon",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            223
+          ]
+        },
+        {
+          "array": "event_step",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            223
+          ]
+        },
+        {
+          "array": "event_unsigned_base_gross",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            223
+          ]
+        },
+        {
+          "array": "path_actor_action",
+          "atol": 1e-07,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-07,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_actor_observation",
+          "atol": 1e-07,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-07,
+          "shape": [
+            96,
+            12
+          ]
+        },
+        {
+          "array": "path_excluded_native_cash_change",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_financial_cost",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_financial_gross",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_financial_injection",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_native_cash_after",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_native_cash_before",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_native_fund_nav",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_native_investor_shaped_reward",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_native_step",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_open_contracts",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_step",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "transfer_cash_change_inside_method",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            192
+          ]
+        },
+        {
+          "array": "transfer_kind",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            192
+          ]
+        },
+        {
+          "array": "transfer_native_step",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            192
+          ]
+        },
+        {
+          "array": "transfer_returned_cashflow",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            192
+          ]
+        },
+        {
+          "array": "transfer_step",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            192
+          ]
+        }
+      ],
+      "deterministic_warm_steps": 384,
+      "native_actor_contract": {
+        "battery_operator_0": {
+          "action_shape": [],
+          "observation_shape": [
+            12
+          ]
+        },
+        "investor_0": {
+          "action_shape": [
+            1
+          ],
+          "observation_shape": [
+            12
+          ]
+        }
+      },
+      "native_audit_steps": 96,
+      "parent_and_config_immutable": true,
+      "resource_sha256": {
+        "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed7/tier1_seed7/final_models/battery_operator_0_policy.zip": "0c0f18e83e119edfbaef85ef2852aff4911099974cfa12c2a7f640a2701ca792",
+        "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed7/tier1_seed7/final_models/investor_0_policy.zip": "50b0f20797c177b14601e01b8467af365e55587fa1968deb0068e794018c02cb",
+        "evaluation_dataset_ffill/unseendata_liquidity_volume_real_v1.csv": "0738a6b84aecfc65791d94b6ceda4fe7282be2c7e857dac893f8d78550c4275f",
+        "evaluation_dataset_ffill/unseendata_settlement_real_v2.csv": "7803e4eb0611d1fcc9b0c51518927242dba9f42cc9bb2410eb27bff9fb1e0d13",
+        "evaluation_dataset_ffill\\unseendata.csv": "dbe19c2673c27f27cb47bdc944ad12308ee1c477f77884698ca75db0ec377105",
+        "rolling_past_history_dataset_ffill/history_019.csv": "aa6ff7a4062e61f2ed2f38e13e637c6e940c20b55431303fabb13045fe98f0a9",
+        "rolling_past_history_dataset_ffill/history_020.csv": "db1ca34b3aebbb1a82828207669d3e3477bbcab4722a4236e5015b45326d96e3",
+        "training_config": "50fe39f379e5ad0afa1d259132a37d0f13f1b952744393be01c5ea5327f5af01"
+      },
+      "status": "PASS",
+      "terminal_queue_empty": true
+    },
+    {
+      "case": "feasible7_vulnerable",
+      "compared_arrays": [
+        {
+          "array": "event_actor_action",
+          "atol": 1e-07,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-07,
+          "shape": [
+            214
+          ]
+        },
+        {
+          "array": "event_actor_observation",
+          "atol": 1e-07,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-07,
+          "shape": [
+            214,
+            20
+          ]
+        },
+        {
+          "array": "event_cash_after",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            214
+          ]
+        },
+        {
+          "array": "event_cash_before",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            214
+          ]
+        },
+        {
+          "array": "event_cost",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            214
+          ]
+        },
+        {
+          "array": "event_gross",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            214
+          ]
+        },
+        {
+          "array": "event_injection",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            214
+          ]
+        },
+        {
+          "array": "event_kind",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            214
+          ]
+        },
+        {
+          "array": "event_native_step",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            214
+          ]
+        },
+        {
+          "array": "event_sign_epsilon",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            214
+          ]
+        },
+        {
+          "array": "event_step",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            214
+          ]
+        },
+        {
+          "array": "event_unsigned_base_gross",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            214
+          ]
+        },
+        {
+          "array": "path_actor_action",
+          "atol": 1e-07,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-07,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_actor_observation",
+          "atol": 1e-07,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-07,
+          "shape": [
+            96,
+            20
+          ]
+        },
+        {
+          "array": "path_excluded_native_cash_change",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_financial_cost",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_financial_gross",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_financial_injection",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_native_cash_after",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_native_cash_before",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_native_fund_nav",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_native_investor_shaped_reward",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_native_step",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_open_contracts",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "path_step",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            96
+          ]
+        },
+        {
+          "array": "transfer_cash_change_inside_method",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            192
+          ]
+        },
+        {
+          "array": "transfer_kind",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            192
+          ]
+        },
+        {
+          "array": "transfer_native_step",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            192
+          ]
+        },
+        {
+          "array": "transfer_returned_cashflow",
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "rtol": 1e-10,
+          "shape": [
+            192
+          ]
+        },
+        {
+          "array": "transfer_step",
+          "atol": 0.0,
+          "max_absolute_error": 0.0,
+          "rtol": 0.0,
+          "shape": [
+            192
+          ]
+        }
+      ],
+      "deterministic_warm_steps": 384,
+      "native_actor_contract": {
+        "battery_operator_0": {
+          "action_shape": [],
+          "observation_shape": [
+            12
+          ]
+        },
+        "investor_0": {
+          "action_shape": [
+            1
+          ],
+          "observation_shape": [
+            20
+          ]
+        }
+      },
+      "native_audit_steps": 96,
+      "parent_and_config_immutable": true,
+      "resource_sha256": {
+        "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed7/tier1_forecast_utilization_seed7/final_models/battery_operator_0_policy.zip": "73a65ac1b065a31e676671468301f670f8b19b2270b4492a09b1c30cc73d177a",
+        "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed7/tier1_forecast_utilization_seed7/final_models/investor_0_policy.zip": "b4644070e5d93131495380656e79e4a541a424c084a3b5d9b1059e07bced2398",
+        "evaluation_dataset_ffill/unseendata_liquidity_volume_real_v1.csv": "0738a6b84aecfc65791d94b6ceda4fe7282be2c7e857dac893f8d78550c4275f",
+        "evaluation_dataset_ffill/unseendata_settlement_real_v2.csv": "7803e4eb0611d1fcc9b0c51518927242dba9f42cc9bb2410eb27bff9fb1e0d13",
+        "evaluation_dataset_ffill\\unseendata.csv": "dbe19c2673c27f27cb47bdc944ad12308ee1c477f77884698ca75db0ec377105",
+        "forecast_view": "d19f1b0008c524e5932c87c506f6493208c7b8094eadbbebf7a6dc2ff2226804",
+        "native_forecast_source": "8d16e1be6e258ae8289f93a1f861694d1b9f8e82d4133c0e34dd88611d367ea1",
+        "rolling_past_history_dataset_ffill/history_019.csv": "aa6ff7a4062e61f2ed2f38e13e637c6e940c20b55431303fabb13045fe98f0a9",
+        "rolling_past_history_dataset_ffill/history_020.csv": "db1ca34b3aebbb1a82828207669d3e3477bbcab4722a4236e5015b45326d96e3",
+        "training_config": "0b64437fbf0e0e085ed1e1f2e6128a549761bbf4cfeffd69fc32ea54eefffa42"
+      },
+      "status": "PASS",
+      "terminal_queue_empty": true
+    }
+  ],
+  "checkpoint_sha256": {
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed10001\\tier1_forecast_utilization_seed10001\\final_models\\battery_operator_0_policy.zip": "31eeb2b713b87fac0720376cd941975b245de33c77053cde7fc1d4e9998373d9",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed10001\\tier1_forecast_utilization_seed10001\\final_models\\investor_0_policy.zip": "e760ea86613849622b27d506ebf88c0464f6eaf53c85b6100d9167b3cd3754d5",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed10001\\tier1_forecast_utilization_seed10001\\final_models\\training_config.json": "31bc527df9c909d1fd968d56bf27dc85798ca01f724a8e702dcaa24362fa4d3c",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed11202\\tier1_forecast_utilization_seed11202\\final_models\\battery_operator_0_policy.zip": "055a539d1bd48bc37034a5effd7259f0ac4f58a7e4d1c0c7ccc851a69834e503",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed11202\\tier1_forecast_utilization_seed11202\\final_models\\investor_0_policy.zip": "13a07d20a325b71f160fe19834096eb0093cf51debb050c7ad93d98fcd693738",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed11202\\tier1_forecast_utilization_seed11202\\final_models\\training_config.json": "da82443878617dd5ada905fe4e70b2ef805674550ac929256819538593b6a57a",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed123\\tier1_forecast_utilization_seed123\\final_models\\battery_operator_0_policy.zip": "94367ac8bed04d47528f5d734c01edb3cdff7142ce451fe5c623389631627310",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed123\\tier1_forecast_utilization_seed123\\final_models\\investor_0_policy.zip": "d68b539268aa12daedd100ff41f30602eddbba971daf85819715e0257dffb558",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed123\\tier1_forecast_utilization_seed123\\final_models\\training_config.json": "a88e88849bf0cecd2aff98cdb5486411af856d8bf82acf330638d7c65f3c8d29",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed2025\\tier1_forecast_utilization_seed2025\\final_models\\battery_operator_0_policy.zip": "97079be8f047013c4793158d422c0cef3de0c7a1b053d2703ad31d7a13336859",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed2025\\tier1_forecast_utilization_seed2025\\final_models\\investor_0_policy.zip": "1a488e32d730b2614d60df65f1b74f216938eefdb6c2f954236320fe7472c7c4",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed2025\\tier1_forecast_utilization_seed2025\\final_models\\training_config.json": "44d1b3de3b08774d7a8a9f150b7c9868ec8810136d74c0d731dc93e787968442",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed3007\\tier1_forecast_utilization_seed3007\\final_models\\battery_operator_0_policy.zip": "997b6bc7f9140e1f4695c18dfe42f7d764acbd25e5e72955bd99071ab7853713",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed3007\\tier1_forecast_utilization_seed3007\\final_models\\investor_0_policy.zip": "12aa4d46c0eb23502d29c7871b8b87862bbba0d248cb37d2a2a22013e0d29eb0",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed3007\\tier1_forecast_utilization_seed3007\\final_models\\training_config.json": "11340e263e2704c81cbf6d82c2be8fc0263a2b1be825350878e4834c261ade9c",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed42\\tier1_forecast_utilization_seed42\\final_models\\battery_operator_0_policy.zip": "ff00d5a861cb9f0dae52ecb292b348a49d782ea32ae58aa9327c8aa338dafe0d",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed42\\tier1_forecast_utilization_seed42\\final_models\\investor_0_policy.zip": "7323e77ea375cb19b9b365ae934160ab02f08e10fc3c0cf0f1ad38ad59dbc4c8",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed42\\tier1_forecast_utilization_seed42\\final_models\\training_config.json": "a06868226184faa5ad5a7276f0f638bfd224c11fc085b2501b48835bf0b7bb5b",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed5001\\tier1_forecast_utilization_seed5001\\final_models\\battery_operator_0_policy.zip": "9bd38aa341654191376f79185ce7381a7eba94a82f6dfb9dd9b373b71a96cff6",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed5001\\tier1_forecast_utilization_seed5001\\final_models\\investor_0_policy.zip": "0a3a0e1395352e3ec27168a21faef90951171b6d93a710b871d99ad70f4dca61",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed5001\\tier1_forecast_utilization_seed5001\\final_models\\training_config.json": "fed5a6348ae1363878975f02e57b092528e0cf01e7ab774aabd785b8cf9b89aa",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed7\\tier1_forecast_utilization_seed7\\final_models\\battery_operator_0_policy.zip": "73a65ac1b065a31e676671468301f670f8b19b2270b4492a09b1c30cc73d177a",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed7\\tier1_forecast_utilization_seed7\\final_models\\investor_0_policy.zip": "b4644070e5d93131495380656e79e4a541a424c084a3b5d9b1059e07bced2398",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed7\\tier1_forecast_utilization_seed7\\final_models\\training_config.json": "0b64437fbf0e0e085ed1e1f2e6128a549761bbf4cfeffd69fc32ea54eefffa42",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed8102\\tier1_forecast_utilization_seed8102\\final_models\\battery_operator_0_policy.zip": "e1e97a15f200f4f16c05397b74491afa4de3544efaf601bc4c7920cc0131f277",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed8102\\tier1_forecast_utilization_seed8102\\final_models\\investor_0_policy.zip": "8c8bd86476b03ea519af197f63291ec6c1f7c213ea481de4b03c2796e1a1b87e",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed8102\\tier1_forecast_utilization_seed8102\\final_models\\training_config.json": "739c2001520162484e57d567e995ad21e8713dcaf45a5098d06a7ba6afe006d8",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed9005\\tier1_forecast_utilization_seed9005\\final_models\\battery_operator_0_policy.zip": "37d189516de45cff72ceb920ba4dca4027186187c74b55d75f0382068fe837fc",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed9005\\tier1_forecast_utilization_seed9005\\final_models\\investor_0_policy.zip": "3e4a75d4645ad07745919e841a4938f6eb91c5c958f19032b5f88a2e46f783ad",
+    "Ablations\\batch_tier_phase_runs\\prototype5_mechanism_ablations_final_v1\\feasible_action_full\\seed9005\\tier1_forecast_utilization_seed9005\\final_models\\training_config.json": "6219fb79fcce8c466015ba22c90e7021372397fa003fddd9f505134ee0fb1f4b",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed10001\\tier1_seed10001\\final_models\\battery_operator_0_policy.zip": "6fcda6b09728c8193472b61dc10965f841a95c3a614ab6639815271205873c32",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed10001\\tier1_seed10001\\final_models\\investor_0_policy.zip": "d70f5d7c5c8c7f98984b634cab0f9712ec9f865b4e94e424487afddbdbb14a1f",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed10001\\tier1_seed10001\\final_models\\training_config.json": "f8157202c650b2c8a983268bf19dddcd5f8b3ec7e6920ebda0c8fea70a07e711",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed11202\\tier1_seed11202\\final_models\\battery_operator_0_policy.zip": "58adfdc6a8d29a2c43a3e067d34aa88cfcb9144bfb0a44550c571855aa49852d",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed11202\\tier1_seed11202\\final_models\\investor_0_policy.zip": "9db51ae14cf3cfbe27c83eb57b24c496b392b02502de3ae493f0fde5b1096ddf",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed11202\\tier1_seed11202\\final_models\\training_config.json": "c9628445287fa67ec01399b90523eddfedf67945392487b7d742f9e35796ed2b",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed123\\tier1_seed123\\final_models\\battery_operator_0_policy.zip": "8ceae61660c620454c074de448cd62687fbf437ba015281fd3cf97e51ba805a3",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed123\\tier1_seed123\\final_models\\investor_0_policy.zip": "5e5d2a8431a446654d125c65f50023b61cd15219b94f3695ab3d4f87224ee823",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed123\\tier1_seed123\\final_models\\training_config.json": "d1f10d60e816d7123ecfb0aa1afdd22429610176505762991dc9be7897a78920",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed2025\\tier1_seed2025\\final_models\\battery_operator_0_policy.zip": "f6c5d4b6d10d9816f6d051219ddfb7ed53d717a171998053d9dd6953746c4f4e",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed2025\\tier1_seed2025\\final_models\\investor_0_policy.zip": "979bcd1c717a70bddd455f98a5bb1c6918986676fec1af564079a88e2393d2ee",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed2025\\tier1_seed2025\\final_models\\training_config.json": "898d5392ee1a29aa1487076cf4c5011f4df87e05a67cfc78081595f67198065b",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed3007\\tier1_seed3007\\final_models\\battery_operator_0_policy.zip": "ecf7625811bc79c014c3e4041c7a76f368fb8130b9359759c45611e448a3a69b",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed3007\\tier1_seed3007\\final_models\\investor_0_policy.zip": "8bf1b199f4dc6582ed61289776c548afe784a1b4b573b71ca497b122c49bcc39",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed3007\\tier1_seed3007\\final_models\\training_config.json": "b125ae84037092a809b82b287af8e6fa473610d651909e5aed8ddc0049bae35c",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed42\\tier1_seed42\\final_models\\battery_operator_0_policy.zip": "21dd5433c0a63befb6cac9a976e4b3ee88dddb384bcb05f73ddd6894bc224b18",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed42\\tier1_seed42\\final_models\\investor_0_policy.zip": "5b46ea6b2fb8cbe61de25b40f9916ec06b9e89641b4ebaa97d488f3e30c7f5d4",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed42\\tier1_seed42\\final_models\\training_config.json": "25a14b6c6b67f1e5a9bb0ae704d6cbb64d4b34dd1302793b96d938a4b5eb4d50",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed5001\\tier1_seed5001\\final_models\\battery_operator_0_policy.zip": "a4b9d9c14c05241191f88975d4b0bf76f37d7abd68697e0d1d4e4b0e6bf7def9",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed5001\\tier1_seed5001\\final_models\\investor_0_policy.zip": "21484b439a4714426b7e676bb941921fc7fb2c11a50408cec1cb2abe47a4943b",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed5001\\tier1_seed5001\\final_models\\training_config.json": "ab5f7db71ea9234aca454a43b79897fdc1b62c6192148877e9390b14021eb877",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed7\\tier1_seed7\\final_models\\battery_operator_0_policy.zip": "0c0f18e83e119edfbaef85ef2852aff4911099974cfa12c2a7f640a2701ca792",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed7\\tier1_seed7\\final_models\\investor_0_policy.zip": "50b0f20797c177b14601e01b8467af365e55587fa1968deb0068e794018c02cb",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed7\\tier1_seed7\\final_models\\training_config.json": "50fe39f379e5ad0afa1d259132a37d0f13f1b952744393be01c5ea5327f5af01",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed8102\\tier1_seed8102\\final_models\\battery_operator_0_policy.zip": "fdbe5ae64a0135663337566392dadc73b026862f6eb80a539a488aebf61557b5",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed8102\\tier1_seed8102\\final_models\\investor_0_policy.zip": "4e7213d85df332ab0bc3f0a07e679918de94b6460538b622ba9a7f62b7b4fba2",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed8102\\tier1_seed8102\\final_models\\training_config.json": "1c7164170ff95e900dda19247c570a417c777adea7dbc0d24494399996d731dd",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed9005\\tier1_seed9005\\final_models\\battery_operator_0_policy.zip": "27b425fa4382cbe78c94926c96dde52a9b60f9e5b98f2b62dde7df8bd6db4b62",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed9005\\tier1_seed9005\\final_models\\investor_0_policy.zip": "0ac1264d64d35875d087c5c2e3c3b90d5a3877a791e989444b1095af2f457ef4",
+    "batch_tier_phase_runs\\prototype5_mappo_marl_final_v1\\seed9005\\tier1_seed9005\\final_models\\training_config.json": "0b9c511ac8896ff75af777e5175f3dcf348baa224d5286883d31ab93aa31a2f4"
+  },
+  "cpu_seconds": 146.921875,
+  "deterministic_warm_steps": 768,
+  "error": "AssertionError('No denied/original fallback access')",
+  "golden_trace_sha256": {
+    "feasible7_vulnerable": "f4c1bd6c018d39c2198c4f4f2658fbe69c2d9162a42b92d1c678e0be0507a613",
+    "plain7_strict": "05fe72374a49ce632a2329a25e1f64a19bd945c5bb9a3c79e3e5155964c1293c"
+  },
+  "loaded_native_module_origins": {
+    "config": "config.py",
+    "distributional_forecast_prior": "distributional_forecast_prior.py",
+    "environment": "environment.py",
+    "evaluation": "evaluation.py",
+    "feasible_action_mappo": "feasible_action_mappo.py",
+    "financial_engine": "financial_engine.py",
+    "forecast_mirror_mappo": "forecast_mirror_mappo.py",
+    "forecast_prior": "forecast_prior.py",
+    "forecast_prior_cli": "forecast_prior_cli.py",
+    "generator": "generator.py",
+    "logger": "logger.py",
+    "market_fee_protocol": "market_fee_protocol.py",
+    "metacontroller": "metacontroller.py",
+    "observation_builder": "observation_builder.py",
+    "policy": "policy.py",
+    "risk": "risk.py",
+    "runtime_contract": "runtime_contract.py",
+    "trading_engine": "trading_engine.py",
+    "utils": "utils.py",
+    "wrapper": "wrapper.py"
+  },
+  "native_audit_steps": 192,
+  "native_reads": {
+    "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed7/tier1_forecast_utilization_seed7/final_models/battery_operator_0_policy.zip": 2,
+    "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed7/tier1_forecast_utilization_seed7/final_models/investor_0_policy.zip": 2,
+    "Ablations/batch_tier_phase_runs/prototype5_mechanism_ablations_final_v1/feasible_action_full/seed7/tier1_forecast_utilization_seed7/final_models/training_config.json": 3,
+    "__pycache__/config.cpython-310.pyc": 1,
+    "__pycache__/distributional_forecast_prior.cpython-310.pyc": 1,
+    "__pycache__/environment.cpython-310.pyc": 1,
+    "__pycache__/evaluation.cpython-310.pyc": 1,
+    "__pycache__/feasible_action_mappo.cpython-310.pyc": 1,
+    "__pycache__/financial_engine.cpython-310.pyc": 1,
+    "__pycache__/forecast_mirror_mappo.cpython-310.pyc": 1,
+    "__pycache__/forecast_prior.cpython-310.pyc": 1,
+    "__pycache__/forecast_prior_cli.cpython-310.pyc": 1,
+    "__pycache__/generator.cpython-310.pyc": 1,
+    "__pycache__/logger.cpython-310.pyc": 1,
+    "__pycache__/market_fee_protocol.cpython-310.pyc": 1,
+    "__pycache__/metacontroller.cpython-310.pyc": 1,
+    "__pycache__/observation_builder.cpython-310.pyc": 1,
+    "__pycache__/policy.cpython-310.pyc": 1,
+    "__pycache__/risk.cpython-310.pyc": 1,
+    "__pycache__/runtime_contract.cpython-310.pyc": 1,
+    "__pycache__/trading_engine.cpython-310.pyc": 1,
+    "__pycache__/utils.cpython-310.pyc": 1,
+    "__pycache__/wrapper.cpython-310.pyc": 1,
+    "baselines.py": 1,
+    "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed7/tier1_seed7/final_models/battery_operator_0_policy.zip": 2,
+    "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed7/tier1_seed7/final_models/investor_0_policy.zip": 2,
+    "batch_tier_phase_runs/prototype5_mappo_marl_final_v1/seed7/tier1_seed7/final_models/training_config.json": 3,
+    "config.py": 5,
+    "distributional_forecast_prior.py": 2,
+    "environment.py": 5,
+    "evaluation.py": 6,
+    "evaluation_dataset_ffill/unseendata.csv": 2,
+    "evaluation_dataset_ffill/unseendata_liquidity_volume_real_v1.csv": 3,
+    "evaluation_dataset_ffill/unseendata_settlement_real_v2.csv": 3,
+    "feasible_action_mappo.py": 2,
+    "financial_engine.py": 2,
+    "forecast_cache_settlement_hourly_v2/forecast_cache_eval_episode20_2025/forecast_cache_eval_episode20_2025-full/precomputed_forecasts_20250101_to_20250930_39312rows.csv": 3,
+    "forecast_engine.py": 1,
+    "forecast_mirror_mappo.py": 2,
+    "forecast_price_experts.py": 1,
+    "forecast_prior.py": 2,
+    "forecast_prior_cli.py": 2,
+    "generator.py": 2,
+    "harness1.py": 1,
+    "harness2.py": 1,
+    "harness3.py": 1,
+    "harness4.py": 1,
+    "harness_common.py": 1,
+    "learning_wall_analysis.py": 1,
+    "logger.py": 2,
+    "main.py": 1,
+    "make_forecast_cache_ablation.py": 1,
+    "market_fee_protocol.py": 2,
+    "marl.py": 1,
+    "metacontroller.py": 3,
+    "observation_builder.py": 5,
+    "policy.py": 5,
+    "protocol_preflight.py": 1,
+    "risk.py": 2,
+    "rolling_past_history_dataset_ffill/history_019.csv": 3,
+    "rolling_past_history_dataset_ffill/history_020.csv": 3,
+    "run_tier_phase_multi_seed.py": 1,
+    "runtime_contract.py": 2,
+    "trading_engine.py": 2,
+    "utils.py": 2,
+    "wrapper.py": 2
+  },
+  "native_source_sha256": {
+    "baselines.py": "f1d0053b9e0df674ad44143fdefdc29a3792afb8e9567535f03dc72d208789ae",
+    "config.py": "37e19f521721160946a070e9220be99d278f4116f65eb8af726b6c8128afd4c2",
+    "distributional_forecast_prior.py": "fc961a4add66d1f5a733314aa6a594d478e3a4ecf937c2f555b58e6d68164957",
+    "environment.py": "61d446064bf6dacadaed5314487b72437d02e97860da0cb6e192a67aee2f0d63",
+    "evaluation.py": "8f3b331ade20189973319caa8d6c9645ca0bf56121af9d85ebbfba121fb95c6b",
+    "feasible_action_mappo.py": "7b53be3aa1e492a5f39ecc7060aed8027601af87c5d52b15bb16084eec53374a",
+    "financial_engine.py": "7627a46cdcd404c3abf55b51c67f8e128e794693f10c411451af4a2619dda09a",
+    "forecast_engine.py": "f0cbb6156f02e898337d4e0b465a453a30d739bbea3f314ef2c2ae12c945e032",
+    "forecast_mirror_mappo.py": "05f6312ee886de2265c374744856ccd3725d58a400bb6f65e8c86c67b7bd4ab4",
+    "forecast_price_experts.py": "adf3bd304d9fb09b60ab01c64cbdede18f75ea3929245fd2efc33d3aac04381a",
+    "forecast_prior.py": "703687d70e0a60ed7e54ae0f65fd087569acea8748996886cff246f5218afdb5",
+    "forecast_prior_cli.py": "48f9d27812391ccb4f1081405ca0eeb1fe41fc4f3d7bc39ef264d2e0395f4fa1",
+    "generator.py": "3e3a7122e075bcffef05a84995d85b96245eddd0ced70efdad38e0e4643db06e",
+    "harness1.py": "b1f680c871f331f4b1b292fdd77e0b440c67050b530916ff9fbeb604b160ed97",
+    "harness2.py": "fd2570292dbbeadf8abaf772b52963717a3139b7e25cde7f5ed5f11028a6e989",
+    "harness3.py": "a711556f2b40f3e0c78af584184f96931aca04db44264c8272bd43bd210b7ffc",
+    "harness4.py": "f38c831fece68e061740a1d9ac6a17d4fa31f27cd4b06e2baff6f221c48c8097",
+    "harness_common.py": "11bcb9692d38724b2f48eeabca22aeb22fa7a696fa83a4b1c3df6204228bf772",
+    "learning_wall_analysis.py": "c68b2aa636c8a7f8f05d8be301a85659c19b9d4334646f93823a48cc03180fbf",
+    "logger.py": "2f030ec089187aed24492cc2bb0343da57f34c28247606debd129312cc0fcca2",
+    "main.py": "166af9f68dfa713823d35115460c014ea1a128bf9d3ca218d0980e1b17870490",
+    "make_forecast_cache_ablation.py": "362d6382e048273fa33559c5ed68836d9f5b347a48a7bc8f2976634f5f1f174b",
+    "market_fee_protocol.py": "4d749cbb4de866e5dd0fdcca29a5e0b6d1f36834c0590458f2ebbe1d06ce73a7",
+    "marl.py": "69c71f291680c7e3d7894418e6a9b4c35be9429fe03eefac35debe8e95571dbb",
+    "metacontroller.py": "a9fe3a712c98641784da199c238189d8a0a13af2f8c9935c4fd365e715b8f674",
+    "observation_builder.py": "c00f7dc38dfee02980607786c01130f7ffef937a8c30624acac9ad2a612f60be",
+    "policy.py": "878dd668d77c7e49540a92f5aa27425f678b9f4178a2bdc7f946449a9861782b",
+    "protocol_preflight.py": "3f7c25246a2f49cf38621a3fc08dc0017a202b61b3d6bb0160a3629e4b005471",
+    "risk.py": "080293abc0c5f663819760bd91e9446577863af4cdb3bef4fc3417d28edd7a99",
+    "run_tier_phase_multi_seed.py": "a46349248e98cc24b5673ac0cdef4d5674fc1469c69e73dee0c831b136ed7602",
+    "runtime_contract.py": "c4fcf9532e1c016baecbde2a3e7ad4e93f5b47216f3a8a54b18e01930de0b741",
+    "trading_engine.py": "7e467148f63b0f30fbb9dadf20591c723d15724b75dba8c40e790c60761d3130",
+    "utils.py": "bf49a2711ef8868dd7b37620a5293cc36906d27abe148c1e47f57ad37daafec0",
+    "wrapper.py": "3635cfd33fd0aee12292f219286b961b1020cf9969dac0b851c7e014b954607b"
+  },
+  "null_device_exception": "Windows NUL or \\\\.\\NUL only; no filesystem tree",
+  "optional_hardware_probe": {
+    "allowed_only_if_absent": true,
+    "existed_before_guard": false,
+    "path": "C:\\sys\\bus\\pci\\devices"
+  },
+  "original_native_root_used": false,
+  "packet_manifest_sha256": "3e290f4984d629284e640fccad7798fb79839db71956a8607eecc1e6e8c75035",
+  "plan_sha256": "4da2673e0032bd617daef18e8bd88ca657927ee47c5fef634e36f469d889421e",
+  "purpose": "exact two historical deterministic software paths; not statistical evidence",
+  "runtime_inputs_sha256": {
+    "Prototype5/evaluation_dataset_ffill/unseendata.csv": "dbe19c2673c27f27cb47bdc944ad12308ee1c477f77884698ca75db0ec377105",
+    "Prototype5/evaluation_dataset_ffill/unseendata_liquidity_volume_real_v1.csv": "0738a6b84aecfc65791d94b6ceda4fe7282be2c7e857dac893f8d78550c4275f",
+    "Prototype5/evaluation_dataset_ffill/unseendata_settlement_real_v2.csv": "7803e4eb0611d1fcc9b0c51518927242dba9f42cc9bb2410eb27bff9fb1e0d13",
+    "Prototype5/evaluation_dataset_ffill/unseendata_v2.csv": "ba160c40bab6d3ade5b4537de7fc721ff1fc98df629149b6679ff075826bbd8f",
+    "Prototype5/evaluation_dataset_ffill/unseendata_v2_liquidity_volume_real_v1.csv": "5d0a5acbca8734a6b5e4d52f223d98c73799795498e1f44b69e6dd0aec154caf",
+    "Prototype5/evaluation_dataset_ffill/unseendata_v2_settlement_real_v2.csv": "870c12a214ddc3298525c73155cd79d901d95d311a7d633cc1a1ad1fac55c22a",
+    "Prototype5/forecast_cache_settlement_hourly_v2/forecast_cache_eval_episode20_2025/forecast_cache_eval_episode20_2025-full/precomputed_forecasts_20250101_to_20250930_39312rows.csv": "8d16e1be6e258ae8289f93a1f861694d1b9f8e82d4133c0e34dd88611d367ea1",
+    "Prototype5/forecast_cache_settlement_hourly_v2/forecast_cache_eval_episode20_2025/forecast_cache_eval_episode20_2025-unseendata_v2/precomputed_forecasts_20250101_to_20250930_39312rows.csv": "7370d45397f872fc891dba403438c5327a4fec4e6a8fd38a43279e6018bdd76d",
+    "Prototype5/rolling_past_history_dataset_ffill/history_019.csv": "aa6ff7a4062e61f2ed2f38e13e637c6e940c20b55431303fabb13045fe98f0a9",
+    "Prototype5/rolling_past_history_dataset_ffill/history_020.csv": "db1ca34b3aebbb1a82828207669d3e3477bbcab4722a4236e5015b45326d96e3"
+  },
+  "scope": "packet-only source/data/model replay in existing installed environment; no new incentive estimates or confidence bounds",
+  "started_utc": "2026-10-16T12:25:12.389659+00:00",
+  "status": "SOFTWARE_FAILURE",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\exploratory_novelty_2026-10-16\\sample_only_learned_audit\\replay_private_bundle_attempt3.py\", line 177, in execute\n    assert not report[\"blocked_access\"],\"No denied/original fallback access\"\nAssertionError: No denied/original fallback access\n",
+  "wall_seconds": 162.5255843999912,
+  "wrapper_sha256": "386d8fdf812f290567adfd4bcc34d6c81d80fb0f5ac0b43160d30abf090abb55"
+}

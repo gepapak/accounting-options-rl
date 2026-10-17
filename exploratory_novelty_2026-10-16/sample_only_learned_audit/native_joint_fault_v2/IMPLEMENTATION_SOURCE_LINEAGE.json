@@ -1,0 +1,37 @@
+{
+  "status": "NEW UNFROZEN SOURCE CONSTRUCTION ONLY",
+  "records": [
+    {
+      "original": "sample_estimators.py",
+      "original_sha256": "9db926793138665765db9d0dd9d38f25384309564ecbae083c502969e2ae3c71",
+      "new": "joint_fault_estimators.py",
+      "new_sha256": "78e7edb94162601e1bf2c3fc33209e337e0186b33b12d199f41caee9d1188e77"
+    },
+    {
+      "original": "native_phase_worker.py",
+      "original_sha256": "a7ef05169daee3e202f4229f3182ae7b94595e5e765762b0ef2224b6b85f5fc3",
+      "new": "joint_fault_worker.py",
+      "new_sha256": "5ef14ce5a37e0d79e221502193fa0396e2979ee2405aabc349641cf894e602e1"
+    },
+    {
+      "original": "run_native_audit.py",
+      "original_sha256": "8233361239cb937526c29f9f46dbc859a36cbee686e5ac5681fe122e1df7ba59",
+      "new": "run_joint_fault_audit.py",
+      "new_sha256": "2e9e80f9f3580d7cc97efae6a63e4bd06da89df21bb3abfff16b2d25ab3bc446"
+    },
+    {
+      "original": "audit_models.py",
+      "original_sha256": "7a2fdb094554f27a72556ddde4cfaf90c914cab069627cf74a6b59688b321b33",
+      "new": "audit_models.py",
+      "new_sha256": "7a2fdb094554f27a72556ddde4cfaf90c914cab069627cf74a6b59688b321b33"
+    },
+    {
+      "original": "checkpoint_inventory.json",
+      "original_sha256": "666a7b2be79e0a7ac21ed6225fe7d6517146b03e461f119c25f4d9c328d7d5dc",
+      "new": "checkpoint_inventory.json",
+      "new_sha256": "666a7b2be79e0a7ac21ed6225fe7d6517146b03e461f119c25f4d9c328d7d5dc"
+    }
+  ],
+  "new_native_queries": 0,
+  "new_freeze": false
+}

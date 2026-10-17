@@ -1,0 +1,14 @@
+{
+  "input_sha256": {
+    "exploratory_novelty_2026-10-16\\predictable_accounting_audit\\run_fixed_policy_comparison.py": "3ff11c5b1fdb257f4df47125f0f87df8047fa248e49406881c13f928fbb86923",
+    "exploratory_novelty_2026-10-16\\predictable_accounting_audit\\FIXED_POLICY_PLAN.md": "b12265736639cd58748767d50ea3932bec057c4740ab186f240dcd2530c3fae5",
+    "exploratory_novelty_2026-10-16\\predictable_accounting_audit\\predictable_audit.py": "2b277e7ebe540553cfa9057a75b2aaf029af2d76e47d727c706b13d8c52457e4",
+    "exploratory_novelty_2026-10-16\\predictable_accounting_audit\\run_heldout_attempt2.py": "05a4cd7a38e29fbcfd5e9bd76947826179755914c43dae62fa38b723c2c76a67",
+    "exploratory_novelty_2026-10-16\\matched_multistep_baselines\\results.json": "fbd7f40bbd472d89ea5b58522d84937936fe635ff921b32b423b8daf29670f5d",
+    "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK1.pkl": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3"
+  },
+  "nsearch": 8192,
+  "nconfirm": 32768,
+  "delta_per_bound": 0.0011111111111111111,
+  "planned_bounds": 45
+}

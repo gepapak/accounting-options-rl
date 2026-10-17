@@ -1,0 +1,33 @@
+{
+ "part": "B",
+ "learner": "PPO",
+ "algo": "PPO",
+ "kwargs": {
+  "n_steps": 1024,
+  "batch_size": 256
+ },
+ "arm": "SPR",
+ "alpha": 0.0,
+ "seed": 116,
+ "region": "DK2",
+ "steps": 1000000,
+ "eval_split": "test",
+ "lev": {
+  "0": 16.0,
+  "0.02": 16.0,
+  "0.05": 16.0,
+  "0.1": 16.0,
+  "0.25": 16.0,
+  "0.5": 4.0,
+  "0.75": 4.0,
+  "1": 4.0,
+  "1.25": 4.0,
+  "1.5": 4.0,
+  "2": 4.0,
+  "2.5": 4.0,
+  "3": 4.0
+ },
+ "drawmean_reported_return_pct": 82.99174564063145,
+ "drawmean_ledger_return_pct": 54.406506312506835,
+ "seconds": 1091.2
+}

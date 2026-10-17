@@ -1,0 +1,141 @@
+{
+  "fee": 0.4,
+  "alpha": 1.0,
+  "seed": 60,
+  "region": "DK1",
+  "algo": "PPO",
+  "steps": 8192,
+  "actual_timesteps": 8192,
+  "gamma": 0.99,
+  "obsset": "EQ",
+  "lev": {
+    "0": 16.0,
+    "0.02": 16.0,
+    "0.05": 16.0,
+    "0.1": 16.0,
+    "0.25": 4.0,
+    "0.5": 4.0,
+    "0.75": 4.0,
+    "1": 4.0,
+    "1.25": 4.0,
+    "1.5": 4.0,
+    "2": 4.0,
+    "2.5": 4.0,
+    "3": 4.0
+  },
+  "seconds": 24.58193670000037,
+  "registration_sha256": "development-only-unregistered",
+  "visit_bin_left_edges": [
+    0.0,
+    0.02,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "visit_action_counts": [
+    [
+      64,
+      58,
+      63,
+      77,
+      66,
+      64,
+      73,
+      79,
+      64
+    ],
+    [
+      86,
+      78,
+      91,
+      79,
+      86,
+      106,
+      65,
+      63,
+      79
+    ],
+    [
+      85,
+      78,
+      70,
+      79,
+      81,
+      76,
+      85,
+      83,
+      80
+    ],
+    [
+      121,
+      93,
+      128,
+      130,
+      119,
+      110,
+      134,
+      130,
+      130
+    ],
+    [
+      161,
+      186,
+      154,
+      155,
+      165,
+      144,
+      176,
+      155,
+      155
+    ],
+    [
+      301,
+      270,
+      302,
+      313,
+      311,
+      305,
+      296,
+      318,
+      308
+    ],
+    [
+      81,
+      85,
+      104,
+      81,
+      112,
+      86,
+      95,
+      100,
+      92
+    ],
+    [
+      8,
+      3,
+      2,
+      3,
+      2,
+      2,
+      3,
+      0,
+      5
+    ]
+  ],
+  "training_sums_eur": {
+    "pnl": 4100.813125000032,
+    "cost": 3280.5999999999976,
+    "injections": 16628.081602258324,
+    "reward": 4100.813125000026
+  },
+  "primary_endpoint": "greedy absolute leverage at 2% equity; no TEST outcome used",
+  "eval_split": "fixed equity probes only; no stochastic TEST evaluation",
+  "model_artifact_sha256": {
+    "fee0.4__a1__PPO__s60__DK1.zip": "bacbae754c73e5018b9e544af94ad9de5174a8d34851d9ed589e9e7abb8b9328",
+    "fee0.4__a1__PPO__s60__DK1__normalization.pkl": "af599f262a5fc7fd54a1e940082cf1a4d860e0d535aa6dcc2a59a40210bfbfe3",
+    "fee0.4__a1__PPO__s60__DK1__policy_layers.npz": "28823a388c5c835e27ce3fe4a179c7f64790ec531c4b8b165ad077c54a218288"
+  }
+}

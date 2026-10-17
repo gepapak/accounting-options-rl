@@ -1,0 +1,72 @@
+{
+  "actor_inference": 0,
+  "bounds_recomputed": 520,
+  "cases": 40,
+  "checks": 99690,
+  "manifest_sha256": "e48b630831fd74f6376db97fbd173285142f22a719acbcca8eefd1d3bbf04022",
+  "maximum_absolute_arithmetic_difference": 7.450580596923828e-09,
+  "method_counts": {
+    "0.0": {
+      "capped_raw": 0,
+      "capped_residual": 0,
+      "mlp_control": 0,
+      "paired": 0,
+      "raw": 0,
+      "ridge_control": 0
+    },
+    "1.0": {
+      "capped_raw": 0,
+      "capped_residual": 0,
+      "mlp_control": 0,
+      "paired": 0,
+      "raw": 0,
+      "ridge_control": 0
+    }
+  },
+  "model_fitting": 0,
+  "native_simulator_calls": 0,
+  "policies": 20,
+  "positive_cost_limits": 40,
+  "profile_counts": {
+    "strict": {
+      "0.0": {
+        "capped_raw": 0,
+        "capped_residual": 0,
+        "mlp_control": 0,
+        "paired": 0,
+        "raw": 0,
+        "ridge_control": 0
+      },
+      "1.0": {
+        "capped_raw": 0,
+        "capped_residual": 0,
+        "mlp_control": 0,
+        "paired": 0,
+        "raw": 0,
+        "ridge_control": 0
+      }
+    },
+    "vulnerable": {
+      "0.0": {
+        "capped_raw": 0,
+        "capped_residual": 0,
+        "mlp_control": 0,
+        "paired": 0,
+        "raw": 0,
+        "ridge_control": 0
+      },
+      "1.0": {
+        "capped_raw": 0,
+        "capped_residual": 0,
+        "mlp_control": 0,
+        "paired": 0,
+        "raw": 0,
+        "ridge_control": 0
+      }
+    }
+  },
+  "scope": "arithmetic reproduction conditional on the exported path summaries, source-derived supports and instrumented sign law; no independent engine replay or future-market claim",
+  "status": "PASS",
+  "strict_booked_harm_cases": 40,
+  "whole_paths": 12800
+}

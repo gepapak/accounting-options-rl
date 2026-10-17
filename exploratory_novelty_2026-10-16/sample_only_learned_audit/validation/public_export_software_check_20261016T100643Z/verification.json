@@ -1,0 +1,17 @@
+{
+  "checks": 29,
+  "current_financial_endpoints_read": false,
+  "invalid_fixture_has_no_completion_manifest": true,
+  "manifest_last_static_review": true,
+  "new_actor_inference": 0,
+  "new_fitting": 0,
+  "new_simulator_calls": 0,
+  "old_23_check_snapshot_preserved": true,
+  "public_artifacts_created": false,
+  "scope": "fixed literal arithmetic, exact mandatory hash-set rejection, invalid persisted bytes rejection, and manifest-last source audit",
+  "source_sha256": {
+    "public_export.py": "2c983bc4fce0f2ec11e8502bd380b637e0e0a56e701c685779adcbbf8fc41c24",
+    "reproduce_public_native_audit.py": "87ea72835629b4aa411dae28ae6801aa436ffc3de6bd8b63f4e80de7cc9224f3"
+  },
+  "status": "PASS"
+}

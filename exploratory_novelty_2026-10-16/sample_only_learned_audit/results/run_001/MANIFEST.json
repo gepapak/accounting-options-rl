@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "created_utc": "2026-10-16T12:19:32.040152+00:00",
+  "delta_per_limit": 9.615384615384615e-05,
+  "exporter_sha256": "2c983bc4fce0f2ec11e8502bd380b637e0e0a56e701c685779adcbbf8fc41c24",
+  "family_limits": 520,
+  "file_sha256": {
+    "EXPORT_ARITHMETIC_CHECK.json": "edf8ed3bd28e91531a25217f6f59dbaaf0b3f58fa9d835b0e801c1098fde553d",
+    "README.md": "700713c080fbf948019bf57d335b817ea689c319f08d28c13ab5c0bf05adfda6",
+    "cases_and_bounds.json": "68662394f1894072ecd86146c5aba86e55d5afe55ce10b8a91ac7d2efc9d27c6",
+    "paths.jsonl.gz": "9bfbbaafe06d5f0a8e572fdfd42c66024912f2b409bcc9945fc7b3706f3cc3a8",
+    "provenance.json": "6143de13b1972138031a27fac4d6cf4755b77e271e3b70745e0c287db868cf66",
+    "reproduce_public_native_audit.py": "87ea72835629b4aa411dae28ae6801aa436ffc3de6bd8b63f4e80de7cc9224f3",
+    "results.json": "3e5a2605d9deccc344db48f421ad42fcfb0f0196b9b1ae66ceb11ec10dc9c5ec",
+    "selection.json": "591c616113f3cc6513448ecf13d967a79d82f5edccbbb2074fdf5b72d6223b70"
+  },
+  "path_summary_rows": 12800,
+  "reproducer_sha256": "87ea72835629b4aa411dae28ae6801aa436ffc3de6bd8b63f4e80de7cc9224f3",
+  "run_id": "run_001",
+  "schema": "sample_only_native_public_v1",
+  "source_freeze_sha256": "6152949392bd8de0f494bc21ffb5fd7d9be4a16a6c8866f4eb5595254da523d4",
+  "total_delta": 0.05
+}

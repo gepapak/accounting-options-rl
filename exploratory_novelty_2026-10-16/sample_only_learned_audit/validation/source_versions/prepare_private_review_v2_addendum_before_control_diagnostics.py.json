@@ -1,0 +1,11 @@
+{
+  "status": "PRESERVED_UNFROZEN_BUILDER_BEFORE_DESCRIPTIVE_EXTENSION",
+  "preserved_source": "prepare_private_review_v2_addendum_before_control_diagnostics.py",
+  "sha256": "67570e50ba274a38831383e29ffaaefc55130a47012bb4af5df145cae672ff4d",
+  "prior_static_report": "validation/v2_addendum_static_attempt_1/report.json",
+  "prior_static_report_sha256": "b902e08c6309c4bee30d134f29320fcef9a766ddb70643911110dafa9d149230",
+  "purpose": "Root-authorized new descriptive diagnostic packaging extension; no original scientific source/report or confidence family changes",
+  "native_queries": 0,
+  "endpoint_reads": 0,
+  "archive_builds": 0
+}

@@ -10,3 +10,8 @@ code_audit/evidence/
 code_audit/evidence_flags.csv
 # eSett raw files are fetched locally, not redistributed
 data/esett/*.csv.gz
+# eSett raw files of the accounting-options study (fetch_esett_pre.py), not redistributed
+ACCOUNTING_OPTIONS_2026-10-14/data_esett_pre/*.csv.gz
+# Study J eSett copies and panels (get_esett_j.py, build_panel_j.py), not redistributed
+LIABILITY_STUDY_2026-09-29/data_esett_j/
+LIABILITY_STUDY_2026-09-29/data_panel_j/

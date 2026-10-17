@@ -1,0 +1,149 @@
+{
+ "arm": "TBK",
+ "algo": "PPO",
+ "seed": 0,
+ "region": "DK2",
+ "steps": 1000000,
+ "eval_split": "test",
+ "probes": {
+  "L-0.25_tau1": 1.0,
+  "L-0.25_tau4": 1.0,
+  "L-0.25_tau16": 1.0,
+  "L-0.25_tau48": 1.0,
+  "L-0.25_tau96": 1.0,
+  "L-0.25_tau192": 1.0,
+  "L-0.1_tau1": 1.0,
+  "L-0.1_tau4": 1.0,
+  "L-0.1_tau16": 1.0,
+  "L-0.1_tau48": 1.0,
+  "L-0.1_tau96": 1.0,
+  "L-0.1_tau192": 1.0,
+  "L0.02_tau1": 1.0,
+  "L0.02_tau4": 1.0,
+  "L0.02_tau16": 1.0,
+  "L0.02_tau48": 1.0,
+  "L0.02_tau96": 1.0,
+  "L0.02_tau192": 1.0,
+  "L0.05_tau1": 1.0,
+  "L0.05_tau4": 1.0,
+  "L0.05_tau16": 1.0,
+  "L0.05_tau48": 1.0,
+  "L0.05_tau96": 1.0,
+  "L0.05_tau192": 1.0,
+  "L0.1_tau1": 1.0,
+  "L0.1_tau4": 1.0,
+  "L0.1_tau16": 1.0,
+  "L0.1_tau48": 1.0,
+  "L0.1_tau96": 1.0,
+  "L0.1_tau192": 1.0,
+  "L0.25_tau1": 1.0,
+  "L0.25_tau4": 1.0,
+  "L0.25_tau16": 1.0,
+  "L0.25_tau48": 1.0,
+  "L0.25_tau96": 1.0,
+  "L0.25_tau192": 1.0,
+  "L0.5_tau1": 1.0,
+  "L0.5_tau4": 1.0,
+  "L0.5_tau16": 1.0,
+  "L0.5_tau48": 1.0,
+  "L0.5_tau96": 1.0,
+  "L0.5_tau192": 1.0,
+  "L1_tau1": 0.0,
+  "L1_tau4": 0.0,
+  "L1_tau16": 0.0,
+  "L1_tau48": 0.0,
+  "L1_tau96": 0.0,
+  "L1_tau192": 0.0,
+  "L2_tau1": 0.0,
+  "L2_tau4": 0.0,
+  "L2_tau16": 0.0,
+  "L2_tau48": 0.0,
+  "L2_tau96": 0.0,
+  "L2_tau192": 0.0
+ },
+ "drawmean_reported_pct": 0.0,
+ "drawmean_booked_pct": 0.0,
+ "draws": [
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  },
+  {
+   "reported_pct": 0.0,
+   "booked_pct": 0.0
+  }
+ ],
+ "seconds": 848.9
+}

@@ -1,0 +1,38 @@
+{
+  "affected_packet_files": 7,
+  "all_packet_and_core_original_bytes_unchanged": true,
+  "counts": {
+    "json_file": 39,
+    "native_py": 34,
+    "optional_ann_binary_container_raw_byte_scan": 1,
+    "optional_ann_pickle_raw_byte_scan": 2,
+    "plain_source_or_document": 63,
+    "runtime_csv_hash_only_no_values_read": 10,
+    "sb3_data_json": 40,
+    "sb3_zip": 40,
+    "training_config_json": 20
+  },
+  "created_utc": "20261016T112255Z",
+  "files_with_findings_by_category": {
+    "existing_license_or_runtime_notes": 2,
+    "optional_exact_frozen_forecast_bank": 1,
+    "original_input_provenance_metadata": 4
+  },
+  "files_with_findings_by_channel": {
+    "json_text": 5,
+    "plain_source_or_document": 2
+  },
+  "files_with_findings_by_identity_class": {
+    "author_or_copyright_line_needs_review": 2,
+    "first_party_repository_owner": 2,
+    "local_user_identifier": 7,
+    "windows_user_path": 5
+  },
+  "finding_occurrences": 46,
+  "no_actor_calls": true,
+  "no_endpoint_inspection": true,
+  "no_model_deserialization": true,
+  "no_native_queries": true,
+  "no_redaction_or_release": true,
+  "schema": "public_safe_anonymity_inventory_counts_only_v1"
+}

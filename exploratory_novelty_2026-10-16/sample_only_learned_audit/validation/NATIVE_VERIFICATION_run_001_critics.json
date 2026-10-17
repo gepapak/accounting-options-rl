@@ -1,0 +1,1277 @@
+{
+  "actual_work_verified": {
+    "actor_forward_calls": 2457600,
+    "audit_native_transitions": 1228800,
+    "branch_injection_arithmetic_evaluations": 5128016,
+    "critic_branch_rows_per_model": 88328,
+    "critic_predict_calls": 40960,
+    "fresh_audit_clones": 12800,
+    "phase_cpu_seconds": 18142.875,
+    "preparation_cpu_seconds": 3835.484375,
+    "warm_actor_forward_calls": 491520,
+    "warm_native_transitions": 245760,
+    "zero_step_support_initializations": 640
+  },
+  "additional_parent_tune_critic_predict_calls": 160,
+  "bounds_checked": 520,
+  "cash_before_diagnostics": {
+    "engineering_acceptance_threshold_unchanged": -1e-06,
+    "financial_events_checked": 2564008,
+    "minimum_financial_cash_before": 28217.973551389623,
+    "negative_cash_before_within_engineering_tolerance": 0,
+    "phases_checked": 120,
+    "scope": "exact saved finite pre-event cash diagnostics only; no tolerance/engine/CI change or native-flat-executability claim",
+    "strictly_negative_cash_before": 0,
+    "theoretical_nonnegative_cash_requirement": 0.0
+  },
+  "caveat": "This verifier checks saved records/provenance/arithmetic; source review and exact theory justify conditional sign centering and deterministic support derivation.",
+  "checked_utc": "2026-10-16T12:16:02.350785+00:00",
+  "checks": 601179,
+  "compute_scope": "worker counters; parent selection inference and supervised fitting are additional work; phase/preparation CPU excludes process imports/model loading",
+  "cpu_seconds": 134.828125,
+  "external_provenance": {
+    "context_records_checked": 960,
+    "forecast_preparation_sha256": "22215041b311a6849e8d900c432f31dbb7a6101d2de7decd3287a26e5d2e1373",
+    "public_manifest_sha256": "d0f049157ca9cecf882cd4a0a10030e8093ef21571e0142f41e08d3eb29a5ea2",
+    "unique_stable_file_identities_hashed": 78
+  },
+  "maximum_recomputation_errors": {
+    "arithmetic": 1.8189894035458565e-12,
+    "confidence": 0.0,
+    "event": 0.0,
+    "future_target": 2.007283228522283e-13,
+    "summary": 0.0,
+    "work": 0.0
+  },
+  "method_counts": {
+    "0.0": {
+      "capped_raw": 0,
+      "capped_residual": 0,
+      "mlp_control": 0,
+      "paired": 0,
+      "raw": 0,
+      "ridge_control": 0
+    },
+    "1.0": {
+      "capped_raw": 0,
+      "capped_residual": 0,
+      "mlp_control": 0,
+      "paired": 0,
+      "raw": 0,
+      "ridge_control": 0
+    }
+  },
+  "native_audit_steps_verified": 1228800,
+  "new_actor_inference": 0,
+  "new_model_fits": 0,
+  "new_simulator_steps": 0,
+  "nuisance_regressor_prediction_rechecked": true,
+  "phase_diagnostics": [
+    {
+      "case_id": 0,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 62923.577100457354,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 0,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 62923.577100457354,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 0,
+      "events": 49664,
+      "maturities": 256,
+      "minimum_financial_cash_before": 62923.577100457354,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 1,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 52838.2769113373,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 1,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 54615.19282743366,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 1,
+      "events": 57088,
+      "maturities": 4096,
+      "minimum_financial_cash_before": 45665.36375448564,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 2,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 54862.352508274496,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 2,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 54862.352508274496,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 2,
+      "events": 49664,
+      "maturities": 256,
+      "minimum_financial_cash_before": 54862.352508274496,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 3,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 49409.87955535222,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 3,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 38225.71726618715,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 3,
+      "events": 57088,
+      "maturities": 4096,
+      "minimum_financial_cash_before": 31630.62800052081,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 4,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 58307.76250545938,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 4,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 58307.76250545938,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 4,
+      "events": 49664,
+      "maturities": 256,
+      "minimum_financial_cash_before": 58307.76250545938,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 5,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 47299.019068060705,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 5,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 47267.50710840862,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 5,
+      "events": 57088,
+      "maturities": 4096,
+      "minimum_financial_cash_before": 39755.38057050731,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 6,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 57961.19439403371,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 6,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 57961.19439403371,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 6,
+      "events": 49664,
+      "maturities": 256,
+      "minimum_financial_cash_before": 57961.19439403371,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 7,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 50022.44705948889,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 7,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 48334.79271375223,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 7,
+      "events": 57088,
+      "maturities": 4096,
+      "minimum_financial_cash_before": 38163.445809980076,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 8,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 57948.42300560779,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 8,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 57948.42300560779,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 8,
+      "events": 49664,
+      "maturities": 256,
+      "minimum_financial_cash_before": 57948.42300560779,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 9,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 46251.45490178459,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 9,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 44393.51501076096,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 9,
+      "events": 57088,
+      "maturities": 4096,
+      "minimum_financial_cash_before": 30831.95589703719,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 10,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 62923.577100457354,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 10,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 62923.577100457354,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 10,
+      "events": 49664,
+      "maturities": 256,
+      "minimum_financial_cash_before": 62923.577100457354,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 11,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 48917.63027479531,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 11,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 49423.32000933195,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 11,
+      "events": 57088,
+      "maturities": 4096,
+      "minimum_financial_cash_before": 43122.283043963565,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 12,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 56883.82887390332,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 12,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 56893.00361716341,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 12,
+      "events": 49664,
+      "maturities": 256,
+      "minimum_financial_cash_before": 56883.82887390332,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 13,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 46373.89816729735,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 13,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 48555.879338140054,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 13,
+      "events": 57088,
+      "maturities": 4096,
+      "minimum_financial_cash_before": 37984.39768904232,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 14,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 54463.07232698205,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 14,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 54463.07232698205,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 14,
+      "events": 49664,
+      "maturities": 256,
+      "minimum_financial_cash_before": 54463.07232698205,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 15,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 45975.27082832984,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 15,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 34831.718775317066,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 15,
+      "events": 57088,
+      "maturities": 4096,
+      "minimum_financial_cash_before": 28217.973551389623,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 16,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 54862.352508274496,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 16,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 54862.352508274496,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 16,
+      "events": 49664,
+      "maturities": 256,
+      "minimum_financial_cash_before": 54862.352508274496,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 17,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 41586.04829069231,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 17,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 38550.695959663906,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 17,
+      "events": 57088,
+      "maturities": 4096,
+      "minimum_financial_cash_before": 36227.371551820244,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 18,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 62923.577100457354,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 18,
+      "events": 6208,
+      "maturities": 32,
+      "minimum_financial_cash_before": 62923.577100457354,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 18,
+      "events": 49664,
+      "maturities": 256,
+      "minimum_financial_cash_before": 62923.577100457354,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 19,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 41388.23434201745,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 19,
+      "events": 7136,
+      "maturities": 512,
+      "minimum_financial_cash_before": 47875.95582433192,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 19,
+      "events": 57088,
+      "maturities": 4096,
+      "minimum_financial_cash_before": 45643.2239744814,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 256,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 20,
+      "events": 6150,
+      "maturities": 6,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 6,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 20,
+      "events": 6144,
+      "maturities": 0,
+      "minimum_financial_cash_before": 65914.53971850555,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 0,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 20,
+      "events": 49186,
+      "maturities": 34,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 34,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 21,
+      "events": 6151,
+      "maturities": 7,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 7,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 21,
+      "events": 6151,
+      "maturities": 7,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 7,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 21,
+      "events": 49181,
+      "maturities": 29,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 29,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 22,
+      "events": 6147,
+      "maturities": 3,
+      "minimum_financial_cash_before": 54864.48032917591,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 3,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 22,
+      "events": 6146,
+      "maturities": 2,
+      "minimum_financial_cash_before": 54865.67939001967,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 2,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 22,
+      "events": 49190,
+      "maturities": 38,
+      "minimum_financial_cash_before": 54864.48032917591,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 38,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 23,
+      "events": 6146,
+      "maturities": 2,
+      "minimum_financial_cash_before": 54864.48032917591,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 2,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 23,
+      "events": 6145,
+      "maturities": 1,
+      "minimum_financial_cash_before": 54865.67939001967,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 1,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 23,
+      "events": 49186,
+      "maturities": 34,
+      "minimum_financial_cash_before": 54864.48032917591,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 34,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 24,
+      "events": 6150,
+      "maturities": 6,
+      "minimum_financial_cash_before": 58313.14600920939,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 6,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 24,
+      "events": 6152,
+      "maturities": 8,
+      "minimum_financial_cash_before": 58313.14600920939,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 8,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 24,
+      "events": 49192,
+      "maturities": 40,
+      "minimum_financial_cash_before": 58313.14600920939,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 40,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 25,
+      "events": 6149,
+      "maturities": 5,
+      "minimum_financial_cash_before": 58313.14600920939,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 5,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 25,
+      "events": 6153,
+      "maturities": 9,
+      "minimum_financial_cash_before": 58313.14600920939,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 9,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 25,
+      "events": 49183,
+      "maturities": 31,
+      "minimum_financial_cash_before": 58313.14600920939,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 31,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 26,
+      "events": 6151,
+      "maturities": 7,
+      "minimum_financial_cash_before": 57966.57789778372,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 7,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 26,
+      "events": 6147,
+      "maturities": 3,
+      "minimum_financial_cash_before": 57966.57789778372,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 3,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 26,
+      "events": 49186,
+      "maturities": 34,
+      "minimum_financial_cash_before": 57966.57789778372,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 34,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 27,
+      "events": 6148,
+      "maturities": 4,
+      "minimum_financial_cash_before": 57966.57789778372,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 4,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 27,
+      "events": 6145,
+      "maturities": 1,
+      "minimum_financial_cash_before": 57966.57789778372,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 1,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 27,
+      "events": 49184,
+      "maturities": 32,
+      "minimum_financial_cash_before": 57966.57789778372,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 32,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 28,
+      "events": 6149,
+      "maturities": 5,
+      "minimum_financial_cash_before": 57953.8065093578,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 5,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 28,
+      "events": 6146,
+      "maturities": 2,
+      "minimum_financial_cash_before": 57953.8065093578,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 2,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 28,
+      "events": 49182,
+      "maturities": 30,
+      "minimum_financial_cash_before": 57953.8065093578,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 30,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 29,
+      "events": 6146,
+      "maturities": 2,
+      "minimum_financial_cash_before": 57953.8065093578,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 2,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 29,
+      "events": 6149,
+      "maturities": 5,
+      "minimum_financial_cash_before": 57953.8065093578,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 5,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 29,
+      "events": 49172,
+      "maturities": 20,
+      "minimum_financial_cash_before": 57953.8065093578,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 20,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 30,
+      "events": 6149,
+      "maturities": 5,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 5,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 30,
+      "events": 6146,
+      "maturities": 2,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 2,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 30,
+      "events": 49180,
+      "maturities": 28,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 28,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 31,
+      "events": 6147,
+      "maturities": 3,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 3,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 31,
+      "events": 6148,
+      "maturities": 4,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 4,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 31,
+      "events": 49192,
+      "maturities": 40,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 40,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 32,
+      "events": 6147,
+      "maturities": 3,
+      "minimum_financial_cash_before": 56889.21237765333,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 3,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 32,
+      "events": 6148,
+      "maturities": 4,
+      "minimum_financial_cash_before": 56889.21237765333,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 4,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 32,
+      "events": 49190,
+      "maturities": 38,
+      "minimum_financial_cash_before": 56889.21237765333,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 38,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 33,
+      "events": 6147,
+      "maturities": 3,
+      "minimum_financial_cash_before": 56889.21237765333,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 3,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 33,
+      "events": 6150,
+      "maturities": 6,
+      "minimum_financial_cash_before": 56889.21237765333,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 6,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 33,
+      "events": 49174,
+      "maturities": 22,
+      "minimum_financial_cash_before": 56889.21237765333,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 22,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 34,
+      "events": 6147,
+      "maturities": 3,
+      "minimum_financial_cash_before": 54468.45583073206,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 3,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 34,
+      "events": 6151,
+      "maturities": 7,
+      "minimum_financial_cash_before": 54468.45583073206,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 7,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 34,
+      "events": 49182,
+      "maturities": 30,
+      "minimum_financial_cash_before": 54468.45583073206,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 30,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 35,
+      "events": 6149,
+      "maturities": 5,
+      "minimum_financial_cash_before": 54468.45583073206,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 5,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 35,
+      "events": 6149,
+      "maturities": 5,
+      "minimum_financial_cash_before": 54468.45583073206,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 5,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 35,
+      "events": 49185,
+      "maturities": 33,
+      "minimum_financial_cash_before": 54468.45583073206,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 33,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 36,
+      "events": 6150,
+      "maturities": 6,
+      "minimum_financial_cash_before": 54864.48032917591,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 6,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 36,
+      "events": 6146,
+      "maturities": 2,
+      "minimum_financial_cash_before": 54864.48032917591,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 2,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 36,
+      "events": 49187,
+      "maturities": 35,
+      "minimum_financial_cash_before": 54864.48032917591,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 35,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 37,
+      "events": 6147,
+      "maturities": 3,
+      "minimum_financial_cash_before": 54864.48032917591,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 3,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 37,
+      "events": 6146,
+      "maturities": 2,
+      "minimum_financial_cash_before": 54864.48032917591,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 2,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 37,
+      "events": 49181,
+      "maturities": 29,
+      "minimum_financial_cash_before": 54864.48032917591,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 29,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 38,
+      "events": 6150,
+      "maturities": 6,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 6,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 38,
+      "events": 6148,
+      "maturities": 4,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 4,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 38,
+      "events": 49189,
+      "maturities": 37,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 37,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 39,
+      "events": 6147,
+      "maturities": 3,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 3,
+      "phase": "fit",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 39,
+      "events": 6147,
+      "maturities": 3,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 3,
+      "phase": "tune",
+      "strictly_negative_cash_before": 0
+    },
+    {
+      "case_id": 39,
+      "events": 49182,
+      "maturities": 30,
+      "minimum_financial_cash_before": 65913.94018808367,
+      "negative_cash_before_within_engineering_tolerance": 0,
+      "pending_prepaid_episodes": 30,
+      "phase": "confirm",
+      "strictly_negative_cash_before": 0
+    }
+  ],
+  "result_sha256": "12b4c27063f82ddaee57e7ec915cc2c5d3b82b4da70026d5ba4ca545418011eb",
+  "scope": "conditional fixed-context sample-only experiment; private saved native events; no independent simulator replay",
+  "source_freeze_sha256": "6152949392bd8de0f494bc21ffb5fd7d9be4a16a6c8866f4eb5595254da523d4",
+  "status": "PASS",
+  "verifier_sha256": "84c91d725febcb1459f958355f7119a60b905017fe2d0b4077521b7a8c16cb62",
+  "wall_seconds": 139.45960889999697
+}

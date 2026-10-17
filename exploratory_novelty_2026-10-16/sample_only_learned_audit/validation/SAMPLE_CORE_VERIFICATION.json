@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "purpose": "software and exact mathematical validation only",
+  "checks": 5995,
+  "input_sha256": {
+    "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\sample_estimators.py": "9db926793138665765db9d0dd9d38f25384309564ecbae083c502969e2ae3c71",
+    "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\native_validation\\attempt_1\\validation_report.json": "c1ec3abd5b57314fdc5570aa4478835c808923a2e0584d28b6e8174e77d60707",
+    "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\native_validation\\attempt_1\\native_engine_adapter.py": "8df1b87cf30037ea24c213f53b077f38b87404dcb6a9ce6c820001e9613d310e",
+    "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\native_validation\\attempt_1\\validate_native_adapter.py": "5cfc4d42775c83b7182db1deb4fcd04ce82689a02b98b0094d0c3867fc6b891f",
+    "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\native_validation\\attempt_1\\NATIVE_SOFTWARE_VALIDATION_PLAN.md": "7b536117eb4243e5bde1e970e2ae82eb004d1f80e9f054c01e21239059a47033",
+    "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\native_validation\\attempt_1\\plain7_trace.npz": "bac3cac9bb07fdf1ae95dd5e15d5cfd5bfae061daeee4a7cc1f9ff1417e1cad0",
+    "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\environment.py": "61d446064bf6dacadaed5314487b72437d02e97860da0cb6e192a67aee2f0d63",
+    "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\observation_builder.py": "c00f7dc38dfee02980607786c01130f7ffef937a8c30624acac9ad2a612f60be",
+    "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\evaluation.py": "8f3b331ade20189973319caa8d6c9645ca0bf56121af9d85ebbfba121fb95c6b",
+    "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\policy.py": "878dd668d77c7e49540a92f5aa27425f678b9f4178a2bdc7f946449a9861782b",
+    "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\Prototype5\\config.py": "37e19f521721160946a070e9220be99d278f4116f65eb8af726b6c8128afd4c2",
+    "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\native_validation\\attempt_1\\feasible7_trace.npz": "07050f62de3cf9f0bf28b1841e692ef6287db34c9d1bca54fd05065e67bccf61",
+    "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\exact_sample_only_checks.json": "9bdfca3410a96aa955aa7898b94147ec8288aa5b71ed8e05720f6c7c357de6a8",
+    "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\exact_sample_only_checks.py": "450b1d13313a3d74ccd3c09af5899ef9523656acab6caab7c0c3a55cd359f1f8",
+    "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\SAMPLE_ONLY_THEORY.md": "f3a7c3b254e6a04f8903c25e2106dfdae0564e51ef5e92f3d2cfa251e09effbe"
+  },
+  "maximum_recomputation_errors": {
+    "event_cash": 0.0,
+    "event_identity": 5.7220459037665705e-08,
+    "arithmetic": 1.1368683772161603e-13,
+    "future_target": 2.2737367544323206e-13,
+    "budget": 0.0
+  },
+  "software_traces": [
+    {
+      "case": "plain7",
+      "source": "existing deterministic software trace",
+      "calendar_steps": 96,
+      "actor_input_dimension": 12,
+      "event_count": 220,
+      "local_pairing_and_feature_contract_checked": true,
+      "no_financial_endpoint_released": true
+    },
+    {
+      "case": "feasible7",
+      "source": "existing deterministic software trace",
+      "calendar_steps": 96,
+      "actor_input_dimension": 20,
+      "event_count": 192,
+      "local_pairing_and_feature_contract_checked": true,
+      "no_financial_endpoint_released": true
+    }
+  ],
+  "exact_artifacts": {
+    "floor_families": 8,
+    "floor_cases": 864,
+    "terminal_cases": 81,
+    "all_recorded_Fraction_identities_checked": true,
+    "exact_sources_hash_matched": true,
+    "not_an_independent_reenumeration": true
+  },
+  "new_simulator_steps": 0,
+  "new_random_draws": 0,
+  "new_checkpoint_inference": 0,
+  "new_fitted_predictors": 0,
+  "financial_endpoints_emitted": false,
+  "caveat": "Stored software traces validate core operations, not experiment power, positivity, or final adapter support for every future profile/context."
+}

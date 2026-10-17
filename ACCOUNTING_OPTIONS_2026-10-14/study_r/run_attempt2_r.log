@@ -1,0 +1,85 @@
+Study R: 60 jobs, 0 complete; 6 workers; registration e97684fcbc72a3c3373de13eaa94ebdec9b75293dbd1d966cdd9980832bce007
+2026-10-15 17:14:41 done fee0.4__a1__PPO__s60__DK1.json (1629.5s) L(.02)=1
+2026-10-15 17:14:41 done fee0.4__a0__PPO__s60__DK1.json (1629.2s) L(.02)=16
+2026-10-15 17:14:50 done fee0.4__a0.8__PPO__s60__DK2.json (1637.6s) L(.02)=1
+2026-10-15 17:14:51 done fee0.4__a0.8__PPO__s60__DK1.json (1639.1s) L(.02)=16
+2026-10-15 17:14:52 done fee0.4__a0__PPO__s60__DK2.json (1638.8s) L(.02)=16
+2026-10-15 17:15:01 done fee0.4__a1__PPO__s60__DK2.json (1647.2s) L(.02)=4
+2026-10-15 17:38:08 done fee1.5__a0__PPO__s60__DK1.json (1407.8s) L(.02)=16
+2026-10-15 17:38:20 done fee1.5__a0__PPO__s60__DK2.json (1418.7s) L(.02)=16
+2026-10-15 17:38:28 done fee1.5__a0.8__PPO__s60__DK1.json (1417.7s) L(.02)=16
+2026-10-15 17:38:31 done fee1.5__a0.8__PPO__s60__DK2.json (1419.0s) L(.02)=1
+2026-10-15 17:38:33 done fee1.5__a1__PPO__s60__DK1.json (1421.7s) L(.02)=1
+2026-10-15 17:38:39 done fee1.5__a1__PPO__s60__DK2.json (1417.8s) L(.02)=1
+2026-10-15 18:28:24 done fee0.4__a0__PPO__s61__DK1.json (3014.5s) L(.02)=16
+2026-10-15 18:28:24 done fee0.4__a0__PPO__s61__DK2.json (3002.8s) L(.02)=16
+2026-10-15 18:28:37 done fee0.4__a1__PPO__s61__DK1.json (3002.9s) L(.02)=1
+2026-10-15 18:28:45 done fee0.4__a0.8__PPO__s61__DK2.json (3013.1s) L(.02)=1
+2026-10-15 18:28:45 done fee0.4__a0.8__PPO__s61__DK1.json (3016.0s) L(.02)=1
+2026-10-15 18:28:55 done fee0.4__a1__PPO__s61__DK2.json (3014.9s) L(.02)=1
+2026-10-15 18:40:23 done fee1.5__a0__PPO__s61__DK2.json (719.2s) L(.02)=16
+2026-10-15 18:40:28 done fee1.5__a0__PPO__s61__DK1.json (723.6s) L(.02)=16
+2026-10-15 18:40:36 done fee1.5__a0.8__PPO__s61__DK1.json (718.5s) L(.02)=1
+2026-10-15 18:40:40 done fee1.5__a1__PPO__s61__DK1.json (715.0s) L(.02)=0.25
+2026-10-15 18:40:41 done fee1.5__a0.8__PPO__s61__DK2.json (715.8s) L(.02)=0
+2026-10-15 18:40:45 done fee1.5__a1__PPO__s61__DK2.json (709.5s) L(.02)=1
+2026-10-15 18:52:18 done fee0.4__a0__PPO__s62__DK1.json (714.9s) L(.02)=16
+2026-10-15 18:52:22 done fee0.4__a0__PPO__s62__DK2.json (714.4s) L(.02)=16
+2026-10-15 18:52:30 done fee0.4__a0.8__PPO__s62__DK1.json (713.7s) L(.02)=4
+2026-10-15 18:52:36 done fee0.4__a1__PPO__s62__DK2.json (711.3s) L(.02)=1
+2026-10-15 18:52:37 done fee0.4__a1__PPO__s62__DK1.json (716.0s) L(.02)=1
+2026-10-15 18:52:37 done fee0.4__a0.8__PPO__s62__DK2.json (716.6s) L(.02)=16
+2026-10-15 19:03:49 done fee1.5__a0__PPO__s62__DK1.json (690.6s) L(.02)=16
+2026-10-15 19:03:54 done fee1.5__a0__PPO__s62__DK2.json (692.2s) L(.02)=16
+2026-10-15 19:04:01 done fee1.5__a0.8__PPO__s62__DK1.json (691.4s) L(.02)=1
+2026-10-15 19:04:09 done fee1.5__a0.8__PPO__s62__DK2.json (693.5s) L(.02)=1
+2026-10-15 19:04:13 done fee1.5__a1__PPO__s62__DK1.json (695.9s) L(.02)=1
+2026-10-15 19:04:14 done fee1.5__a1__PPO__s62__DK2.json (697.6s) L(.02)=1
+2026-10-15 19:15:30 done fee0.4__a0__PPO__s63__DK1.json (700.8s) L(.02)=16
+2026-10-15 19:15:30 done fee0.4__a0__PPO__s63__DK2.json (695.8s) L(.02)=16
+2026-10-15 19:15:41 done fee0.4__a0.8__PPO__s63__DK1.json (700.5s) L(.02)=16
+2026-10-15 19:15:49 done fee0.4__a0.8__PPO__s63__DK2.json (699.2s) L(.02)=1
+2026-10-15 19:15:55 done fee0.4__a1__PPO__s63__DK1.json (702.1s) L(.02)=1
+2026-10-15 19:15:57 done fee0.4__a1__PPO__s63__DK2.json (702.3s) L(.02)=1
+2026-10-15 19:27:27 done fee1.5__a0__PPO__s63__DK2.json (717.0s) L(.02)=16
+2026-10-15 19:27:35 done fee1.5__a0__PPO__s63__DK1.json (725.2s) L(.02)=16
+2026-10-15 19:27:44 done fee1.5__a0.8__PPO__s63__DK1.json (722.5s) L(.02)=16
+2026-10-15 19:27:56 done fee1.5__a0.8__PPO__s63__DK2.json (727.7s) L(.02)=16
+2026-10-15 19:28:04 done fee1.5__a1__PPO__s63__DK1.json (728.9s) L(.02)=1
+2026-10-15 19:28:04 done fee1.5__a1__PPO__s63__DK2.json (727.2s) L(.02)=1
+2026-10-15 19:40:52 done fee0.4__a0__PPO__s64__DK1.json (804.6s) L(.02)=16
+2026-10-15 19:41:05 done fee0.4__a0__PPO__s64__DK2.json (810.4s) L(.02)=16
+2026-10-15 19:41:10 done fee0.4__a0.8__PPO__s64__DK1.json (806.4s) L(.02)=4
+2026-10-15 19:41:29 done fee0.4__a0.8__PPO__s64__DK2.json (812.7s) L(.02)=16
+2026-10-15 19:41:32 done fee0.4__a1__PPO__s64__DK1.json (808.8s) L(.02)=4
+2026-10-15 19:41:38 done fee0.4__a1__PPO__s64__DK2.json (814.4s) L(.02)=16
+2026-10-15 19:55:19 done fee1.5__a0__PPO__s64__DK1.json (867.4s) L(.02)=16
+2026-10-15 19:55:38 done fee1.5__a0__PPO__s64__DK2.json (872.7s) L(.02)=16
+2026-10-15 19:55:48 done fee1.5__a0.8__PPO__s64__DK1.json (877.8s) L(.02)=4
+2026-10-15 19:55:58 done fee1.5__a0.8__PPO__s64__DK2.json (869.3s) L(.02)=0
+2026-10-15 19:56:01 done fee1.5__a1__PPO__s64__DK1.json (868.4s) L(.02)=4
+2026-10-15 19:56:01 done fee1.5__a1__PPO__s64__DK2.json (862.8s) L(.02)=0
+# Study R verdicts
+
+One internally hash-stamped composite primary decision; all 60 planned agents included.
+
+| ID | Decision | Verdict |
+|---|---|---|
+| R1 | G(.4,.8)=4.500 >=4; G(1.5,.8)=4.475 <4; interaction=0.025 >=4; exact seed sign p=0.81250 <=.05 | NOT SUPPORTED |
+
+## Every arm (descriptive except the R1 components)
+
+| Fee | alpha | index (%) | mean L(.02) | gap over matched control | max16 runs |
+|---|---|---|---|---|---|
+| 0.4 | 0 | 1.157656 | 16.000 | 12.900 | 10/10 |
+| 0.4 | 0.8 | 0.156848 | 7.600 | 4.500 | 4/10 |
+| 0.4 | 1 | 0.000000 | 3.100 | 0.000 | 1/10 |
+| 1.5 | 0 | 0.891680 | 16.000 | 14.875 | 10/10 |
+| 1.5 | 0.8 | 0.026688 | 5.600 | 4.475 | 3/10 |
+| 1.5 | 1 | 0.000000 | 1.125 | 0.000 | 0/10 |
+
+Paired seed interactions: {'60': -1.5, '61': 0.125, '62': 9.0, '63': -7.5, '64': 0.0}
+
+The sign test targets the probability of a positive seed-cluster interaction under independent seed clusters, not a population mean or generalization to markets. Zeros count as nonpositive.
+The G cutoffs are operational sample-cohort classifications, not equivalence confidence intervals. All prior retrospective failures and calibration uncertainty remain relevant.
+

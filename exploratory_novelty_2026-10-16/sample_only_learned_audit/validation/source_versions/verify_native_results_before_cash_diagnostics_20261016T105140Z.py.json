@@ -1,0 +1,5 @@
+{
+  "purpose": "exact pre-edit source preservation; no experiment records read",
+  "source_sha256": "bd38a12a3696f3e278bef92ad017c1e28a40ff9c398331fd01fccdbb02cb525a",
+  "source_snapshot": "verify_native_results_before_cash_diagnostics_20261016T105140Z.py"
+}

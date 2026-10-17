@@ -1,0 +1,657 @@
+{
+  "class_or_module_mutable_assignments": [
+    {
+      "file": "baselines.py",
+      "line": 34,
+      "owner": "<module>",
+      "targets": [
+        "MARKET_FEE_ARGS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "baselines.py",
+      "line": 60,
+      "owner": "<module>",
+      "targets": [
+        "REGIONS"
+      ],
+      "value": "Dict"
+    },
+    {
+      "file": "config.py",
+      "line": 4,
+      "owner": "<module>",
+      "targets": [
+        "logger"
+      ],
+      "value": "logging.getLogger()"
+    },
+    {
+      "file": "environment.py",
+      "line": 69,
+      "owner": "<module>",
+      "targets": [
+        "logger"
+      ],
+      "value": "get_logger()"
+    },
+    {
+      "file": "environment.py",
+      "line": 571,
+      "owner": "RenewableMultiAgentEnv",
+      "targets": [
+        "metadata"
+      ],
+      "value": "Dict"
+    },
+    {
+      "file": "feasible_action_mappo.py",
+      "line": 223,
+      "owner": "<module>",
+      "targets": [
+        "__all__"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "financial_engine.py",
+      "line": 20,
+      "owner": "<module>",
+      "targets": [
+        "logger"
+      ],
+      "value": "get_logger()"
+    },
+    {
+      "file": "forecast_mirror_mappo.py",
+      "line": 92,
+      "owner": "<module>",
+      "targets": [
+        "__all__"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "forecast_price_experts.py",
+      "line": 20,
+      "owner": "<module>",
+      "targets": [
+        "logger"
+      ],
+      "value": "logging.getLogger()"
+    },
+    {
+      "file": "forecast_price_experts.py",
+      "line": 26,
+      "owner": "<module>",
+      "targets": [
+        "PRICE_SHORT_EXPERT_LABELS"
+      ],
+      "value": "Dict"
+    },
+    {
+      "file": "forecast_price_experts.py",
+      "line": 39,
+      "owner": "<module>",
+      "targets": [
+        "PRICE_SHORT_EXPERT_TRAINING_LOSSES"
+      ],
+      "value": "Set"
+    },
+    {
+      "file": "forecast_prior.py",
+      "line": 19,
+      "owner": "<module>",
+      "targets": [
+        "logger"
+      ],
+      "value": "logging.getLogger()"
+    },
+    {
+      "file": "forecast_prior.py",
+      "line": 22,
+      "owner": "<module>",
+      "targets": [
+        "FORECAST_PRIOR_FEATURE_COLS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "forecast_prior.py",
+      "line": 30,
+      "owner": "<module>",
+      "targets": [
+        "FORECAST_PRIOR_OPTIONAL_COLS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "forecast_prior.py",
+      "line": 585,
+      "owner": "<module>",
+      "targets": [
+        "__all__"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "forecast_prior_cli.py",
+      "line": 57,
+      "owner": "<module>",
+      "targets": [
+        "__all__"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "generator.py",
+      "line": 8,
+      "owner": "<module>",
+      "targets": [
+        "logger"
+      ],
+      "value": "logging.getLogger()"
+    },
+    {
+      "file": "harness1.py",
+      "line": 25,
+      "owner": "<module>",
+      "targets": [
+        "JOBS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "harness2.py",
+      "line": 17,
+      "owner": "<module>",
+      "targets": [
+        "JOBS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "harness3.py",
+      "line": 21,
+      "owner": "<module>",
+      "targets": [
+        "JOBS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "harness4.py",
+      "line": 19,
+      "owner": "<module>",
+      "targets": [
+        "JOBS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "harness_common.py",
+      "line": 21,
+      "owner": "<module>",
+      "targets": [
+        "SEEDS_FULL"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "harness_common.py",
+      "line": 22,
+      "owner": "<module>",
+      "targets": [
+        "SEEDS_MECH"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "harness_common.py",
+      "line": 23,
+      "owner": "<module>",
+      "targets": [
+        "SEEDS_DETERMINISTIC"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "main.py",
+      "line": 57,
+      "owner": "<module>",
+      "targets": [
+        "logger"
+      ],
+      "value": "get_logger()"
+    },
+    {
+      "file": "make_forecast_cache_ablation.py",
+      "line": 15,
+      "owner": "<module>",
+      "targets": [
+        "REQUIRED_COLS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "make_forecast_cache_ablation.py",
+      "line": 23,
+      "owner": "<module>",
+      "targets": [
+        "PRICE_FORECAST_COLS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "make_forecast_cache_ablation.py",
+      "line": 28,
+      "owner": "<module>",
+      "targets": [
+        "OPTIONAL_COLS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "market_fee_protocol.py",
+      "line": 21,
+      "owner": "<module>",
+      "targets": [
+        "SUPPORTED_MARKET_FEE_MODELS"
+      ],
+      "value": "Set"
+    },
+    {
+      "file": "marl.py",
+      "line": 17,
+      "owner": "<module>",
+      "targets": [
+        "SEEDS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "marl.py",
+      "line": 46,
+      "owner": "<module>",
+      "targets": [
+        "MARKET_FEE_ARGS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "marl.py",
+      "line": 55,
+      "owner": "<module>",
+      "targets": [
+        "COMMON_PROTOCOL_ARGS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "marl.py",
+      "line": 107,
+      "owner": "<module>",
+      "targets": [
+        "EVAL_PROTOCOL_ARGS"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "metacontroller.py",
+      "line": 47,
+      "owner": "<module>",
+      "targets": [
+        "logger"
+      ],
+      "value": "get_logger()"
+    },
+    {
+      "file": "metacontroller.py",
+      "line": 51,
+      "owner": "<module>",
+      "targets": [
+        "LEARNING_MODES"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "metacontroller.py",
+      "line": 53,
+      "owner": "<module>",
+      "targets": [
+        "__all__"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "metacontroller.py",
+      "line": 174,
+      "owner": "DummyGymEnv",
+      "targets": [
+        "metadata"
+      ],
+      "value": "Dict"
+    },
+    {
+      "file": "observation_builder.py",
+      "line": 17,
+      "owner": "<module>",
+      "targets": [
+        "logger"
+      ],
+      "value": "get_logger()"
+    },
+    {
+      "file": "policy.py",
+      "line": 855,
+      "owner": "<module>",
+      "targets": [
+        "__all__"
+      ],
+      "value": "List"
+    },
+    {
+      "file": "run_tier_phase_multi_seed.py",
+      "line": 60,
+      "owner": "<module>",
+      "targets": [
+        "VARIANT_TRAIN_SPECS"
+      ],
+      "value": "Dict"
+    },
+    {
+      "file": "run_tier_phase_multi_seed.py",
+      "line": 77,
+      "owner": "<module>",
+      "targets": [
+        "PHASE_VARIANTS"
+      ],
+      "value": "Dict"
+    },
+    {
+      "file": "run_tier_phase_multi_seed.py",
+      "line": 83,
+      "owner": "<module>",
+      "targets": [
+        "EVAL_DIR_ARG_BY_VARIANT"
+      ],
+      "value": "Dict"
+    },
+    {
+      "file": "run_tier_phase_multi_seed.py",
+      "line": 88,
+      "owner": "<module>",
+      "targets": [
+        "EVAL_TIERS_ONLY_BY_VARIANT"
+      ],
+      "value": "Dict"
+    },
+    {
+      "file": "run_tier_phase_multi_seed.py",
+      "line": 95,
+      "owner": "<module>",
+      "targets": [
+        "EVAL_FORECAST_CACHE_DIR_OVERRIDE"
+      ],
+      "value": "Dict"
+    },
+    {
+      "file": "runtime_contract.py",
+      "line": 114,
+      "owner": "<module>",
+      "targets": [
+        "_FEASIBLE_ACTION_CONTRACT_KEYS"
+      ],
+      "value": "Set"
+    },
+    {
+      "file": "runtime_contract.py",
+      "line": 129,
+      "owner": "<module>",
+      "targets": [
+        "_MIRROR_CONTRACT_KEYS"
+      ],
+      "value": "Set"
+    },
+    {
+      "file": "trading_engine.py",
+      "line": 19,
+      "owner": "<module>",
+      "targets": [
+        "logger"
+      ],
+      "value": "logging.getLogger()"
+    },
+    {
+      "file": "utils.py",
+      "line": 45,
+      "owner": "<module>",
+      "targets": [
+        "logger"
+      ],
+      "value": "logging.getLogger()"
+    },
+    {
+      "file": "utils.py",
+      "line": 711,
+      "owner": "<module>",
+      "targets": [
+        "__all__"
+      ],
+      "value": "List"
+    }
+  ],
+  "global_declarations": [
+    {
+      "file": "logger.py",
+      "line": 63,
+      "names": [
+        "_logging_configured",
+        "_log_file_handler"
+      ],
+      "owner": "configure_logging"
+    },
+    {
+      "file": "utils.py",
+      "line": 34,
+      "names": [
+        "_tf_initialized",
+        "_tf_module"
+      ],
+      "owner": "_get_tf"
+    }
+  ],
+  "memory_manager_calls": [
+    {
+      "call": "self.memory_manager.cleanup_if_needed",
+      "file": "environment.py",
+      "line": 9035,
+      "owner": "RenewableMultiAgentEnv.__del__"
+    }
+  ],
+  "native_modules": 34,
+  "random_calls": [
+    {
+      "call": "np.random.default_rng",
+      "file": "environment.py",
+      "line": 623,
+      "owner": "RenewableMultiAgentEnv.__init__"
+    },
+    {
+      "call": "np.random.default_rng",
+      "file": "environment.py",
+      "line": 1846,
+      "owner": "RenewableMultiAgentEnv.reset"
+    },
+    {
+      "call": "np.random.default_rng",
+      "file": "environment.py",
+      "line": 1849,
+      "owner": "RenewableMultiAgentEnv.reset"
+    },
+    {
+      "call": "random.seed",
+      "file": "evaluation.py",
+      "line": 4624,
+      "owner": "main"
+    },
+    {
+      "call": "np.random.seed",
+      "file": "evaluation.py",
+      "line": 4625,
+      "owner": "main"
+    },
+    {
+      "call": "torch.manual_seed",
+      "file": "evaluation.py",
+      "line": 4628,
+      "owner": "main"
+    },
+    {
+      "call": "torch.cuda.manual_seed_all",
+      "file": "evaluation.py",
+      "line": 4630,
+      "owner": "main"
+    },
+    {
+      "call": "np.random.seed",
+      "file": "forecast_price_experts.py",
+      "line": 59,
+      "owner": "_set_deterministic_seed"
+    },
+    {
+      "call": "tf.random.set_seed",
+      "file": "forecast_price_experts.py",
+      "line": 60,
+      "owner": "_set_deterministic_seed"
+    },
+    {
+      "call": "random.seed",
+      "file": "main.py",
+      "line": 2173,
+      "owner": "main"
+    },
+    {
+      "call": "np.random.seed",
+      "file": "main.py",
+      "line": 2174,
+      "owner": "main"
+    },
+    {
+      "call": "torch.manual_seed",
+      "file": "main.py",
+      "line": 2175,
+      "owner": "main"
+    },
+    {
+      "call": "random.seed",
+      "file": "main.py",
+      "line": 2527,
+      "owner": "main"
+    },
+    {
+      "call": "np.random.seed",
+      "file": "main.py",
+      "line": 2528,
+      "owner": "main"
+    },
+    {
+      "call": "torch.manual_seed",
+      "file": "main.py",
+      "line": 2529,
+      "owner": "main"
+    },
+    {
+      "call": "torch.cuda.manual_seed_all",
+      "file": "main.py",
+      "line": 2177,
+      "owner": "main"
+    },
+    {
+      "call": "torch.cuda.manual_seed",
+      "file": "main.py",
+      "line": 2178,
+      "owner": "main"
+    },
+    {
+      "call": "tf.random.set_seed",
+      "file": "main.py",
+      "line": 2182,
+      "owner": "main"
+    },
+    {
+      "call": "torch.cuda.manual_seed_all",
+      "file": "main.py",
+      "line": 2531,
+      "owner": "main"
+    },
+    {
+      "call": "tf.random.set_seed",
+      "file": "main.py",
+      "line": 2535,
+      "owner": "main"
+    },
+    {
+      "call": "np.random.rand",
+      "file": "main.py",
+      "line": 2499,
+      "owner": "main"
+    },
+    {
+      "call": "np.random.rand",
+      "file": "main.py",
+      "line": 2500,
+      "owner": "main"
+    },
+    {
+      "call": "np.random.rand",
+      "file": "main.py",
+      "line": 2501,
+      "owner": "main"
+    },
+    {
+      "call": "np.random.rand",
+      "file": "main.py",
+      "line": 2502,
+      "owner": "main"
+    },
+    {
+      "call": "np.random.rand",
+      "file": "main.py",
+      "line": 2503,
+      "owner": "main"
+    },
+    {
+      "call": "np.random.default_rng",
+      "file": "make_forecast_cache_ablation.py",
+      "line": 319,
+      "owner": "main"
+    },
+    {
+      "call": "self.observation_space.sample",
+      "file": "metacontroller.py",
+      "line": 194,
+      "owner": "DummyGymEnv.reset"
+    },
+    {
+      "call": "self.observation_space.sample",
+      "file": "metacontroller.py",
+      "line": 201,
+      "owner": "DummyGymEnv.step"
+    },
+    {
+      "call": "self.distribution.rsample",
+      "file": "policy.py",
+      "line": 111,
+      "owner": "BetaDistribution.sample"
+    },
+    {
+      "call": "np.random.permutation",
+      "file": "policy.py",
+      "line": 289,
+      "owner": "CentralizedCriticRolloutBuffer.get"
+    }
+  ],
+  "scope": "AST source inventory only; no native imports, actor calls, episodes or endpoints"
+}
