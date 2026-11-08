@@ -1,0 +1,5 @@
+4 jobs, 0 complete, running 4 with 4 workers
+03:48:30 done T_DK1M__ORACLE__s90.json (558.4s): booked +10.2%
+03:48:31 done T_DK1M__PLAIN__s91.json (560.2s): booked -0.1%
+03:48:32 done T_DK1M__PLAIN__s90.json (560.7s): booked -6.4%
+03:48:32 done T_DK1M__ORACLE__s91.json (561.1s): booked +13.8%

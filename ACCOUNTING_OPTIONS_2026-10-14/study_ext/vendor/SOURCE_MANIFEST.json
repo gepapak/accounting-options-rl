@@ -1,0 +1,56 @@
+{
+  "commit": "a86fc03d29759374fae2db7df4d878485808a730",
+  "official_repository": "https://github.com/ClementPerroud/Gym-Trading-Env",
+  "retrieved_utc": "2026-10-30T00:35:42.610101+00:00",
+  "license": "MIT; original LICENSE.txt preserved verbatim",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/ClementPerroud/Gym-Trading-Env/a86fc03d29759374fae2db7df4d878485808a730/LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a406579cd136771c705c521db86ca7d60a6f3de7c9b5460e6193a2df27861bde"
+    },
+    {
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/ClementPerroud/Gym-Trading-Env/a86fc03d29759374fae2db7df4d878485808a730/pyproject.toml",
+      "bytes": 830,
+      "sha256": "834717c8c627059ed21f0941053967f8d88a9aba5878b40ddc43aba3845d34ae"
+    },
+    {
+      "path": "docs/source/customization.rst",
+      "url": "https://raw.githubusercontent.com/ClementPerroud/Gym-Trading-Env/a86fc03d29759374fae2db7df4d878485808a730/docs/source/customization.rst",
+      "bytes": 2756,
+      "sha256": "d721c8c2b488bf8e89a2c453f63bd5971d8743fca5f8cbe7e6f690f5b22074a6"
+    },
+    {
+      "path": "docs/source/environment_desc.rst",
+      "url": "https://raw.githubusercontent.com/ClementPerroud/Gym-Trading-Env/a86fc03d29759374fae2db7df4d878485808a730/docs/source/environment_desc.rst",
+      "bytes": 4169,
+      "sha256": "5107ac8842956a2f5bffac90c58a5b372dbef3f9a891a42072010067ba86422d"
+    },
+    {
+      "path": "src/gym_trading_env/__init__.py",
+      "url": "https://raw.githubusercontent.com/ClementPerroud/Gym-Trading-Env/a86fc03d29759374fae2db7df4d878485808a730/src/gym_trading_env/__init__.py",
+      "bytes": 373,
+      "sha256": "f4458bf6059502a7096a23a74a5bd6fb5ade695c9f622faf1a803105a5752ac6"
+    },
+    {
+      "path": "src/gym_trading_env/environments.py",
+      "url": "https://raw.githubusercontent.com/ClementPerroud/Gym-Trading-Env/a86fc03d29759374fae2db7df4d878485808a730/src/gym_trading_env/environments.py",
+      "bytes": 17034,
+      "sha256": "846f03f37c069f533076602e8a00d6c751712e77e43d22e891ba0c698c783a52"
+    },
+    {
+      "path": "src/gym_trading_env/utils/portfolio.py",
+      "url": "https://raw.githubusercontent.com/ClementPerroud/Gym-Trading-Env/a86fc03d29759374fae2db7df4d878485808a730/src/gym_trading_env/utils/portfolio.py",
+      "bytes": 3092,
+      "sha256": "2fd48018929afacf19b4e28e6edc97ddeccc803879accc4abaee694e7c8179ad"
+    },
+    {
+      "path": "src/gym_trading_env/utils/history.py",
+      "url": "https://raw.githubusercontent.com/ClementPerroud/Gym-Trading-Env/a86fc03d29759374fae2db7df4d878485808a730/src/gym_trading_env/utils/history.py",
+      "bytes": 3294,
+      "sha256": "b8e632e5973bd593c858ef09e512965b9e18e1232fc5ccdcb04c7662f8796437"
+    }
+  ]
+}

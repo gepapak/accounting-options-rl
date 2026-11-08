@@ -1,0 +1,150 @@
+{
+  "status": "PASS_OWN_STANDIN_OBSERVER_CHECKS",
+  "standin_cases": 6,
+  "cases": [
+    {
+      "native_steps_observed": 1,
+      "due_events": 1,
+      "audited_events": 1,
+      "unsupported_events": 0,
+      "strictly_narrower_than_real_only": 1,
+      "real_only_widths_dkk": [
+        112250.25000000003
+      ],
+      "paired_widths_dkk": [
+        0.7500000001455192
+      ],
+      "midpoint_signed_errors_dkk": [
+        0.0
+      ],
+      "max_abs_midpoint_error_dkk": 0.0,
+      "real_floor_events": 1,
+      "both_floor_audited_events": 0,
+      "proxy_original_body_calls": 8,
+      "proxy_original_body_counts": {
+        "_settle_horizon_contracts_for_step": 2,
+        "_horizon_settlement_price": 2,
+        "_horizon_settlement_basis": 2,
+        "_horizon_unit_payoff": 2
+      },
+      "proxy_settler_calls": 2,
+      "interpretation": "Conservative source-arithmetic intervals; no exact IEEE uniqueness, policy improvement or independent generalization claim."
+    },
+    {
+      "native_steps_observed": 1,
+      "due_events": 1,
+      "audited_events": 1,
+      "unsupported_events": 0,
+      "strictly_narrower_than_real_only": 0,
+      "real_only_widths_dkk": [
+        0.25
+      ],
+      "paired_widths_dkk": [
+        0.25
+      ],
+      "midpoint_signed_errors_dkk": [
+        0.0
+      ],
+      "max_abs_midpoint_error_dkk": 0.0,
+      "real_floor_events": 0,
+      "both_floor_audited_events": 0,
+      "proxy_original_body_calls": 8,
+      "proxy_original_body_counts": {
+        "_settle_horizon_contracts_for_step": 2,
+        "_horizon_settlement_price": 2,
+        "_horizon_settlement_basis": 2,
+        "_horizon_unit_payoff": 2
+      },
+      "proxy_settler_calls": 2,
+      "interpretation": "Conservative source-arithmetic intervals; no exact IEEE uniqueness, policy improvement or independent generalization claim."
+    },
+    {
+      "native_steps_observed": 1,
+      "due_events": 1,
+      "audited_events": 1,
+      "unsupported_events": 0,
+      "strictly_narrower_than_real_only": 1,
+      "real_only_widths_dkk": [
+        112250.25000000003
+      ],
+      "paired_widths_dkk": [
+        0.5000000000727596
+      ],
+      "midpoint_signed_errors_dkk": [
+        -0.1250000000363798
+      ],
+      "max_abs_midpoint_error_dkk": 0.1250000000363798,
+      "real_floor_events": 1,
+      "both_floor_audited_events": 1,
+      "proxy_original_body_calls": 8,
+      "proxy_original_body_counts": {
+        "_settle_horizon_contracts_for_step": 2,
+        "_horizon_settlement_price": 2,
+        "_horizon_settlement_basis": 2,
+        "_horizon_unit_payoff": 2
+      },
+      "proxy_settler_calls": 2,
+      "interpretation": "Conservative source-arithmetic intervals; no exact IEEE uniqueness, policy improvement or independent generalization claim."
+    },
+    {
+      "native_steps_observed": 1,
+      "due_events": 1,
+      "audited_events": 1,
+      "unsupported_events": 0,
+      "strictly_narrower_than_real_only": 0,
+      "real_only_widths_dkk": [
+        0.25
+      ],
+      "paired_widths_dkk": [
+        0.25
+      ],
+      "midpoint_signed_errors_dkk": [
+        0.0
+      ],
+      "max_abs_midpoint_error_dkk": 0.0,
+      "real_floor_events": 0,
+      "both_floor_audited_events": 0,
+      "proxy_original_body_calls": 8,
+      "proxy_original_body_counts": {
+        "_settle_horizon_contracts_for_step": 2,
+        "_horizon_settlement_price": 2,
+        "_horizon_settlement_basis": 2,
+        "_horizon_unit_payoff": 2
+      },
+      "proxy_settler_calls": 2,
+      "interpretation": "Conservative source-arithmetic intervals; no exact IEEE uniqueness, policy improvement or independent generalization claim."
+    },
+    {
+      "native_steps_observed": 1,
+      "due_events": 1,
+      "audited_events": 0,
+      "unsupported_events": 1,
+      "strictly_narrower_than_real_only": 0,
+      "real_only_widths_dkk": [],
+      "paired_widths_dkk": [],
+      "midpoint_signed_errors_dkk": [],
+      "max_abs_midpoint_error_dkk": null,
+      "real_floor_events": 1,
+      "both_floor_audited_events": 0,
+      "proxy_original_body_calls": 4,
+      "proxy_original_body_counts": {
+        "_settle_horizon_contracts_for_step": 1,
+        "_horizon_settlement_price": 1,
+        "_horizon_settlement_basis": 1,
+        "_horizon_unit_payoff": 1
+      },
+      "proxy_settler_calls": 1,
+      "interpretation": "Conservative source-arithmetic intervals; no exact IEEE uniqueness, policy improvement or independent generalization claim."
+    }
+  ],
+  "both_floor_interval": {
+    "lower": "-350039834625/17179869184",
+    "upper": "1/8",
+    "point": false
+  },
+  "external_original_body_calls": 0,
+  "native_Env_instances": 0,
+  "model_calls": 0,
+  "market_reads": 0,
+  "scope": "Only authored stand-in bodies executed. No native observer/runtime parity claim."
+}

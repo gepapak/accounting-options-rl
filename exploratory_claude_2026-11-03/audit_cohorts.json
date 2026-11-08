@@ -1,0 +1,105 @@
+{
+ "V_AC": {
+  "label": "V, Parts A, C",
+  "floor": "single",
+  "learner": "PPO",
+  "agents": 128,
+  "gamblers": 28,
+  "max_tir_edge": 0.3845221062501487,
+  "max_tir_plac": 0.12857405624991713,
+  "max_tir_edge_nongamblers": 0.001921999999979107,
+  "max_tir_plac_nongamblers": 0.014667818750066175,
+  "median_rep_plac_gamblers": 68.25438166367371,
+  "median_tir_edge_gamblers": 0.250240031250052
+ },
+ "V_B": {
+  "label": "V, Part B",
+  "floor": "single",
+  "learner": "PPO",
+  "agents": 16,
+  "gamblers": 0,
+  "max_tir_edge": 1.3999999996627821e-05,
+  "max_tir_plac": 0.0009214999999382911,
+  "max_tir_edge_nongamblers": 1.3999999996627821e-05,
+  "max_tir_plac_nongamblers": 0.0009214999999382911,
+  "median_rep_plac_gamblers": NaN,
+  "median_tir_edge_gamblers": NaN
+ },
+ "W": {
+  "label": "W",
+  "floor": "single",
+  "learner": "PPO",
+  "agents": 48,
+  "gamblers": 1,
+  "max_tir_edge": 0.07714693750000023,
+  "max_tir_plac": 0.06343642499999191,
+  "max_tir_edge_nongamblers": 0.010194312499976377,
+  "max_tir_plac_nongamblers": 0.004569500000052074,
+  "median_rep_plac_gamblers": 23.94121658850765,
+  "median_tir_edge_gamblers": 0.07714693750000023
+ },
+ "X": {
+  "label": "X",
+  "floor": "two writes",
+  "learner": "PPO",
+  "agents": 32,
+  "gamblers": 8,
+  "max_tir_edge": 1.5658043884185417,
+  "max_tir_plac": 0.18890599233938588,
+  "max_tir_edge_nongamblers": 0.0012987500000445351,
+  "max_tir_plac_nongamblers": 0.006453157181247171,
+  "median_rep_plac_gamblers": 93.74694271048443,
+  "median_tir_edge_gamblers": 1.357003363329543
+ },
+ "Y_S": {
+  "label": "Y, zero starts",
+  "floor": "single",
+  "learner": "A2C",
+  "agents": 32,
+  "gamblers": 5,
+  "max_tir_edge": 0.1040553187500528,
+  "max_tir_plac": 0.03750627187497457,
+  "max_tir_edge_nongamblers": 3.499999994716063e-06,
+  "max_tir_plac_nongamblers": 0.0009214999999382911,
+  "median_rep_plac_gamblers": 51.00822551049036,
+  "median_tir_edge_gamblers": 0.09264271875000452
+ },
+ "Y_N": {
+  "label": "Y, no zero starts",
+  "floor": "single",
+  "learner": "A2C",
+  "agents": 16,
+  "gamblers": 0,
+  "max_tir_edge": 3.499999994716063e-06,
+  "max_tir_plac": 0.0009214999999382911,
+  "max_tir_edge_nongamblers": 3.499999994716063e-06,
+  "max_tir_plac_nongamblers": 0.0009214999999382911,
+  "median_rep_plac_gamblers": NaN,
+  "median_tir_edge_gamblers": NaN
+ },
+ "Y_X": {
+  "label": "Y, zero starts",
+  "floor": "two writes",
+  "learner": "A2C",
+  "agents": 32,
+  "gamblers": 5,
+  "max_tir_edge": 1.3934971877415698,
+  "max_tir_plac": 0.2505744226967437,
+  "max_tir_edge_nongamblers": 0.0012987499999912444,
+  "max_tir_plac_nongamblers": 0.0025311362070858934,
+  "median_rep_plac_gamblers": 51.27007152870985,
+  "median_tir_edge_gamblers": 0.4570843186247644
+ },
+ "single_floor_registered_cohorts": {
+  "agents": 240,
+  "max_tir_edge": 0.3845221062501487,
+  "max_tir_plac": 0.12857405624991713,
+  "cohorts": [
+   "V_AC",
+   "V_B",
+   "W",
+   "Y_S",
+   "Y_N"
+  ]
+ }
+}

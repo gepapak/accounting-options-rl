@@ -1,0 +1,12 @@
+# Review errata, 29 October 2026
+
+`NFL_THEORY.md` is the preserved exploratory development note. It is not the corrected theorem statement. Independent review found these scope errors; none changes a registered Study S source, result, decision or log.
+
+- Fairness must hold conditional on the non-sign inputs retained by the twin, including payoff magnitude and own cost. A fair marginal sign is insufficient if the sign depends on those inputs. The fixed-input bias formula must be integrated when those inputs are random.
+- SPR preserves booked reward pointwise when **neither branch** receives a credit. With both an edge and accounting credits, conservatism can erase a positive legitimate edge: zero initial equity, gross magnitude 10, cost 1, favourable-sign probability .6 gives expected booked reward +1 and SPR -.1.
+- Uniqueness is only among constant-coefficient linear estimators `a*r + b*r_twin + k*c`, jointly imposing unbiasedness in two separate regimes: every no-credit edge and every conditionally fair credit law. It is not a uniqueness theorem among all estimators or an edge-preservation theorem when credits occur.
+- The variance comparison conditions on the fixed non-sign inputs and requires losing-branch-only credit `F <= 4*g`. A current-step deficit from nonnegative equity has `F <= g+c`, making `c <= 3*g` sufficient under the losing-branch condition. Carried deficits require a separate bound. No credit on either branch is sufficient for pointwise equality; equal nonzero branch credits also cancel. Neither identity implies learned-policy identity.
+- A carried deficit does not generally cancel pointwise. For ledger -2, gross magnitude 3 and zero cost, the branch credits are 0 and 5. Only a component common to both credits cancels. Under conditional sign fairness the antisymmetric credit difference cancels in expectation.
+- Study S compares three per-step action-KL strengths. It does not prove an impossibility for KL regularization, every coefficient, occupancy regularization or other mitigations. Its five-unit shape noninferiority criterion does not establish equality to ledger training.
+
+The corrected statement and algebra are in manuscript Proposition 6 and Supplementary Section S20. The full independent review is `Paper1/CODEX_REVIEW_2.md` in the working project. The exploratory note and all registered artifacts remain unchanged to preserve provenance.

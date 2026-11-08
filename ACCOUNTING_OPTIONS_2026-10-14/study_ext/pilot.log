@@ -1,0 +1,4 @@
+2026-11-06 20:15:56 3 jobs, 0 complete, running 3 with 3 workers
+20:38:20 done EXT__REP__s99.json (1225.6s): X10 0.61 |pos| 6.8; placebo reported +145.3 booked +71.7 bust 0.60 mean|pos| 9.5; audit MAE line 0.000 tir 0.00 spr 70.43 rep 73.6
+20:38:29 done EXT__LEDGER__s99.json (1235.4s): X10 0.01 |pos| 0.9; placebo reported -1.8 booked -1.8 bust 0.00 mean|pos| 1.0; audit MAE line 0.000 tir 0.00 spr 0.00 rep 0.0
+20:46:47 done EXT__FINDER__s99.json (1733.3s): X10 1.00 |pos| 10.0; placebo reported +127.3 booked -13.8 bust 0.70 mean|pos| 10.0; audit MAE line 0.000 tir 0.00 spr 87.98 rep 141.1

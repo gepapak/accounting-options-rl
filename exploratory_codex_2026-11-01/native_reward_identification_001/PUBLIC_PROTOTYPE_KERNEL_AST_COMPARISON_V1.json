@@ -1,0 +1,27 @@
+{
+  "scope": "Read-only source AST identity only; not whole Env/runtime/checkpoint parity",
+  "files_sha256": {
+    "github\\accounting-options-rl\\engine\\environment.py": "85c9927867196c3137f7cb682b016cd84c9a7dc0a8533278344fff4831467880",
+    "Prototype5\\environment.py": "61d446064bf6dacadaed5314487b72437d02e97860da0cb6e192a67aee2f0d63"
+  },
+  "method_matches": {
+    "_apply_collateral_cash_drag": true,
+    "_charge_horizon_roll_cost": true,
+    "_collateral_required_dkk": true,
+    "_estimate_horizon_roll_cost": true,
+    "_horizon_contract_volume_mwh": true,
+    "_horizon_entry_price": true,
+    "_horizon_payoff_denominator": true,
+    "_horizon_settlement_basis": true,
+    "_horizon_settlement_price": true,
+    "_horizon_unit_payoff": true,
+    "_is_horizon_settlement_mtm": true,
+    "_is_mwh_volume_payoff": true,
+    "_liquidity_tail_impact_multiplier": true,
+    "_mwh_volume_conversion_price": true,
+    "_open_horizon_contract_totals": true,
+    "_open_horizon_settlement_contract": true,
+    "_settle_horizon_contracts_for_step": true
+  },
+  "original_body_calls": 0
+}

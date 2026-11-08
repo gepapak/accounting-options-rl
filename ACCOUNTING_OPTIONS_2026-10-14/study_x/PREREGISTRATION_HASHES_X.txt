@@ -1,0 +1,8 @@
+# Study X registered files, hashed 2026-11-02T21:51:07+00:00
+00b4ad1ff00bb66e3b0ef40dc2130303887f0bdfe4821c41588535d180381603  PREREGISTRATION_X.md
+196904a96ad02b97aa85fecd97fdbcbb6cb36f1f45e911d93d6be5fdcfc99f43  RUN_LOG_X.md
+09cff294530b9ffc548ef2681d710c6b4584cdb0e9e548a66dd97bde444f4a9d  envs_x.py
+eb9e16b998b43bdcc65dbfd12092e7c818f8a17cc7c1e19fe339c4b94c7b4b20  run_x.py
+606d285334531c30ea9e3a7d13049bbbea4bf375b00240e1a613fd99e321a46f  aggregate_x.py
+6ac67fa555558e7e1c9c6a6ebfc5d4939ceb464d8d0a713180eda8c8617a4a1a  ../study_t/envs_t.py
+63ecb3fab952228e2a6f1793343b9e9f318d2de7a1607eb771a6d9b60d596a77  ../study_t/spr_t.py

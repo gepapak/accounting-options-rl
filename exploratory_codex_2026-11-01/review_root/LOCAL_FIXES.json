@@ -1,0 +1,15 @@
+{
+  "file": "C:\\Users\\gepap\\Desktop\\Thesis\\Paper1\\github\\accounting-options-rl\\README.md",
+  "before_sha256": "3a9f78caf8fdead6a63611321b2899b56e2a02757acc55031dbb1db33928bef6",
+  "after_sha256": "e75af4feccdcd4ca58692b6dd3cbc87f0478ad36ef1a35193955bf2125addc96",
+  "changes": [
+    {
+      "before": "requirements*.txt                standalone analyses; engine stack; Studies A-S; Study G (gym-mtsim)",
+      "after": "requirements*.txt                standalone analyses; engine stack; Studies A-V; Study G (gym-mtsim)"
+    },
+    {
+      "before": "ACCOUNTING_OPTIONS_2026-10-14/   option-ladder theory checks, historical settlement-component analysis, Studies N-S",
+      "after": "ACCOUNTING_OPTIONS_2026-10-14/   option-ladder theory checks, historical settlement-component analysis, Studies N-V"
+    }
+  ]
+}

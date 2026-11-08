@@ -1,0 +1,9 @@
+# Study Y registered files, hashed 2026-11-03T06:53:34+00:00
+c06fd7d821023d5d4d161fee56e25df57fa0dcf4ed192f0ede6433154ba0ef87  PREREGISTRATION_Y.md
+22ba5a7b724312355605dc90ecc8c34def7862ea85c213918488325d47009b6d  RUN_LOG_Y.md
+9f86c38d228c90ea934cb95af3468ed23e8a2b5b2ee71a4d8fcac8a64b26e5b4  run_y.py
+783143e2ee797a41dd2f4bfc7e90cf23010f2c356a1d46906e6dd91b90fbe0e2  aggregate_y.py
+6ac67fa555558e7e1c9c6a6ebfc5d4939ceb464d8d0a713180eda8c8617a4a1a  ../study_t/envs_t.py
+63ecb3fab952228e2a6f1793343b9e9f318d2de7a1607eb771a6d9b60d596a77  ../study_t/spr_t.py
+09cff294530b9ffc548ef2681d710c6b4584cdb0e9e548a66dd97bde444f4a9d  ../study_x/envs_x.py
+7ad731fc970582b8e54fe83562be1e6474d8a8f65da2405aa399f9737d2588ef  ../study_v/rewards_v.py

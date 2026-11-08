@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-11-05T03:17:44.790765+00:00",
+  "baseline": "realism-repository-baseline.json (4 November, before separate extensions)",
+  "repositories": {
+    "accounting-options-rl": {
+      "head_unchanged": true,
+      "index_unchanged": true,
+      "paths_checked": 4219,
+      "changed_contents": [],
+      "added_paths": [],
+      "removed_paths": []
+    },
+    "accounting-options-rl-latex-latex": {
+      "head_unchanged": true,
+      "index_unchanged": true,
+      "paths_checked": 139,
+      "changed_contents": [],
+      "added_paths": [],
+      "removed_paths": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+ "rule": "FL",
+ "scale": 1.0,
+ "algo": "PPO",
+ "seed": 0,
+ "steps": 16384,
+ "eval_split": "train",
+ "lev": {
+  "0": 1.0,
+  "0.02": 1.0,
+  "0.05": 1.0,
+  "0.1": 1.0,
+  "0.25": 1.0,
+  "0.5": 4.0,
+  "1": 4.0,
+  "2": 4.0,
+  "3": 4.0
+ },
+ "X": -3.0,
+ "policy_sha256": "f38adcabd62848851b8141876f35bb47afee1805a40e0e83b9b3720d88025c3e",
+ "train_episodes": 31,
+ "train_floor_episodes": 14,
+ "train_floor_steps": 14,
+ "drawmean_reported_return_pct": -101.42370937499652,
+ "drawmean_ledger_return_pct": -101.42370937499652,
+ "drawmean_mean_abs_lev_open": 2.3274137041496195,
+ "drawshare_floor_bound": 0.0,
+ "drawshare_closed": 1.0,
+ "seconds": 27.6
+}

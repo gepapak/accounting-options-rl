@@ -1,0 +1,82 @@
+{
+ "placebo|HONEST": {
+  "booked": -10.778633218749933,
+  "reported": -7.93045914636682,
+  "forgiven": 2.8481740723831774,
+  "ruins": 3.11,
+  "liquidations": 0.0,
+  "reward_ruin5": -23.480459146366826,
+  "reward_ruin25": -85.68045914636681,
+  "reward_liq5": -7.93045914636682
+ },
+ "placebo|CROSS_LOW": {
+  "booked": -30.818622715624944,
+  "reported": -5.477862452579176,
+  "forgiven": 25.34076026304583,
+  "ruins": 8.56,
+  "liquidations": 0.0,
+  "reward_ruin5": -48.277862452579164,
+  "reward_ruin25": -219.4778624525792,
+  "reward_liq5": -5.477862452579176
+ },
+ "placebo|ISO16": {
+  "booked": -163.2386835890626,
+  "reported": -27.759740396285302,
+  "forgiven": 135.47894319277725,
+  "ruins": 24.0,
+  "liquidations": 107.04,
+  "reward_ruin5": -147.7597403962853,
+  "reward_ruin25": -627.7597403962852,
+  "reward_liq5": -562.9597403962854
+ },
+ "placebo|ISO16_HIGH": {
+  "booked": -64.46818868125001,
+  "reported": -29.764059720507557,
+  "forgiven": 34.70412896074246,
+  "ruins": 3.68,
+  "liquidations": 15.03,
+  "reward_ruin5": -48.16405972050756,
+  "reward_ruin25": -121.76405972050756,
+  "reward_liq5": -104.91405972050755
+ },
+ "edge|HONEST": {
+  "booked": 22.00621258593753,
+  "reported": 22.006212585937536,
+  "forgiven": 3.144693372890417e-14,
+  "ruins": 0.0,
+  "liquidations": 0.0,
+  "reward_ruin5": 22.006212585937536,
+  "reward_ruin25": 22.006212585937536,
+  "reward_liq5": 22.006212585937536
+ },
+ "edge|CROSS_LOW": {
+  "booked": 19.589520671875032,
+  "reported": 22.87854740693532,
+  "forgiven": 3.2890267350603106,
+  "ruins": 1.64,
+  "liquidations": 0.0,
+  "reward_ruin5": 14.67854740693532,
+  "reward_ruin25": -18.121452593064678,
+  "reward_liq5": 22.87854740693532
+ },
+ "edge|ISO16": {
+  "booked": -40.464183481250046,
+  "reported": 37.49557450183024,
+  "forgiven": 77.95975798308031,
+  "ruins": 7.59,
+  "liquidations": 50.63,
+  "reward_ruin5": -0.45442549816975275,
+  "reward_ruin25": -152.25442549816975,
+  "reward_liq5": -215.65442549816976
+ },
+ "edge|ISO16_HIGH": {
+  "booked": -9.533291223437548,
+  "reported": 38.67936724218743,
+  "forgiven": 48.21265846562498,
+  "ruins": 0.0,
+  "liquidations": 20.99,
+  "reward_ruin5": 38.67936724218743,
+  "reward_ruin25": 38.67936724218743,
+  "reward_liq5": -66.27063275781256
+ }
+}

@@ -1,0 +1,140 @@
+{
+  "approval_schema": {
+    "protocol_sha256": "EXACT_THIS_FILE_SHA",
+    "status": "ROOT_GO_NATIVE_REWARD_IDENTIFICATION_HAND_V1"
+  },
+  "budget": {
+    "Env_resets": 0,
+    "Env_steps": 0,
+    "PPO_fits": 0,
+    "hand_proxy_instances": 18,
+    "market_reads": 0,
+    "model_calls": 0,
+    "original_Env_instances": 0,
+    "original_helper_body_calls_max": 2000,
+    "original_top_level_calls": 54
+  },
+  "cases": [
+    {
+      "cash": 100.0,
+      "entry": 500.0,
+      "fee": 0.0,
+      "funding": 0.0,
+      "mixed": false,
+      "name": "NO_COST",
+      "settlement": 501.0
+    },
+    {
+      "cash": 0.0,
+      "entry": 500.0,
+      "fee": 10.0,
+      "funding": 0.0,
+      "mixed": false,
+      "name": "FEE_FLOOR_NATIVE_TIR_COUNTEREXAMPLE",
+      "settlement": 501.0
+    },
+    {
+      "cash": 5.0,
+      "entry": 500.0,
+      "fee": 1.0,
+      "funding": 0.0,
+      "mixed": false,
+      "name": "LOSING_REAL_BRANCH",
+      "settlement": 496.0
+    },
+    {
+      "cash": 0.0,
+      "entry": 500.0,
+      "fee": 0.0,
+      "funding": 10.0,
+      "mixed": false,
+      "name": "POST_FUNDING_BOTH_CENSORED",
+      "settlement": 501.0
+    },
+    {
+      "cash": 0.0,
+      "entry": 500.0,
+      "fee": 10.0,
+      "funding": 2.0,
+      "mixed": false,
+      "name": "PRE_FEE_POST_FUNDING",
+      "settlement": 501.0
+    },
+    {
+      "cash": 0.0,
+      "entry": 500.0,
+      "fee": 10.0,
+      "funding": 0.0,
+      "mixed": true,
+      "name": "TWO_DELIVERIES",
+      "settlement": 501.0
+    }
+  ],
+  "cash_operand_domain": 1125899906842624,
+  "created_utc": "2026-11-01T09:15:24.189892+00:00",
+  "estimator_inputs": [
+    "known receipts",
+    "real ending reported cash",
+    "shadow ending reported cash"
+  ],
+  "fixed_order": [
+    "fresh_open_and_known_fee",
+    "delayed_due_settlement",
+    "remaining_claim_funding"
+  ],
+  "gold_evaluator_only": [
+    "original settler returned gross PnL",
+    "raw source diagnostics"
+  ],
+  "known_receipts": [
+    "initial reported cash",
+    "fresh own executed fee",
+    "post-settlement own funding charge"
+  ],
+  "method_ast_sha256": {
+    "_apply_collateral_cash_drag": "d5cd6f1db5f6598b73477d228f9eb0e1bacfb4cd92054d1ee94d9e4d1ab722be",
+    "_charge_horizon_roll_cost": "704b2a8fb771ae0f0d52eafe2891170e09f831329d6e6fafe31e3b400c00407e",
+    "_collateral_required_dkk": "49ce27a673fd2f2d38e047f587574f89708bb59d4813a8dec1837b53f9747a1d",
+    "_estimate_horizon_roll_cost": "613eb5014a5d187bfe1db77482c61ce6415af1d933fe313607c200829b7fca99",
+    "_horizon_contract_volume_mwh": "cf19b223aca0f95beb88ec9031312f768a82f5802faee59c4f18d3167acf346d",
+    "_horizon_entry_price": "372a261e44bc85bc957a670855235417e8bf508433ea84f90c352b02705fb05d",
+    "_horizon_payoff_denominator": "d2dfda862d23a583deb4b550f54e9a3540fe16e063aadb4b00a7885b11c4ceb8",
+    "_horizon_settlement_basis": "6ecfaf8e3f45c28dfd8d7c533a2cb39dbf212bf98f5a002ba88044ed28a8e01d",
+    "_horizon_settlement_price": "576a95e3e5cecf99929842b9bdffbc8c93a58f45886a8cdf31303451677edd7d",
+    "_horizon_unit_payoff": "96b7912578fbb68294a4b4c531faad7fa111089d4e9c36dcac9556574ac55341",
+    "_is_horizon_settlement_mtm": "2c06539fd8c88b112a0f74cc88490c01d4ed650379ffceebf8187c5e756f9101",
+    "_is_mwh_volume_payoff": "e908b37da953cbcbe0d425bff56941a163829208fcc7a7e1f1fa016ff8c7712f",
+    "_liquidity_tail_impact_multiplier": "4c97a03f33336f18ed3d931bef4c26465c672aa795713cf386a6c75048e36edf",
+    "_mwh_volume_conversion_price": "89141bd32b60c15a8417201f220f3d582dd1b5136cbed421e7b3426afb28d326",
+    "_open_horizon_contract_totals": "999326bf70eac5b578124bca0570ffb2a542a0e7a9879749646b8912757ac97b",
+    "_open_horizon_settlement_contract": "e412c551579ff42bf468eb6e793dbfde786d52a2b8f0d600ed2e88cd58bee410",
+    "_settle_horizon_contracts_for_step": "9511430471cf4fe00a71a22102b31e92fc20cedefb48c57a2c3aaf5786a2f910"
+  },
+  "original_methods_edited": false,
+  "per_cash_write_RN_error_DKK": "1/8",
+  "required_checks": [
+    "unqueried original vs real branch exact economic parity",
+    "no mutation of real inputs by shadow",
+    "same due claims and own cost",
+    "original source gross cash payoff exact antisymmetry",
+    "all cash arithmetic operands and exact pre-floor sums inside domain",
+    "booked truth contained in RN interval",
+    "fee-floor case canonical TIR=+1 vs source booked=-9; ordered RN interval contains -9 and excludes +1",
+    "fully post-cost-censored case returns a non-singleton interval rather than false exactness"
+  ],
+  "scope": "isolated original source kernel hand states; no full dynamics, reachability, policy performance, shaping inversion or new AI novelty claim",
+  "shadow_intervention": "deep copy of hand state; replace only due delivery settlement array values with verified RN-antisymmetric in-support values",
+  "source_sha256": {
+    "engine/environment.py": "85c9927867196c3137f7cb682b016cd84c9a7dc0a8533278344fff4831467880",
+    "engine/financial_engine.py": "6c08fb6885d273e65f1fbdf77a9a1ccdb2534126a19ff6c1bec7f2c641b447f5",
+    "engine/market_fee_protocol.py": "4d749cbb4de866e5dd0fdcca29a5e0b6d1f36834c0590458f2ebbe1d06ce73a7",
+    "engine/trading_engine.py": "3bfd4359995ca6b71b42e71e0cb5bf8a038d73f738f34ed44610382ab17a2a42",
+    "exploratory_codex_2026-11-01/native_reward_identification_001/PURE_ATTEMPT_1_FAILURE.md": "1793c8d87131f36bdd8572333fdfec709bfb5dddca69d6b31f1d52ea6b1f77cf",
+    "exploratory_codex_2026-11-01/native_reward_identification_001/PURE_CHECKS_V1.json": "cfa0081db8b822611021e2e1cdc226cacddc934efc543c457a8ad3419f6fa212",
+    "exploratory_codex_2026-11-01/native_reward_identification_001/SOURCE_FEASIBILITY_V1.md": "827a3a7d3b0395352c518734f406d546749054a4bd1cabd3b5d9a2f82761152f",
+    "exploratory_codex_2026-11-01/native_reward_identification_001/check_pure.py": "bdf6eb8a244fd37cd8237d68283b555713987cc586e78a47b08d153d0a0aae05",
+    "exploratory_codex_2026-11-01/native_reward_identification_001/floor_inverse.py": "b119ede724e82ed1ff54a2824c18a1c84b9f4b1a123c1e15e7dad1f56219e3ad",
+    "exploratory_codex_2026-11-01/native_reward_identification_001/run_source_hand_gate.py": "e33465b8c3c46fe1ca3552b2245763ff3b323339a5e8fe82977a4cca6817c5dd"
+  },
+  "status": "FROZEN_BEFORE_ANY_ORIGINAL_BODY_EXECUTION"
+}

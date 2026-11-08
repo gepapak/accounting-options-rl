@@ -1,0 +1,34 @@
+# Study Z, Part B verdicts
+
+Runs: 64 of 64.
+
+| arm | runs | X (funded probes at max. leverage) | X isolated | X low equity | E (booked edge, % K0) | edge reported | edge ruins / wk | edge liquidations / wk | placebo reported | placebo booked |
+|---|---|---|---|---|---|---|---|---|---|---|
+| REP | 8 | 0.680 | 0.680 | 0.625 | -18.99 | +36.22 | 4.31 | 40.3 | -18.81 | -109.32 |
+| LEDGER | 8 | 0.000 | 0.000 | 0.000 | +20.55 | +27.69 | 0.00 | 13.3 | +0.62 | -9.65 |
+| RUINP5 | 8 | 0.570 | 0.570 | 0.453 | -10.63 | +35.04 | 2.39 | 35.8 | -16.71 | -85.65 |
+| RUINP25 | 8 | 0.391 | 0.391 | 0.133 | +4.10 | +36.97 | 0.15 | 30.6 | -9.88 | -48.09 |
+| LIQ5 | 8 | 0.094 | 0.000 | 0.367 | +7.38 | +14.81 | 3.46 | 0.0 | -9.36 | -38.09 |
+| SPR | 8 | 0.000 | 0.000 | 0.000 | +20.32 | +23.08 | 0.00 | 4.9 | -4.30 | -9.78 |
+| TIR | 8 | 0.000 | 0.000 | 0.000 | +21.06 | +29.98 | 0.00 | 17.9 | +2.33 | -10.02 |
+| FINDER | 8 | 1.000 | 1.000 | 1.000 | -292.98 | -38.46 | 51.03 | 228.1 | -30.43 | -171.99 |
+
+Exploratory: runs with X >= 0.25: 31; median booked edge -10.33, reported +34.58; median placebo booked -88.05, reported -18.47; median |TIR - booked| 0.0548 (edge), |reported - booked| 44.35 (edge).
+
+| ID | Result | Verdict |
+|---|---|---|
+| ZIA1 | X REP 0.680 > LEDGER 0.000: one-sided Mann-Whitney p = 0.0007 (need < 0.05) and at least LEDGER + 0.10 | SUPPORTED |
+| ZIA2 | the ruin penalty does not remove it: X RUINP5 0.570 > LEDGER 0.000: one-sided Mann-Whitney p = 0.0002 (need < 0.05) and at least LEDGER + 0.10 | SUPPORTED |
+| ZIA3 | the ruin penalty does not remove it: X RUINP25 0.391 > LEDGER 0.000: one-sided Mann-Whitney p = 0.0002 (need < 0.05) and at least LEDGER + 0.10 | SUPPORTED |
+| ZIA4 | X LIQ5 0.094 < REP 0.680: p = 0.0030 (need < 0.05); LIQ5 <= LEDGER + 0.10 = 0.100 | SUPPORTED |
+| ZIA5 | X SPR 0.000 < REP 0.680: p = 0.0007 (need < 0.05); SPR <= LEDGER + 0.10 = 0.100 | SUPPORTED |
+| ZIA6 | SPR E +20.32 / LEDGER +20.55 = 0.988 (need >= 0.80); one-sided 95% bootstrap LB 0.896 (need >= 0.60) | SUPPORTED |
+| ZIA7 | X TIR 0.000 < REP 0.680: p = 0.0007 (need < 0.05); TIR <= LEDGER + 0.10 = 0.100 | SUPPORTED |
+| ZIA8 | TIR E +21.06 / LEDGER +20.55 = 1.025 (need >= 0.80); one-sided 95% bootstrap LB 0.932 (need >= 0.60) | SUPPORTED |
+| ZIB1 | twin bracket contains the booked P&L of every audited step and the booked return of every audited episode (both markets): 64 of 64 runs (need all) | SUPPORTED |
+| ZIB2 | all 64 runs: max |TIR - booked| of the 100-week mean = 1.4462 points (need <= 0.5) | NOT SUPPORTED |
+| ZIB3 | RUINP runs with X >= 0.25 (15): 1.35 account ruins and 33.4 isolated liquidations per edge test week (need ruins <= 0.5 and liquidations >= 5) | NOT SUPPORTED |
+| ZIC1 | the finder collects credit: bracket width per edge test week FINDER 429.66 > LEDGER 17.23: one-sided Mann-Whitney p = 0.0005 (need < 0.05) and at least LEDGER + 10 | SUPPORTED |
+| ZIC2 | the finder uses the hidden channel: mean share of funded probes at maximal leverage in isolated margin 1.000 (need >= 0.75) | SUPPORTED |
+
+

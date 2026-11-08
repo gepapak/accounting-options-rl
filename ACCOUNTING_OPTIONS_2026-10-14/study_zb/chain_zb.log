@@ -1,0 +1,6 @@
+2026-11-03T18:26:14 waiting for PID 21892 (Study Z's run); idle sleep held
+2026-11-03T22:40:20 Study Z's run has exited; launching run_zb.py
+2026-11-04T01:10:59 run_zb.py exit 0; 64 of 64 result files (last at 01:10:57)
+2026-11-04T01:11:04 aggregate_zb.py exit 0; 11 of 13 supported
+2026-11-04T01:11:09 make_studyZB_outputs.py exit 0: wrote tab_studyZB_full.tex and tab_studyZB_hyp.tex (13 verdicts)
+wrote fig_studyZB.pdf (manuscript figures folder) and fig_studyZB.png (this folder) 

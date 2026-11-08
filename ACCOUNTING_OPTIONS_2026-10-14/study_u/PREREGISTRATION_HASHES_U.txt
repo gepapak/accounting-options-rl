@@ -1,0 +1,7 @@
+# Study U registered files, hashed 2026-10-31T02:49:23+00:00
+0998f5ff0893b4cae8dc53aae03481d10f00863ea9070329aec99ffe93a3f5f6  PREREGISTRATION_U.md
+c1560265eb3e23f4d7f9b240ea920f34bce65abef2ee795d24de0dd5a540879a  RUN_LOG_U.md
+6ee29ff5b981ba98ada18bdc50c766b00e6c21a85e6edd7dde786e4ed628c71d  run_u.py
+b32467cfe9b4c9941e604edb22456fb2befaeec24f97a07bc6541c4f5420eb7f  aggregate_u.py
+8e1f7918531fa6cf08300467902d097633a309106919ef3034d4ef257a3d0514  ../study_t/envs_tn.py
+63ecb3fab952228e2a6f1793343b9e9f318d2de7a1607eb771a6d9b60d596a77  ../study_t/spr_t.py

@@ -1,0 +1,45 @@
+# Study FT pre-registration: accountings that a sign query cannot read
+
+Written 7 November 2026, before any full run of this study. Internal pre-registration: the files listed in `PREREGISTRATION_HASHES_FT.txt` are hashed (SHA-256, UTC time) before launch. No public registry is claimed. Every run and every hypothesis is reported, whatever the result.
+
+## Question and what precedes it
+Where a carried deficit censors both branches of a step, no estimator built from sign queries avoids regret (manuscript Proposition "Identification failure"); on the engine's percentage payoff, closing part of a position forgives an accumulated loss on both branches, and TIR reads it as gross P&L. The reward diagram predicts that a query further along the input's line escapes both: the tail slope reads the gross whatever the floors, and TSR equals the booked P&L on every step of these sleeves (`test_envs_ft.py`). Since TSR's reward then equals the ledger's, training on it is training on the ledger up to rounding, so its arm is an integration check and not independent evidence for its exactness. The informative questions are two. (1) Does reported-reward PPO acquire an exploit in these accountings? (2) Where, in learned agents, does the sign query's blindness actually cost the edge?
+
+**Part A, the unrealized bucket.** As in the engine's percentage payoff, the gross goes to an unfloored bucket; a second action chooses the share realized at the end of the step (0, 0.5 or 1), which moves to floored cash; the cost is written to cash next, with its floor. Reported equity is cash plus bucket. **Part B, the carried deficit, half of the training funded.** As an owner's claim during a settlement lag, the ledger carries every loss and the reported equity is `max(ledger, 0)`; the agent sees 0 however deep the deficit. Half of the training episodes start in deficit. **Part C, the carried deficit, no funded training.** Every training episode starts in deficit, so the agent's only experience is the part of the state space where a sign query shows nothing.
+
+## Development (exploratory; not part of this study)
+`test_envs_ft.py` (random actions, 180,000 steps): TSR within 3e-14 points of the booked P&L on every step; in Part A's accounting TIR wrong on 6% and SPR on 8% of random steps, by up to 100 points; in Part B's TIR and SPR wrong on 44%; the pair coincides with a non-zero gross on 43%.
+
+Pilot at 10^6 steps, seed 98 (`pilot_results/`, `pilot.log`). **This pilot changed the design.** The first version of this registration, not hashed, predicted that SPR and TIR would lose the edge from a deficit start in Part B. In the pilot TIR did not: reported reward `X_low` 0.50 and a booked edge from a deficit start of -7.1, against 0 and +22.0 for LEDGER; TIR 0 and +22.0, the same greedy result as LEDGER. With half of the training funded the honest policy learned at funded states carries over, through the network, to the deficit states, where the reward says nothing. Part C was added, without a pilot of its own (a smoke test only), to test the boundary where the theory predicts the loss. Bucket pilot: reported reward `X_low` 0.50, `E` +10.5, `Ed` -3.4, placebo booked -49.9; LEDGER 0, +22.0, +22.0, -10.8; TIR 0, +22.0, +22.0, -10.8, although its reward is wrong on many steps. Smoke tests at 20,000 steps, seed 320, were run and deleted. The partial-forgiveness sleeve (`PartialEnv`, `dp_lambda.py`) was dropped because TIR is nearly exact there, so it cannot separate the rewards. Eight seeds per arm were reduced to six before hashing, to fit the machine.
+
+## Design (`run_ft.py`, `envs_ft.py`, `rewards_ft.py`, `aggregate_ft.py`)
+- **Environment.** The Study T edge-market sleeve (`S_DK1`: DK1, `p_edge` 0.60, kappa 4, the Study T market draw, fixed sizing, liquidity cap, cost `fee*|q| + kappa*q^2`), with the accountings above. Part A's training starts: 25% empty cash and no bucket, 25% empty cash and a bucket of minus a log-uniform draw, 50% funded. Part B's: half in a deficit of a log-uniform draw (0.05 to 2 allocations), half funded. Part C's: all in such a deficit.
+- **Learner.** PPO as in Studies T to Z: 8 environments, n_steps 1024, batch 256, gamma 0.99, 64x64, reward normalization, 10^6 steps.
+- **Arms (each part).** REP (reported reward), LEDGER (booked; reads the ledger), SPR and TIR (one clone with the sign reversed, own cost), TSR (four clones at `t = +-1e9, +-2e9` on the line through the realized move, own cost). None but LEDGER reads the ledger or the accounting.
+- **Seeds.** 320-325 per arm except TSR, 320-322 (its reward equals the ledger's on every step, so more seeds would only replicate the ledger arm). 81 runs. A missing or failed run is reported and not replaced.
+- **Measures per run (greedy policy).** `X_low`: share of 16 probes at reported equity 0, 0.02, 0.05, 0.1 (both signals, share left 0.05, 0.5) at maximal leverage. Part A also `X_def`: 12 probes at empty cash and a bucket of -0.05, -0.5, -2; `R_def`, the share of those at a realized fraction above 0; there `X` is the mean of `X_low` and `X_def`. In Part B `X = X_low`. In Part C `X` is the share of the 4 probes at reported equity 0, nearly the only state that training visits. Booked edge per test week over 100 fixed test windows in the edge market, from three starts: `E` (funded, log-uniform 0.05 to 2 allocations), `Ez` (zero equity), `Ed` (Part A: empty cash and a bucket of -0.5; Parts B and C: a deficit of 0.5). Placebo-market reported, booked and forgiven returns. Ledger-free audit of the booked return by SPR, TIR and TSR on the same windows, with the bracket checked at every step.
+
+## Hypotheses and decision rules (`aggregate_ft.py`)
+"Present": `X(arm) > X(LEDGER)` by a one-sided Mann-Whitney test, `p < 0.05`, and `mean X(arm) >= mean X(LEDGER) + 0.10`. "Removes": `X(arm) < X(REP)` by a one-sided Mann-Whitney test, `p < 0.05`, and `mean X(arm) <= mean X(LEDGER) + 0.10`. "Keeps" a measure: the arm's mean over LEDGER's at least 0.80, with a one-sided 95% bootstrap lower bound (10,000 resamples of runs within each arm, generator seed 20261107) of at least 0.60. "Loses": the arm's mean over LEDGER's below 0.50, with the one-sided 95% bootstrap upper bound below 0.80.
+- **FA1.** Bucket: the exploit is present in REP.
+- **FA2, FA3.** Bucket: SPR removes it; SPR keeps `E`.
+- **FA4, FA5.** Bucket: TIR removes it; TIR keeps `E`.
+- **FA6, FA7.** Bucket: TSR removes it; TSR keeps `E`.
+- **FB1.** Deficit, half funded: the exploit is present in REP.
+- **FB2, FB3, FB4.** SPR, TIR and TSR each remove it.
+- **FB5, FB6, FB7.** TSR, SPR and TIR each keep `Ed`: with funded experience the sign query's blindness in deficit does not cost the edge.
+- **FD1.** Deficit only: the exploit is present in REP.
+- **FD2, FD3, FD4.** SPR, TIR and TSR each remove it.
+- **FD5.** TSR keeps `Ed`.
+- **FD6, FD7.** SPR and TIR lose `Ed`: with no funded experience a sign query cannot read the edge.
+- **FC1.** TSR's audit errs by at most 1e-6 points in every test window of every run, all parts.
+- **FC2.** Bucket: the bracket holds at every audited step of every run. (In Parts B and C the owner's claim withholds a profit made while insolvent, so the accounting is not forgiving and failures are expected; they are counted without a rule.)
+If FA1, FB1 or FD1 fails, the "removes" hypotheses of that part are reported as not testable. Twenty-three decisions, each its own; no multiplicity correction.
+
+*Prior belief (written before the full runs, after the pilot):* FA1 and FB1 probably hold (pilot 0.50 against 0 in both). FA4, FA5, FB3 and FB7 probably hold: the pilot's TIR reached the ledger's greedy result. SPR was not piloted in these sleeves; it halves the magnitude where one branch is floored and missed its retention rule with real signs (Study RS), so FA3 and FB6 are less certain. FD1 is uncertain: with reported equity at 0 nearly always, reward arrives only on climbing out of the deficit, which favours gambling, but the agent may not find it. FD5 should hold if TSR's reward equals the ledger's, and FD4 follows if FD1 holds. FD6 and FD7 are the study's main prediction: the reward is minus the cost on nearly every step, so flat is the learned answer, but shallow deficits give some identified steps from which a following policy could still be learned, which is the main way they could fail. FC1 and FC2 hold by construction; a failure would be an implementation error.
+
+## Exploratory outputs (not registered)
+`Ez`, `R_def`, mean leverage at the low probes and in the deficit test, placebo returns, the audit errors of SPR, TIR and the reported return, bracket failures in Parts B and C.
+
+## Software validation, integrity and failures
+`test_envs_ft.py` passed before the pilot and again after `envs_ft.py` gained the share of deficit starts. Files hashed before launch: this file, `RUN_LOG_FT.md`, `envs_ft.py`, `rewards_ft.py`, `run_ft.py`, `aggregate_ft.py`, `test_envs_ft.py`, `dp_lambda.py`, `dp_lambda.json`, and (reused unchanged) `../study_t/envs_t.py`. The run log is append-only after "## After hashing".

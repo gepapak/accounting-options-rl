@@ -1,0 +1,9 @@
+﻿8 jobs, 0 complete, running 8 with 8 workers
+16:58:49 done Z_DK1+Z__RUINA5__s99.json (1252.9s): booked edge +28.2%, placebo reported -7.0% booked -14.8%
+16:58:49 done Z_DK1+Z__RUINP25__s99.json (1253.6s): booked edge -14.0%, placebo reported -1.0% booked -53.6%
+16:58:49 done Z_DK1+Z__P_RUIN5__s99.json (1253.7s): booked edge +29.6%, placebo reported -8.0% booked -14.4%
+16:58:57 done Z_DK1+Z__RUINP5__s99.json (1262.5s): booked edge -19.8%, placebo reported -7.9% booked -110.5%
+16:58:59 done Z_DK1+Z__P_REP__s99.json (1262.9s): booked edge -6.5%, placebo reported -3.4% booked -134.9%
+16:59:00 done Z_DK1+Z__LEDGER__s99.json (1265.7s): booked edge +22.9%, placebo reported -5.4% booked -9.5%
+16:59:01 done Z_DK1+Z__REP__s99.json (1266.0s): booked edge -17.4%, placebo reported +0.6% booked -140.7%
+16:59:58 done Z_DK1+Z__SPR__s99.json (1322.2s): booked edge +29.7%, placebo reported -6.2% booked -14.1%

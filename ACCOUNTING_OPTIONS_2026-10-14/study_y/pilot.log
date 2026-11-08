@@ -1,0 +1,9 @@
+8 jobs, 0 complete, running 8 with 6 workers
+07:44:12 done S_DK1__ORACLE__s99.json (520.4s): booked +22.0%
+07:44:15 done S_DK1__PLAIN__s99.json (523.7s): booked +22.0%
+07:44:17 done X_DK1+Z__ORACLE__s99.json (525.1s): booked +22.0%
+07:44:24 done X_DK1+Z__PLAIN__s99.json (531.9s): booked -0.9%
+07:45:20 done S_DK1__SPR__s99.json (587.9s): booked +22.0%
+07:45:29 done S_DK1__TIR__s99.json (597.3s): booked +22.0%
+07:50:12 done X_DK1+Z__SPR__s99.json (360.0s): booked +22.0%
+07:50:26 done X_DK1+Z__TIR__s99.json (371.1s): booked +22.0%

@@ -1,0 +1,6 @@
+scale,reach_R,n_pairs,mean_D,pairs_D_positive,pairs_identical_probe,pairs_identical_params,ZF_mean_X,FL_mean_X,ZF_mean_L002,FL_mean_L002,ZF_floor_episodes_min,ZF_floor_episodes_max,FL_closed_episodes_min,FL_closed_episodes_max,ZF_reported_minus_ledger_pct
+1.0,855.8232,5,13.15,4,0,0,15.45,2.3,16.0,4.9,609,737,281,1144,16.739620628124975
+0.3,442.82879999999994,5,15.55,5,0,0,14.9,-0.65,16.0,0.5,280,372,65,246,0.6353133240624887
+0.1,148.5024,5,6.15,3,1,0,9.15,3.0,9.8,3.65,10,102,5,103,0.0
+0.03,5.728800000000001,5,-3.15,0,4,2,-0.2,2.95,3.5,6.65,0,4,0,6,0.0
+0.01,0.0,5,0.0,0,5,5,-0.55,-0.55,0.7,0.7,0,0,0,0,0.0

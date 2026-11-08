@@ -1,0 +1,13 @@
+{
+ "seed": 300,
+ "steps": 1000000,
+ "X": 0.0,
+ "mean_abs_probe": 0.011111111111111112,
+ "probe_share_at_5_or_more": 0.0,
+ "booked": 0.0,
+ "booked_se": 0.0,
+ "sum_log_reward": 0.0,
+ "bust": 0.0,
+ "mean_abs_position": 0.0,
+ "seconds": 1002.5
+}

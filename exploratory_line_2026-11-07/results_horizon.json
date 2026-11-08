@@ -1,0 +1,318 @@
+{
+ "summary": {
+  "n_positions": 100,
+  "lambda_star_return": {
+   "min": 0.011907474760007095,
+   "median": 0.01215306931327553,
+   "max": 0.012418388569056884
+  },
+  "empirical": {
+   "n_returns": 87,
+   "sd": 0.00339027190595785,
+   "min": -0.010953357135863928,
+   "max": 0.008024347122117054,
+   "share_past_floor_min_lambda": 0.0
+  },
+  "horizon": {
+   "daily": {
+    "sd": 0.00339027190595785,
+    "lambda_over_sd": 3.5846886770109774,
+    "p_gaussian": 0.00016874026112380494,
+    "n50_gaussian": 4107.775915146785,
+    "p_student_t3": 0.004209832154297002,
+    "n50_student_t3": 164.6496000683651,
+    "p_empirical_bootstrap": 0.0,
+    "n50_empirical_bootstrap": Infinity
+   },
+   "hourly": {
+    "sd": 0.0006920363549074775,
+    "lambda_over_sd": 17.561316290818777,
+    "p_gaussian": 2.4365978329691847e-69,
+    "n50_gaussian": 2.8447336330234333e+68,
+    "p_student_t3": 3.9030165118985295e-05,
+    "n50_student_t3": 17759.268464451878,
+    "p_empirical_bootstrap": null,
+    "n50_empirical_bootstrap": null
+   }
+  },
+  "checks": {
+   "crossing_identity_holds_on_all": true,
+   "bootstrap_logs_all_identical": true,
+   "public_path_sum_equals_single_step": false
+  }
+ },
+ "positions": [
+  {
+   "position": 0,
+   "lambda_star": 0.012151178004051823,
+   "bootstrap_daily": {
+    "draws": 1000,
+    "rewards_differ": 0,
+    "draws_past_floor": 0,
+    "max_adverse_return": -0.010953357135863928
+   },
+   "student_t3_daily": {
+    "draws": 1000,
+    "rewards_differ": 5,
+    "draws_past_floor": 5,
+    "max_adverse_return": -0.02363164745420839
+   }
+  },
+  {
+   "position": 1,
+   "lambda_star": 0.01218202537650528,
+   "bootstrap_daily": {
+    "draws": 1000,
+    "rewards_differ": 0,
+    "draws_past_floor": 0,
+    "max_adverse_return": -0.010953357135863928
+   },
+   "student_t3_daily": {
+    "draws": 1000,
+    "rewards_differ": 6,
+    "draws_past_floor": 6,
+    "max_adverse_return": -0.027495608091674277
+   }
+  },
+  {
+   "position": 2,
+   "lambda_star": 0.011984962698833448,
+   "bootstrap_daily": {
+    "draws": 1000,
+    "rewards_differ": 0,
+    "draws_past_floor": 0,
+    "max_adverse_return": -0.010953357135863928
+   },
+   "student_t3_daily": {
+    "draws": 1000,
+    "rewards_differ": 1,
+    "draws_past_floor": 1,
+    "max_adverse_return": -0.039338638405076745
+   }
+  },
+  {
+   "position": 3,
+   "lambda_star": 0.012276301600176894,
+   "bootstrap_daily": {
+    "draws": 1000,
+    "rewards_differ": 0,
+    "draws_past_floor": 0,
+    "max_adverse_return": -0.010953357135863928
+   },
+   "student_t3_daily": {
+    "draws": 1000,
+    "rewards_differ": 5,
+    "draws_past_floor": 5,
+    "max_adverse_return": -0.019568531278542595
+   }
+  },
+  {
+   "position": 4,
+   "lambda_star": 0.011986486860253562,
+   "bootstrap_daily": {
+    "draws": 1000,
+    "rewards_differ": 0,
+    "draws_past_floor": 0,
+    "max_adverse_return": -0.010953357135863928
+   },
+   "student_t3_daily": {
+    "draws": 1000,
+    "rewards_differ": 6,
+    "draws_past_floor": 6,
+    "max_adverse_return": -0.0289501422327054
+   }
+  },
+  {
+   "position": 5,
+   "lambda_star": 0.011918001571198189,
+   "bootstrap_daily": {
+    "draws": 1000,
+    "rewards_differ": 0,
+    "draws_past_floor": 0,
+    "max_adverse_return": -0.010953357135863928
+   },
+   "student_t3_daily": {
+    "draws": 1000,
+    "rewards_differ": 8,
+    "draws_past_floor": 8,
+    "max_adverse_return": -0.03817805439166583
+   }
+  },
+  {
+   "position": 6,
+   "lambda_star": 0.012187714055610662,
+   "bootstrap_daily": {
+    "draws": 1000,
+    "rewards_differ": 0,
+    "draws_past_floor": 0,
+    "max_adverse_return": -0.010953357135863928
+   },
+   "student_t3_daily": {
+    "draws": 1000,
+    "rewards_differ": 6,
+    "draws_past_floor": 6,
+    "max_adverse_return": -0.01747186280757166
+   }
+  },
+  {
+   "position": 7,
+   "lambda_star": 0.01229006765095359,
+   "bootstrap_daily": {
+    "draws": 1000,
+    "rewards_differ": 0,
+    "draws_past_floor": 0,
+    "max_adverse_return": -0.010953357135863928
+   },
+   "student_t3_daily": {
+    "draws": 1000,
+    "rewards_differ": 4,
+    "draws_past_floor": 4,
+    "max_adverse_return": -0.020127962068390716
+   }
+  },
+  {
+   "position": 8,
+   "lambda_star": 0.011907474760007095,
+   "bootstrap_daily": {
+    "draws": 1000,
+    "rewards_differ": 0,
+    "draws_past_floor": 0,
+    "max_adverse_return": -0.010953357135863928
+   },
+   "student_t3_daily": {
+    "draws": 1000,
+    "rewards_differ": 0,
+    "draws_past_floor": 0,
+    "max_adverse_return": -0.011394152454394216
+   }
+  },
+  {
+   "position": 9,
+   "lambda_star": 0.012206255671749862,
+   "bootstrap_daily": {
+    "draws": 1000,
+    "rewards_differ": 0,
+    "draws_past_floor": 0,
+    "max_adverse_return": -0.010953357135863928
+   },
+   "student_t3_daily": {
+    "draws": 1000,
+    "rewards_differ": 5,
+    "draws_past_floor": 5,
+    "max_adverse_return": -0.030826546267018244
+   }
+  }
+ ],
+ "paths": [
+  {
+   "position": 0,
+   "public_path_sum": -972.0,
+   "public_single": -972.0,
+   "public_equity_before": 972.0,
+   "public_closed_at_step": 2,
+   "control_path_sum": -1599.844886933406,
+   "control_single": -12798.759095467261,
+   "control_closed_at_step": 2,
+   "control_balance_end": -627.8448869334061
+  },
+  {
+   "position": 1,
+   "public_path_sum": -970.5,
+   "public_single": -970.5,
+   "public_equity_before": 970.5,
+   "public_closed_at_step": 2,
+   "control_path_sum": -1593.331108752642,
+   "control_single": -12746.648870021148,
+   "control_closed_at_step": 2,
+   "control_balance_end": -622.831108752642
+  },
+  {
+   "position": 2,
+   "public_path_sum": -798.0834183932031,
+   "public_single": -956.5,
+   "public_equity_before": 956.5,
+   "public_closed_at_step": 1,
+   "control_path_sum": -798.0834183932031,
+   "control_single": -12769.33469429122,
+   "control_closed_at_step": 1,
+   "control_balance_end": 158.41658160679685
+  },
+  {
+   "position": 3,
+   "public_path_sum": -974.0,
+   "public_single": -974.0,
+   "public_equity_before": 974.0,
+   "public_closed_at_step": 2,
+   "control_path_sum": -1586.7971180929023,
+   "control_single": -12694.37694474323,
+   "control_closed_at_step": 2,
+   "control_balance_end": -612.7971180929023
+  },
+  {
+   "position": 4,
+   "public_path_sum": -797.9819367855789,
+   "public_single": -956.5,
+   "public_equity_before": 956.5,
+   "public_closed_at_step": 1,
+   "control_path_sum": -797.9819367855789,
+   "control_single": -12767.710988569223,
+   "control_closed_at_step": 1,
+   "control_balance_end": 158.5180632144211
+  },
+  {
+   "position": 5,
+   "public_path_sum": -797.9525714262801,
+   "public_single": -951.0,
+   "public_equity_before": 951.0,
+   "public_closed_at_step": 1,
+   "control_path_sum": -797.9525714262801,
+   "control_single": -12767.241142820427,
+   "control_closed_at_step": 1,
+   "control_balance_end": 153.0474285737199
+  },
+  {
+   "position": 6,
+   "public_path_sum": -974.0,
+   "public_single": -974.0,
+   "public_equity_before": 974.0,
+   "public_closed_at_step": 2,
+   "control_path_sum": -1598.3309020145855,
+   "control_single": -12786.64721611666,
+   "control_closed_at_step": 2,
+   "control_balance_end": -624.3309020145855
+  },
+  {
+   "position": 7,
+   "public_path_sum": -974.5,
+   "public_single": -974.5,
+   "public_equity_before": 974.5,
+   "public_closed_at_step": 2,
+   "control_path_sum": -1585.8334187841292,
+   "control_single": -12686.667350273055,
+   "control_closed_at_step": 2,
+   "control_balance_end": -611.3334187841292
+  },
+  {
+   "position": 8,
+   "public_path_sum": -799.9177148786491,
+   "public_single": -952.5,
+   "public_equity_before": 952.5,
+   "public_closed_at_step": 1,
+   "control_path_sum": -799.9177148786491,
+   "control_single": -12798.6834380583,
+   "control_closed_at_step": 1,
+   "control_balance_end": 152.58228512135088
+  },
+  {
+   "position": 9,
+   "public_path_sum": -967.5,
+   "public_single": -967.5,
+   "public_equity_before": 967.5,
+   "public_closed_at_step": 2,
+   "control_path_sum": -1585.252719618482,
+   "control_single": -12682.021756947868,
+   "control_closed_at_step": 2,
+   "control_balance_end": -617.7527196184819
+  }
+ ]
+}

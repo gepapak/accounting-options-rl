@@ -1,0 +1,59 @@
+{
+  "registered_hashes": [
+    {
+      "file": "PREREGISTRATION_V.md",
+      "expected": "178f08b0248c199cf67febafc9184743e33eb698f7aa1042a2d28c7828d4ff4c",
+      "actual": "178f08b0248c199cf67febafc9184743e33eb698f7aa1042a2d28c7828d4ff4c",
+      "matches": true
+    },
+    {
+      "file": "RUN_LOG_V.md",
+      "expected": "394963957f6e0114f7d98e9c4ad209da7a1f9d42e4276348a449048de9f77c34",
+      "actual": "b3e9d47f37d94248d74546e315ec0f6a3e7559bb22bbef928175945247f44cac",
+      "matches": false
+    },
+    {
+      "file": "rewards_v.py",
+      "expected": "7ad731fc970582b8e54fe83562be1e6474d8a8f65da2405aa399f9737d2588ef",
+      "actual": "7ad731fc970582b8e54fe83562be1e6474d8a8f65da2405aa399f9737d2588ef",
+      "matches": true
+    },
+    {
+      "file": "run_v.py",
+      "expected": "87ba141335610641b1bc8fe8a42adac1c0502b56fef943b15c01bceade7679cc",
+      "actual": "87ba141335610641b1bc8fe8a42adac1c0502b56fef943b15c01bceade7679cc",
+      "matches": true
+    },
+    {
+      "file": "aggregate_v.py",
+      "expected": "51c96c759d9031a8c933946d52e76caac1d8a90158e93c18a9486a69a466f940",
+      "actual": "51c96c759d9031a8c933946d52e76caac1d8a90158e93c18a9486a69a466f940",
+      "matches": true
+    },
+    {
+      "file": "../study_t/envs_t.py",
+      "expected": "6ac67fa555558e7e1c9c6a6ebfc5d4939ceb464d8d0a713180eda8c8617a4a1a",
+      "actual": "6ac67fa555558e7e1c9c6a6ebfc5d4939ceb464d8d0a713180eda8c8617a4a1a",
+      "matches": true
+    },
+    {
+      "file": "../study_t/spr_t.py",
+      "expected": "63ecb3fab952228e2a6f1793343b9e9f318d2de7a1607eb771a6d9b60d596a77",
+      "actual": "63ecb3fab952228e2a6f1793343b9e9f318d2de7a1607eb771a6d9b60d596a77",
+      "matches": true
+    }
+  ],
+  "run_count": 144,
+  "roster_matches": true,
+  "duplicates": 0,
+  "steps": {
+    "1000000": 144
+  },
+  "log_created_utc": "2026-10-31T17:53:59.475272+00:00",
+  "earliest_result_modified_utc": "2026-10-31T18:13:33.562944+00:00",
+  "latest_result_modified_utc": "2026-10-31T22:16:35.388490+00:00",
+  "stderr_bytes": 0,
+  "log_done_count": 144,
+  "log_fail_count": 0,
+  "note": "Local timestamps and self-authored hashes support chronology, not independent registration or proof of a descriptive read time."
+}

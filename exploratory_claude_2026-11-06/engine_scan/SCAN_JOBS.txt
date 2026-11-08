@@ -1,0 +1,30 @@
+# Group V: volume payoff, floor bound (10)
+L7_minus_percent_mtm__marl__seed7__original
+L7_minus_percent_mtm__marl__seed7__v2
+L7_minus_percent_mtm__marl__seed42__original
+L7_minus_percent_mtm__marl__seed42__v2
+L7_minus_percent_mtm__marl__seed123__original
+L7_minus_percent_mtm__marl__seed123__v2
+L3_price_taker_no_solvency__marl__seed7__original
+L3_price_taker_no_solvency__marl__seed7__v2
+L3_price_taker_no_solvency__marl__seed42__original
+L3_price_taker_no_solvency__marl__seed42__v2
+# Group K: percentage payoff with its cap on (4); seed 5001 is where the floor binds
+L7_thesis_like_capon__marl__seed7__original
+L7_thesis_like_capon__marl__seed7__v2
+L7_thesis_like_capon__marl__seed5001__original
+L7_thesis_like_capon__marl__seed5001__v2
+# Group N: nothing forgiven (6)
+L0_strict__marl__seed7__original
+L0_strict__marl__seed7__v2
+L1_price_taker__marl__seed7__original
+L1_price_taker__marl__seed7__v2
+L3_price_taker_no_solvency__anchor__seed7__original
+L3_price_taker_no_solvency__anchor__seed7__v2
+# Group P: percentage payoff, uncapped as in the audit (6): floor bound in seeds 7 and 123, not in seed 42
+L7_thesis_like__marl__seed7__original
+L7_thesis_like__marl__seed7__v2
+L7_thesis_like__marl__seed123__original
+L7_thesis_like__marl__seed123__v2
+L7_thesis_like__marl__seed42__original
+L7_thesis_like__marl__seed42__v2

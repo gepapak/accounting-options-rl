@@ -1,0 +1,7 @@
+2026-11-06 20:51:21 6 jobs, 0 complete, running 6 with 2 workers
+22:45:18 done FT_B__LEDGER__s98.json (6561.0s): X_low 0.00; E funded +22.0 zero +22.0 deficit +22.0; placebo rep -8.8 booked -10.8; audit MAE tsr 1.35e-13 tir 0.00 spr 0.09
+22:46:51 done FT_B__REP__s98.json (6695.9s): X_low 0.50; E funded +4.3 zero -5.1 deficit -7.1; placebo rep -6.7 booked -37.4; audit MAE tsr 1.24e-13 tir 10.43 spr 11.04
+23:58:19 done FT_B__TIR__s98.json (4381.7s): X_low 0.00; E funded +22.0 zero +22.0 deficit +22.0; placebo rep -8.8 booked -10.8; audit MAE tsr 1.35e-13 tir 0.00 spr 0.09
+00:01:44 done FT_A__REP__s98.json (4493.6s): X_low 0.50; E funded +10.5 zero -3.4 deficit -3.4; placebo rep -6.3 booked -49.9; audit MAE tsr 1.28e-13 tir 0.09 spr 3.42
+00:23:51 done FT_A__LEDGER__s98.json (1532.6s): X_low 0.00; E funded +22.0 zero +22.0 deficit +22.0; placebo rep -8.0 booked -10.8; audit MAE tsr 1.34e-13 tir 0.00 spr 0.09
+00:29:00 done FT_A__TIR__s98.json (1635.5s): X_low 0.00; E funded +22.0 zero +22.0 deficit +22.0; placebo rep -8.0 booked -10.8; audit MAE tsr 1.36e-13 tir 0.00 spr 0.07

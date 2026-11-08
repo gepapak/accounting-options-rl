@@ -2,6 +2,8 @@
 
 > **Scope.** This document covers the engine audit (Section 4 and Supplementary Sections S1–S5 of the paper). Studies A–K are documented by their pre-registrations, run logs and verdict files in `GENERALIZATION_STUDY_2026-09-29/` and `LIABILITY_STUDY_2026-09-29/` (see the README).
 
+**Correction (6 November 2026).** L7, its variants, L8 and the classical variants V11 and V12 are described below as using a capped percent payoff. The cap was off in all of them: the campaign removed the flag that disables it, but evaluation restores the checkpoint's saved configuration, which keeps it disabled, and the classical baseline protocol behind V11 and V12 sets it off. With the cap really on, L7's inversion disappears (MAPPO reports −38.5% and −45.0% against −7.9% and −13.7% for the rule; the floor binds in 2 of 20 runs). See `exploratory_claude_2026-11-05/engine_twin/`.
+
 This document describes the study design, every protocol and prediction, and all results, including failed predictions. The numbers can be recomputed from the files in `results/` with `tools/verify_release.py`.
 
 ## 1. Setting
@@ -43,7 +45,7 @@ Each protocol changes the strict protocol (L0) in the ways listed.
 | L4 load-proxy liquidity | liquidity from a load proxy, impact referenced to the sleeve (earlier protocol) |
 | L5 percent payoff | horizon payoff divided by a reference price |
 | L6 interpolated prices | hourly prices linearly interpolated to 10 minutes (look-ahead) |
-| L7 thesis-like | L6 + percent-capped MTM payoff + L1 + L2 + legacy flat fee + 10% cash distribution ("sweeper") |
+| L7 thesis-like | L6 + percent MTM payoff (uncapped as run) + L1 + L2 + legacy flat fee + 10% cash distribution ("sweeper") |
 | L7 − *c* | L7 without component *c* ∈ {interpolation, percent MTM, price-taker, no solvency, legacy fee, sweeper} |
 | L8 | percent MTM + no solvency only |
 
@@ -98,7 +100,7 @@ Code, agents and data changed together, so this record motivates the controlled 
 V00 reproduces the frozen baselines exactly.
 
 **Shortcuts with an effect:**
-- **Percent payoff** (V01) and **percent-capped MTM** (V11) ruin all active strategies (−95% to −100%).
+- **Percent payoff** (V01) and **percent MTM, uncapped as run** (V11) ruin all active strategies (−95% to −100%).
 - **No liquidity cap** (V02) also ruins them (≈ −95%).
 - **Load-proxy liquidity** (V03) gives Markowitz / capped-long ×105 in DK1 (+30%) but −3.7% in DK2.
 - **Interpolation** (V08) changes the top-ranked strategy.
@@ -153,7 +155,7 @@ The same shortcut (L1) inflates the anchor ×307 / ×997 and ruins MARL.
 | Anchor reported | −36% | −41% |
 
 - Under the reported metric the strict ranking (anchor > feasible-action > MARL) fully inverts to MARL > feasible-action > anchor in both regions.
-- Under L7 the payoff is a capped percent return on the spot-price level, which rises from 16 to 691 DKK/MWh across the window.
+- Under L7 as run the payoff is an uncapped percent return on the spot-price level, which rises from 16 to 691 DKK/MWh across the window.
 - 9 of 10 MARL checkpoints hold one direction on ≥ 96% of steps (seed 5001 is mixed):
   - the 3 long-saturated seeds gain +469% to +1,277%, with a directional hit rate below 0.5;
   - every short-dominant seed loses 428–1,417% in the ledger, but reports only −57% to −114% because of the zero floor.

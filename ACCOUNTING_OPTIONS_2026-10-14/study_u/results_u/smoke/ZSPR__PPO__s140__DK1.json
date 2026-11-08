@@ -1,0 +1,60 @@
+{
+ "arm": "ZSPR",
+ "env_arm": "ZFG",
+ "algo": "PPO",
+ "seed": 140,
+ "region": "DK1",
+ "steps": 16384,
+ "eval_split": "train",
+ "probes": {
+  "zombie_n-0.5_k96": 1.0,
+  "zombie_n-0.5_k48": 1.0,
+  "zombie_n-0.5_k12": 1.0,
+  "zombie_n-0.25_k96": 1.0,
+  "zombie_n-0.25_k48": 1.0,
+  "zombie_n-0.25_k12": 1.0,
+  "zombie_n-0.1_k96": 1.0,
+  "zombie_n-0.1_k48": 1.0,
+  "zombie_n-0.1_k12": 1.0,
+  "zombie_n-0.02_k96": 1.0,
+  "zombie_n-0.02_k48": 1.0,
+  "zombie_n-0.02_k12": 1.0,
+  "solvent_e0.02": 1.0,
+  "solvent_e0.05": 1.0,
+  "solvent_e0.1": 1.0,
+  "solvent_e0.25": 1.0,
+  "solvent_e0.5": 1.0,
+  "solvent_e1": 1.0,
+  "solvent_e2": 1.0,
+  "solvent_e3": 1.0
+ },
+ "drawmean_reported_pct": -51.09647916666709,
+ "drawmean_booked_pct": -51.09647916666709,
+ "draws": [
+  {
+   "reported_pct": -32.47614375000053,
+   "booked_pct": -32.47614375000053,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -79.74929375000109,
+   "booked_pct": -79.74929375000109,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  },
+  {
+   "reported_pct": -41.06399999999966,
+   "booked_pct": -41.06399999999966,
+   "closed": false,
+   "forgiven_pct": 0.0,
+   "zombie_steps": 0,
+   "zombie_maxlev_share": 0.0
+  }
+ ],
+ "seconds": 45.4
+}

@@ -1,0 +1,46 @@
+{
+ "n_episodes": 20000,
+ "episodes_per_run": 1488,
+ "scales": {
+  "1.0": {
+   "share_episodes_reaching_floor": 0.57515,
+   "share_from_lowest_equity": 0.8891,
+   "reach_R": 855.8232,
+   "sd_cumulative_pnl_at_max_leverage": 18833.151587056407,
+   "kolmogorov_bound_from_lowest_equity": 1.0,
+   "kolmogorov_bound_training_equities": 0.9308142705388788
+  },
+  "0.3": {
+   "share_episodes_reaching_floor": 0.2976,
+   "share_from_lowest_equity": 0.77175,
+   "reach_R": 442.82879999999994,
+   "sd_cumulative_pnl_at_max_leverage": 5649.945476116922,
+   "kolmogorov_bound_from_lowest_equity": 1.0,
+   "kolmogorov_bound_training_equities": 0.6400710379295809
+  },
+  "0.1": {
+   "share_episodes_reaching_floor": 0.0998,
+   "share_from_lowest_equity": 0.5053,
+   "reach_R": 148.5024,
+   "sd_cumulative_pnl_at_max_leverage": 1883.315158705641,
+   "kolmogorov_bound_from_lowest_equity": 1.0,
+   "kolmogorov_bound_training_equities": 0.34364612792271443
+  },
+  "0.03": {
+   "share_episodes_reaching_floor": 0.00385,
+   "share_from_lowest_equity": 0.078,
+   "reach_R": 5.728800000000001,
+   "sd_cumulative_pnl_at_max_leverage": 564.9945476116922,
+   "kolmogorov_bound_from_lowest_equity": 0.42337016273094275,
+   "kolmogorov_bound_training_equities": 0.05665213224625085
+  },
+  "0.01": {
+   "share_episodes_reaching_floor": 0.0,
+   "share_from_lowest_equity": 0.0,
+   "reach_R": 0.0,
+   "sd_cumulative_pnl_at_max_leverage": 188.33151587056406,
+   "kolmogorov_bound_from_lowest_equity": 0.04661912877439355,
+   "kolmogorov_bound_training_equities": 0.006257059713434331
+  }
+ }
+}

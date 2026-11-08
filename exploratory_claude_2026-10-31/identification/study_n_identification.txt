@@ -1,0 +1,6 @@
+Study N environments (envs_tn), random actions, forgiven arms: mean absolute error on credited steps (percent of the allocation)
+arm region credited_steps reported SPR TIR share_identified
+ZFG DK1 6393 0.650 0.524 0.404 0.053
+ZFG DK2 6058 0.783 0.660 0.543 0.056
+TFG DK1 525 27.568 0.368 0.358 0.017
+TFG DK2 515 27.216 0.513 0.473 0.016

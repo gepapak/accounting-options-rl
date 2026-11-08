@@ -1,0 +1,8 @@
+# Study W registered files, hashed 2026-11-02T20:00:22+00:00
+ec46695cfe7c4cf086fc7749742b08a5771d58463c39372084611f1ee4d9af77  PREREGISTRATION_W.md
+478d0db9933ff5d42adb17238483ccc758b5b4a88d2ce53c3151a99f280492e7  RUN_LOG_W.md
+763801b41cd5cd256bb10b94e35bf1f9ff625c2e3c6dd5c67161d6418ef32e6f  aggregate_w.py
+87ba141335610641b1bc8fe8a42adac1c0502b56fef943b15c01bceade7679cc  ../study_v/run_v.py
+7ad731fc970582b8e54fe83562be1e6474d8a8f65da2405aa399f9737d2588ef  ../study_v/rewards_v.py
+6ac67fa555558e7e1c9c6a6ebfc5d4939ceb464d8d0a713180eda8c8617a4a1a  ../study_t/envs_t.py
+63ecb3fab952228e2a6f1793343b9e9f318d2de7a1607eb771a6d9b60d596a77  ../study_t/spr_t.py

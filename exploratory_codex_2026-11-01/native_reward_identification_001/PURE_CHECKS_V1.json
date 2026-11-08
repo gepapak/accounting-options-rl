@@ -1,0 +1,36 @@
+{
+  "status": "PURE_CHECKS_PASS_NO_NATIVE_EXECUTION",
+  "exact_rational_cases": 3300,
+  "nonpoint_realized_cases": 1200,
+  "binary64_containment_cases": 180,
+  "reflection_cases": 19,
+  "fail_closed_cases": 2,
+  "unavailable_reflections": [
+    [
+      10.0,
+      0.1
+    ]
+  ],
+  "counterexample": {
+    "initial_cash": 0,
+    "cost": 10,
+    "real_cash": 1,
+    "shadow_cash": 0,
+    "canonical_TIR": 1,
+    "booked": -9,
+    "ordered_interval": {
+      "lower": "-9",
+      "upper": "-9",
+      "point": true
+    }
+  },
+  "nonidentified_example": {
+    "lower": "-20",
+    "upper": "0",
+    "point": false
+  },
+  "native_Env_instances": 0,
+  "native_body_calls": 0,
+  "model_calls": 0,
+  "market_reads": 0
+}

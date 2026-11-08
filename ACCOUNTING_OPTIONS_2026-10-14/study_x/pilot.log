@@ -1,0 +1,5 @@
+4 jobs, 0 complete, running 4 with 4 workers
+22:47:23 done X_DK1+Z__PLAIN__s90.json (1065.2s): booked -0.9%
+22:48:36 done X_DK1+Z__ORACLE__s90.json (1136.5s): booked +22.1%
+22:49:58 done X_DK1+Z__SPR__s90.json (1220.6s): booked +22.0%
+22:50:03 done X_DK1+Z__TIR__s90.json (1224.9s): booked +22.0%

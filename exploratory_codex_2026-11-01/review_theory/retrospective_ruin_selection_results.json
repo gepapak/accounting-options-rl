@@ -1,0 +1,337 @@
+{
+  "scope": "ONE retrospective existing-result feasibility check; 48 read-only V JSONs; zero training/environment/model calls",
+  "units": "percentage points of allocation K0 per test episode/week",
+  "selection_stage_sha256": "217d9aa34b3416007a919636195dab23f550dd0dacd60d38d1f4fa95bd344698",
+  "reports": {
+    "A": {
+      "all100": {
+        "metrics": {
+          "RUIN1": {
+            "TIR": 11.669635662695317,
+            "booked": 11.744432275585964,
+            "signed_error_TIR_minus_booked": -0.07479661289064615,
+            "episode_MAE": 0.08223292773447916,
+            "per_seed_signed_error_min": -0.25411452500005965,
+            "per_seed_signed_error_max": 0.0019219999999792992,
+            "seeds": 8,
+            "episodes_per_seed": 100
+          },
+          "RUIN5": {
+            "TIR": 18.967916021484385,
+            "booked": 18.9679127871094,
+            "signed_error_TIR_minus_booked": 3.2343749839781192e-06,
+            "episode_MAE": 3.234375117203182e-06,
+            "per_seed_signed_error_min": -2.066680160339729e-14,
+            "per_seed_signed_error_max": 1.487499996669403e-05,
+            "seeds": 8,
+            "episodes_per_seed": 100
+          },
+          "RUIN25": {
+            "TIR": 17.62711080859376,
+            "booked": 17.627110371093764,
+            "signed_error_TIR_minus_booked": 4.3749999384772034e-07,
+            "episode_MAE": 4.3750009415650936e-07,
+            "per_seed_signed_error_min": -2.463251824735835e-14,
+            "per_seed_signed_error_max": 3.499999991091879e-06,
+            "seeds": 8,
+            "episodes_per_seed": 100
+          }
+        },
+        "booked_order": [
+          "RUIN5",
+          "RUIN25",
+          "RUIN1"
+        ],
+        "TIR_order": [
+          "RUIN5",
+          "RUIN25",
+          "RUIN1"
+        ]
+      },
+      "odd50": {
+        "metrics": {
+          "RUIN1": {
+            "TIR": 11.712680469140627,
+            "booked": 11.809262640234408,
+            "signed_error_TIR_minus_booked": -0.0965821710937797,
+            "episode_MAE": 0.09935617109385284,
+            "per_seed_signed_error_min": -0.31715251250007237,
+            "per_seed_signed_error_max": 1.511846203783307e-14,
+            "seeds": 8,
+            "episodes_per_seed": 50
+          },
+          "RUIN5": {
+            "TIR": 19.491919912109385,
+            "booked": 19.49191694335941,
+            "signed_error_TIR_minus_booked": 2.968749977554884e-06,
+            "episode_MAE": 2.9687501111524615e-06,
+            "per_seed_signed_error_min": -3.085087740828385e-14,
+            "per_seed_signed_error_max": 2.199999996651325e-05,
+            "seeds": 8,
+            "episodes_per_seed": 50
+          },
+          "RUIN25": {
+            "TIR": 18.470635101562507,
+            "booked": 18.47063510156252,
+            "signed_error_TIR_minus_booked": -1.1305435754227489e-14,
+            "episode_MAE": 8.864495942839667e-14,
+            "per_seed_signed_error_min": -3.546274385257675e-14,
+            "per_seed_signed_error_max": 1.910416269623738e-14,
+            "seeds": 8,
+            "episodes_per_seed": 50
+          }
+        },
+        "booked_order": [
+          "RUIN5",
+          "RUIN25",
+          "RUIN1"
+        ],
+        "TIR_order": [
+          "RUIN5",
+          "RUIN25",
+          "RUIN1"
+        ]
+      },
+      "even50": {
+        "metrics": {
+          "RUIN1": {
+            "TIR": 11.626590856250004,
+            "booked": 11.679601910937517,
+            "signed_error_TIR_minus_booked": -0.053011054687512604,
+            "episode_MAE": 0.06510968437510548,
+            "per_seed_signed_error_min": -0.19107653750004694,
+            "per_seed_signed_error_max": 0.003843999999989449,
+            "seeds": 8,
+            "episodes_per_seed": 50
+          },
+          "RUIN5": {
+            "TIR": 18.443912130859385,
+            "booked": 18.443908630859394,
+            "signed_error_TIR_minus_booked": 3.499999990401355e-06,
+            "episode_MAE": 3.5000001232539033e-06,
+            "per_seed_signed_error_min": -2.276928645628118e-14,
+            "per_seed_signed_error_max": 2.7999999968457702e-05,
+            "seeds": 8,
+            "episodes_per_seed": 50
+          },
+          "RUIN25": {
+            "TIR": 16.783586515625007,
+            "booked": 16.78358564062501,
+            "signed_error_TIR_minus_booked": 8.749999990008763e-07,
+            "episode_MAE": 8.750000996680593e-07,
+            "per_seed_signed_error_min": -1.895150703035142e-14,
+            "per_seed_signed_error_max": 6.999999987909178e-06,
+            "seeds": 8,
+            "episodes_per_seed": 50
+          }
+        },
+        "booked_order": [
+          "RUIN5",
+          "RUIN25",
+          "RUIN1"
+        ],
+        "TIR_order": [
+          "RUIN5",
+          "RUIN25",
+          "RUIN1"
+        ]
+      }
+    },
+    "C": {
+      "all100": {
+        "metrics": {
+          "RUIN1": {
+            "TIR": -2.522532740429688,
+            "booked": -2.3460761583983984,
+            "signed_error_TIR_minus_booked": -0.17645658203128953,
+            "episode_MAE": 0.19173400859384618,
+            "per_seed_signed_error_min": -0.3300097125000309,
+            "per_seed_signed_error_max": -0.06023140625002739,
+            "seeds": 8,
+            "episodes_per_seed": 100
+          },
+          "RUIN5": {
+            "TIR": 17.186744427734382,
+            "booked": 17.186744427734403,
+            "signed_error_TIR_minus_booked": -1.74362607685552e-14,
+            "episode_MAE": 1.0621864499071875e-13,
+            "per_seed_signed_error_min": -3.238798118587738e-14,
+            "per_seed_signed_error_max": -3.1377678233468486e-15,
+            "seeds": 8,
+            "episodes_per_seed": 100
+          },
+          "RUIN25": {
+            "TIR": 4.1757323232421895,
+            "booked": 4.175732323242226,
+            "signed_error_TIR_minus_booked": -3.628661366321368e-14,
+            "episode_MAE": 5.738389280099425e-14,
+            "per_seed_signed_error_min": -6.398750693664473e-14,
+            "per_seed_signed_error_max": 7.195632978351796e-15,
+            "seeds": 8,
+            "episodes_per_seed": 100
+          }
+        },
+        "booked_order": [
+          "RUIN5",
+          "RUIN25",
+          "RUIN1"
+        ],
+        "TIR_order": [
+          "RUIN5",
+          "RUIN25",
+          "RUIN1"
+        ]
+      },
+      "odd50": {
+        "metrics": {
+          "RUIN1": {
+            "TIR": -2.7487075222656268,
+            "booked": -2.5262981957030797,
+            "signed_error_TIR_minus_booked": -0.22240932656254672,
+            "episode_MAE": 0.23776860468759525,
+            "per_seed_signed_error_min": -0.3735604375000341,
+            "per_seed_signed_error_max": -0.04431031250003406,
+            "seeds": 8,
+            "episodes_per_seed": 50
+          },
+          "RUIN5": {
+            "TIR": 17.999573660156262,
+            "booked": 17.999573660156283,
+            "signed_error_TIR_minus_booked": -2.4369534168400264e-14,
+            "episode_MAE": 1.0039968856290216e-13,
+            "per_seed_signed_error_min": -4.4010350919165833e-14,
+            "per_seed_signed_error_max": -6.1817218011128716e-15,
+            "seeds": 8,
+            "episodes_per_seed": 50
+          },
+          "RUIN25": {
+            "TIR": 3.9190116523437517,
+            "booked": 3.919011652343788,
+            "signed_error_TIR_minus_booked": -3.662437058779501e-14,
+            "episode_MAE": 5.4489293334903366e-14,
+            "per_seed_signed_error_min": -6.075600573584705e-14,
+            "per_seed_signed_error_max": -1.9151347174783951e-16,
+            "seeds": 8,
+            "episodes_per_seed": 50
+          }
+        },
+        "booked_order": [
+          "RUIN5",
+          "RUIN25",
+          "RUIN1"
+        ],
+        "TIR_order": [
+          "RUIN5",
+          "RUIN25",
+          "RUIN1"
+        ]
+      },
+      "even50": {
+        "metrics": {
+          "RUIN1": {
+            "TIR": -2.2963579585937497,
+            "booked": -2.165854121093717,
+            "signed_error_TIR_minus_booked": -0.13050383750003236,
+            "episode_MAE": 0.1456994125000971,
+            "per_seed_signed_error_min": -0.2864589875000277,
+            "per_seed_signed_error_max": -0.035186937500022185,
+            "seeds": 8,
+            "episodes_per_seed": 50
+          },
+          "RUIN5": {
+            "TIR": 16.37391519531251,
+            "booked": 16.37391519531252,
+            "signed_error_TIR_minus_booked": -1.0502987368710138e-14,
+            "episode_MAE": 1.1203760141853536e-13,
+            "per_seed_signed_error_min": -2.0765611452588927e-14,
+            "per_seed_signed_error_max": 5.0304205245765845e-15,
+            "seeds": 8,
+            "episodes_per_seed": 50
+          },
+          "RUIN25": {
+            "TIR": 4.432452994140626,
+            "booked": 4.432452994140663,
+            "signed_error_TIR_minus_booked": -3.594885673863235e-14,
+            "episode_MAE": 6.027849226708514e-14,
+            "per_seed_signed_error_min": -6.721900813744242e-14,
+            "per_seed_signed_error_max": 1.458277942845143e-14,
+            "seeds": 8,
+            "episodes_per_seed": 50
+          }
+        },
+        "booked_order": [
+          "RUIN5",
+          "RUIN25",
+          "RUIN1"
+        ],
+        "TIR_order": [
+          "RUIN5",
+          "RUIN25",
+          "RUIN1"
+        ]
+      }
+    }
+  },
+  "conclusions": {
+    "A": {
+      "selected_full": "RUIN5",
+      "full_selected_metrics": {
+        "TIR": 18.967916021484385,
+        "booked": 18.9679127871094,
+        "signed_error_TIR_minus_booked": 3.2343749839781192e-06,
+        "episode_MAE": 3.234375117203182e-06,
+        "per_seed_signed_error_min": -2.066680160339729e-14,
+        "per_seed_signed_error_max": 1.487499996669403e-05,
+        "seeds": 8,
+        "episodes_per_seed": 100
+      },
+      "selected_odd": "RUIN5",
+      "even_selected_metrics": {
+        "TIR": 18.443912130859385,
+        "booked": 18.443908630859394,
+        "signed_error_TIR_minus_booked": 3.499999990401355e-06,
+        "episode_MAE": 3.5000001232539033e-06,
+        "per_seed_signed_error_min": -2.276928645628118e-14,
+        "per_seed_signed_error_max": 2.7999999968457702e-05,
+        "seeds": 8,
+        "episodes_per_seed": 50
+      },
+      "full_selection_matches_booked_max": true,
+      "odd_selection_matches_even_booked_max": true
+    },
+    "C": {
+      "selected_full": "RUIN5",
+      "full_selected_metrics": {
+        "TIR": 17.186744427734382,
+        "booked": 17.186744427734403,
+        "signed_error_TIR_minus_booked": -1.74362607685552e-14,
+        "episode_MAE": 1.0621864499071875e-13,
+        "per_seed_signed_error_min": -3.238798118587738e-14,
+        "per_seed_signed_error_max": -3.1377678233468486e-15,
+        "seeds": 8,
+        "episodes_per_seed": 100
+      },
+      "selected_odd": "RUIN5",
+      "even_selected_metrics": {
+        "TIR": 16.37391519531251,
+        "booked": 16.37391519531252,
+        "signed_error_TIR_minus_booked": -1.0502987368710138e-14,
+        "episode_MAE": 1.1203760141853536e-13,
+        "per_seed_signed_error_min": -2.0765611452588927e-14,
+        "per_seed_signed_error_max": 5.0304205245765845e-15,
+        "seeds": 8,
+        "episodes_per_seed": 50
+      },
+      "full_selection_matches_booked_max": true,
+      "odd_selection_matches_even_booked_max": true
+    }
+  },
+  "limitations": [
+    "Retrospective after study outcomes were viewed; not registered or blinded.",
+    "All100 selection and evaluation reuse identical episodes.",
+    "Odd/even are fixed episode ordinals, with shared/overlapping market windows; no independent confirmation.",
+    "Seed means are conditional on the common market experiment; no iid-market inference or p-values.",
+    "Selects return among the tested grid only; does not certify exploit removal or safety.",
+    "A trainer with a sign twin could train TIR directly; this feasibility check is not a new AI method."
+  ]
+}

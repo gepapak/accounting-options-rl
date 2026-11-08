@@ -1,0 +1,69 @@
+{
+  "code": {
+    "files": 9164,
+    "text_scanned": 4016,
+    "over_50MB": [
+      [
+        53564447,
+        "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\review_bundle_private\\native_review_complete_v1.zip"
+      ]
+    ],
+    "largest": [
+      [
+        53564447,
+        "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\review_bundle_private\\native_review_complete_v1.zip"
+      ],
+      [
+        7965987,
+        "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\review_bundle_private\\native_review_complete_v1\\Prototype5\\evaluation_dataset_ffill\\unseendata_v2_liquidity_volume_real_v1.csv"
+      ],
+      [
+        7960287,
+        "exploratory_novelty_2026-10-16\\sample_only_learned_audit\\review_bundle_private\\native_review_complete_v1\\Prototype5\\evaluation_dataset_ffill\\unseendata_liquidity_volume_real_v1.csv"
+      ],
+      [
+        7926674,
+        "data\\engine_liquidity\\unseendata_v2_liquidity_volume_real_v1.csv"
+      ],
+      [
+        7920974,
+        "data\\engine_liquidity\\unseendata_liquidity_volume_real_v1.csv"
+      ]
+    ],
+    "credential_pattern_hits": [],
+    "excluded_files": 46,
+    "local_esett_raw_gz": 34,
+    "nonignored_identical_raw_copies": [],
+    "nonignored_esett_named_data": []
+  },
+  "manuscript": {
+    "files": 107,
+    "text_scanned": 77,
+    "over_50MB": [],
+    "largest": [
+      [
+        1324203,
+        "pdf\\supplementary.pdf"
+      ],
+      [
+        903493,
+        "pdf\\main_anonymized.pdf"
+      ],
+      [
+        104536,
+        "pdf\\title_page.pdf"
+      ],
+      [
+        51536,
+        "figures\\fig_studyV.pdf"
+      ],
+      [
+        41771,
+        "sections\\supp_learnability.tex"
+      ]
+    ],
+    "credential_pattern_hits": [],
+    "excluded_files": 0
+  },
+  "limitations": "Current-content and root ignore-pattern check; no Git commands, index/history audit, general binary secret detection or proof that every derivative is redistributable. New review scratch folder excluded as non-release material."
+}

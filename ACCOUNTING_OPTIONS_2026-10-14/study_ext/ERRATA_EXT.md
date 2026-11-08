@@ -1,0 +1,4 @@
+# Study EXT errata (dated; the hashed files are unchanged)
+
+- **6 November 2026, about 21:00 local, before any registered run had finished.** The hashed `PREREGISTRATION_EXT.md` says "62 runs", and hypothesis EA12 says "all 62 runs"; `aggregate_ext.py` prints "of 62". The design listed in the same text, and the hashed `run_ext.py`, give 70: eight arms of eight seeds (64), TSR on four seeds, FINDER_DEF on two. This is a counting error in the text. The code runs the 70, EA12 is decided on all runs present, and the arms, seeds, rules and analysis are as hashed.
+- **7 November 2026, after the registered analysis.** The hashed text names a folder `smoke_results/` (20,000 steps, seed 300, excluded from the analysis). It was deleted when the runs ended, as the corresponding files of Study FT were, and is not part of the release. Nothing in the analysis reads it.

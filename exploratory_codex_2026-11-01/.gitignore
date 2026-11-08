@@ -1,0 +1,11 @@
+# Local research telemetry may retain market-linked prices and private gold.
+# Keep source, frozen protocols, hashes, and compact findings available.
+**/METHOD_RECEIPTS.json
+**/EVALUATOR_GOLD.json
+**/EVALUATOR_ONLY_GOLD.json
+**/ESTIMATOR_OUTPUT.json
+**/METHOD_PRICE_INTERVALS.json
+**/METHOD_DELETED_CLAIMS.json
+passive_unpaid_claim_audit_001/runs_v1/RESULTS.json
+native_saved_outcome_audit_001/DELETED_PAYOFF_QA_V1.json
+**/PRIVATE_*

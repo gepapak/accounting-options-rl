@@ -1,0 +1,47 @@
+{
+  "rows": 960000,
+  "input_sha256": "5e6f072956d3d9092d910193409c70f38d8bf9da2e05716113e997304337e8ec",
+  "scope": "Recomputed saved exploratory error table only; no simulator rerun. CSV does not retain raw twin rewards, so small error is numerical proxy for exactness, not independent event-identification reconstruction.",
+  "selected_rows": [
+    {
+      "rule": "ZF",
+      "p_insolvent": 0,
+      "credited_n": 3235,
+      "TIR_error_below_1e-9_fraction": 0.9264296754250386,
+      "mean_reported_abs": 0.962433882644095,
+      "mean_SPR_abs": 0.4773336994333411,
+      "mean_TIR_abs": 0.008342284582689482,
+      "mean_TMR_abs": 0.016593516234909088
+    },
+    {
+      "rule": "LL",
+      "p_insolvent": 0,
+      "credited_n": 121,
+      "TIR_error_below_1e-9_fraction": 1.0,
+      "mean_reported_abs": 6.654272817754315,
+      "mean_SPR_abs": 3.326352347443445,
+      "mean_TIR_abs": 1.3845673918672407e-15,
+      "mean_TMR_abs": 0.0015681228674253994
+    },
+    {
+      "rule": "TERM",
+      "p_insolvent": 0.5,
+      "credited_n": 80,
+      "TIR_error_below_1e-9_fraction": 0.2625,
+      "mean_reported_abs": 73.29953812571371,
+      "mean_SPR_abs": 0.3117532106740992,
+      "mean_TIR_abs": 0.302418984375,
+      "mean_TMR_abs": 64.15935975390207
+    },
+    {
+      "rule": "LAG",
+      "p_insolvent": 0.5,
+      "credited_n": 208,
+      "TIR_error_below_1e-9_fraction": 0.2932692307692308,
+      "mean_reported_abs": 25.07689011777624,
+      "mean_SPR_abs": 0.33529232575046913,
+      "mean_TIR_abs": 0.2783665264423077,
+      "mean_TMR_abs": 22.184278600655315
+    }
+  ]
+}

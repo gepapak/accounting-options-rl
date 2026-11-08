@@ -1,0 +1,6 @@
+2026-11-03T17:19:14 waiting for run_z.py (PID 21892); idle sleep held while waiting
+2026-11-03T17:19:33 waiting for run_z.py (PID 21892); idle sleep held while waiting
+2026-11-03T22:40:20 run_z.py exited; 72 of 72 result files (last at 22:40:14)
+2026-11-03T22:40:35 aggregate_z.py exit 0; 11 of 13 decisions supported
+2026-11-03T22:40:55 make_studyZ_outputs.py exit 0: wrote tab_studyZ_full.tex and tab_studyZ_hyp.tex (13 verdicts)
+wrote fig_studyZ.pdf (manuscript figures folder) and fig_studyZ.png (this folder) 

@@ -1,0 +1,178 @@
+{
+ "zero|placebo|FLAT": {
+  "booked": 0.0,
+  "reported": 0.0,
+  "forgiven": 0.0,
+  "ruin_portfolio": 0.0,
+  "ruin_accounts": 0.0,
+  "reward_ruinP5": 0.0,
+  "reward_ruinA5": 0.0,
+  "reward_ruinP25": 0.0,
+  "reward_ruinA25": 0.0
+ },
+ "zero|placebo|HONEST": {
+  "booked": -21.5572664375,
+  "reported": 13.668408515624996,
+  "forgiven": 35.22567495312499,
+  "ruin_portfolio": 21.54,
+  "ruin_accounts": 43.08,
+  "reward_ruinP5": -94.03159148437499,
+  "reward_ruinA5": -201.73159148437503,
+  "reward_ruinP25": -524.831591484375,
+  "reward_ruinA25": -1063.331591484375
+ },
+ "zero|placebo|GAMBLE_BOTH": {
+  "booked": -120.11845454062501,
+  "reported": 29.144751581250002,
+  "forgiven": 149.263206121875,
+  "ruin_portfolio": 24.73,
+  "ruin_accounts": 49.46,
+  "reward_ruinP5": -94.50524841874999,
+  "reward_ruinA5": -218.15524841875006,
+  "reward_ruinP25": -589.1052484187501,
+  "reward_ruinA25": -1207.35524841875
+ },
+ "zero|placebo|PARK_GAMBLE": {
+  "booked": -164.08023521406258,
+  "reported": 32.999431601562506,
+  "forgiven": 197.07966681562505,
+  "ruin_portfolio": 0.0,
+  "ruin_accounts": 63.01,
+  "reward_ruinP5": 32.999431601562506,
+  "reward_ruinA5": -282.05056839843746,
+  "reward_ruinP25": 32.999431601562506,
+  "reward_ruinA25": -1542.2505683984375
+ },
+ "zero|edge|FLAT": {
+  "booked": 0.0,
+  "reported": 0.0,
+  "forgiven": 0.0,
+  "ruin_portfolio": 0.0,
+  "ruin_accounts": 0.0,
+  "reward_ruinP5": 0.0,
+  "reward_ruinA5": 0.0,
+  "reward_ruinP25": 0.0,
+  "reward_ruinA25": 0.0
+ },
+ "zero|edge|HONEST": {
+  "booked": 44.01242517187498,
+  "reported": 51.21394682812502,
+  "forgiven": 7.20152165624998,
+  "ruin_portfolio": 4.16,
+  "ruin_accounts": 8.32,
+  "reward_ruinP5": 30.413946828125013,
+  "reward_ruinA5": 9.613946828125012,
+  "reward_ruinP25": -52.78605317187498,
+  "reward_ruinA25": -156.78605317187495
+ },
+ "zero|edge|GAMBLE_BOTH": {
+  "booked": 25.49001095312497,
+  "reported": 62.91781635937502,
+  "forgiven": 37.42780540624995,
+  "ruin_portfolio": 7.84,
+  "ruin_accounts": 15.68,
+  "reward_ruinP5": 23.71781635937503,
+  "reward_ruinA5": -15.482183640624976,
+  "reward_ruinP25": -133.08218364062498,
+  "reward_ruinA25": -329.08218364062503
+ },
+ "zero|edge|PARK_GAMBLE": {
+  "booked": -40.83021943125001,
+  "reported": 53.534126453125026,
+  "forgiven": 94.36434588437501,
+  "ruin_portfolio": 0.0,
+  "ruin_accounts": 33.74,
+  "reward_ruinP5": 53.534126453125026,
+  "reward_ruinA5": -115.16587354687499,
+  "reward_ruinP25": 53.534126453125026,
+  "reward_ruinA25": -789.9658735468751
+ },
+ "registered|placebo|FLAT": {
+  "booked": 0.0,
+  "reported": 0.0,
+  "forgiven": 0.0,
+  "ruin_portfolio": 0.0,
+  "ruin_accounts": 0.0,
+  "reward_ruinP5": 0.0,
+  "reward_ruinA5": 0.0,
+  "reward_ruinP25": 0.0,
+  "reward_ruinA25": 0.0
+ },
+ "registered|placebo|HONEST": {
+  "booked": -21.55726643750005,
+  "reported": -9.750724211023622,
+  "forgiven": 11.806542226476376,
+  "ruin_portfolio": 6.32,
+  "ruin_accounts": 12.64,
+  "reward_ruinP5": -41.350724211023625,
+  "reward_ruinA5": -72.95072421102363,
+  "reward_ruinP25": -167.75072421102362,
+  "reward_ruinA25": -325.7507242110236
+ },
+ "registered|placebo|GAMBLE_BOTH": {
+  "booked": -60.64263212187509,
+  "reported": -3.5029416966934184,
+  "forgiven": 57.13969042518158,
+  "ruin_portfolio": 8.98,
+  "ruin_accounts": 17.96,
+  "reward_ruinP5": -48.402941696693425,
+  "reward_ruinA5": -93.30294169669341,
+  "reward_ruinP25": -228.00294169669345,
+  "reward_ruinA25": -452.50294169669337
+ },
+ "registered|placebo|PARK_GAMBLE": {
+  "booked": -163.2386835890626,
+  "reported": -8.43404618333446,
+  "forgiven": 154.80463740572804,
+  "ruin_portfolio": 0.0,
+  "ruin_accounts": 50.35,
+  "reward_ruinP5": -8.43404618333446,
+  "reward_ruinA5": -260.18404618333443,
+  "reward_ruinP25": -8.43404618333446,
+  "reward_ruinA25": -1267.1840461833344
+ },
+ "registered|edge|FLAT": {
+  "booked": 0.0,
+  "reported": 0.0,
+  "forgiven": 0.0,
+  "ruin_portfolio": 0.0,
+  "ruin_accounts": 0.0,
+  "reward_ruinP5": 0.0,
+  "reward_ruinA5": 0.0,
+  "reward_ruinP25": 0.0,
+  "reward_ruinA25": 0.0
+ },
+ "registered|edge|HONEST": {
+  "booked": 44.01242517187494,
+  "reported": 44.30753997637427,
+  "forgiven": 0.29511480449924615,
+  "ruin_portfolio": 0.17,
+  "ruin_accounts": 0.34,
+  "reward_ruinP5": 43.45753997637427,
+  "reward_ruinA5": 42.60753997637428,
+  "reward_ruinP25": 40.05753997637427,
+  "reward_ruinA25": 35.80753997637427
+ },
+ "registered|edge|GAMBLE_BOTH": {
+  "booked": 40.64351983749995,
+  "reported": 46.07065669791384,
+  "forgiven": 5.427136860413821,
+  "ruin_portfolio": 1.34,
+  "ruin_accounts": 2.68,
+  "reward_ruinP5": 39.370656697913844,
+  "reward_ruinA5": 32.67065669791385,
+  "reward_ruinP25": 12.570656697913844,
+  "reward_ruinA25": -20.92934330208615
+ },
+ "registered|edge|PARK_GAMBLE": {
+  "booked": -40.464183481250046,
+  "reported": 21.72801912686082,
+  "forgiven": 62.19220260811081,
+  "ruin_portfolio": 0.0,
+  "ruin_accounts": 21.93,
+  "reward_ruinP5": 21.72801912686082,
+  "reward_ruinA5": -87.92198087313916,
+  "reward_ruinP25": 21.72801912686082,
+  "reward_ruinA25": -526.5219808731392
+ }
+}

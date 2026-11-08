@@ -1,0 +1,22 @@
+{
+  "entry": 1.4284329347619709,
+  "volume": 0.56,
+  "contract": 100000.0,
+  "truth_slope": 56000.00000000001,
+  "n": 5000,
+  "max_abs_gap_inside": 0.0,
+  "slope": 55999.99999999998,
+  "intercept": -8.579804584190434e-14,
+  "slope_rel_err": 5.197112581559589e-16,
+  "pred_at_minus_16pct": -12798.759095467254,
+  "public_at_minus_16pct": -972.0,
+  "control_at_minus_16pct": -12798.759095467261,
+  "abs_pred_minus_public": 11826.759095467254,
+  "abs_pred_minus_control": 7.275957614183426e-12,
+  "abs_public_minus_control": 11826.759095467261,
+  "rule1": true,
+  "rule2": true,
+  "rule3": true,
+  "rule4": true,
+  "exploratory_student_t_hits": 3
+}

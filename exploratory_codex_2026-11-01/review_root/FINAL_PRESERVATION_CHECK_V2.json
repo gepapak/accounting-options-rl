@@ -1,0 +1,10 @@
+{
+  "protected_files_checked": 576,
+  "protected_changes": [],
+  "broken_local_report_links": [],
+  "final_report_sha256": "dea51c42897305b739bb926bddd74eaf3e8f6b1e42110c4d573704088baef1b6",
+  "report_whitespace_words": 6833,
+  "new_training_runs": 0,
+  "registered_studies_started": 0,
+  "only_preexisting_edit": "github/accounting-options-rl/README.md two repository-map labels"
+}

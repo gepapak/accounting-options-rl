@@ -1,0 +1,250 @@
+e.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+11 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+11 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+11 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+11 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+11 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+12 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+12 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+12 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+12 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+12 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+12 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+12 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+12 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+12 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+12 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+12 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+
+13 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+13 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+13 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+13 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+13 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+14 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+14 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+14 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+14 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+14 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+14 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+14 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+14 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+14 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+14 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+It seems that this is a fresh TeX installation.
+Please finish the setup before proceeding.
+For more information, visit:
+https://miktex.org/howto/install-miktex-win
+33 [0x00001e54] INFO pdflatex null - this process (20712) finishes with exit code 1
+
+37 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+37 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+37 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+37 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\MPM
+
+37 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+37 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+38 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+38 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+38 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\MPM
+
+38 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+38 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+38 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+38 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+38 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\MPM
+
+38 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+39 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+39 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+39 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+39 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\MPM
+
+39 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+39 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+39 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+39 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+39 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\MPM
+
+39 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+40 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+40 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+40 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+40 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\MPM
+
+40 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+40 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+41 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+41 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+41 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\MPM
+
+41 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+41 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+41 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+41 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+41 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\MPM
+
+41 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+42 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+42 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+42 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+42 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\MPM
+
+42 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+43 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+43 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+43 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+43 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+43 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+43 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+43 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+44 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+44 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+44 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+44 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+44 [0x00001e54] ERROR trace.pdflatex.core null - Function: RegOpenKeyExW
+
+44 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+44 [0x00001e54] ERROR trace.pdflatex.core null - Data: Software\MiKTeX.org\MiKTeX\2.9\Core
+
+44 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\winRegistry.cpp:83
+
+50 [0x00001e54] ERROR trace.pdflatex.core null - Access is denied.
+
+
+
+51 [0x00001e54] ERROR trace.pdflatex.core null - Function: CreateDirectoryW
+
+51 [0x00001e54] ERROR trace.pdflatex.core null - Result: 5
+
+51 [0x00001e54] ERROR trace.pdflatex.core null - Data: path="C:\Users\gepap\AppData\Roaming\MiKTeX\2.9"
+
+51 [0x00001e54] ERROR trace.pdflatex.core null - Source: Libraries\MiKTeX\Core\win\win.cpp:271
+
+
+Traceback (most recent call last):
+  File "C:\Users\gepap\Desktop\Thesis\Paper1\github\accounting-options-rl\exploratory_codex_2026-11-01\review_root\latex_scratch\tools\build_review.py", line 48, in <module>
+    full('main')
+  File "C:\Users\gepap\Desktop\Thesis\Paper1\github\accounting-options-rl\exploratory_codex_2026-11-01\review_root\latex_scratch\tools\build_review.py", line 38, in full
+    tex(stem)
+  File "C:\Users\gepap\Desktop\Thesis\Paper1\github\accounting-options-rl\exploratory_codex_2026-11-01\review_root\latex_scratch\tools\build_review.py", line 35, in tex
+    run(['pdflatex', '-interaction=nonstopmode', '-halt-on-error', '-output-directory=build_tmp', stem])
+  File "C:\Users\gepap\Desktop\Thesis\Paper1\github\accounting-options-rl\exploratory_codex_2026-11-01\review_root\latex_scratch\tools\build_review.py", line 32, in run
+    raise RuntimeError(f'command failed ({result.returncode}): {argv}')
+RuntimeError: command failed (3221226505): ['pdflatex', '-interaction=nonstopmode', '-halt-on-error', '-output-directory=build_tmp', 'main']
