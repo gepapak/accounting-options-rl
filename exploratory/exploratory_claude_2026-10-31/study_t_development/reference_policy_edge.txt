@@ -1,4 +1,0 @@
-booked edge, % of K0 per one-week episode (mean of 100 test episodes)
-S_DK1   reference policy  -9.44 | follow z at leverage 1:  +7.70  4: +22.01  16: -40.46
-T_DK2   reference policy  -5.91 | follow z at leverage 1: +11.67  4: +35.12  16:  -8.20
-T_DK1M  reference policy -10.64 | follow z at leverage 1:  +5.97  4: +15.09  16: -67.09

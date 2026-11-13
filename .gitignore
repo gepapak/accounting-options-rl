@@ -18,5 +18,7 @@ LIABILITY_STUDY_2026-09-29/data_panel_j/
 # Study EXT: the official example file of Gym-Trading-Env states no licence; fetched by hash (study_ext/fetch_data.py), not redistributed
 ACCOUNTING_OPTIONS_2026-10-14/study_ext/data/
 
-# local virtual environment for the gym-mtsim witness (exploratory_line_2026-11-07)
+# local virtual environment
 .venv-mtsim/
+.venv/
+venv/

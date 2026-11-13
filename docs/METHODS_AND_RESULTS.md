@@ -2,7 +2,7 @@
 
 > **Scope.** This document covers the engine audit (Section 4 and Supplementary Sections S1–S5 of the paper). Studies A–K are documented by their pre-registrations, run logs and verdict files in `GENERALIZATION_STUDY_2026-09-29/` and `LIABILITY_STUDY_2026-09-29/` (see the README).
 
-**Correction (6 November 2026).** L7, its variants, L8 and the classical variants V11 and V12 are described below as using a capped percent payoff. The cap was off in all of them: the campaign removed the flag that disables it, but evaluation restores the checkpoint's saved configuration, which keeps it disabled, and the classical baseline protocol behind V11 and V12 sets it off. With the cap really on, L7's inversion disappears (MAPPO reports −38.5% and −45.0% against −7.9% and −13.7% for the rule; the floor binds in 2 of 20 runs). See `exploratory_claude_2026-11-05/engine_twin/`.
+**Correction (6 November 2026).** L7, its variants, L8 and the classical variants V11 and V12 are described below as using a capped percent payoff. The cap was off in all of them: the campaign removed the flag that disables it, but evaluation restores the checkpoint's saved configuration, which keeps it disabled, and the classical baseline protocol behind V11 and V12 sets it off. With the cap really on, L7's inversion disappears (MAPPO reports −38.5% and −45.0% against −7.9% and −13.7% for the rule; the floor binds in 2 of 20 runs). See `exploratory/exploratory_claude_2026-11-05/engine_twin/`.
 
 This document describes the study design, every protocol and prediction, and all results, including failed predictions. The numbers can be recomputed from the files in `results/` with `tools/verify_release.py`.
 

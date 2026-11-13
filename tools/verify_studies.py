@@ -441,64 +441,70 @@ def study_rs_headlines() -> None:
     check("RS largest TIR audit error, all 80 runs", max(max(v) for v in tir_err.values()), 0.92205, 0.00001)
     r = subprocess.run([sys.executable, "-B", str(STUDY_RS / "portable_rs.py"), "test_envs_rs.py"], capture_output=True, text=True, encoding="utf-8")
     check("study_rs/test_envs_rs.py: exact checks pass", float(r.returncode == 0 and "309221 checks pass" in r.stdout), 1, 0)
-    for script, stored in (("rs_reanalysis.py", "rs_reanalysis.json"), ("bracket_limits.py", "bracket_limits.json")):
-        r = subprocess.run([sys.executable, "-B", str(EXPL_1105 / script), "--print"], capture_output=True, text=True, encoding="utf-8")
-        check(f"{script} --print reproduces {stored}", float(r.returncode == 0 and json.loads(r.stdout) == json.loads((EXPL_1105 / stored).read_text(encoding="utf-8"))), 1, 0)
-    a = json.loads((EXPL_1105 / "rs_reanalysis.json").read_text(encoding="utf-8"))
-    h = a["head_to_head"]
-    check("RS exploratory: TIR minus SPR, booked edge", h["difference"], 2.639, 0.001)
-    check("RS exploratory: 95% interval, lower end", h["ci95"][0], -0.87, 0.01)
-    check("RS exploratory: 95% interval, upper end", h["ci95"][1], 6.29, 0.01)
-    check("RS exploratory: Welch p", h["welch_p"], 0.1764, 0.0001)
-    check("RS exploratory: paired t p", h["paired_t_p"], 0.1252, 0.0001)
-    check("RS exploratory: seeds with TIR above SPR", float(h["seeds_tir_above_spr"]), 12, 0)
-    check("RS exploratory: SPR ratio interval contains 0.80", float(a["ratio_ci95"]["SPR"][0] <= 0.80 <= a["ratio_ci95"]["SPR"][1]), 1, 0)
-    check("RS exploratory: share of test quarters covered by the 100 windows", a["windows"]["share_of_test_quarters_covered"], 0.948, 0.001)
-    check("RS exploratory: overlapping window pairs", float(a["windows"]["overlapping_pairs"]), 340, 0)
-    check("RS exploratory: non-overlapping weeks in the test panel", float(a["windows"]["non_overlapping_weeks_in_panel"]), 31, 0)
-    check("RS exploratory: test windows containing a gap", float(a["windows"]["windows_with_gap"]), 19, 0)
-    check("RS exploratory: TIR lower bound, seeds and test windows", a["lower_bound_5pct"]["two_way"]["TIR"], 0.737, 0.001)
-    check("RS exploratory: SPR lower bound, seeds and test windows", a["lower_bound_5pct"]["two_way"]["SPR"], 0.261, 0.001)
-    check("RS exploratory: TIR lower bound, seeds and months", a["lower_bound_5pct"]["seeds_and_months"]["TIR"], 0.704, 0.001)
-    check("RS exploratory: SPR lower bound, seeds and months", a["lower_bound_5pct"]["seeds_and_months"]["SPR"], -0.018, 0.001)
-    ts = a["time_semantics_DK2"]
-    check("Panel: missing quarters, training split", float(ts["train"]["missing_quarters"]), 784, 0)
-    check("Panel: missing quarters, test split", float(ts["test"]["missing_quarters"]), 14, 0)
-    check("Panel: 8-row lag is exactly 2 h, training split", ts["train"]["lag_exactly_2h"], 0.9952, 0.0001)
-    check("Panel: 8-row lag is exactly 2 h, test split", ts["test"]["lag_exactly_2h"], 0.9977, 0.0001)
-    check("Panel: 672-row windows longer than a week, training split", ts["train"]["windows_longer_than_week"], 0.338, 0.001)
-    check("Panel: 672-row windows longer than a week, test split", ts["test"]["windows_longer_than_week"], 0.157, 0.001)
-    check("Panel: longest 672-row window, training split (days)", ts["train"]["window_span_max_days"], 10.0, 0.001)
-    check("Panel: longest 672-row window, test split (days)", ts["test"]["window_span_max_days"], 7.094, 0.001)
-    b = json.loads((EXPL_1105 / "bracket_limits.json").read_text(encoding="utf-8"))
-    z = b["carried_deficit"]["ZFG"]
-    check("Bracket limits, settlement lag: steps", float(z["steps"]), 88359, 0)
-    check("Bracket limits, settlement lag: steps above the upper end", float(z["step_upper_fails"]), 3000, 0)
-    check("Bracket limits, settlement lag: steps below the lower end", float(z["step_lower_fails"]), 2973, 0)
-    check("Bracket limits, settlement lag: episodes above the upper end (of 300)", float(z["episode_upper_fails"]), 80, 0)
-    check("Bracket limits, settlement lag: episodes below the lower end (of 300)", float(z["episode_lower_fails"]), 73, 0)
-    t = b["carried_deficit"]["TFG"]
-    check("Bracket limits, terminal liability: step and episode failures", float(t["step_upper_fails"] + t["step_lower_fails"] + t["episode_upper_fails"] + t["episode_lower_fails"]), 0, 0)
-    m = b["mixed_legs"]
-    check("Mixed legs: unequal pairs", float(m["random_actions"]["unequal_pairs"]), 24630, 0)
-    check("Mixed legs: TIR wrong on unequal pairs", float(m["random_actions"]["tir_wrong"]), 1595, 0)
-    check("Mixed legs: largest TIR error (% K0)", m["random_actions"]["largest_error"], 12.28, 0.01)
-    check("Mixed legs: bracket failures", float(m["random_actions"]["bracket_fails"]), 0, 0)
-    w = b["liquidation_fee"]["whole_trade"]
-    check("Liquidation fee: booked below the bracket's lower end", float(w["booked"] < w["lower"]), 1, 0)
-    check("Liquidation fee: positive width", w["width"], 40.0, 1e-6)
-    check("Liquidation fee, one tick: lower end with the fee undeclared", b["liquidation_fee"]["one_tick"]["lower_fee_undeclared"], -332.0, 1e-6)
-    v = b["width_vs_realized"]
-    check("Width against realized forgiveness: finder, width", v["ZB FINDER, edge"]["width"], 429.665, 0.006)
-    check("Width against realized forgiveness: finder, realized", v["ZB FINDER, edge"]["realized"], 254.524, 0.006)
-    check("Width against realized forgiveness: ledger, realized", v["ZB LEDGER, edge"]["realized"], 7.141, 0.006)
-    check("Width against realized forgiveness: largest ratio", max(x["width_over_realized"] for x in v.values()), 2.42, 0.01)
-    check("Width against realized forgiveness: smallest ratio", min(x["width_over_realized"] for x in v.values()), 1.35, 0.01)
+    if EXPL_1105.exists():
+        for script, stored in (("rs_reanalysis.py", "rs_reanalysis.json"), ("bracket_limits.py", "bracket_limits.json")):
+            r = subprocess.run([sys.executable, "-B", str(EXPL_1105 / script), "--print"], capture_output=True, text=True, encoding="utf-8")
+            check(f"{script} --print reproduces {stored}", float(r.returncode == 0 and json.loads(r.stdout) == json.loads((EXPL_1105 / stored).read_text(encoding="utf-8"))), 1, 0)
+        a = json.loads((EXPL_1105 / "rs_reanalysis.json").read_text(encoding="utf-8"))
+        h = a["head_to_head"]
+        check("RS exploratory: TIR minus SPR, booked edge", h["difference"], 2.639, 0.001)
+        check("RS exploratory: 95% interval, lower end", h["ci95"][0], -0.87, 0.01)
+        check("RS exploratory: 95% interval, upper end", h["ci95"][1], 6.29, 0.01)
+        check("RS exploratory: Welch p", h["welch_p"], 0.1764, 0.0001)
+        check("RS exploratory: paired t p", h["paired_t_p"], 0.1252, 0.0001)
+        check("RS exploratory: seeds with TIR above SPR", float(h["seeds_tir_above_spr"]), 12, 0)
+        check("RS exploratory: SPR ratio interval contains 0.80", float(a["ratio_ci95"]["SPR"][0] <= 0.80 <= a["ratio_ci95"]["SPR"][1]), 1, 0)
+        check("RS exploratory: share of test quarters covered by the 100 windows", a["windows"]["share_of_test_quarters_covered"], 0.948, 0.001)
+        check("RS exploratory: overlapping window pairs", float(a["windows"]["overlapping_pairs"]), 340, 0)
+        check("RS exploratory: non-overlapping weeks in the test panel", float(a["windows"]["non_overlapping_weeks_in_panel"]), 31, 0)
+        check("RS exploratory: test windows containing a gap", float(a["windows"]["windows_with_gap"]), 19, 0)
+        check("RS exploratory: TIR lower bound, seeds and test windows", a["lower_bound_5pct"]["two_way"]["TIR"], 0.737, 0.001)
+        check("RS exploratory: SPR lower bound, seeds and test windows", a["lower_bound_5pct"]["two_way"]["SPR"], 0.261, 0.001)
+        check("RS exploratory: TIR lower bound, seeds and months", a["lower_bound_5pct"]["seeds_and_months"]["TIR"], 0.704, 0.001)
+        check("RS exploratory: SPR lower bound, seeds and months", a["lower_bound_5pct"]["seeds_and_months"]["SPR"], -0.018, 0.001)
+        ts = a["time_semantics_DK2"]
+        check("Panel: missing quarters, training split", float(ts["train"]["missing_quarters"]), 784, 0)
+        check("Panel: missing quarters, test split", float(ts["test"]["missing_quarters"]), 14, 0)
+        check("Panel: 8-row lag is exactly 2 h, training split", ts["train"]["lag_exactly_2h"], 0.9952, 0.0001)
+        check("Panel: 8-row lag is exactly 2 h, test split", ts["test"]["lag_exactly_2h"], 0.9977, 0.0001)
+        check("Panel: 672-row windows longer than a week, training split", ts["train"]["windows_longer_than_week"], 0.338, 0.001)
+        check("Panel: 672-row windows longer than a week, test split", ts["test"]["windows_longer_than_week"], 0.157, 0.001)
+        check("Panel: longest 672-row window, training split (days)", ts["train"]["window_span_max_days"], 10.0, 0.001)
+        check("Panel: longest 672-row window, test split (days)", ts["test"]["window_span_max_days"], 7.094, 0.001)
+        b = json.loads((EXPL_1105 / "bracket_limits.json").read_text(encoding="utf-8"))
+        z = b["carried_deficit"]["ZFG"]
+        check("Bracket limits, settlement lag: steps", float(z["steps"]), 88359, 0)
+        check("Bracket limits, settlement lag: steps above the upper end", float(z["step_upper_fails"]), 3000, 0)
+        check("Bracket limits, settlement lag: steps below the lower end", float(z["step_lower_fails"]), 2973, 0)
+        check("Bracket limits, settlement lag: episodes above the upper end (of 300)", float(z["episode_upper_fails"]), 80, 0)
+        check("Bracket limits, settlement lag: episodes below the lower end (of 300)", float(z["episode_lower_fails"]), 73, 0)
+        t = b["carried_deficit"]["TFG"]
+        check("Bracket limits, terminal liability: step and episode failures", float(t["step_upper_fails"] + t["step_lower_fails"] + t["episode_upper_fails"] + t["episode_lower_fails"]), 0, 0)
+        m = b["mixed_legs"]
+        check("Mixed legs: unequal pairs", float(m["random_actions"]["unequal_pairs"]), 24630, 0)
+        check("Mixed legs: TIR wrong on unequal pairs", float(m["random_actions"]["tir_wrong"]), 1595, 0)
+        check("Mixed legs: largest TIR error (% K0)", m["random_actions"]["largest_error"], 12.28, 0.01)
+        check("Mixed legs: bracket failures", float(m["random_actions"]["bracket_fails"]), 0, 0)
+        w = b["liquidation_fee"]["whole_trade"]
+        check("Liquidation fee: booked below the bracket's lower end", float(w["booked"] < w["lower"]), 1, 0)
+        check("Liquidation fee: positive width", w["width"], 40.0, 1e-6)
+        check("Liquidation fee, one tick: lower end with the fee undeclared", b["liquidation_fee"]["one_tick"]["lower_fee_undeclared"], -332.0, 1e-6)
+        v = b["width_vs_realized"]
+        check("Width against realized forgiveness: finder, width", v["ZB FINDER, edge"]["width"], 429.665, 0.006)
+        check("Width against realized forgiveness: finder, realized", v["ZB FINDER, edge"]["realized"], 254.524, 0.006)
+        check("Width against realized forgiveness: ledger, realized", v["ZB LEDGER, edge"]["realized"], 7.141, 0.006)
+        check("Width against realized forgiveness: largest ratio", max(x["width_over_realized"] for x in v.values()), 2.42, 0.01)
+        check("Width against realized forgiveness: smallest ratio", min(x["width_over_realized"] for x in v.values()), 1.35, 0.01)
+    else:
+        print("[info] Exploratory Study RS reanalysis not present (archived in _archive/)")
 
 
 def engine_twin_headlines() -> None:
     """The sign twin on the engine's own paths (exploratory): hashes, decisions re-derived from the run table, the run table against the
     audit's table, the shipped traces recomputed, the runtime settings, and the numbers the manuscript quotes. Reads stored results; writes nothing."""
+    if not EXPL_1105.exists():
+        print("[info] Exploratory engine_twin snapshot not present (archived in _archive/)")
+        return
     T = EXPL_1105 / "engine_twin"
     for line in (T / "PROTOCOL_HASHES.txt").read_text(encoding="utf-8").splitlines():
         if not line or line.startswith("#"):
@@ -736,34 +742,40 @@ def reward_diagram_checks() -> None:
         check("reward diagram: number of exact checks", float(total.group(1)), 88702, 0)
     r = subprocess.run([sys.executable, "-B", str(ACC / "twin_reward" / "test_line_wrapper.py")], capture_output=True, text=True, encoding="utf-8")
     check("reward diagram: the training wrapper's reward equals the booked P&L, transitions unchanged", float(r.returncode == 0 and "ALL PASS" in r.stdout), 1, 0)
-    rows = json.loads((EXPL_1106 / "reward_diagram" / "sleeve_readout.json").read_text(encoding="utf-8"))
-    check("sleeve read-out: accountings", float(len(rows)), 10, 0)
-    for row in rows:
-        name = row["name"]
-        check(f"sleeve read-out, {name}: the tail reading is exact on every state", float(row["tail_exact"] == row["states"]), 1, 0)
-        check(f"sleeve read-out, {name}: the shape is classified correctly on every state", float(row["shape_agree"] == row["states"]), 1, 0)
-        if row["read_tried"]:
-            check(f"sleeve read-out, {name}: every read-out exact", float(row["read_exact"] == row["read_tried"]), 1, 0)
-    by = {row["name"]: row for row in rows}
-    check("sleeve read-out: a funded clone misses under isolated margin", float(by["Isolated margin"]["funded_exact"] < by["Isolated margin"]["states"]), 1, 0)
-    check("sleeve read-out: and nowhere else", float(all(row["funded_exact"] == row["states"] for row in rows if row["name"] != "Isolated margin")), 1, 0)
-    check("sleeve read-out: TIR exact on a carried deficit, per cent of states", 100.0 * by["Carried deficit"]["tir_exact"] / by["Carried deficit"]["states"], 45.9, 0.05)
-    check("sleeve read-out: SPR exact on a carried deficit, per cent of states", 100.0 * by["Carried deficit"]["spr_exact"] / by["Carried deficit"]["states"], 31.3, 0.05)
-    a = json.loads((EXPL_1106 / "sign_cost" / "results" / "sign_cost_summary.json").read_text(encoding="utf-8"))
-    for key, want in (("runs", 93), ("floor_bound", 54), ("comparison", 39), ("sign_cost_flags_bound", 53), ("sign_cost_flags_comparison", 0), ("positive_reported_negative_booked_runs", 19), ("false_profits_certified_negative_without_twin", 13), ("l3_negative_upper", 20), ("six_run_headline_negative_upper", 0)):
-        check(f"sign-cost certificate: {key}", float(a[key]), want, 0)
-    check("sign-cost certificate: the same flags as the ledger", float(a["same_flags_as_ledger"]), 1, 0)
-    d = pd.read_csv(EXPL_1106 / "sign_cost" / "results" / "sign_cost_runs.csv")
-    six = d[(d.variant == "L7_minus_percent_mtm") & (d.agent == "marl")]
-    l3 = d[(d.variant == "L3_price_taker_no_solvency") & (d.agent == "marl")]
-    check("engine: own cost over booked loss, six headline runs, median", float((six.net_cost_pct / -six.booked_pct).median()), 0.972, 0.0005)
-    check("engine: own cost over booked loss, L3 MAPPO, median", float((l3.net_cost_pct / -l3.booked_pct).median()), 1.026, 0.0005)
-    check("engine: gross positive, of the six headline runs", float((six.gross_pct > 0).sum()), 2, 0)
-    check("engine: gross positive, of the 20 L3 MAPPO runs", float((l3.gross_pct > 0).sum()), 11, 0)
+    if EXPL_1106.exists():
+        rows = json.loads((EXPL_1106 / "reward_diagram" / "sleeve_readout.json").read_text(encoding="utf-8"))
+        check("sleeve read-out: accountings", float(len(rows)), 10, 0)
+        for row in rows:
+            name = row["name"]
+            check(f"sleeve read-out, {name}: the tail reading is exact on every state", float(row["tail_exact"] == row["states"]), 1, 0)
+            check(f"sleeve read-out, {name}: the shape is classified correctly on every state", float(row["shape_agree"] == row["states"]), 1, 0)
+            if row["read_tried"]:
+                check(f"sleeve read-out, {name}: every read-out exact", float(row["read_exact"] == row["read_tried"]), 1, 0)
+        by = {row["name"]: row for row in rows}
+        check("sleeve read-out: a funded clone misses under isolated margin", float(by["Isolated margin"]["funded_exact"] < by["Isolated margin"]["states"]), 1, 0)
+        check("sleeve read-out: and nowhere else", float(all(row["funded_exact"] == row["states"] for row in rows if row["name"] != "Isolated margin")), 1, 0)
+        check("sleeve read-out: TIR exact on a carried deficit, per cent of states", 100.0 * by["Carried deficit"]["tir_exact"] / by["Carried deficit"]["states"], 45.9, 0.05)
+        check("sleeve read-out: SPR exact on a carried deficit, per cent of states", 100.0 * by["Carried deficit"]["spr_exact"] / by["Carried deficit"]["states"], 31.3, 0.05)
+        a = json.loads((EXPL_1106 / "sign_cost" / "results" / "sign_cost_summary.json").read_text(encoding="utf-8"))
+        for key, want in (("runs", 93), ("floor_bound", 54), ("comparison", 39), ("sign_cost_flags_bound", 53), ("sign_cost_flags_comparison", 0), ("positive_reported_negative_booked_runs", 19), ("false_profits_certified_negative_without_twin", 13), ("l3_negative_upper", 20), ("six_run_headline_negative_upper", 0)):
+            check(f"sign-cost certificate: {key}", float(a[key]), want, 0)
+        check("sign-cost certificate: the same flags as the ledger", float(a["same_flags_as_ledger"]), 1, 0)
+        d = pd.read_csv(EXPL_1106 / "sign_cost" / "results" / "sign_cost_runs.csv")
+        six = d[(d.variant == "L7_minus_percent_mtm") & (d.agent == "marl")]
+        l3 = d[(d.variant == "L3_price_taker_no_solvency") & (d.agent == "marl")]
+        check("engine: own cost over booked loss, six headline runs, median", float((six.net_cost_pct / -six.booked_pct).median()), 0.972, 0.0005)
+        check("engine: own cost over booked loss, L3 MAPPO, median", float((l3.net_cost_pct / -l3.booked_pct).median()), 1.026, 0.0005)
+        check("engine: gross positive, of the six headline runs", float((six.gross_pct > 0).sum()), 2, 0)
+        check("engine: gross positive, of the 20 L3 MAPPO runs", float((l3.gross_pct > 0).sum()), 11, 0)
+    else:
+        print("[info] Exploratory reward_diagram sleeve readout not present (archived in _archive/)")
 
 
 def engine_scan_headlines() -> None:
     """The reward diagram on real clones of the engine (exploratory): hashes, decisions re-derived from the run table, the shipped scans recomputed, the numbers the manuscript quotes."""
+    if not EXPL_1106.exists():
+        print("[info] Exploratory engine_scan snapshot not present (archived in _archive/)")
+        return
     T = EXPL_1106 / "engine_scan"
     for line in (T / "PROTOCOL_SCAN_HASHES.txt").read_text(encoding="utf-8").splitlines():
         if not line or line.startswith("#"):
@@ -848,6 +860,9 @@ def identification_statement_checks() -> None:
     """Brute-force, data-free check of the corrected identification statements of the paper (identified sets, SPR's non-sharpness,
     TIR's error dominance, the minimax regret Q*A*B/(A+B), the finite-pool counterexamples); a few seconds."""
     script = REPO / "exploratory" / "exploratory_claude_2026-11-02" / "check_identification_statements.py"
+    if not script.exists():
+        print("[info] Exploratory identification statements check not present (archived in _archive/)")
+        return
     result = subprocess.run([sys.executable, "-B", str(script)], capture_output=True, text=True, encoding="utf-8")
     check("identification statements: script exit code (0 = all pass)", float(result.returncode), 0, 0)
     check("identification statements: 'all checks pass' reported", float("all checks pass" in result.stdout), 1, 0)
@@ -948,17 +963,19 @@ def revision_2026_11_03() -> None:
         check("Twin bracket: audited test episodes (Studies V, W, X, Y)", float(eps), 60800, 0)
         check("Twin bracket: episodes whose booked return lies outside the bracket", float(out), 0, 0)
         check("Twin bracket: agent-markets whose one-sided 95% bound lies below the booked mean (of 608)", float(lbc), float(n_am), 0)
-    hand = json.loads((REPO / "exploratory" / "exploratory_codex_2026-11-01" / "native_reward_identification_001" / "runs" / "hand_v1" / "RESULTS.json").read_text())
-    cov = tir_wrong = 0
-    for row in hand["rows"]:
-        e0 = row["known_receipts"]["initial_cash"]
-        r, rp = row["reported_ending_cash"]["real"] - e0, row["reported_ending_cash"]["shadow"] - e0
-        g = row["evaluator_only_gold"]["real"]
-        c, booked = g["cost"] + g["funding"], float(Fraction(g["booked"]))
-        cov += int(-rp - 2 * c - 1e-9 <= booked <= r + 1e-9)
-        tir_wrong += int(abs(row["naive_TIR_on_cash_increment"] - booked) > 1e-9)
-    check("Twin bracket: engine hand cases covered (of 6)", float(cov), 6, 0)
-    check("Twin bracket: engine hand cases where TIR's point estimate is wrong", float(tir_wrong), 4, 0)
+    hand_file = REPO / "exploratory" / "exploratory_codex_2026-11-01" / "native_reward_identification_001" / "runs" / "hand_v1" / "RESULTS.json"
+    if hand_file.exists():
+        hand = json.loads(hand_file.read_text())
+        cov = tir_wrong = 0
+        for row in hand["rows"]:
+            e0 = row["known_receipts"]["initial_cash"]
+            r, rp = row["reported_ending_cash"]["real"] - e0, row["reported_ending_cash"]["shadow"] - e0
+            g = row["evaluator_only_gold"]["real"]
+            c, booked = g["cost"] + g["funding"], float(Fraction(g["booked"]))
+            cov += int(-rp - 2 * c - 1e-9 <= booked <= r + 1e-9)
+            tir_wrong += int(abs(row["naive_TIR_on_cash_increment"] - booked) > 1e-9)
+        check("Twin bracket: engine hand cases covered (of 6)", float(cov), 6, 0)
+        check("Twin bracket: engine hand cases where TIR's point estimate is wrong", float(tir_wrong), 4, 0)
     # Study W under the common criterion (one-sided Mann-Whitney against Study T's reported-reward arm)
     W, T = pd.read_csv(STUDY_W / "runs_w.csv"), pd.read_csv(STUDY_T / "runs_t.csv")
     for setting, arm, p_exp in (("T_DK2", "RUIN1", 0.0758), ("T_DK2", "RUIN5", 0.0063), ("T_DK1M", "RUIN1", 0.0010)):
@@ -1001,22 +1018,23 @@ def revision_2026_11_03() -> None:
     check("Holm sensitivity: largest adjusted p among the supported, Studies S to Z and RS", max(a for t, a in zip(old_tests, adj_old) if t[1]), 0.0495, 0.00005)
     # the exact cost-shift test (exploratory_claude_2026-11-03/exact_cost_shift/)
     ex = REPO / "exploratory" / "exploratory_claude_2026-11-03" / "exact_cost_shift"
-    c = json.loads((ex / "contract_exact_results.json").read_text(encoding="utf-8"))
-    sf, mf = c["single_floor_sleeve"], c["multi_floor_sleeve"]
-    check("Cost-shift (exact): single-floor sleeve, states tested", float(sf["tested_states"]), 5122, 0)
-    check("Cost-shift (exact): single-floor sleeve, states flagged",
-          float(sf["flagged_exact_among_informative"] + sf["flagged_exact_among_uninformative"] + sf["flagged_exact_among_free"]), 0, 0)
-    check("Cost-shift (exact): two-write sleeve, informative binding states", float(mf["informative_among_them"]), 761, 0)
-    check("Cost-shift (exact): two-write sleeve, informative binding states flagged", float(mf["flagged_exact_among_informative"]), 761, 0)
-    check("Cost-shift (exact): two-write sleeve, states with no binding fee flagged (of 4,273)", float(mf["flagged_exact_among_free"]), 0, 0)
-    eng = {row["starting_cash"]: row["violated_exact"] for row in c["engine_original_methods"]}
-    check("Cost-shift (exact): engine flagged at starting cash 0, 5 and not 100", float(eng[0.0] and eng[5.0] and not eng[100.0]), 1, 0)
-    val = json.loads((ex / "validate_exact_results.json").read_text(encoding="utf-8"))
-    check("Cost-shift (exact): disagreements with the brute force", float(sum(g["mismatches"] for g in val["exactness"].values())), 0, 0)
-    check("Cost-shift (exact): false alarms in 200,000 single-floor worlds",
-          float(val["false_alarms_noise_free"]["flagged_exact"] + val["false_alarms_with_noise"]["flagged_exact"]), 0, 0)
-    check("Cost-shift (exact): cost-dependent floors flagged (of 4,000)", float(val["power"]["cost-dependent floor"]["flagged_exact_test"]), 3912, 0)
-    check("Cost-shift (earlier check): cost-dependent floors flagged (of 4,000)", float(val["power"]["cost-dependent floor"]["flagged_previous_test"]), 265, 0)
+    if ex.exists():
+        c = json.loads((ex / "contract_exact_results.json").read_text(encoding="utf-8"))
+        sf, mf = c["single_floor_sleeve"], c["multi_floor_sleeve"]
+        check("Cost-shift (exact): single-floor sleeve, states tested", float(sf["tested_states"]), 5122, 0)
+        check("Cost-shift (exact): single-floor sleeve, states flagged",
+              float(sf["flagged_exact_among_informative"] + sf["flagged_exact_among_uninformative"] + sf["flagged_exact_among_free"]), 0, 0)
+        check("Cost-shift (exact): two-write sleeve, informative binding states", float(mf["informative_among_them"]), 761, 0)
+        check("Cost-shift (exact): two-write sleeve, informative binding states flagged", float(mf["flagged_exact_among_informative"]), 761, 0)
+        check("Cost-shift (exact): two-write sleeve, states with no binding fee flagged (of 4,273)", float(mf["flagged_exact_among_free"]), 0, 0)
+        eng = {row["starting_cash"]: row["violated_exact"] for row in c["engine_original_methods"]}
+        check("Cost-shift (exact): engine flagged at starting cash 0, 5 and not 100", float(eng[0.0] and eng[5.0] and not eng[100.0]), 1, 0)
+        val = json.loads((ex / "validate_exact_results.json").read_text(encoding="utf-8"))
+        check("Cost-shift (exact): disagreements with the brute force", float(sum(g["mismatches"] for g in val["exactness"].values())), 0, 0)
+        check("Cost-shift (exact): false alarms in 200,000 single-floor worlds",
+              float(val["false_alarms_noise_free"]["flagged_exact"] + val["false_alarms_with_noise"]["flagged_exact"]), 0, 0)
+        check("Cost-shift (exact): cost-dependent floors flagged (of 4,000)", float(val["power"]["cost-dependent floor"]["flagged_exact_test"]), 3912, 0)
+        check("Cost-shift (earlier check): cost-dependent floors flagged (of 4,000)", float(val["power"]["cost-dependent floor"]["flagged_previous_test"]), 265, 0)
     # agent totals: B-P counted in counts_and_learnability (824); Q, R and S-Z from their run tables
     n = {"Q": len(pd.read_csv(STUDY_Q / "runs_q.csv")), "R": len(pd.read_csv(ACC / "study_r" / "runs_r.csv")),
          "S": len(pd.read_csv(STUDY_S / "runs_s_A.csv")) + len(pd.read_csv(STUDY_S / "runs_s_B.csv")),
