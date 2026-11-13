@@ -48,8 +48,8 @@ STUDY_Y = ACC / "study_y"
 STUDY_Z = ACC / "study_z"
 STUDY_ZB = ACC / "study_zb"
 STUDY_RS = ACC / "study_rs"
-EXPL_1105 = REPO / "exploratory_claude_2026-11-05"
-EXPL_1106 = REPO / "exploratory_claude_2026-11-06"
+EXPL_1105 = REPO / "exploratory" / "exploratory_claude_2026-11-05"
+EXPL_1106 = REPO / "exploratory" / "exploratory_claude_2026-11-06"
 STUDY_EXT = ACC / "study_ext"
 STUDY_FT = ACC / "study_ft"
 NOT_SHIPPED = {"data_panel_j/panel_FI.pkl", "data_panel_j/panel_NO2.pkl"}   # derived from eSett data (not redistributed)
@@ -847,7 +847,7 @@ def engine_scan_headlines() -> None:
 def identification_statement_checks() -> None:
     """Brute-force, data-free check of the corrected identification statements of the paper (identified sets, SPR's non-sharpness,
     TIR's error dominance, the minimax regret Q*A*B/(A+B), the finite-pool counterexamples); a few seconds."""
-    script = REPO / "exploratory_claude_2026-11-02" / "check_identification_statements.py"
+    script = REPO / "exploratory" / "exploratory_claude_2026-11-02" / "check_identification_statements.py"
     result = subprocess.run([sys.executable, "-B", str(script)], capture_output=True, text=True, encoding="utf-8")
     check("identification statements: script exit code (0 = all pass)", float(result.returncode), 0, 0)
     check("identification statements: 'all checks pass' reported", float("all checks pass" in result.stdout), 1, 0)
@@ -948,7 +948,7 @@ def revision_2026_11_03() -> None:
         check("Twin bracket: audited test episodes (Studies V, W, X, Y)", float(eps), 60800, 0)
         check("Twin bracket: episodes whose booked return lies outside the bracket", float(out), 0, 0)
         check("Twin bracket: agent-markets whose one-sided 95% bound lies below the booked mean (of 608)", float(lbc), float(n_am), 0)
-    hand = json.loads((REPO / "exploratory_codex_2026-11-01" / "native_reward_identification_001" / "runs" / "hand_v1" / "RESULTS.json").read_text())
+    hand = json.loads((REPO / "exploratory" / "exploratory_codex_2026-11-01" / "native_reward_identification_001" / "runs" / "hand_v1" / "RESULTS.json").read_text())
     cov = tir_wrong = 0
     for row in hand["rows"]:
         e0 = row["known_receipts"]["initial_cash"]
@@ -1000,7 +1000,7 @@ def revision_2026_11_03() -> None:
     check("Holm sensitivity: supported decisions that change across Studies S to Z and RS", float(sum(1 for t, a in zip(old_tests, adj_old) if t[1] and a >= 0.05)), 0, 0)
     check("Holm sensitivity: largest adjusted p among the supported, Studies S to Z and RS", max(a for t, a in zip(old_tests, adj_old) if t[1]), 0.0495, 0.00005)
     # the exact cost-shift test (exploratory_claude_2026-11-03/exact_cost_shift/)
-    ex = REPO / "exploratory_claude_2026-11-03" / "exact_cost_shift"
+    ex = REPO / "exploratory" / "exploratory_claude_2026-11-03" / "exact_cost_shift"
     c = json.loads((ex / "contract_exact_results.json").read_text(encoding="utf-8"))
     sf, mf = c["single_floor_sleeve"], c["multi_floor_sleeve"]
     check("Cost-shift (exact): single-floor sleeve, states tested", float(sf["tested_states"]), 5122, 0)
@@ -1196,7 +1196,7 @@ def headlines_q() -> None:
 
 def cost_baseline_headlines() -> None:
     """Read-only checks of explicitly exploratory comparison and toy outputs."""
-    folder = REPO / "exploratory_novelty_2026-10-15/cost_baselines"
+    folder = REPO / "exploratory" / "exploratory_novelty_2026-10-15" / "cost_baselines"
     summary = folder / "exploratory_cost_baseline_summary.json"
     if not summary.exists():
         print("[info] Exploratory cost-baseline snapshot not present")
@@ -1232,7 +1232,7 @@ def cost_baseline_headlines() -> None:
     costs = data["completed_bundled_cost_intervention"]
     check("Exploratory bundled H comparison reports all scores", len(costs), 13, 0)
     check("Exploratory bundled H nominal-fee AUC", next(r["auc"] for r in costs if r["score"] == "negative_nominal_fee"), 1, 0)
-    toy_folder = REPO / "exploratory_novelty_2026-10-15/matched_moments"
+    toy_folder = REPO / "exploratory" / "exploratory_novelty_2026-10-15" / "matched_moments"
     toy = json.loads((toy_folder / "matched_moments.json").read_text(encoding="utf-8"))
     a, b = toy["markets"]["A"], toy["markets"]["B"]
     for field in toy["matched_fields"]:
@@ -1481,7 +1481,7 @@ def study_r_job_checks(folder: Path, data: pd.DataFrame) -> None:
 
 def adaptive_witness_headlines() -> None:
     """Read-only exact identities, fixed-n certificates and hashes; no new draws or training."""
-    novelty = REPO / "exploratory_novelty_2026-10-15"
+    novelty = REPO / "exploratory" / "exploratory_novelty_2026-10-15"
     exact_dir = novelty / "adaptive_witness"
     empirical = novelty / "adaptive_witness_empirical"
     heavy_dir = novelty / "adaptive_witness_heavytail"

@@ -22,9 +22,9 @@ ACCOUNTING_OPTIONS_2026-10-14/study_zb/** -text
 ACCOUNTING_OPTIONS_2026-10-14/study_rs/** -text
 ACCOUNTING_OPTIONS_2026-10-14/study_ext/** -text
 ACCOUNTING_OPTIONS_2026-10-14/study_ft/** -text
-exploratory_claude_2026-11-05/engine_twin/** -text
+exploratory/exploratory_claude_2026-11-05/engine_twin/** -text
 # Frozen Study L and M records: sources and manifests are covered by recorded hashes
 revision_experiments/** -text
 # Exploratory and review records, and the tables they hash, are kept byte-exact: their manifests record SHA-256 digests of sibling files
-exploratory_*/** -text
+exploratory/** -text
 ACCOUNTING_OPTIONS_2026-10-14/tables/** -text
