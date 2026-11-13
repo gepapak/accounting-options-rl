@@ -1,0 +1,67 @@
+{
+  "vol": 0.0015,
+  "rows": [
+    {
+      "equity": 500.0,
+      "volume": 0.01,
+      "notional": 1100.0,
+      "effective_leverage": 2.2,
+      "kink_found_in_window": false,
+      "gap_at_minus_40pct": 0.0,
+      "gap_at_zero": 0.0,
+      "one_bar_p_studyG": 0.0,
+      "n50_bars_studyG": null,
+      "lot": "min"
+    },
+    {
+      "equity": 500.0,
+      "volume": 0.36,
+      "notional": 39600.0,
+      "effective_leverage": 79.2,
+      "kink_found_in_window": true,
+      "kink_log_return_inside": -0.012246401701122525,
+      "kink_log_return_outside": -0.012246401701486323,
+      "gap_at_minus_40pct": 12573.326176988685,
+      "gap_at_zero": 0.0,
+      "one_bar_p_studyG": 0.0003830392445696009,
+      "n50_bars_studyG": 1809.5983385169704,
+      "reward_inside_floor": -482.0,
+      "reward_inside_plain": -482.0000999861476,
+      "reward_outside_floor": -482.0,
+      "reward_outside_plain": -482.0001000003762,
+      "hidden_at_kink": 0.00010000037622148739,
+      "lot": "max"
+    },
+    {
+      "equity": 10000.0,
+      "volume": 0.01,
+      "notional": 1100.0,
+      "effective_leverage": 0.11,
+      "kink_found_in_window": false,
+      "gap_at_minus_40pct": 0.0,
+      "gap_at_zero": 0.0,
+      "one_bar_p_studyG": 0.0,
+      "n50_bars_studyG": null,
+      "lot": "min"
+    },
+    {
+      "equity": 10000.0,
+      "volume": 7.2700000000000005,
+      "notional": 799700.0000000001,
+      "effective_leverage": 79.97000000000001,
+      "kink_found_in_window": true,
+      "kink_log_return_inside": -0.01212333548646711,
+      "kink_log_return_outside": -0.012123335486830908,
+      "gap_at_minus_40pct": 254008.55918529927,
+      "gap_at_zero": 0.0,
+      "one_bar_p_studyG": 0.00039467999006269827,
+      "n50_bars_studyG": 1756.2257981455634,
+      "reward_inside_floor": -9636.5,
+      "reward_inside_plain": -9636.500099742878,
+      "reward_outside_floor": -9636.5,
+      "reward_outside_plain": -9636.500100030378,
+      "hidden_at_kink": 0.00010003037823480554,
+      "lot": "max"
+    }
+  ]
+}
