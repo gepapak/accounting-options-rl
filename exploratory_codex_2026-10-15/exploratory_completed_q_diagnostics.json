@@ -1,0 +1,472 @@
+{
+  "status": "EXPLORATORY, completed Q only; registered verdicts unchanged",
+  "cohort": 100,
+  "serialized_top_level_keys": [
+    "algo",
+    "alpha",
+    "drawmean_ledger_return_pct",
+    "drawmean_mean_abs_lev_open",
+    "drawmean_reported_return_pct",
+    "draws_reported_return_pct",
+    "drawshare_floor_bound",
+    "eval_split",
+    "gamma",
+    "kwargs",
+    "learner",
+    "lev",
+    "obsset",
+    "region",
+    "seconds",
+    "seed",
+    "steps"
+  ],
+  "possible_visitation_critic_checkpoint_fields": [],
+  "limitations": [
+    "No training-state visit counts, trajectories, Q-values, network weights or checkpoints are serialized by run_q.py:93-100.",
+    "Training visitation of 2%-equity probes and DQN Q-value gaps cannot be recovered from these summaries.",
+    "drawshare_floor_bound is the share of evaluation draws in which the floor bound, not the fraction of training steps at low equity.",
+    "Greedy absolute leverage loses action direction and value confidence; identical probe choices do not imply identical Q-values.",
+    "High control leverage can explain a small treatment-control gap, but this diagnostic does not change Q1-Q3 or identify a causal training failure."
+  ],
+  "groups": [
+    {
+      "learner": "A2C-n64",
+      "alpha": 0.0,
+      "n": 10,
+      "L002_mean": 16.0,
+      "L002_n16": 10,
+      "L2_mean": 7.35,
+      "L2_n16": 4,
+      "L002_gap_over_control": 12.825,
+      "maximal_at_every_probe": 2,
+      "same_leverage_at_every_probe": 2,
+      "low_exceeds_high": 6,
+      "mean_floor_bound_fraction_of_eval_draws": 0.39499999999999996,
+      "mean_eval_abs_leverage_open": 5.7396000525460975,
+      "reported_pct": 95.69728687812767,
+      "booked_pct": 15.202386962502484,
+      "by_zone": {
+        "DK1": {
+          "L002_mean": 16.0,
+          "L2_mean": 7.3
+        },
+        "DK2": {
+          "L002_mean": 16.0,
+          "L2_mean": 7.4
+        }
+      }
+    },
+    {
+      "learner": "A2C-n64",
+      "alpha": 0.5,
+      "n": 10,
+      "L002_mean": 7.35,
+      "L002_n16": 4,
+      "L2_mean": 1.0,
+      "L2_n16": 0,
+      "L002_gap_over_control": 4.175,
+      "maximal_at_every_probe": 0,
+      "same_leverage_at_every_probe": 5,
+      "low_exceeds_high": 4,
+      "mean_floor_bound_fraction_of_eval_draws": 0.10499999999999998,
+      "mean_eval_abs_leverage_open": 1.283628546861565,
+      "reported_pct": 11.1959119734418,
+      "booked_pct": 5.1265335171919215,
+      "by_zone": {
+        "DK1": {
+          "L002_mean": 8.0,
+          "L2_mean": 1.7
+        },
+        "DK2": {
+          "L002_mean": 6.7,
+          "L2_mean": 0.3
+        }
+      }
+    },
+    {
+      "learner": "A2C-n64",
+      "alpha": 0.8,
+      "n": 10,
+      "L002_mean": 7.75,
+      "L002_n16": 4,
+      "L2_mean": 4.95,
+      "L2_n16": 2,
+      "L002_gap_over_control": 4.575,
+      "maximal_at_every_probe": 2,
+      "same_leverage_at_every_probe": 7,
+      "low_exceeds_high": 2,
+      "mean_floor_bound_fraction_of_eval_draws": 0.23500000000000001,
+      "mean_eval_abs_leverage_open": 4.925362568071081,
+      "reported_pct": 62.122756231254286,
+      "booked_pct": 27.06638449062918,
+      "by_zone": {
+        "DK1": {
+          "L002_mean": 5.05,
+          "L2_mean": 5.65
+        },
+        "DK2": {
+          "L002_mean": 10.45,
+          "L2_mean": 4.25
+        }
+      }
+    },
+    {
+      "learner": "A2C-n64",
+      "alpha": 0.9,
+      "n": 10,
+      "L002_mean": 4.3,
+      "L002_n16": 2,
+      "L2_mean": 3.0,
+      "L2_n16": 1,
+      "L002_gap_over_control": 1.125,
+      "maximal_at_every_probe": 1,
+      "same_leverage_at_every_probe": 7,
+      "low_exceeds_high": 2,
+      "mean_floor_bound_fraction_of_eval_draws": 0.10500000000000001,
+      "mean_eval_abs_leverage_open": 2.9148828460877043,
+      "reported_pct": 44.818142110943526,
+      "booked_pct": 30.514071043756037,
+      "by_zone": {
+        "DK1": {
+          "L002_mean": 4.3,
+          "L2_mean": 1.9
+        },
+        "DK2": {
+          "L002_mean": 4.3,
+          "L2_mean": 4.1
+        }
+      }
+    },
+    {
+      "learner": "A2C-n64",
+      "alpha": 1.0,
+      "n": 10,
+      "L002_mean": 3.175,
+      "L002_n16": 1,
+      "L2_mean": 2.625,
+      "L2_n16": 1,
+      "L002_gap_over_control": 0.0,
+      "maximal_at_every_probe": 1,
+      "same_leverage_at_every_probe": 6,
+      "low_exceeds_high": 4,
+      "mean_floor_bound_fraction_of_eval_draws": 0.12999999999999998,
+      "mean_eval_abs_leverage_open": 2.62963384924047,
+      "reported_pct": 38.97324301719403,
+      "booked_pct": 23.601484387506527,
+      "by_zone": {
+        "DK1": {
+          "L002_mean": 2.65,
+          "L2_mean": 1.9
+        },
+        "DK2": {
+          "L002_mean": 3.7,
+          "L2_mean": 3.35
+        }
+      }
+    },
+    {
+      "learner": "DQN-default",
+      "alpha": 0.0,
+      "n": 10,
+      "L002_mean": 14.425,
+      "L002_n16": 9,
+      "L2_mean": 9.0,
+      "L2_n16": 5,
+      "L002_gap_over_control": 5.200000000000001,
+      "maximal_at_every_probe": 1,
+      "same_leverage_at_every_probe": 1,
+      "low_exceeds_high": 5,
+      "mean_floor_bound_fraction_of_eval_draws": 0.37,
+      "mean_eval_abs_leverage_open": 6.5266961641349,
+      "reported_pct": 94.18563870625117,
+      "booked_pct": 13.128116773438247,
+      "by_zone": {
+        "DK1": {
+          "L002_mean": 12.85,
+          "L2_mean": 9.8
+        },
+        "DK2": {
+          "L002_mean": 16.0,
+          "L2_mean": 8.2
+        }
+      }
+    },
+    {
+      "learner": "DQN-default",
+      "alpha": 0.5,
+      "n": 10,
+      "L002_mean": 12.925,
+      "L002_n16": 8,
+      "L2_mean": 8.8,
+      "L2_n16": 5,
+      "L002_gap_over_control": 3.700000000000001,
+      "maximal_at_every_probe": 3,
+      "same_leverage_at_every_probe": 4,
+      "low_exceeds_high": 4,
+      "mean_floor_bound_fraction_of_eval_draws": 0.36,
+      "mean_eval_abs_leverage_open": 7.110715940575142,
+      "reported_pct": 85.25992080937552,
+      "booked_pct": 8.602589673437942,
+      "by_zone": {
+        "DK1": {
+          "L002_mean": 9.85,
+          "L2_mean": 10.0
+        },
+        "DK2": {
+          "L002_mean": 16.0,
+          "L2_mean": 7.6
+        }
+      }
+    },
+    {
+      "learner": "DQN-default",
+      "alpha": 0.8,
+      "n": 10,
+      "L002_mean": 9.4,
+      "L002_n16": 5,
+      "L2_mean": 9.325,
+      "L2_n16": 5,
+      "L002_gap_over_control": 0.1750000000000007,
+      "maximal_at_every_probe": 4,
+      "same_leverage_at_every_probe": 5,
+      "low_exceeds_high": 1,
+      "mean_floor_bound_fraction_of_eval_draws": 0.54,
+      "mean_eval_abs_leverage_open": 7.639947513614215,
+      "reported_pct": 90.8311625765621,
+      "booked_pct": -25.253128899999655,
+      "by_zone": {
+        "DK1": {
+          "L002_mean": 8.2,
+          "L2_mean": 8.2
+        },
+        "DK2": {
+          "L002_mean": 10.6,
+          "L2_mean": 10.45
+        }
+      }
+    },
+    {
+      "learner": "DQN-default",
+      "alpha": 0.9,
+      "n": 10,
+      "L002_mean": 10.525,
+      "L002_n16": 6,
+      "L2_mean": 9.025,
+      "L2_n16": 5,
+      "L002_gap_over_control": 1.3000000000000007,
+      "maximal_at_every_probe": 3,
+      "same_leverage_at_every_probe": 5,
+      "low_exceeds_high": 2,
+      "mean_floor_bound_fraction_of_eval_draws": 0.535,
+      "mean_eval_abs_leverage_open": 7.317357229865292,
+      "reported_pct": 113.49220962500272,
+      "booked_pct": -16.082901070310562,
+      "by_zone": {
+        "DK1": {
+          "L002_mean": 8.05,
+          "L2_mean": 8.2
+        },
+        "DK2": {
+          "L002_mean": 13.0,
+          "L2_mean": 9.85
+        }
+      }
+    },
+    {
+      "learner": "DQN-default",
+      "alpha": 1.0,
+      "n": 10,
+      "L002_mean": 9.225,
+      "L002_n16": 5,
+      "L2_mean": 11.725,
+      "L2_n16": 7,
+      "L002_gap_over_control": 0.0,
+      "maximal_at_every_probe": 3,
+      "same_leverage_at_every_probe": 4,
+      "low_exceeds_high": 1,
+      "mean_floor_bound_fraction_of_eval_draws": 0.45999999999999996,
+      "mean_eval_abs_leverage_open": 7.311587608674882,
+      "reported_pct": 121.6556587437492,
+      "booked_pct": 39.694018757811634,
+      "by_zone": {
+        "DK1": {
+          "L002_mean": 7.25,
+          "L2_mean": 13.0
+        },
+        "DK2": {
+          "L002_mean": 11.2,
+          "L2_mean": 10.45
+        }
+      }
+    }
+  ],
+  "exploratory_dependence_and_dose_sensitivity": {
+    "A2C-n64": {
+      "Q1_common_arm_label_sensitivity": {
+        "observed_spearman": 0.4995022302087815,
+        "exact_common_arm_label_permutations": 120,
+        "one_sided_p": 0.025,
+        "caveat": "Exploratory arm-label exchangeability reference, conditional on two fixed zones."
+      },
+      "Q2_paired_seed_sensitivity": {
+        "mean": 12.825,
+        "seed_differences": [
+          15.0,
+          15.75,
+          6.0,
+          13.5,
+          13.875
+        ],
+        "seed_clusters": 5,
+        "exact_empirical_seed_bootstrap_95_pct": [
+          9.3,
+          15.15
+        ],
+        "one_sided_95_lower": 9.75
+      },
+      "treatment_only_ranking": {
+        "n": 40,
+        "learned_at_max_probe": 20,
+        "auc_index": 0.8125,
+        "auc_one_minus_alpha": 0.8,
+        "caveat": "Exploratory ranking only; no transferable dose threshold is calibrated."
+      }
+    },
+    "DQN-default": {
+      "Q1_common_arm_label_sensitivity": {
+        "observed_spearman": 0.30866561624460737,
+        "exact_common_arm_label_permutations": 120,
+        "one_sided_p": 0.025,
+        "caveat": "Exploratory arm-label exchangeability reference, conditional on two fixed zones."
+      },
+      "Q2_paired_seed_sensitivity": {
+        "mean": 5.2,
+        "seed_differences": [
+          8.0,
+          -1.875,
+          6.0,
+          6.0,
+          7.875
+        ],
+        "seed_clusters": 5,
+        "exact_empirical_seed_bootstrap_95_pct": [
+          1.65,
+          7.575
+        ],
+        "one_sided_95_lower": 2.05
+      },
+      "treatment_only_ranking": {
+        "n": 40,
+        "learned_at_max_probe": 28,
+        "auc_index": 0.7232142857142857,
+        "auc_one_minus_alpha": 0.6785714285714286,
+        "caveat": "Exploratory ranking only; no transferable dose threshold is calibrated."
+      }
+    }
+  },
+  "input_sha256": {
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.5__s50__DK1.json": "0c2c7f50faeb6b6d761581fabdb34f6893c3571246ec47b619be2b8a77953515",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.5__s50__DK2.json": "4fab06faa0ae298146e6ede9e0de5f6bd2e30640814f6e010063f08dd02db447",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.5__s51__DK1.json": "1498d2e291db1405161372cffad22ebb9af54a23f6c552a06b7afd13b86a49cb",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.5__s51__DK2.json": "08a82998a1991eed438e291f871d0c75da9542424b74f618700038673b8abe7b",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.5__s52__DK1.json": "d465d5f7d5d313a2e237c9b542e85a000d03d49d96ba77b3f04fb9122f8cdb44",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.5__s52__DK2.json": "26e0a7e28a04c26c0feb41118de900dd7f49b15127d976a25e2b20f15fd84236",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.5__s53__DK1.json": "64545e1689ca9cd81066d6cdd7b2bdfd3951c77c52621275ea6db88df0972fde",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.5__s53__DK2.json": "ff0db3ac8a2264cfa74d32b0fb7867a88d9c483e9a5a5bac08063d4664a883f1",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.5__s54__DK1.json": "367b7ef404e3bcdd363854c71426b657ab4913573a1ea8f4fcab55bfc4c7d8d0",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.5__s54__DK2.json": "bc557c5ed7b0e954f57f888a218067dd6d2fd8a94963f2113881bdbaa8b61669",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.8__s50__DK1.json": "083c3983f635ebe72c9cc342345d47876299e0d46c01470ab8cb8ca573db3d27",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.8__s50__DK2.json": "7faada435557e910c270e457572d8a784f758aba9ced1df64c157d99ea3d1658",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.8__s51__DK1.json": "faf36d9d5fd758c0731118c463ba7987b376a2e77cf89bed65a4ec8d79c072b7",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.8__s51__DK2.json": "291825534e30fef0f4d62f688f32bdec244addee4477bc53bc6cd652ced14a03",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.8__s52__DK1.json": "b2f9f2e73c2af6aa1e3c8cbf5d7c0a96d784adefb8231167c10989ca3e44150c",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.8__s52__DK2.json": "0421a60e882b8e2988fb2d1a088a9b00e5ef1dfbe57fb4ea45adb85708c0ee9c",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.8__s53__DK1.json": "fdb5830d7822c5d1671b4ace330dd5f9fa1b7f1e5597789416268376c9a1a32b",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.8__s53__DK2.json": "bb7acd21947e31b3711507cb355c30deab5b52c954ab1066ef832aa55e903fe8",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.8__s54__DK1.json": "d09d7225d07e8cccf6eabe8a3ee7f92c7b710de60882fabdc5abf00449b676a3",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.8__s54__DK2.json": "5515a8bf1126cf36644d22982fc3bc072333e29c59b4679a7fd67245944cf7cf",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.9__s50__DK1.json": "a4c46a28149c6ac568b29821ee3e3b950994af40b49c680a23f67cea992a538b",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.9__s50__DK2.json": "39339417a3c258f4bea54676579d5ebc9d9e0f3a04ce34d76436266aa0002ae4",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.9__s51__DK1.json": "daccfe473d53c627b73e10943ebdc0b4d9c78d7cf0f0265da6990d7d821e34b3",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.9__s51__DK2.json": "2c990f6cb92bc0cb4eb669a74c9780970a067ce7649f27884bd6347f475bda3a",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.9__s52__DK1.json": "435471cbe2d8085745edeeb8f223d209f0df70127c602addd77ee736b8d2c4a3",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.9__s52__DK2.json": "ebeadd09882c9789080176cab570ee6ab96a1014b435d8b11984222d41145970",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.9__s53__DK1.json": "0bdddda2672ab498c9dfd4aa419fb93c41b05358cd02ffe9171649265183897e",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.9__s53__DK2.json": "f828a293fae2697280297563234856183c02651c7f3ac32f01a227364c281452",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.9__s54__DK1.json": "9a12bf58896eee24c9151e780cbd0e7cadf6ecd2c1ec090fee26c57b3dc9d34f",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0.9__s54__DK2.json": "38d28a9835ffd7ae0506e9b838e09ed192b4be31e8028a368f4827e5a25846d3",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0__s50__DK1.json": "33b1c7a70be3eddd912fcd677dbb8fe1672305e7db5b79d9fecdeed374177422",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0__s50__DK2.json": "af071e80370e4365c0b5c513318ddbfad7090648095800d2c262765e6e67faa5",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0__s51__DK1.json": "571c1782a25d75e928d50917ea6e80d95bab69ec83bd2b9fb0720849b3225fcb",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0__s51__DK2.json": "7b4bdf4290cc48bdbb9d70c9b05d17efa7f193cb6cb9c340fde42de70b9f86a5",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0__s52__DK1.json": "882586b6c6807771e85f343fce38bcbe05eed8ad4177c7cc1f469240562ad4e5",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0__s52__DK2.json": "a87dc8543fb96079379634eeedaa1f9cd2b13dd440a84875bc157d30aaef0b19",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0__s53__DK1.json": "6d5f899f31cb155ba9ba8cbee9286546e4b65b944c83036c0c90d9dab7ae723a",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0__s53__DK2.json": "dceff72b1e95cda7b922b4491fe9f13beaa0ce625a7011618b95b660529ea8d0",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0__s54__DK1.json": "b41d96203048e828752977da29ff68f6178b4241ea66510b4862ea1600b87bcf",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a0__s54__DK2.json": "025c652052baecb2680c01ccb6aaacd02e3b325813d41923c164e6c01a623637",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a1__s50__DK1.json": "1d84b4d04e41cc9fc5c09bbb28c4e95f23f0abc62a8ca9f680040b8a3eb13bab",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a1__s50__DK2.json": "ae71ecc39590b223d14cbf62e50ffed234380fb29424f812afb81b36bb1c55d7",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a1__s51__DK1.json": "40ff45a57d04cc373d3ce4e40d3407d2daf7ae8215ce4077fa82bde24db87dfa",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a1__s51__DK2.json": "859ac3f6cc343a50b5f5b0608531fbe22648a35686bb96eb9be0c6c7db93c33f",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a1__s52__DK1.json": "3b23ac7b2f2faa1da92299b2c8b31de14e12e533617401494eb92c064a47d719",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a1__s52__DK2.json": "c5721ebe4246a5654ac4f81f4c77bcc01a043704138d29f2eb32e59c43419de3",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a1__s53__DK1.json": "9867f0c2f8ed03a577b02e9827ac8662e564ce8f6632eabcbccede4571a220ca",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a1__s53__DK2.json": "7ef888b7e958f9a5def24421fb26dc7c492c8761b662f1b5e16e4c6735fdb8b7",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a1__s54__DK1.json": "9fcf8c0b09f34f8dbbdde35c246b85350688f1e73a26429746688c6fdc7fcd1e",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/A2C-n64__a1__s54__DK2.json": "c4d7bfd7570f08dc5358216a415af5bb4e151a9b79c7b06cffb1e211db99f70c",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.5__s50__DK1.json": "52ea2ec2d49d7eec428d113b4d81b2c8443f66502056d288ec6e74dc88310bd3",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.5__s50__DK2.json": "c07198cb33dd27c84fcf882be03e560a0ce94413e09e11056149de87a5c83b0b",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.5__s51__DK1.json": "324ab22c73cce2ac51dfe5d056616595c5341e1094d0155b07cba2f65748ea4f",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.5__s51__DK2.json": "da9407137a65ff5d42409aef981d0924191877f999bf371f42ed50c01875383d",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.5__s52__DK1.json": "1fc725921e5bbb71d65a486d25b73478d36aa4e328a06229d8b7088ccd4eac39",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.5__s52__DK2.json": "2272579fe3b28dea7c1699a4734155f3cf41da4a04d8b8a2ce0e68e4ed06cbaf",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.5__s53__DK1.json": "cf600816ff432df15740bd8a1a81b9444f8c851aa1622238cccce280c6bccf29",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.5__s53__DK2.json": "23b2d0f95c98e2d210c2668aca308b23e43753c9b39d57bce22df37ac88f9396",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.5__s54__DK1.json": "6d6cef6e33d0a00626fdbaabc7e93d8d122a755c5feea4a5af2b4e0eb7d3584d",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.5__s54__DK2.json": "e711956f54f28ab16167295d6f355db925a02e6c31ea2c1ea0774c384e8ea31c",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.8__s50__DK1.json": "68ec8820f755d051527ecb93b6762586b50746d70aa3c136114d8496e3e05ce4",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.8__s50__DK2.json": "99639961b96666a1d65aa9aeb892fe0932883831eb9a359380970f331d610e3c",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.8__s51__DK1.json": "ccf49a37b2317fcddef6af23be090fa3c3a75f94f42efafe99f2e17d19996152",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.8__s51__DK2.json": "c335989fd67ecd14b4a4e1e2e5c366aefb066ee554196b7876e4ec4e7bcb9f96",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.8__s52__DK1.json": "1ba5fbf1a6c7a2618a52eafb351f2f40c8a639e008fdd7a972c90199a8ccfcb9",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.8__s52__DK2.json": "12779943224c55f5150627fbceeba6594cd98c29467797b4cb03ccbbf5c2347a",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.8__s53__DK1.json": "6b31359a042669723bdb4010ea803176e09fbf7eb2887f8a371de50625d018fa",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.8__s53__DK2.json": "e8904a7ee93a341b0e144b187b028bfcbb8e72acbc1ece49ccb8d2382cd17f73",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.8__s54__DK1.json": "7b6e47a12a0c74dc65b23de85cee4d75e6980f9aeb6cd52ca8bd25624be00237",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.8__s54__DK2.json": "a6855ca95afe304e7e2043512f33bd0237e720106fcc11d345693e116e76a86c",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.9__s50__DK1.json": "89b9140421e28065ff0650e9ba4096acbf5eba1be6454f239335e6e41aca7fd3",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.9__s50__DK2.json": "555bd60eb72c5557f5883cb600c935e5c923ef20be8a59fd0ae41745488cedc8",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.9__s51__DK1.json": "bfe9026928d0dedae8174c2d4cbc6ac90e060b4095bdb71753027d5e71014458",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.9__s51__DK2.json": "82f5d1aba5a0a12a7a4a3a259cccaf8153456a235ba9a050db70e62fe9385558",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.9__s52__DK1.json": "cb6eb93e946cd2192d1e7ad6718f8827223de9d7accdd5a2eee6743ab87c1699",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.9__s52__DK2.json": "4e18a64885abc8a180fd83dcafa411198de310eced154bdc88faa4d1059d544b",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.9__s53__DK1.json": "eb9ece2131aa277356d253af16557cc71102c87883d14cd728e79d300514667f",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.9__s53__DK2.json": "d414d8a4587e7263b017f7240870961c67c596dc8c39be2a87125bb04f437c69",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.9__s54__DK1.json": "0c0e8e6e8ecf193528f0b7974dc1b364218dee67471bb4a2a4d614b3dd36926d",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0.9__s54__DK2.json": "7e774baa03aa38c7e9a795e4ff351059468315c33a46156a042919b34d4a5efc",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0__s50__DK1.json": "f0595624731f169da905290f093e95d9390dd8c9ff187af45b76efaa7e06ac90",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0__s50__DK2.json": "830197c314c26d7d17c6d86fa534646517c28f7a6302be735f821ed6ed6d5864",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0__s51__DK1.json": "6e788d6594fa4034b87164ef12ebc7589ed36b53c852cb10231423deb2ace25e",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0__s51__DK2.json": "58b3cf4c047bbd3cddb223ad40455e505a36d4f032eb3d7a941eac4306998b35",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0__s52__DK1.json": "330cb229a6f49286033e60245703f9a3fa7c8f3319c489a746c891fd81c9b5df",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0__s52__DK2.json": "339f0cd133099e42a66b586a39d2e979172e48c0549b8861671d33a1ce7227e3",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0__s53__DK1.json": "1156af3d76ceca3237d0d2f06ebfe0d981705e0a7510a4935e855ae132c40cd8",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0__s53__DK2.json": "e17a90461630afe985b3ca0cb9bace75b79c773282ebcd984c55b83551005743",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0__s54__DK1.json": "9ab02bf75f5bdb8109f3ed31f3414e44f2d5723b739388f499c912f4e83ed1ac",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a0__s54__DK2.json": "e5dfd2045c1390f5ae55eb23a8bf9a147d90a7e1457e280882d8db4b244ad32b",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a1__s50__DK1.json": "49f9a8a4eb046cdad384071576f4481d968e4f63867ae7de09113c8bd010e199",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a1__s50__DK2.json": "de4d894a719e9110dcd13e0dc2252da92f73a5c8af592b3f28553677291d68d7",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a1__s51__DK1.json": "eb50f3fa161e1a2c88d65a41d00226191e1b068513a4d3e66896f4a484984f11",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a1__s51__DK2.json": "d8515a1ab7c6144e9a1ae7a80e020aa88de547399cec2be5633869e6c28300ad",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a1__s52__DK1.json": "ce1b0f8dbc2639ded0632ae83d5762f0c436200bad29cad1c6929d31e2c2dde1",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a1__s52__DK2.json": "becadf650cb3464f63abbf672e4b9a4190483de1e6074eb9542cb0be3fb97369",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a1__s53__DK1.json": "a6978df8143f3b5deb6e5542fee1fcaa918b5fa9db860ef47be2f831bfcfefec",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a1__s53__DK2.json": "318b1d376ae18e0fc46f4494f0482f8e4b7e35c5b49be192e90da50590c991e8",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a1__s54__DK1.json": "f2597754c432524454909ed4f90a31f3438c658e450e4f6cb0093ddbf1745182",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/results_q/jobs/DQN-default__a1__s54__DK2.json": "73a53a4a300bcde83fa20697f92d86eb9bd5cd81c91f1ff9967cb2e0fb6697db",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/VERDICTS_Q.md": "db4982d779d2420c53f27ce9cce6132eed6ed1c1177c2535566f89ad5e2ce270",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/runs_q.csv": "b49223917ca6668aa65f497abb4ff124f9eca9bec146288f726f06fd31f43b42",
+    "ACCOUNTING_OPTIONS_2026-10-14/study_q/run_q.py": "81da0fe6b27c45bf7bae955009dc81671a5d1e1782663702be27daf35e002764"
+  }
+}

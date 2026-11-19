@@ -1,0 +1,30 @@
+{
+ "method": "SPR",
+ "learner": "DQN-default",
+ "algo": "DQN",
+ "kwargs": {},
+ "alpha": 0.0,
+ "seed": 85,
+ "region": "DK1",
+ "steps": 1000000,
+ "eval_split": "test",
+ "lev": {
+  "0": 16.0,
+  "0.02": 16.0,
+  "0.05": 16.0,
+  "0.1": 16.0,
+  "0.25": 16.0,
+  "0.5": 16.0,
+  "0.75": 16.0,
+  "1": 16.0,
+  "1.25": 16.0,
+  "1.5": 16.0,
+  "2": 16.0,
+  "2.5": 16.0,
+  "3": 16.0
+ },
+ "drawmean_reported_return_pct": 165.70235840623957,
+ "drawmean_ledger_return_pct": -5.372084421886416,
+ "drawmean_mean_abs_lev_open": 13.3622098022356,
+ "seconds": 2831.3
+}

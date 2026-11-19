@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this software, data or results, please cite it as below."
 type: software
-title: "Reading Hidden Loss Forgiveness from the Reward: Accounting Options and Learned Exploitation in Reinforcement-Learning Simulators for Electricity Trading"
+title: "Simulators That Forgive Losses Teach Reinforcement-Learning Traders to Gamble: Theory, Detection and Removal, with an Application to Electricity Trading"
 authors:
   - alias: gepapak
-version: "6.0.0"
-date-released: "2026-11-07"
+version: "7.0.0"
+date-released: "2026-11-19"
 repository-code: "https://github.com/gepapak/accounting-options-rl"
 license:
   - MIT
@@ -18,29 +18,30 @@ keywords:
   - counterfactual reward
   - gambling for resurrection
   - simulation-based evaluation
+  - backtesting
   - reward misspecification
   - electricity markets
   - imbalance settlement
   - collateral
   - pre-registration
 abstract: >-
-  Reinforcement-learning (RL) traders for electricity markets train in simulators
-  that decide who bears losses beyond capital. An energy-trading engine's protocol
-  shortcuts ranked first a controller reporting +162% to +795% in all six runs while
-  booking -1,822% to -3,655%: the engine floored cash at zero and forgave the rest,
-  mostly unpaid costs. Such rules are options agents learn to exercise:
-  floor-trained agents reported +38% to +148% while booking -15% to -57% in placebo
-  markets, and in an unmodified public simulator with leverage and a linear reward,
-  proximal policy optimization took maximal leverage at 89% of probes and went bust
-  in 61% of episodes (3% and 2% with bankruptcy losses charged). The contribution in
-  artificial intelligence is reading a simulator's accounting from its reward. Along
-  the market input, on a clone, the reward is the payoff diagram of that option
-  book: kinks locate floors and caps, tails give exposure, and booked profit follows
-  without ledger, formula or account structure, given the own cost. We prove when
-  this is exact, where it cannot be, and that error falls with the input's range,
-  not the query count. A sign-reversed twin, its two-point case, brackets booked
-  profit and yields rewards that kept 99% to 115% of the ledger-trained edge with
-  losses floored per account or position, where a 5% balance ruin penalty failed. On
-  real engine clones, the reading recovered booked return within 0.0001 points in
-  ten runs; twin estimates erred by 9 to 1,410. The engineering application is
-  validating RL simulators for electricity trading.
+  Reinforcement-learning (RL) traders are trained and evaluated in simulators. A
+  simulator's accounting decides who bears a loss beyond the agent's capital, and
+  many forgive it: they floor equity at zero, write off the overshoot, or leave the
+  bankruptcy step unrewarded. This hands the agent a free option. RL agents learn to
+  exercise it by gambling near ruin, while evaluation reports a profit. Five
+  accounting rules form an ordered ladder of such options, and approximate closed
+  forms give their value. A finer time step removes a capped loss's subsidy but
+  raises a zero floor's to twice that of terminal limited liability. In 2,295
+  registered agents on Nordic electricity spreads and three public trading
+  simulators, the exploit was learned where training reached a forgiven floor. In
+  the open-source backtester backtesting.py, PPO learned to bet maximal leverage
+  near ruin in 12 of 16 registered seeds on a market without edge, against 1 of 16
+  in backtrader, which books the loss. No log whose market moves stay short of a
+  floor can reveal it, however long; one query on a clone past the floor can. Along
+  the market input, the reward is the booked profit plus a convex option payoff, so
+  its shape locates hidden floors. Rewards built from a sign-reversed clone step
+  removed the exploit in every registered test and mostly kept the honest edge,
+  including where ruin penalties failed because losses were floored per account. In
+  an electricity-trading engine, shortcuts ranked first a controller reporting +437%
+  while booking -2,980%.

@@ -1,0 +1,6 @@
+market,condition,algo,seed,steps,reported_return_pct,booked_return_pct,floored_share,wiped_share,orders_per_episode,max_leverage,reading_max_abs_err_usd,test_paths,policy_sha256,seconds,x0.02,x0.05,x0.1,x0.25,x0.5,x1,x2,xlow,gap,train_floor_steps,train_episodes,train_wiped_episodes,train_floored_episodes,train_line_max_abs_err
+crypto,FLPATCH,PPO,99,16384,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5,d03c0bb63c3385ad813c44c1b30336709cb4562932bab9fdf5d85b8656d8f626,102.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,128,94,0,0.0
+crypto,LINE,PPO,99,16384,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5,7ac02d2c13c8f9e943b8890c0e2f7dbb25f2bcdeef01e0c2534e1166c8271d61,120.7,0.15625,0.0625,0.0,0.0,0.0,0.0,0.0,0.0546875,0.0,98,128,93,93,1.178705133497715e-09
+crypto,ORIG,PPO,99,16384,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5,94b0db40482542c811170836022e7a62f2086da3a9b2fd98d7610bef15f04eae,102.6,0.03125,0.012499999999999999,0.0062499999999999995,0.0025,0.0,0.0,0.0,0.013125,0.0,99,128,93,93,0.0
+forex,FLPATCH,PPO,99,16384,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5,1267bc7627080f0b6ef092934ec83cdd1cab132b6cca046a7a76f330d0f09857,104.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,184,6,0,0.0
+forex,ORIG,PPO,99,16384,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5,45ac43dde39bb6ac8f8145855880eed116bea289a385a52a893901e297fd613e,103.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8,184,7,7,0.0

@@ -1,0 +1,214 @@
+{
+  "label": "EXPLORATORY Monte Carlo sensitivity audit",
+  "thresholds": [
+    {
+      "calibration": "original_10_conditions_revised_FI_included",
+      "n_conditions": 10,
+      "nominal_threshold_pct": 0.3667681155432035,
+      "bootstrap_positive_separation_fraction": 1.0,
+      "threshold_MC_interval_pct_conditional_on_separation": [
+        0.21469237161234495,
+        0.36202809891341653,
+        0.7597011614155865
+      ],
+      "bootstrap_nonseparating_or_zero_endpoint_count": 0,
+      "n_bootstrap": 2000,
+      "warning": "Conditional interval excludes invalid calibration draws; outcome labels and market sample fixed."
+    },
+    {
+      "calibration": "sensitivity_9_conditions_FI_excluded",
+      "n_conditions": 9,
+      "nominal_threshold_pct": 0.3694275838949064,
+      "bootstrap_positive_separation_fraction": 1.0,
+      "threshold_MC_interval_pct_conditional_on_separation": [
+        0.22451639424596406,
+        0.3780597247906855,
+        0.7957335588240663
+      ],
+      "bootstrap_nonseparating_or_zero_endpoint_count": 0,
+      "n_bootstrap": 2000,
+      "warning": "Conditional interval excludes invalid calibration draws; outcome labels and market sample fixed."
+    }
+  ],
+  "alpha1_controls": [
+    {
+      "zone": "DK1",
+      "dp_index_pct": 0.0,
+      "surrogate_index_pct": 1.668867542339152e-05,
+      "mc_interval_pct": [
+        0.0,
+        0.0005638617003074335,
+        0.29040208435056264
+      ],
+      "point_predicts_control_exploit": false,
+      "bootstrap_control_above_threshold_fraction_conditional_on_calibration": 0.0185,
+      "interpretation": "Positive Q_pi can reflect avoiding future reference-policy fees; it is not evidence of an optimal exploit in the fully booked control."
+    },
+    {
+      "zone": "DK2",
+      "dp_index_pct": 0.0,
+      "surrogate_index_pct": 0.0048451738577548,
+      "mc_interval_pct": [
+        0.0,
+        0.010576601665144477,
+        0.28347987893512944
+      ],
+      "point_predicts_control_exploit": false,
+      "bootstrap_control_above_threshold_fraction_conditional_on_calibration": 0.0105,
+      "interpretation": "Positive Q_pi can reflect avoiding future reference-policy fees; it is not evidence of an optimal exploit in the fully booked control."
+    }
+  ],
+  "primary_O_arm_joint_MC_uncertainty": [
+    {
+      "alpha": 0.0,
+      "probability_above_threshold_MC_only": 1.0,
+      "mean_zone_index_minus_calibration_midpoint_MC_interval_pct": [
+        0.763276076680994,
+        1.2471967558583248,
+        1.742316453182426
+      ],
+      "interval_excludes_zero": true,
+      "interpretation": "Joint batch bootstrap preserves shared alpha/probe/calibration randomness; excludes market/outcome uncertainty and deterministic tail allowance."
+    },
+    {
+      "alpha": 0.25,
+      "probability_above_threshold_MC_only": 0.9995,
+      "mean_zone_index_minus_calibration_midpoint_MC_interval_pct": [
+        0.3258878420422649,
+        0.7593648086646256,
+        1.1985435199922019
+      ],
+      "interval_excludes_zero": true,
+      "interpretation": "Joint batch bootstrap preserves shared alpha/probe/calibration randomness; excludes market/outcome uncertainty and deterministic tail allowance."
+    },
+    {
+      "alpha": 0.5,
+      "probability_above_threshold_MC_only": 0.9415,
+      "mean_zone_index_minus_calibration_midpoint_MC_interval_pct": [
+        -0.10143683256110118,
+        0.3012914874135482,
+        0.6629000674502487
+      ],
+      "interval_excludes_zero": false,
+      "interpretation": "Joint batch bootstrap preserves shared alpha/probe/calibration randomness; excludes market/outcome uncertainty and deterministic tail allowance."
+    },
+    {
+      "alpha": 0.7,
+      "probability_above_threshold_MC_only": 0.4045,
+      "mean_zone_index_minus_calibration_midpoint_MC_interval_pct": [
+        -0.4424083670952534,
+        -0.030926473666959886,
+        0.2705946510870199
+      ],
+      "interval_excludes_zero": false,
+      "interpretation": "Joint batch bootstrap preserves shared alpha/probe/calibration randomness; excludes market/outcome uncertainty and deterministic tail allowance."
+    },
+    {
+      "alpha": 0.8,
+      "probability_above_threshold_MC_only": 0.0745,
+      "mean_zone_index_minus_calibration_midpoint_MC_interval_pct": [
+        -0.5830002196591175,
+        -0.18583998659152565,
+        0.0863404313572054
+      ],
+      "interval_excludes_zero": false,
+      "interpretation": "Joint batch bootstrap preserves shared alpha/probe/calibration randomness; excludes market/outcome uncertainty and deterministic tail allowance."
+    },
+    {
+      "alpha": 0.9,
+      "probability_above_threshold_MC_only": 0.012,
+      "mean_zone_index_minus_calibration_midpoint_MC_interval_pct": [
+        -0.6961409748164379,
+        -0.3022922222865172,
+        -0.060233673144158055
+      ],
+      "interval_excludes_zero": true,
+      "interpretation": "Joint batch bootstrap preserves shared alpha/probe/calibration randomness; excludes market/outcome uncertainty and deterministic tail allowance."
+    },
+    {
+      "alpha": 0.95,
+      "probability_above_threshold_MC_only": 0.006,
+      "mean_zone_index_minus_calibration_midpoint_MC_interval_pct": [
+        -0.7146769402532993,
+        -0.32871086513687064,
+        -0.0998545118936161
+      ],
+      "interval_excludes_zero": true,
+      "interpretation": "Joint batch bootstrap preserves shared alpha/probe/calibration randomness; excludes market/outcome uncertainty and deterministic tail allowance."
+    }
+  ],
+  "absolute_discrepancy": [
+    {
+      "reference": "flat",
+      "mean_signed_error_pct": -0.2431836696365955,
+      "mean_absolute_error_pct": 0.2431836696365955,
+      "rmse_pct": 0.31397593255019524,
+      "median_mc_interval_width_pct": 0.3795634300906324,
+      "max_mc_interval_width_pct": 1.4530260519163303,
+      "comparison_caveat": "Q_pi vs Q*, empirical vs binned noise/dynamics, and revised FI source; not pure estimator bias."
+    },
+    {
+      "reference": "max16",
+      "mean_signed_error_pct": -0.008249703440773864,
+      "mean_absolute_error_pct": 0.08274760448347693,
+      "rmse_pct": 0.14028823306087554,
+      "median_mc_interval_width_pct": 0.5260403198315488,
+      "max_mc_interval_width_pct": 1.5087380045926568,
+      "comparison_caveat": "Q_pi vs Q*, empirical vs binned noise/dynamics, and revised FI source; not pure estimator bias."
+    },
+    {
+      "reference": "threshold1",
+      "mean_signed_error_pct": -0.011290897386357976,
+      "mean_absolute_error_pct": 0.23370877041760313,
+      "rmse_pct": 0.35539812208101756,
+      "median_mc_interval_width_pct": 0.6514207232016564,
+      "max_mc_interval_width_pct": 1.4992512930289466,
+      "comparison_caveat": "Q_pi vs Q*, empirical vs binned noise/dynamics, and revised FI source; not pure estimator bias."
+    }
+  ],
+  "source_manifest": [
+    {
+      "zone": "DK1",
+      "costs": "H",
+      "sigma16_empirical": 763.1078572447021,
+      "sigma_empirical_over_binned": 1.0192432251878505,
+      "empirical_panel_registration_status": "not_a_Study_J_panel"
+    },
+    {
+      "zone": "DK1",
+      "costs": "base",
+      "sigma16_empirical": 847.989505303779,
+      "sigma_empirical_over_binned": 1.0124120796414984,
+      "empirical_panel_registration_status": "not_a_Study_J_panel"
+    },
+    {
+      "zone": "DK2",
+      "costs": "H",
+      "sigma16_empirical": 691.7541736403407,
+      "sigma_empirical_over_binned": 1.0043290042366022,
+      "empirical_panel_registration_status": "not_a_Study_J_panel"
+    },
+    {
+      "zone": "DK2",
+      "costs": "base",
+      "sigma16_empirical": 818.5158702803249,
+      "sigma_empirical_over_binned": 1.000602701243956,
+      "empirical_panel_registration_status": "not_a_Study_J_panel"
+    },
+    {
+      "zone": "FI",
+      "costs": "base",
+      "sigma16_empirical": 963.000995140442,
+      "sigma_empirical_over_binned": 1.014528043977207,
+      "empirical_panel_registration_status": "REVISED_J_PANEL"
+    },
+    {
+      "zone": "NO2",
+      "costs": "base",
+      "sigma16_empirical": 97.96869787460471,
+      "sigma_empirical_over_binned": 0.9966748845752053,
+      "empirical_panel_registration_status": "MATCHES_REGISTERED_J_PANEL"
+    }
+  ],
+  "caveat": "No population/generalization confidence claim. Bootstrap batches preserve alpha/probe dependence; existing outcomes are fixed. No reference selected and no new study launched."
+}

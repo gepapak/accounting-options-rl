@@ -1,0 +1,237 @@
+{
+  "status": "EXPLORATORY completed generative certificate validation",
+  "n_search_per_law": 8192,
+  "n_confirmation_per_law": 262144,
+  "joint_error_budget": 0.05,
+  "confidence_unit": "IID complete paths",
+  "all_alpha_uniform_for_fixed_action": true,
+  "rows": [
+    {
+      "pareto_shape": 1.5,
+      "price_support_upper": null,
+      "gross_variance_finite": false,
+      "expected_booked_return": -0.1,
+      "search_candidates": [
+        {
+          "residual_cap": 4.0,
+          "forgiveness_cap": 20.500000000000004,
+          "projected_target_lower": 0.010591255662845814,
+          "search_scoring_only": {
+            "n": 8192,
+            "scoring_n": 262144,
+            "mean": 0.5665951685048508,
+            "sample_variance": 4.930802578808223,
+            "range": [
+              0.0,
+              20.500000000000004
+            ],
+            "delta": 0.025,
+            "radius": 0.013638890190621556,
+            "lower_mean": 0.5529562783142292
+          }
+        },
+        {
+          "residual_cap": 16.0,
+          "forgiveness_cap": 80.50000000000003,
+          "projected_target_lower": 0.030098150022259684,
+          "search_scoring_only": {
+            "n": 8192,
+            "scoring_n": 262144,
+            "mean": 0.67469832999324,
+            "sample_variance": 13.27609170148164,
+            "range": [
+              0.0,
+              80.50000000000003
+            ],
+            "delta": 0.025,
+            "radius": 0.024207579881941492,
+            "lower_mean": 0.6504907501112985
+          }
+        },
+        {
+          "residual_cap": 64.0,
+          "forgiveness_cap": 320.50000000000006,
+          "projected_target_lower": 0.03827070136762631,
+          "search_scoring_only": {
+            "n": 8192,
+            "scoring_n": 262144,
+            "mean": 0.7392413301319065,
+            "sample_variance": 37.455907236179264,
+            "range": [
+              0.0,
+              320.50000000000006
+            ],
+            "delta": 0.025,
+            "radius": 0.047887823293774806,
+            "lower_mean": 0.6913535068381317
+          }
+        },
+        {
+          "residual_cap": 256.0,
+          "forgiveness_cap": 1280.5000000000005,
+          "projected_target_lower": 0.032701111965040996,
+          "search_scoring_only": {
+            "n": 8192,
+            "scoring_n": 262144,
+            "mean": 0.7536737047468892,
+            "sample_variance": 48.393188008740005,
+            "range": [
+              0.0,
+              1280.5000000000005
+            ],
+            "delta": 0.025,
+            "radius": 0.09016814492168403,
+            "lower_mean": 0.6635055598252052
+          }
+        }
+      ],
+      "selected_cap": 64.0,
+      "selected_forgiveness_cap": 320.50000000000006,
+      "confirmation": {
+        "n": 262144,
+        "scoring_n": 262144,
+        "mean": 0.6595926202729726,
+        "sample_variance": 27.486855701028663,
+        "range": [
+          0.0,
+          320.50000000000006
+        ],
+        "delta": 0.025,
+        "radius": 0.042815035842877595,
+        "lower_mean": 0.616777584430095
+      },
+      "true_forgiveness_mean": 0.7254762501100117,
+      "true_capped_forgiveness_mean": 0.6697830101907476,
+      "confidence_covers_capped_truth": true,
+      "true_critical_alpha": 0.8621595124790977,
+      "certified_alpha_interval": [
+        0.0,
+        0.8378670001563037
+      ],
+      "certified_alpha_upper_is_open": true,
+      "target_alpha": 0.8,
+      "target_true_proxy_mean": 0.04509525002200229,
+      "target_proxy_lower": 0.023355516886018973,
+      "target_positive_witness_confirmed": true,
+      "full_booking_mean": -0.1,
+      "full_booking_positive_witness": false,
+      "raw_bounded_Bernstein_at_target": "unsupported: raw negative tail is unbounded",
+      "model_scope": "Known synthetic IID fair-sign law, finite first moment, bounded executed cost; not future-market coverage."
+    },
+    {
+      "pareto_shape": 2.5,
+      "price_support_upper": null,
+      "gross_variance_finite": true,
+      "expected_booked_return": -0.1,
+      "search_candidates": [
+        {
+          "residual_cap": 4.0,
+          "forgiveness_cap": 20.500000000000004,
+          "projected_target_lower": -0.078069079120405,
+          "search_scoring_only": {
+            "n": 8192,
+            "scoring_n": 262144,
+            "mean": 0.1143123279808236,
+            "sample_variance": 0.44523512371725854,
+            "range": [
+              0.0,
+              20.500000000000004
+            ],
+            "delta": 0.025,
+            "radius": 0.004657723582848555,
+            "lower_mean": 0.10965460439797504
+          }
+        },
+        {
+          "residual_cap": 16.0,
+          "forgiveness_cap": 80.50000000000003,
+          "projected_target_lower": -0.07853713184647768,
+          "search_scoring_only": {
+            "n": 8192,
+            "scoring_n": 262144,
+            "mean": 0.1143123279808236,
+            "sample_variance": 0.44523512371725854,
+            "range": [
+              0.0,
+              80.50000000000003
+            ],
+            "delta": 0.025,
+            "radius": 0.006997987213211921,
+            "lower_mean": 0.10731434076761168
+          }
+        },
+        {
+          "residual_cap": 64.0,
+          "forgiveness_cap": 320.50000000000006,
+          "projected_target_lower": -0.08040934275076836,
+          "search_scoring_only": {
+            "n": 8192,
+            "scoring_n": 262144,
+            "mean": 0.1143123279808236,
+            "sample_variance": 0.44523512371725854,
+            "range": [
+              0.0,
+              320.50000000000006
+            ],
+            "delta": 0.025,
+            "radius": 0.01635904173466538,
+            "lower_mean": 0.09795328624615822
+          }
+        },
+        {
+          "residual_cap": 256.0,
+          "forgiveness_cap": 1280.5000000000005,
+          "projected_target_lower": -0.08789818636793113,
+          "search_scoring_only": {
+            "n": 8192,
+            "scoring_n": 262144,
+            "mean": 0.1143123279808236,
+            "sample_variance": 0.44523512371725854,
+            "range": [
+              0.0,
+              1280.5000000000005
+            ],
+            "delta": 0.025,
+            "radius": 0.053803259820479225,
+            "lower_mean": 0.06050906816034437
+          }
+        }
+      ],
+      "selected_cap": 4.0,
+      "selected_forgiveness_cap": 20.500000000000004,
+      "confirmation": {
+        "n": 262144,
+        "scoring_n": 262144,
+        "mean": 0.12563281598042364,
+        "sample_variance": 0.5552028753108978,
+        "range": [
+          0.0,
+          20.500000000000004
+        ],
+        "delta": 0.025,
+        "radius": 0.005107914474622904,
+        "lower_mean": 0.12052490150580074
+      },
+      "true_forgiveness_mean": 0.1272765351070196,
+      "true_capped_forgiveness_mean": 0.12413236005222603,
+      "confidence_covers_capped_truth": true,
+      "true_critical_alpha": 0.21430922113085749,
+      "certified_alpha_interval": [
+        0.0,
+        0.1702959409165158
+      ],
+      "certified_alpha_upper_is_open": true,
+      "target_alpha": 0.8,
+      "target_true_proxy_mean": -0.07454469297859609,
+      "target_proxy_lower": -0.07589501969883986,
+      "target_positive_witness_confirmed": false,
+      "full_booking_mean": -0.1,
+      "full_booking_positive_witness": false,
+      "raw_bounded_Bernstein_at_target": "unsupported: raw negative tail is unbounded",
+      "model_scope": "Known synthetic IID fair-sign law, finite first moment, bounded executed cost; not future-market coverage."
+    }
+  ],
+  "elapsed_seconds": 0.09232949999568518,
+  "script_sha256": "5756e0ca7956746122ce5bfdd88198d3bc24018313111d7a09d284cfb401f147",
+  "plan_sha256": "357672a40ba1d97c87b7fdde95424a7f3443d2456e30119d6b8140a43913a7c0"
+}

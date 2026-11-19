@@ -1,6 +1,6 @@
 # Engine Audit Evaluation Results
 
-Part of the codebase for the paper *"Reading hidden loss forgiveness from the reward of reinforcement-learning trading simulators, with an electricity-trading engine"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
+Part of the codebase for the paper *"Simulators that forgive losses teach reinforcement-learning traders to gamble: theory, detection and removal, with an application to electricity trading"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
 
 ## Contents
 - `campaign/`: Evaluation outputs from the 300-run scarcity tail campaign (`results_long.csv`), tracking reported vs booked returns, cash floor hits, and solvency violations.

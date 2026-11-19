@@ -1,0 +1,4 @@
+bundled EURUSD sample: 5000 bars, 2017-04-19 09:00 .. 2018-02-07 15:00
+200 zero-skill long/short strategies at the tutorial's settings (margin .05 = 20:1, commission .0002):
+  equity reached zero (the engine set it to 0 and stopped) in 0.0% of runs
+  mean reported -93.51% against mean booked -93.51%

@@ -1,0 +1,4 @@
+done btpy__s41__500000_two50.json (2015.5 s): low-equity mean leverage 50.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +6.38 booked +0.96 zero 0.46
+done btpy__s42__500000_two50.json (2047.1 s): low-equity mean leverage 50.0, share >= 64 0.00 | from 10k: reported +6.23 booked +0.82 zero 0.46 | from 1k: reported +6.38 booked +0.96 zero 0.46
+done btpy__s43__500000_two50.json (1903.9 s): low-equity mean leverage 0.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +0.00 booked +0.00 zero 0.00
+done btpy__s44__500000_two50.json (1883.3 s): low-equity mean leverage 0.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +0.00 booked +0.00 zero 0.00

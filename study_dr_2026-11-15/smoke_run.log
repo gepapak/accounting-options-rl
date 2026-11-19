@@ -1,0 +1,9 @@
+﻿18:45:07 8 jobs, 0 complete, running 8 with 8 workers
+18:49:36 done L500__ORIG__PPO__s699.json (142.5s): x(0.1)=0.00 xlow=0.000 x(1)=0.00 | nominal rep +0.00 booked +0.00 | k4 rep +0.00 booked +0.00 wiped 0.00 | train floored eps 52/184
+18:49:36 done V16__ORIG__PPO__s699.json (145.3s): x(0.1)=0.07 xlow=0.156 x(1)=0.00 | nominal rep +0.09 booked +0.09 | k4 rep +0.63 booked +0.63 wiped 0.00 | train floored eps 93/184
+18:49:38 done V4__ORIG__PPO__s699.json (141.0s): x(0.1)=0.07 xlow=0.178 x(1)=0.00 | nominal rep +0.00 booked +0.00 | k4 rep +0.00 booked +0.00 wiped 0.00 | train floored eps 47/184
+18:49:39 done V8__ORIG__PPO__s699.json (141.8s): x(0.1)=0.10 xlow=0.224 x(1)=0.00 | nominal rep +0.00 booked +0.00 | k4 rep +0.00 booked +0.00 wiped 0.00 | train floored eps 66/184
+18:49:39 done L30__ORIG__PPO__s699.json (139.8s): x(0.1)=0.00 xlow=0.000 x(1)=0.00 | nominal rep +0.00 booked +0.00 | k4 rep +0.00 booked +0.00 wiped 0.00 | train floored eps 0/184
+18:49:40 done V2__ORIG__PPO__s699.json (141.8s): x(0.1)=0.11 xlow=0.256 x(1)=0.00 | nominal rep +0.00 booked +0.00 | k4 rep +0.00 booked +0.00 wiped 0.00 | train floored eps 17/184
+18:49:41 done V16__FLPATCH__PPO__s699.json (141.9s): x(0.1)=0.02 xlow=0.068 x(1)=0.00 | nominal rep -0.10 booked -0.10 | k4 rep -0.63 booked -0.63 wiped 0.00 | train floored eps 0/184
+18:49:41 done L500__FLPATCH__PPO__s699.json (143.3s): x(0.1)=0.00 xlow=0.000 x(1)=0.00 | nominal rep +0.00 booked +0.00 | k4 rep +0.00 booked +0.00 wiped 0.00 | train floored eps 0/184

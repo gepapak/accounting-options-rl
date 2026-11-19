@@ -1,0 +1,14 @@
+﻿ok        PREREGISTRATION_XE.md
+ok        run_xe.ps1
+ok        hash_prereg_xe.py
+ok        aggregate_xe.py
+ok        engines_pilot.py
+ok        rl_engine_env.py
+ok        rl_engine_pilot.py
+ok        reading_engines.py
+ok        census_mtsim.py
+ok        eurusd_mags.npy
+ok        crypto_mags.npy
+ok        ../study_gc_2026-11-14/envs_gc.py
+ok        RUN_LOG_XE.md
+all registered files match

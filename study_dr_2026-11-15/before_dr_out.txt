@@ -1,0 +1,10 @@
+﻿nominal (Study GC's forex arm, k = 1, leverage 100): published -2.39%  booked -2.44%  floor share 0.0057
+V2    position   97.5x  published C   -1.77%  booked  -2.44%  credit   +0.67 pts  floor share 0.027 | reach initial 0.091 (1066/run, 289 USD each), largest 0.591
+V4    position   97.5x  published C   +2.06%  booked  -2.44%  credit   +4.50 pts  floor share 0.084 | reach initial 0.223 (2613/run, 589 USD each), largest 0.701
+V8    position   97.5x  published C  +12.53%  booked  -2.44%  credit  +14.97 pts  floor share 0.144 | reach initial 0.364 (4265/run, 1014 USD each), largest 0.763
+V16   position   97.5x  published C  +34.42%  booked  -2.44%  credit  +36.86 pts  floor share 0.200 | reach initial 0.468 (5483/run, 1607 USD each), largest 0.815
+L30   position   29.8x  published C   -0.74%  booked  -0.74%  credit   +0.00 pts  floor share 0.000 | reach initial 0.000 (0/run, -0 USD each), largest 0.008
+L500  position  444.4x  published C  +13.94%  booked -11.11%  credit  +25.04 pts  floor share 0.253 | reach initial 0.317 (3714/run, 307 USD each), largest 0.893
+hidden leverage ~ logU[100-1000]: leverage-aware mean +9.41%, best single request +4.63% (sized for leverage 589.9746255923563)
+hidden leverage ~ logU[30-500]: leverage-aware mean -0.16%, best single request +0.58% (sized for leverage 395.50253838692447)
+250.4 s

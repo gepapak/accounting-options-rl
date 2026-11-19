@@ -1,0 +1,105 @@
+{
+  "status": "EXPLORATORY_complete",
+  "confirmed_case_method_pairs": 90,
+  "planned_case_method_pairs": 90,
+  "delta_per_bound": 9.25925925925926e-05,
+  "familywise_error_budget": 0.05,
+  "planned_bounds": 540,
+  "confidence_bound": "Maurer-Pontil2009Theorem4; fixed n; SEARCH and CONFIRM independent",
+  "environment_check": {
+    "feedback_paths": 24,
+    "arm_path_checks": 48,
+    "max_abs_error_eur": 3.637978807091713e-12
+  },
+  "summary_by_method": [
+    {
+      "method": "one_action",
+      "cases": 18,
+      "one_action_exact_positive_cases": 9,
+      "raw_certified": 0,
+      "residual_certified": 0,
+      "clipped_certified": 6,
+      "clipped_raw_certified": 0,
+      "clipped_certified_where_exact_one_action_fails": 0,
+      "median_residual_over_raw_variance": 0.037461266217183556,
+      "residual_variance_exceeds_raw_cases": 0,
+      "search_logical_transitions": 6684672,
+      "confirmation_logical_transitions": 13369344
+    },
+    {
+      "method": "myopic",
+      "cases": 18,
+      "one_action_exact_positive_cases": 9,
+      "raw_certified": 1,
+      "residual_certified": 2,
+      "clipped_certified": 6,
+      "clipped_raw_certified": 0,
+      "clipped_certified_where_exact_one_action_fails": 0,
+      "median_residual_over_raw_variance": 0.04328693322150307,
+      "residual_variance_exceeds_raw_cases": 0,
+      "search_logical_transitions": 6684672,
+      "confirmation_logical_transitions": 13369344
+    },
+    {
+      "method": "fixed_barrier",
+      "cases": 18,
+      "one_action_exact_positive_cases": 9,
+      "raw_certified": 0,
+      "residual_certified": 2,
+      "clipped_certified": 6,
+      "clipped_raw_certified": 0,
+      "clipped_certified_where_exact_one_action_fails": 0,
+      "median_residual_over_raw_variance": 0.05285293615690948,
+      "residual_variance_exceeds_raw_cases": 0,
+      "search_logical_transitions": 6684672,
+      "confirmation_logical_transitions": 13369344
+    },
+    {
+      "method": "structured_feedback",
+      "cases": 18,
+      "one_action_exact_positive_cases": 9,
+      "raw_certified": 0,
+      "residual_certified": 2,
+      "clipped_certified": 4,
+      "clipped_raw_certified": 0,
+      "clipped_certified_where_exact_one_action_fails": 0,
+      "median_residual_over_raw_variance": 0.028531283266786,
+      "residual_variance_exceeds_raw_cases": 0,
+      "search_logical_transitions": 6684672,
+      "confirmation_logical_transitions": 13369344
+    },
+    {
+      "method": "random_parameter_search",
+      "cases": 18,
+      "one_action_exact_positive_cases": 9,
+      "raw_certified": 1,
+      "residual_certified": 2,
+      "clipped_certified": 4,
+      "clipped_raw_certified": 0,
+      "clipped_certified_where_exact_one_action_fails": 0,
+      "median_residual_over_raw_variance": 0.03020322899039376,
+      "residual_variance_exceeds_raw_cases": 0,
+      "search_logical_transitions": 6684672,
+      "confirmation_logical_transitions": 13369344
+    }
+  ],
+  "max_accounting_identity_error": 5.4569682106375694e-12,
+  "cpu_seconds": 18.5,
+  "wall_seconds": 22.827168199997686,
+  "numeric_threads": 1,
+  "registered_or_R_files_read": false,
+  "dp_solved": false,
+  "learners_trained": 0,
+  "input_sha256": {
+    "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK1.pkl": "4cbce448a8ea5af4875c3828d60ac763cbb81f15afeb91157c2e6d3b3f6cdff3",
+    "GENERALIZATION_STUDY_2026-09-29\\data_panel\\panel_DK2.pkl": "28fcb73457b67df176ba2a3bf1d651129ac08f1989fbb65656e2cb9c4e24059a"
+  },
+  "script_sha256": "48b1d18dc57ec70b25beb1f60e9bed954a502b79b9c12bae89a44ce7c8e9909b",
+  "plan_sha256": "c37e22c865a178b3ff195d1dbdfe399d7e53ed954da16b8359f959f6ef66b680",
+  "kernel_rows": {
+    "DK1": 28059,
+    "DK2": 28059
+  },
+  "kernel_preprocessing": "two magnitudes/cost payoff levels, full empirical sorting; not simulator calls",
+  "interpretation": "Positive bound certifies a fixed policy's empirical IID model incentive with exact booked harm; abstention does not certify safety or learnability. No universal variance reduction claim."
+}

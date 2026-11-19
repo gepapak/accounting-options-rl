@@ -1,0 +1,86 @@
+{
+ "arm": "L500",
+ "k_hi": 1.0,
+ "leverage": 500.0,
+ "condition": "FLPATCH",
+ "algo": "PPO",
+ "seed": 699,
+ "steps": 16384,
+ "exposure": {
+  "0.02": 0.0,
+  "0.05": 0.0,
+  "0.1": 0.0,
+  "0.25": 0.0,
+  "0.5": 0.0,
+  "1": 0.0,
+  "2": 0.002160702228224173
+ },
+ "xlow": 0.0,
+ "test_nominal": {
+  "reported_return_pct": 0.0,
+  "booked_return_pct": 0.0,
+  "gap": 0.0,
+  "draws_reported": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "draws_booked": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "floored_share": 0.0,
+  "wiped_share": 0.0,
+  "orders_per_episode": 0.0,
+  "max_leverage": 0.0,
+  "test_paths": 5
+ },
+ "test_stressed_k4": {
+  "reported_return_pct": 0.0,
+  "booked_return_pct": 0.0,
+  "gap": 0.0,
+  "draws_reported": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "draws_booked": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "floored_share": 0.0,
+  "wiped_share": 0.0,
+  "orders_per_episode": 0.0,
+  "max_leverage": 0.0,
+  "test_paths": 5
+ },
+ "train": {
+  "steps": 16384,
+  "floor_steps": 0,
+  "episodes": 184,
+  "wiped_episodes": 52,
+  "floored_episodes": 0,
+  "line_steps": 0,
+  "line_max_abs_err": 0.0
+ },
+ "policy_sha256": "7adc1d9be5e95b3287c825f1dbac1eff67c5f1a8880d9fcb98fa6d10771707fb",
+ "versions": {
+  "gym-mtsim": "2.0.0",
+  "pandas": "2.0.3",
+  "numpy": "1.26.4",
+  "gymnasium": "1.2.0",
+  "stable-baselines3": "2.7.0",
+  "torch": "2.8.0"
+ },
+ "seconds": 143.3
+}

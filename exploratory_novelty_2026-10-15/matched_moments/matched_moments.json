@@ -1,0 +1,304 @@
+{
+  "status": "exploratory exact mathematical counterexample",
+  "initial_equity": {
+    "exact": "1",
+    "decimal": 1.0
+  },
+  "alpha": {
+    "exact": "4/5",
+    "decimal": 0.8
+  },
+  "executed_position": {
+    "exact": "1",
+    "decimal": 1.0
+  },
+  "nominal_fee_per_unit": {
+    "exact": "1/1000",
+    "decimal": 0.001
+  },
+  "common_gross_absolute_bound": {
+    "exact": "3/2",
+    "decimal": 1.5
+  },
+  "matched_fields": [
+    "gross_mean",
+    "gross_variance",
+    "gross_absolute_mean",
+    "expected_executed_cost",
+    "net_mean",
+    "net_variance",
+    "net_absolute_mean"
+  ],
+  "markets": {
+    "A": {
+      "amplitude_distribution": [
+        {
+          "amplitude": {
+            "exact": "1/4",
+            "decimal": 0.25
+          },
+          "probability": {
+            "exact": "1/2",
+            "decimal": 0.5
+          }
+        },
+        {
+          "amplitude": {
+            "exact": "3/4",
+            "decimal": 0.75
+          },
+          "probability": {
+            "exact": "1/2",
+            "decimal": 0.5
+          }
+        }
+      ],
+      "gross_pmf": [
+        {
+          "gross_payoff": {
+            "exact": "-3/4",
+            "decimal": -0.75
+          },
+          "probability": {
+            "exact": "1/4",
+            "decimal": 0.25
+          }
+        },
+        {
+          "gross_payoff": {
+            "exact": "-1/4",
+            "decimal": -0.25
+          },
+          "probability": {
+            "exact": "1/4",
+            "decimal": 0.25
+          }
+        },
+        {
+          "gross_payoff": {
+            "exact": "1/4",
+            "decimal": 0.25
+          },
+          "probability": {
+            "exact": "1/4",
+            "decimal": 0.25
+          }
+        },
+        {
+          "gross_payoff": {
+            "exact": "3/4",
+            "decimal": 0.75
+          },
+          "probability": {
+            "exact": "1/4",
+            "decimal": 0.25
+          }
+        }
+      ],
+      "gross_mean": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "gross_variance": {
+        "exact": "5/16",
+        "decimal": 0.3125
+      },
+      "gross_absolute_mean": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "expected_executed_cost": {
+        "exact": "1/1000",
+        "decimal": 0.001
+      },
+      "net_mean": {
+        "exact": "-1/1000",
+        "decimal": -0.001
+      },
+      "net_variance": {
+        "exact": "5/16",
+        "decimal": 0.3125
+      },
+      "net_absolute_mean": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "expected_injection": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "charged_one_step_reward": {
+        "exact": "-1/1000",
+        "decimal": -0.001
+      },
+      "unadjusted_account_reward": {
+        "exact": "-1/1000",
+        "decimal": -0.001
+      },
+      "positive_charged_witness": false,
+      "fully_booked_action_reward": {
+        "exact": "-1/1000",
+        "decimal": -0.001
+      },
+      "fully_booked_gated_witness_value": {
+        "exact": "0",
+        "decimal": 0.0
+      }
+    },
+    "B": {
+      "amplitude_distribution": [
+        {
+          "amplitude": {
+            "exact": "1/4",
+            "decimal": 0.25
+          },
+          "probability": {
+            "exact": "1/5",
+            "decimal": 0.2
+          }
+        },
+        {
+          "amplitude": {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          "probability": {
+            "exact": "3/4",
+            "decimal": 0.75
+          }
+        },
+        {
+          "amplitude": {
+            "exact": "3/2",
+            "decimal": 1.5
+          },
+          "probability": {
+            "exact": "1/20",
+            "decimal": 0.05
+          }
+        }
+      ],
+      "gross_pmf": [
+        {
+          "gross_payoff": {
+            "exact": "-3/2",
+            "decimal": -1.5
+          },
+          "probability": {
+            "exact": "1/40",
+            "decimal": 0.025
+          }
+        },
+        {
+          "gross_payoff": {
+            "exact": "-1/2",
+            "decimal": -0.5
+          },
+          "probability": {
+            "exact": "3/8",
+            "decimal": 0.375
+          }
+        },
+        {
+          "gross_payoff": {
+            "exact": "-1/4",
+            "decimal": -0.25
+          },
+          "probability": {
+            "exact": "1/10",
+            "decimal": 0.1
+          }
+        },
+        {
+          "gross_payoff": {
+            "exact": "1/4",
+            "decimal": 0.25
+          },
+          "probability": {
+            "exact": "1/10",
+            "decimal": 0.1
+          }
+        },
+        {
+          "gross_payoff": {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          "probability": {
+            "exact": "3/8",
+            "decimal": 0.375
+          }
+        },
+        {
+          "gross_payoff": {
+            "exact": "3/2",
+            "decimal": 1.5
+          },
+          "probability": {
+            "exact": "1/40",
+            "decimal": 0.025
+          }
+        }
+      ],
+      "gross_mean": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "gross_variance": {
+        "exact": "5/16",
+        "decimal": 0.3125
+      },
+      "gross_absolute_mean": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "expected_executed_cost": {
+        "exact": "1/1000",
+        "decimal": 0.001
+      },
+      "net_mean": {
+        "exact": "-1/1000",
+        "decimal": -0.001
+      },
+      "net_variance": {
+        "exact": "5/16",
+        "decimal": 0.3125
+      },
+      "net_absolute_mean": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "expected_injection": {
+        "exact": "501/40000",
+        "decimal": 0.012525
+      },
+      "charged_one_step_reward": {
+        "exact": "301/200000",
+        "decimal": 0.001505
+      },
+      "unadjusted_account_reward": {
+        "exact": "461/40000",
+        "decimal": 0.011525
+      },
+      "positive_charged_witness": true,
+      "fully_booked_action_reward": {
+        "exact": "-1/1000",
+        "decimal": -0.001
+      },
+      "fully_booked_gated_witness_value": {
+        "exact": "0",
+        "decimal": 0.0
+      }
+    }
+  },
+  "no_learning_prediction": true,
+  "new_agents_trained": 0,
+  "dp_solved": false,
+  "scope": [
+    "Same dose, cost, equity, gross mean, variance and gross/net absolute means do not determine the one-step accounting incentive.",
+    "A supplies no positive witness for this specified one-action policy at this equity; it is not certified safe against multi-step policies.",
+    "No claim is made about which learner acquires either incentive, or about empirical predictive superiority.",
+    "This is an application of the classical stop-loss transform, not a new probability theorem."
+  ],
+  "script_sha256": "274cbe65dff357860a4fb6c91d67d00b839620d590122dc7eebe8a21458dde81"
+}

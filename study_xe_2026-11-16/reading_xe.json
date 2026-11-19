@@ -1,0 +1,66 @@
+[
+ {
+  "engine": "backtesting.py",
+  "query": "inside the range",
+  "move": -0.002,
+  "reported": 6000.399999999996,
+  "booked": 6000.399999999996,
+  "forgiven": 0.0
+ },
+ {
+  "engine": "backtesting.py",
+  "query": "past the kink",
+  "move": -0.05,
+  "reported": 0.0,
+  "booked": -89990.00000000009,
+  "forgiven": 89990.00000000009
+ },
+ {
+  "engine": "backtrader",
+  "query": "inside the range",
+  "move": -0.002,
+  "reported": 6000.399999999996,
+  "booked": 6000.399999999996,
+  "forgiven": 0.0
+ },
+ {
+  "engine": "backtrader",
+  "query": "past the kink",
+  "move": -0.05,
+  "reported": -89990.00000000009,
+  "booked": -89990.00000000009,
+  "forgiven": 0.0
+ },
+ {
+  "engine": "vectorbt (1x short)",
+  "query": "inside the range",
+  "move": 0.002,
+  "reported": 9980.0,
+  "booked": 9980.0,
+  "forgiven": 0.0
+ },
+ {
+  "engine": "vectorbt (1x short)",
+  "query": "past the kink",
+  "move": 3.0,
+  "reported": -20000.0,
+  "booked": -20000.0,
+  "forgiven": 0.0
+ },
+ {
+  "engine": "backtesting.py, no leverage (1x short)",
+  "query": "inside the range",
+  "move": 0.002,
+  "reported": 9980.002,
+  "booked": 9980.002,
+  "forgiven": 0.0
+ },
+ {
+  "engine": "backtesting.py, no leverage (1x short)",
+  "query": "past the kink",
+  "move": 3.0,
+  "reported": 0.0,
+  "booked": -19997.0,
+  "forgiven": 19997.0
+ }
+]

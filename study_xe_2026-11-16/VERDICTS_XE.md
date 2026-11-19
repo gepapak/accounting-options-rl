@@ -1,0 +1,13 @@
+# Study XE verdicts
+
+- XE1 agreement inside the range: max |backtesting.py - backtrader| over L <= 5 and 2000 paths = 9.437e-16 (need < 1e-9) -> SUPPORTED
+- XE2 divergence past the kink (L = 200): backtesting.py - backtrader +17.29 pts (lower bound -5.26); reported - own trade records +37.82 (lower bound +36.19); max |backtrader - ledger| 1.2e-14 -> NOT SUPPORTED
+- XE3 optimizer choice: backtesting.py picks L = 200 in 100.0% of resamples (need >= 95%); backtrader does not pick 200 in 14.0% (need >= 60%) -> NOT SUPPORTED
+- XE4 reading: one-query classification correct for backtesting.py (levered and unlevered short), backtrader, vectorbt; gym-mtsim as published forgives +21.81 pts at L = 200, floor-deleted max |reported - booked| 0.0e+00 -> SUPPORTED
+- XE5 PPO learns the engine (two actions): backtesting.py 12 of 16, backtrader 1 of 16, Fisher one-sided p = 8.54e-05 (need >= 9 of 16, <= 1 of 16, p < 0.01) -> SUPPORTED
+-    XE6 from 10,000 USD: backtesting.py seed-mean reported - booked +26.94 pts (seed-cluster lower bound +18.66); backtrader max |reported - booked| 6.8e-13 points
+-    XE6 from 1,000 USD: backtesting.py seed-mean reported - booked +31.36 pts (seed-cluster lower bound +24.56); backtrader max |reported - booked| 9.1e-13 points
+- XE6 reported against booked for the learned policies -> SUPPORTED
+- XE7 direction chosen by the accounting: backtesting.py short-majority 6 of 12, long-majority 2; backtrader short 4, long 3 of 12; direction index MW one-sided p = 0.1528 (need >= 7 short, <= 1 long, p < 0.05) -> NOT SUPPORTED
+
+- Supported: XE1, XE4, XE5, XE6 (4 of 7)

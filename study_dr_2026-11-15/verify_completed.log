@@ -1,0 +1,14 @@
+﻿ok    registered hashes match
+ok    exactly the 64 registered runs are present  (64 files)
+ok    every run trained 1,007,616 steps and was tested on both banks of 300 paths
+ok    every run used the registered package versions  ({'gym-mtsim': '2.0.0', 'pandas': '2.0.3', 'numpy': '1.26.4', 'gymnasium': '1.2.0', 'stable-baselines3': '2.7.0', 'torch': '2.8.0'})
+ok    every policy and its normalization statistics are saved
+ok    all policy parameter digests differ
+ok    test_envs_dr.py: all exact checks pass
+recomputed: DR1 lower bounds V8 -0.0210, V16 0.0731; DR2 lower bound -0.0284; DR4 J = 303.0, permutation p = 0.03445, normal approximation p = 0.03330
+ok    DR1 recomputed: NOT SUPPORTED  (VERDICTS_DR.md says NOT SUPPORTED)
+ok    DR2 recomputed: NOT SUPPORTED  (VERDICTS_DR.md says NOT SUPPORTED)
+ok    DR3 recomputed: NOT SUPPORTED  (VERDICTS_DR.md says NOT SUPPORTED)
+ok    DR4 recomputed: SUPPORTED, CLOSE  (VERDICTS_DR.md says SUPPORTED)
+ok    DR4 statistic J = 303.0 equals VERDICTS_DR.md  (303.0)
+ALL VERIFIED

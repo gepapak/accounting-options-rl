@@ -1,14 +1,14 @@
 # Automated Verification and Audit Suite
 
-Part of the codebase for the paper *"Reading hidden loss forgiveness from the reward of reinforcement-learning trading simulators, with an electricity-trading engine"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
+Part of the codebase for the paper *"Simulators that forgive losses teach reinforcement-learning traders to gamble: theory, detection and removal, with an application to electricity trading"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
 
 ## Overview
 This directory contains the independent automated verification testbed for the paper. Reviewers can verify the mathematical, statistical, and empirical claims in minutes without training models.
 
 ## Verification Tools
-- `verify_studies.py`: Primary verifier. Checks SHA-256 pre-registration hashes, completed agent counts (2,085 distinct agents across Studies B–FT, plus 280 in Study A), headline figures, and statistical hypothesis verdicts.
+- `verify_studies.py`: Primary verifier. Checks the SHA-256 pre-registration hashes of every registered study (2,295 distinct agents in Studies B to FT, RE, GC, DR and XE, plus 280 in Study A), re-runs the exact checks, re-runs the registered aggregators of Studies RE, GC, DR and XE on their stored results in a scratch copy, and re-checks headline numbers and hypothesis verdicts. About 1,530 checks in some eight minutes; on a fresh clone the three checks that need the non-redistributed eSett panels of Study J report "not shipped" instead.
 - `verify_release.py`: Recomputes all headline numbers, parameter dumps, and protocol variants from the Prototype5 engine audit.
-- `ledger_check.py`: Standalone CLI tool for detecting loss forgiveness. Takes any episode cash trace CSV/GZ and tests for the presence of the +795% reported vs −3,655% booked inversion.
+- `ledger_check.py`: Standalone CLI tool for detecting loss forgiveness. Takes an episode cash trace (CSV or GZ) and reconciles reported against booked return.
 - `verify_accounting_revision.py`: Validates mathematical reflection identities and loss-charging formulas in exact rational arithmetic.
 - `verify_reflected_control_revision.py`: Validates numerical bounds for partial loss-charging controllers.
 - `test_verify_studies.py`: Unit test suite ensuring verifier routines operate correctly.
@@ -19,7 +19,7 @@ From the repository root:
 # 1. Run unit tests
 python -m unittest discover -s tools -p test_verify_studies.py
 
-# 2. Verify all pre-registered studies (Studies A through FT)
+# 2. Verify all pre-registered studies (Studies A to FT, RE, GC, DR and XE)
 python tools/verify_studies.py
 
 # 3. Verify engine audit headline numbers

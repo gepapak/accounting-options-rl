@@ -1,0 +1,10 @@
+returns in % of the starting cash; one real path per series and side
+L=  1: trades reaching zero  0/28 | max |backtesting.py - backtrader|     0.00 pts | backtesting.py mean    -0.04, backtrader mean    -0.04, ledger mean    -0.04 | opposite signs  0/28 | backtrader = ledger to 7.8e-14
+L=  2: trades reaching zero  1/28 | max |backtesting.py - backtrader|     3.95 pts | backtesting.py mean    +0.07, backtrader mean    -0.07, ledger mean    -0.07 | opposite signs  0/28 | backtrader = ledger to 1.6e-13
+L=  5: trades reaching zero  4/28 | max |backtesting.py - backtrader|   163.88 pts | backtesting.py mean    +2.51, backtrader mean    -0.19, ledger mean    -0.19 | opposite signs  1/28 | backtrader = ledger to 2.3e-13
+L= 10: trades reaching zero  9/28 | max |backtesting.py - backtrader|   427.75 pts | backtesting.py mean   +14.34, backtrader mean    -0.39, ledger mean    -0.39 | opposite signs  2/28 | backtrader = ledger to 3.4e-13
+L= 20: trades reaching zero 11/28 | max |backtesting.py - backtrader|   955.50 pts | backtesting.py mean   +45.28, backtrader mean    -0.80, ledger mean    -0.80 | opposite signs  3/28 | backtrader = ledger to 4.5e-13
+L= 50: trades reaching zero 20/28 | max |backtesting.py - backtrader|  2743.82 pts | backtesting.py mean    +3.03, backtrader mean    -2.01, ledger mean    -2.01 | opposite signs  7/28 | backtrader = ledger to 9.1e-13
+L=100: trades reaching zero 25/28 | max |backtesting.py - backtrader|  5395.62 pts | backtesting.py mean   -64.56, backtrader mean    -4.04, ledger mean    -4.04 | opposite signs 11/28 | backtrader = ledger to 5.5e-12
+L=200: trades reaching zero 26/28 | max |backtesting.py - backtrader| 10691.25 pts | backtesting.py mean   -66.91, backtrader mean    -8.09, ledger mean    -8.09 | opposite signs 12/28 | backtrader = ledger to 1.5e-11
+largest gap: BCHUSD long L=200: backtesting.py -100.0%, backtrader -10603.0%

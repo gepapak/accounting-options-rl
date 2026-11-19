@@ -1,0 +1,161 @@
+FROZEN [
+  {
+    "score": "dp_index",
+    "n_arms": 7,
+    "learned_arms": 5,
+    "auc": 1.0,
+    "distinct_scores": 7,
+    "cohort": "O_PPO_1M",
+    "canonical_or_frozen_cutoff": 0.5133360550525173,
+    "accuracy": 0.8571428571428571,
+    "balanced_accuracy": 0.9,
+    "correct_arms": 6,
+    "misclassified_arm_ids": [
+      "O_PPO_1M|a0.8"
+    ]
+  },
+  {
+    "score": "integrated_exact",
+    "n_arms": 7,
+    "learned_arms": 5,
+    "auc": 1.0,
+    "distinct_scores": 7,
+    "cohort": "O_PPO_1M",
+    "canonical_or_frozen_cutoff": 0.08966882375371477,
+    "accuracy": 0.8571428571428571,
+    "balanced_accuracy": 0.75,
+    "correct_arms": 6,
+    "misclassified_arm_ids": [
+      "O_PPO_1M|a0.9"
+    ]
+  },
+  {
+    "score": "dp_index",
+    "n_arms": 5,
+    "learned_arms": 3,
+    "auc": 1.0,
+    "distinct_scores": 5,
+    "cohort": "P_PPO_250000",
+    "canonical_or_frozen_cutoff": 0.5133360550525173,
+    "accuracy": 0.8,
+    "balanced_accuracy": 0.75,
+    "correct_arms": 4,
+    "misclassified_arm_ids": [
+      "P_PPO_250000|a0.7"
+    ]
+  },
+  {
+    "score": "integrated_exact",
+    "n_arms": 5,
+    "learned_arms": 3,
+    "auc": 1.0,
+    "distinct_scores": 5,
+    "cohort": "P_PPO_250000",
+    "canonical_or_frozen_cutoff": 0.08966882375371477,
+    "accuracy": 0.6,
+    "balanced_accuracy": 0.5,
+    "correct_arms": 3,
+    "misclassified_arm_ids": [
+      "P_PPO_250000|a0.7",
+      "P_PPO_250000|a0.8"
+    ]
+  },
+  {
+    "score": "dp_index",
+    "n_arms": 2,
+    "learned_arms": 2,
+    "auc": null,
+    "distinct_scores": 2,
+    "cohort": "P_PPO_4000000",
+    "canonical_or_frozen_cutoff": 0.5133360550525173,
+    "accuracy": 0.0,
+    "balanced_accuracy": null,
+    "correct_arms": 0,
+    "misclassified_arm_ids": [
+      "P_PPO_4000000|a0.8",
+      "P_PPO_4000000|a0.9"
+    ]
+  },
+  {
+    "score": "integrated_exact",
+    "n_arms": 2,
+    "learned_arms": 2,
+    "auc": null,
+    "distinct_scores": 2,
+    "cohort": "P_PPO_4000000",
+    "canonical_or_frozen_cutoff": 0.08966882375371477,
+    "accuracy": 1.0,
+    "balanced_accuracy": null,
+    "correct_arms": 2,
+    "misclassified_arm_ids": []
+  },
+  {
+    "score": "dp_index",
+    "n_arms": 4,
+    "learned_arms": 3,
+    "auc": 1.0,
+    "distinct_scores": 4,
+    "cohort": "Q_A2C-n64_1M",
+    "canonical_or_frozen_cutoff": 0.5133360550525173,
+    "accuracy": 0.75,
+    "balanced_accuracy": 0.8333333333333333,
+    "correct_arms": 3,
+    "misclassified_arm_ids": [
+      "Q_A2C-n64_1M|a0.8"
+    ]
+  },
+  {
+    "score": "integrated_exact",
+    "n_arms": 4,
+    "learned_arms": 3,
+    "auc": 1.0,
+    "distinct_scores": 4,
+    "cohort": "Q_A2C-n64_1M",
+    "canonical_or_frozen_cutoff": 0.08966882375371477,
+    "accuracy": 0.75,
+    "balanced_accuracy": 0.5,
+    "correct_arms": 3,
+    "misclassified_arm_ids": [
+      "Q_A2C-n64_1M|a0.9"
+    ]
+  },
+  {
+    "score": "dp_index",
+    "n_arms": 4,
+    "learned_arms": 1,
+    "auc": 1.0,
+    "distinct_scores": 4,
+    "cohort": "Q_DQN-default_1M",
+    "canonical_or_frozen_cutoff": 0.5133360550525173,
+    "accuracy": 0.75,
+    "balanced_accuracy": 0.8333333333333333,
+    "correct_arms": 3,
+    "misclassified_arm_ids": [
+      "Q_DQN-default_1M|a0.5"
+    ]
+  },
+  {
+    "score": "integrated_exact",
+    "n_arms": 4,
+    "learned_arms": 1,
+    "auc": 1.0,
+    "distinct_scores": 4,
+    "cohort": "Q_DQN-default_1M",
+    "canonical_or_frozen_cutoff": 0.08966882375371477,
+    "accuracy": 0.25,
+    "balanced_accuracy": 0.5,
+    "correct_arms": 1,
+    "misclassified_arm_ids": [
+      "Q_DQN-default_1M|a0.5",
+      "Q_DQN-default_1M|a0.8",
+      "Q_DQN-default_1M|a0.9"
+    ]
+  }
+]
+               score  n_arms  learned_arms  auc  distinct_scores           cohort  admissible_prediction_patterns  canonical_or_frozen_cutoff  accuracy  balanced_accuracy  correct_arms                               misclassified_arm_ids   BA_min  BA_max  unidentified_arms                                                                  unidentified_arm_ids                                                                     calibration_optimal_intervals  balanced_accuracy_range
+dose_sigma_over_cost       7             5  1.0                7         O_PPO_1M                               5                 1417.915863  0.571429           0.700000           4.0 ["O_PPO_1M|a0.5", "O_PPO_1M|a0.7", "O_PPO_1M|a0.8"] 0.600000     1.0                  4                 ["O_PPO_1M|a0.25", "O_PPO_1M|a0.5", "O_PPO_1M|a0.7", "O_PPO_1M|a0.8"] [{"lower_open": 293.53997353932044, "upper_closed": 2542.291753134458, "balanced_accuracy": 1.0}]                      NaN
+dose_sigma_over_cost       5             3  1.0                5     P_PPO_250000                               5                 1417.915863  0.800000           0.833333           4.0                               ["P_PPO_250000|a0.5"] 0.500000     1.0                  4 ["P_PPO_250000|a0.25", "P_PPO_250000|a0.5", "P_PPO_250000|a0.7", "P_PPO_250000|a0.8"] [{"lower_open": 293.53997353932044, "upper_closed": 2542.291753134458, "balanced_accuracy": 1.0}]                      NaN
+dose_sigma_over_cost       2             2  NaN                2    P_PPO_4000000                               2                 1417.915863  0.000000                NaN           0.0        ["P_PPO_4000000|a0.8", "P_PPO_4000000|a0.9"]      NaN     NaN                  1                                                                ["P_PPO_4000000|a0.8"] [{"lower_open": 293.53997353932044, "upper_closed": 2542.291753134458, "balanced_accuracy": 1.0}]                      NaN
+dose_sigma_over_cost       4             3  1.0                4     Q_A2C-n64_1M                               3                 1417.915863  0.500000           0.666667           2.0          ["Q_A2C-n64_1M|a0.5", "Q_A2C-n64_1M|a0.8"] 0.666667     1.0                  2                                            ["Q_A2C-n64_1M|a0.5", "Q_A2C-n64_1M|a0.8"] [{"lower_open": 293.53997353932044, "upper_closed": 2542.291753134458, "balanced_accuracy": 1.0}]                      NaN
+dose_sigma_over_cost       4             1  1.0                4 Q_DQN-default_1M                               3                 1417.915863  1.000000           1.000000           4.0                                                  [] 0.666667     1.0                  2                                    ["Q_DQN-default_1M|a0.5", "Q_DQN-default_1M|a0.8"] [{"lower_open": 293.53997353932044, "upper_closed": 2542.291753134458, "balanced_accuracy": 1.0}]                      NaN
+Runtime 1.8710503999973298 seconds; label disagreements 0

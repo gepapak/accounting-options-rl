@@ -1,6 +1,6 @@
 # Studies L & M: Reward Correction and Model Selection Certification
 
-Part of the experimental suite for the paper *"Reading hidden loss forgiveness from the reward of reinforcement-learning trading simulators, with an electricity-trading engine"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
+Part of the experimental suite for the paper *"Simulators that forgive losses teach reinforcement-learning traders to gamble: theory, detection and removal, with an application to electricity trading"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
 
 ## Overview
 This directory contains the prospective revision experiments conducted to evaluate policy continuation mechanisms and out-of-sample frontier certification:
@@ -20,6 +20,8 @@ This directory contains the prospective revision experiments conducted to evalua
   - `VALIDATION.json`: Frozen validation metrics.
 
 ## Reproduction
+Aggregation and figure scripts may rewrite the registered outputs they read: run them in a disposable copy of the folder (see `docs/REPRODUCING.md`); `python tools/verify_studies.py` checks the shipped results without writing.
+
 To verify Study L and Study M results without re-training:
 ```bash
 # Study L aggregation

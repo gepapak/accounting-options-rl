@@ -1,0 +1,25 @@
+24 jobs, 0 complete, running 24 with 8 workers
+17:48:49 done S_DK1__ORACLE__s91.json (926.2s): booked +22.0%
+17:48:50 done S_DK1__PLAIN__s90.json (927.6s): booked +1.9%
+17:48:52 done S_DK1__RUIN1__s90.json (929.1s): booked +8.1%
+17:48:56 done S_DK1__RUIN1__s91.json (932.7s): booked +22.0%
+17:48:56 done S_DK1__ORACLE__s90.json (932.9s): booked +22.0%
+17:48:59 done S_DK1__PLAIN__s91.json (936.7s): booked +22.0%
+17:49:15 done S_DK1__PMR__s91.json (952.5s): booked +22.0%
+17:49:24 done S_DK1__PMR__s90.json (960.7s): booked +22.0%
+18:02:36 done S_DK1__RUIN5__s90.json (827.0s): booked +14.8%
+18:02:37 done S_DK1__RUIN5__s91.json (826.5s): booked +17.5%
+18:02:38 done S_DK1__RUIN25__s90.json (826.6s): booked +14.2%
+18:02:40 done S_DK1__MV0.2__s90.json (824.4s): booked +3.7%
+18:02:43 done S_DK1__RUIN25__s91.json (827.4s): booked +22.0%
+18:02:44 done S_DK1__MV0.2__s91.json (825.1s): booked +2.1%
+18:02:55 done S_DK1__MV1__s90.json (820.2s): booked +0.8%
+18:03:08 done S_DK1__MV1__s91.json (824.9s): booked +1.2%
+18:16:23 done S_DK1__MV4__s91.json (826.7s): booked -0.6%
+18:16:25 done S_DK1__PLAIN__s92.json (826.9s): booked +22.0%
+18:16:26 done S_DK1__MV4__s90.json (830.5s): booked +0.0%
+18:16:27 done S_DK1__ORACLE__s92.json (827.0s): booked +19.9%
+18:16:33 done S_DK1__RUIN25__s92.json (828.4s): booked +22.0%
+18:16:33 done S_DK1__MV4__s92.json (817.8s): booked -23.2%
+18:16:41 done S_DK1__MV1__s92.json (812.7s): booked +1.0%
+18:16:46 done S_DK1__PMR__s92.json (843.2s): booked +22.0%

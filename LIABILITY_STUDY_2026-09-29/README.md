@@ -1,9 +1,9 @@
 # Studies B–K: The Option Ladder of Accounting Rules
 
-Part of the experimental suite for the paper *"Reading hidden loss forgiveness from the reward of reinforcement-learning trading simulators, with an electricity-trading engine"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
+Part of the experimental suite for the paper *"Simulators that forgive losses teach reinforcement-learning traders to gamble: theory, detection and removal, with an application to electricity trading"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
 
 ## Overview
-This directory contains the experimental code, environments, theory solvers, and pre-registered hypotheses for Studies B through K (594 trained agents). These studies establish that when trading simulators floor cash balances at zero, reinforcement-learning agents learn to exploit this implicit call option ("gambling for resurrection"), creating large apparent profits in evaluation that invert into deep catastrophic losses when accounting for real liabilities.
+This directory contains the experimental code, environments, theory solvers, and pre-registered hypotheses for Studies B through K (594 trained agents). These studies establish that when trading simulators floor cash balances at zero, reinforcement-learning agents learn to exploit this implicit call option ("gambling for resurrection"), so that evaluation reports profits where the booked ledger records losses.
 
 ## Study Mapping
 | Study | Objective & Scope | Key Scripts | Results Folder |
@@ -20,13 +20,15 @@ This directory contains the experimental code, environments, theory solvers, and
 | **Study K** | Horizon sensitivity: does gambling widen with discount factor $\gamma$? | `run_k.py`, `aggregate_k.py`, `theory_k.py` | `results_k/` |
 
 ## Dynamic Programming & Analytical Solvers
-- `dp_theory.py`: Solves optimal policies and option values for Denmark (Section 3 of the paper).
+- `dp_theory.py`: Solves optimal policies and option values for Denmark (the theory of the paper).
 - `dp_full.py`: Calculates optimal gambling regions across the full training distribution for all zones.
 - `reflection_barrier.py` & `reflection_theory.py`: Analytical closed-form solutions for the reflected diffusion barrier.
-- `make_best_moment_figure.py`: Proves and plots the Best-Moment Theorem (Theorem 1) across zones.
+- `make_best_moment_figure.py`: Computes and plots the best-moment theorem (a supplementary theorem of the paper) across zones.
 - `placebo_market.py`: Evaluates policy behavior in sign-randomized placebo markets without edge.
 
 ## Reproduction
+Aggregation and figure scripts may rewrite the registered outputs they read: run them in a disposable copy of the folder (see `docs/REPRODUCING.md`); `python tools/verify_studies.py` checks the shipped results without writing.
+
 To verify all statistical aggregations and hypothesis verdicts from the completed runs:
 ```bash
 python aggregate_b.py

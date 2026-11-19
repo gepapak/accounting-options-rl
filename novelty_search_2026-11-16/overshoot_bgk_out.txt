@@ -1,0 +1,13 @@
+forgiven per path (units of initial equity): measured vs predicted P(ruin) x 0.5826 x L x sigma_bar
+market                  L  P(ruin)  measured predicted  ratio
+EURUSD mags            20    0.096    0.0038    0.0038   1.02
+EURUSD mags            50    0.491    0.0500    0.0482   1.04
+EURUSD mags           100    0.704    0.1437    0.1384   1.04
+EURUSD mags           200    0.825    0.3397    0.3240   1.05
+crypto 2021 mags        2    0.280    0.0165    0.0201   0.82
+crypto 2021 mags        5    0.714    0.1663    0.1283   1.30
+crypto 2021 mags       10    0.842    0.4010    0.3021   1.33
+Gaussian, sd 0.3%      20    0.058    0.0020    0.0020   0.96
+Gaussian, sd 0.3%      50    0.438    0.0380    0.0383   0.99
+Gaussian, sd 0.3%     100    0.682    0.1177    0.1192   0.99
+Gaussian, sd 0.3%     200    0.814    0.2841    0.2841   1.00

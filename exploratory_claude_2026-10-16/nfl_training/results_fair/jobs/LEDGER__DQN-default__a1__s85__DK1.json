@@ -1,0 +1,30 @@
+{
+ "method": "LEDGER",
+ "learner": "DQN-default",
+ "algo": "DQN",
+ "kwargs": {},
+ "alpha": 1.0,
+ "seed": 85,
+ "region": "DK1",
+ "steps": 1000000,
+ "eval_split": "test",
+ "lev": {
+  "0": 1.0,
+  "0.02": 1.0,
+  "0.05": 1.0,
+  "0.1": 1.0,
+  "0.25": 1.0,
+  "0.5": 16.0,
+  "0.75": 16.0,
+  "1": 16.0,
+  "1.25": 16.0,
+  "1.5": 16.0,
+  "2": 16.0,
+  "2.5": 1.0,
+  "3": 1.0
+ },
+ "drawmean_reported_return_pct": 43.192535406244765,
+ "drawmean_ledger_return_pct": 43.05469009374489,
+ "drawmean_mean_abs_lev_open": 2.515369733447979,
+ "seconds": 1689.4
+}

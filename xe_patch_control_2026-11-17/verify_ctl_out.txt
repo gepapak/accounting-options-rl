@@ -1,0 +1,29 @@
+1. backtesting 0.6.6: lines that differ between the package's _Broker.next and BookedBroker.next
+   -        # If equity is negative, set all to 0 and stop the simulation
+   -            self._cash = 0
+   -            self._equity[i:] = 0
+   +            self.__dict__.pop(self.__class__._position_unrealized_pl.func.__name__, None)
+   +            self._equity[i:] = self._cash          # was: self._cash = 0; self._equity[i:] = 0
+2. rl_engine_env.py: Study XE's copy hash 8e920d8e8842... is in PREREGISTRATION_HASHES_XE.txt; 40 lines added, 1 removed or changed:
+   -        ch, cls = self.ch, self._cls
+2. rl_engine_pilot.py: Study XE's copy hash 50b7cb7c3e84... is in PREREGISTRATION_HASHES_XE.txt; 1 lines added, 1 removed or changed:
+   -    cls = R.BtpyEnv if engine == "btpy" else R.BacktraderEnv
+3. recorded test draws against fresh runs on the regenerated bank (largest absolute difference, points)
+   btpy   seed 301: from 10,000: neither (mixed policy); from  1,000: always 200x
+   btpy   seed 302: from 10,000: always 200x; from  1,000: always 200x
+   btpy   seed 303: from 10,000: always 200x; from  1,000: always 200x
+   btpy   seed 304: from 10,000: always flat; from  1,000: always 200x
+   btpy   seed 305: from 10,000: always flat; from  1,000: neither (mixed policy)
+   btpy   seed 306: from 10,000: always 200x; from  1,000: always 200x
+   btpy   seed 307: from 10,000: always 200x; from  1,000: always 200x
+   btpy   seed 308: from 10,000: always flat; from  1,000: neither (mixed policy)
+   btpyfl seed 301: from 10,000: always flat; from  1,000: always flat
+   btpyfl seed 302: from 10,000: always flat; from  1,000: always flat
+   btpyfl seed 303: from 10,000: always flat; from  1,000: always flat
+   btpyfl seed 304: from 10,000: always flat; from  1,000: always flat
+   btpyfl seed 305: from 10,000: always flat; from  1,000: always flat
+   btpyfl seed 306: from 10,000: always flat; from  1,000: always flat
+   btpyfl seed 307: from 10,000: always flat; from  1,000: always flat
+   btpyfl seed 308: from 10,000: always flat; from  1,000: always flat
+   'always 200x' from 10,000 USD: published engine reports +34.20% and books -2.28%; floor removed reports -2.28% and books -2.28% (booked identical: 0.0e+00)
+4. the monitoring law (written 01:50, before this run) for 200x with a 2 bp fee: forgiven 37.47 points, P(ruin) 0.828; this bank: 36.48 (standard error 2.72), ruin share 0.825

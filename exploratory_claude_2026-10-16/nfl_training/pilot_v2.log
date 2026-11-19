@@ -1,0 +1,13 @@
+12 jobs, 4 workers, 1000000 steps
+20:02:45 done PLAIN__ZF__s81__DK1.json (608.4s): edge booked -6.5%  placebo reported -9.7% (forgiven 60.0%)
+20:02:45 done ORACLE__ZF__s80__DK1.json (608.6s): edge booked +18.6%  placebo reported -5.4% (forgiven 3.4%)
+20:02:50 done PLAIN__ZF__s80__DK1.json (612.9s): edge booked +18.4%  placebo reported -4.8% (forgiven 9.4%)
+20:02:53 done PLAIN__ZF__s82__DK1.json (616.2s): edge booked +16.0%  placebo reported -6.0% (forgiven 35.7%)
+20:12:10 done ORACLE__ZF__s81__DK1.json (565.0s): edge booked +15.3%  placebo reported -6.6% (forgiven 4.2%)
+20:12:15 done ORACLE__ZF__s82__DK1.json (569.9s): edge booked +23.6%  placebo reported -8.6% (forgiven 5.0%)
+20:12:21 done NFL__ZF__s80__DK1.json (570.8s): edge booked +23.6%  placebo reported -6.8% (forgiven 7.6%)
+20:12:31 done NFL__ZF__s81__DK1.json (577.7s): edge booked +8.9%  placebo reported -4.7% (forgiven 1.1%)
+20:22:17 done NFL__ZF__s82__DK1.json (607.2s): edge booked +12.4%  placebo reported -4.0% (forgiven 1.6%)
+20:23:04 done SPR__ZF__s80__DK1.json (648.3s): edge booked +18.6%  placebo reported -5.4% (forgiven 3.4%)
+20:23:08 done SPR__ZF__s81__DK1.json (647.4s): edge booked +20.3%  placebo reported -9.5% (forgiven 4.4%)
+20:23:11 done SPR__ZF__s82__DK1.json (640.6s): edge booked +23.6%  placebo reported -8.6% (forgiven 5.0%)

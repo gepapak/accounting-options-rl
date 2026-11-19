@@ -1,6 +1,6 @@
 # Methodological Protocols and Audit Documentation
 
-Part of the codebase for the paper *"Reading hidden loss forgiveness from the reward of reinforcement-learning trading simulators, with an electricity-trading engine"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
+Part of the codebase for the paper *"Simulators that forgive losses teach reinforcement-learning traders to gamble: theory, detection and removal, with an application to electricity trading"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
 
 ## Contents
 - `METHODS_AND_RESULTS.md`: Comprehensive reference detailing mathematical models, experimental designs, empirical hypotheses, and headline findings.

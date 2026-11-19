@@ -1,0 +1,7 @@
+floor (as published)   always 200x : reported   +18.55%  booked   -20.06%  max |reported - booked|   18420.1322 USD  ruin 0.857  lowest reported equity          0.0  |sum of rewards - reported change| 5.8e-11
+floor (as published)   always flat : reported    +0.00%  booked    +0.00%  max |reported - booked|       0.0000 USD  ruin 0.000  lowest reported equity      10000.0  |sum of rewards - reported change| 0.0e+00
+floor removed          always 200x : reported   -20.06%  booked   -20.06%  max |reported - booked|       0.0000 USD  ruin 0.857  lowest reported equity     -18420.1  |sum of rewards - reported change| 5.8e-11
+floor removed          always flat : reported    +0.00%  booked    +0.00%  max |reported - booked|       0.0000 USD  ruin 0.000  lowest reported equity      10000.0  |sum of rewards - reported change| 0.0e+00
+booked equity identical in the two engines on every path (max abs difference, USD): 0.0
+ruin flags identical: True | reported identical on the paths without ruin: 0.0
+floor removed: reported equals its own trade records on every path: True

@@ -1,0 +1,532 @@
+
+===== kernc/backtesting.py backtesting/backtesting.py (1778 lines, 12 hits)
+--- line 381
+  378:         return f'<Position: {self.size} ({len(self.__broker.trades)} trades)>'
+  379: 
+  380: 
+  381: class _OutOfMoneyError(Exception):
+  382:     pass
+  383: 
+  384: 
+  385: class Order:
+  386:     """
+--- line 850
+  847:         return self._cash + self._position_unrealized_pl
+  848: 
+  849:     @property
+  850:     def margin_available(self) -> float:
+  851:         # From https://github.com/QuantConnect/Lean/pull/3768
+  852:         margin_used = sum(trade.value / self._leverage for trade in self.trades)
+  853:         return max(0, self.equity - margin_used)
+  854: 
+  855:     def next(self):
+--- line 867
+  864:         self._equity[i] = equity
+  865: 
+  866:         # If equity is negative, set all to 0 and stop the simulation
+  867:         if equity <= 0:
+  868:             assert self.margin_available <= 0
+  869:             for trade in self.trades:
+  870:                 self._close_trade(trade, self.last_price, i)
+  871:             self._cash = 0
+  872:             self._equity[i:] = 0
+--- line 873
+  870:                 self._close_trade(trade, self.last_price, i)
+  871:             self._cash = 0
+  872:             self._equity[i:] = 0
+  873:             raise _OutOfMoneyError
+  874: 
+  875:     def _process_orders(self):
+  876:         data = self._data
+  877:         open, high, low = data._current_value("Open"), data._current_value("High"), data._current_value("Low")
+  878:         reprocess_orders = False
+--- line 969
+  966:             # precompute true size in units, accounting for margin and spread/commissions
+  967:             size = order.size
+  968:             if -1 < size < 1:
+  969:                 size = copysign(int((self.margin_available * self._leverage * abs(size))
+  970:                                     // adjusted_price_plus_commission), size)
+  971:                 # Not enough cash/margin even for a single unit
+  972:                 if not size:
+  973:                     warnings.warn(
+  974:                         f'time={self._i}: Broker canceled the relative-sized order due to insufficient margin '
+--- line 975
+  972:                 if not size:
+  973:                     warnings.warn(
+  974:                         f'time={self._i}: Broker canceled the relative-sized order due to insufficient margin '
+  975:                         f'(equity={self.equity:.2f}, margin_available={self.margin_available:.2f}).',
+  976:                         category=UserWarning)
+  977:                     # XXX: The order is canceled by the broker?
+  978:                     self.orders.remove(order)
+  979:                     continue
+  980:             assert size == round(size)
+--- line 1008
+ 1005: 
+ 1006:             # If we don't have enough liquidity to cover for the order, the broker CANCELS it
+ 1007:             if abs(need_size) * adjusted_price_plus_commission > \
+ 1008:                     self.margin_available * self._leverage:
+ 1009:                 warnings.warn(
+ 1010:                     f'time={self._i}: Broker canceled the order due to insufficient margin '
+ 1011:                     f'(equity={self.equity:.2f}, margin_available={self.margin_available:.2f}).',
+ 1012:                     category=UserWarning)
+ 1013:                 self.orders.remove(order)
+--- line 1350
+ 1347:                 # Handle orders processing and broker stuff
+ 1348:                 try:
+ 1349:                     broker.next()
+ 1350:                 except _OutOfMoneyError:
+ 1351:                     break
+ 1352: 
+ 1353:                 # Next tick, a moment before bar close
+ 1354:                 strategy.next()
+ 1355:             else:
+--- line 1364
+ 1361:                     # HACK: Re-run broker one last time to handle close orders placed in the last
+ 1362:                     #  strategy iteration. Use the same OHLC values as in the last broker iteration.
+ 1363:                     if start < len(self._data):
+ 1364:                         try_(broker.next, exception=_OutOfMoneyError)
+ 1365:                 elif len(broker.trades):
+ 1366:                     warnings.warn(
+ 1367:                         'Some trades remain open at the end of backtest. Use '
+ 1368:                         '`Backtest(..., finalize_trades=True)` to close them and '
+ 1369:                         'include them in stats.', stacklevel=2)
+
+===== mementum/backtrader backtrader/brokers/bbroker.py (1237 lines, 14 hits)
+--- line 89
+   86:           base commission scheme which applies to all assets
+   87: 
+   88:         - ``checksubmit`` (default: ``True``)
+   89:           check margin/cash before accepting an order into the system
+   90: 
+   91:         - ``eosbar`` (default: ``False``):
+   92:           With intraday bars consider a bar with the same ``time`` as the end
+   93:           of session to be the end of the session. This is not usually the
+   94:           case, because some bars (final auction) are produced by many
+--- line 205
+  202:         - ``shortcash`` (default: ``True``)
+  203: 
+  204:           If True then cash will be increased when a stocklike asset is shorted
+  205:           and the calculated value for the asset will be negative.
+  206: 
+  207:           If ``False`` then the cash will be deducted as operation cost and the
+  208:           calculated value will be positive to end up with the same amount
+  209: 
+  210:         - ``fundstartval`` (default: ``100.0``)
+--- line 376
+  373:     setcash = set_cash
+  374: 
+  375:     def add_cash(self, cash):
+  376:         '''Add/Remove cash to the system (use a negative value to remove)'''
+  377:         self._cash_addition.append(cash)
+  378: 
+  379:     def get_fundshares(self):
+  380:         '''Returns the current number of shares in the fund-like mode'''
+  381:         return self._fundshares
+--- line 407
+  404: 
+  405:     def get_value(self, datas=None, mkt=False, lever=False):
+  406:         '''Returns the portfolio value of the given datas (if datas is ``None``, then
+  407:         the total portfolio value will be returned (alias: ``getvalue``)
+  408:         '''
+  409:         if datas is None:
+  410:             if mkt:
+  411:                 return self._valuemkt if not lever else self._valuemktlever
+  412: 
+--- line 417
+  414: 
+  415:         return self._get_value(datas=datas, lever=lever)
+  416: 
+  417:     getvalue = get_value
+  418: 
+  419:     def get_value_lever(self, datas=None, mkt=False):
+  420:         return self.get_value(datas=datas, mkt=mkt)
+  421: 
+  422:     def _get_value(self, datas=None, lever=False):
+--- line 435
+  432:         for data in datas or self.positions:
+  433:             comminfo = self.getcommissioninfo(data)
+  434:             position = self.positions[data]
+  435:             # use valuesize:  returns raw value, rather than negative adj val
+  436:             if not self.p.shortcash:
+  437:                 dvalue = comminfo.getvalue(position, data.close[0])
+  438:             else:
+  439:                 dvalue = comminfo.getvaluesize(position.size, data.close[0])
+  440: 
+--- line 580
+  577:                 self.submit_accept(order)
+  578:                 continue
+  579: 
+  580:             order.margin()
+  581:             self.notify(order)
+  582:             self._ococheck(order)
+  583:             self._bracketize(order, cancel=True)
+  584: 
+  585:     def submit_accept(self, order):
+--- line 744
+  741:         if closed:
+  742:             # Adjust to returned value for closed items & acquired opened items
+  743:             if self.p.shortcash:
+  744:                 closedvalue = comminfo.getvaluesize(-closed, pprice_orig)
+  745:             else:
+  746:                 closedvalue = comminfo.getoperationcost(closed, pprice_orig)
+  747: 
+  748:             closecash = closedvalue
+  749:             if closedvalue > 0:  # long position closed
+--- line 772
+  769:         popened = opened
+  770:         if opened:
+  771:             if self.p.shortcash:
+  772:                 openedvalue = comminfo.getvaluesize(opened, price)
+  773:             else:
+  774:                 openedvalue = comminfo.getoperationcost(opened, price)
+  775: 
+  776:             opencash = openedvalue
+  777:             if openedvalue > 0:  # long position being opened
+--- line 785
+  782:             openedcomm = cinfocomp.getcommission(opened, price)
+  783:             cash -= openedcomm
+  784: 
+  785:             if cash < 0.0:
+  786:                 # execution is not possible - nullify
+  787:                 opened = 0
+  788:                 openedvalue = openedcomm = 0.0
+  789: 
+  790:             elif ago is not None:  # real execution
+--- line 832
+  829:                           execsize, price,
+  830:                           closed, closedvalue, closedcomm,
+  831:                           opened, openedvalue, openedcomm,
+  832:                           comminfo.margin, pnl,
+  833:                           psize, pprice)
+  834: 
+  835:             order.addcomminfo(comminfo)
+  836: 
+  837:             self.notify(order)
+--- line 842
+  839: 
+  840:         if popened and not opened:
+  841:             # opened was not executed - not enough cash
+  842:             order.margin()
+  843:             self.notify(order)
+  844:             self._ococheck(order)
+  845:             self._bracketize(order, cancel=True)
+  846: 
+  847:     def notify(self, order):
+
+===== freqtrade/freqtrade freqtrade/optimize/backtesting.py (1981 lines, 7 hits)
+--- line 53
+   50:     BacktestResultType,
+   51:     get_BacktestResultType_default,
+   52: )
+   53: from freqtrade.leverage.liquidation_price import update_liquidation_prices
+   54: from freqtrade.mixins import LoggingMixin
+   55: from freqtrade.optimize.backtest_caching import get_strategy_run_id
+   56: from freqtrade.optimize.optimize_reports import (
+   57:     convert_bt_wallet_collection,
+   58:     generate_backtest_stats,
+--- line 589
+  586:         if exit_.exit_type in (
+  587:             ExitType.STOP_LOSS,
+  588:             ExitType.TRAILING_STOP_LOSS,
+  589:             ExitType.LIQUIDATION,
+  590:         ):
+  591:             return self._get_close_rate_for_stoploss(row, trade, exit_, trade_dur)
+  592:         elif exit_.exit_type == (ExitType.ROI):
+  593:             return self._get_close_rate_for_roi(row, trade, current_time, exit_, trade_dur)
+  594:         else:
+--- line 606
+  603:         is_short = trade.is_short or False
+  604:         leverage = trade.leverage or 1.0
+  605:         side_1 = -1 if is_short else 1
+  606:         if exit_.exit_type == ExitType.LIQUIDATION and trade.liquidation_price:
+  607:             stoploss_value = trade.liquidation_price
+  608:         else:
+  609:             stoploss_value = trade.stop_loss
+  610: 
+  611:         if is_short:
+--- line 827
+  824:                 order.ft_order_side == trade.exit_side and order.safe_amount == trade.amount
+  825:             ):
+  826:                 # trade is still open or we are in cross margin mode and
+  827:                 # must update all liquidation prices
+  828:                 update_liquidation_prices(
+  829:                     trade,
+  830:                     exchange=self.exchange,
+  831:                     wallets=self.wallets,
+  832:                     stake_currency=self.config["stake_currency"],
+--- line 916
+  913:             time_in_force = self.strategy.order_time_in_force["exit"]
+  914: 
+  915:             if exit_.exit_type not in (
+  916:                 ExitType.LIQUIDATION,
+  917:                 ExitType.PARTIAL_EXIT,
+  918:             ) and not strategy_safe_wrapper(self.strategy.confirm_trade_exit, default_retval=True)(
+  919:                 pair=trade.pair,
+  920:                 trade=trade,  # type: ignore[arg-type]
+  921:                 order_type=order_type,
+
+===== freqtrade/freqtrade freqtrade/persistence/trade_model.py (2171 lines, 13 hits)
+--- line 458
+  455:     contract_size: float | None = None
+  456: 
+  457:     # Leverage trading properties
+  458:     liquidation_price: float | None = None
+  459:     is_short: bool = False
+  460:     leverage: float = 1.0
+  461: 
+  462:     # Margin trading properties
+  463:     interest_rate: float = 0.0
+--- line 475
+  472: 
+  473:     @property
+  474:     def stoploss_or_liquidation(self) -> float:
+  475:         if self.liquidation_price:
+  476:             if self.is_short:
+  477:                 return min(self.stop_loss, self.liquidation_price)
+  478:             else:
+  479:                 return max(self.stop_loss, self.liquidation_price)
+  480: 
+--- line 776
+  773:             "max_rate": self.max_rate,
+  774:             "leverage": self.leverage,
+  775:             "interest_rate": self.interest_rate,
+  776:             "liquidation_price": self.liquidation_price,
+  777:             "is_short": self.is_short,
+  778:             "trading_mode": self.trading_mode,
+  779:             "funding_fees": self.funding_fees,
+  780:             "amount_precision": self.amount_precision,
+  781:             "price_precision": self.price_precision,
+--- line 809
+  806:         self.max_rate = max(current_price, self.max_rate or self.open_rate)
+  807:         self.min_rate = min(current_price_low, self.min_rate or self.open_rate)
+  808: 
+  809:     def set_liquidation_price(self, liquidation_price: float | None):
+  810:         """
+  811:         Method you should use to set self.liquidation price.
+  812:         Assures stop_loss is not passed the liquidation price
+  813:         """
+  814:         if liquidation_price is None:
+--- line 816
+  813:         """
+  814:         if liquidation_price is None:
+  815:             return
+  816:         self.liquidation_price = price_to_precision(
+  817:             liquidation_price, self.price_precision, self.precision_mode_price
+  818:         )
+  819: 
+  820:     def set_funding_fees(self, funding_fee: float) -> None:
+  821:         """
+--- line 1144
+ 1141:                 f"{self.trading_mode} trading is not yet available using freqtrade"
+ 1142:             )
+ 1143: 
+ 1144:     def calc_profit(
+ 1145:         self, rate: float, amount: float | None = None, open_rate: float | None = None
+ 1146:     ) -> float:
+ 1147:         """
+ 1148:         Calculate the absolute profit in stake currency between Close and Open trade
+ 1149:         Deprecated - only available for backwards compatibility
+--- line 1192
+ 1189: 
+ 1190:         total_profit_abs = profit_abs + self.realized_profit
+ 1191:         if self.max_stake_amount:
+ 1192:             max_stake = self.max_stake_amount * (
+ 1193:                 (1 - self.fee_open) if self.is_short else (1 + self.fee_open)
+ 1194:             )
+ 1195:             total_profit_ratio = total_profit_abs / max_stake
+ 1196:             total_profit_ratio = round(total_profit_ratio, 8)
+ 1197:         else:
+--- line 1671
+ 1668:             max_rate=data["max_rate"],
+ 1669:             leverage=data["leverage"],
+ 1670:             interest_rate=data.get("interest_rate"),
+ 1671:             liquidation_price=data.get("liquidation_price"),
+ 1672:             is_short=data["is_short"],
+ 1673:             trading_mode=data.get("trading_mode"),
+ 1674:             funding_fees=data.get("funding_fees"),
+ 1675:             amount_precision=data.get("amount_precision", None),
+ 1676:             price_precision=data.get("price_precision", None),
+--- line 1799
+ 1796:     # Leverage trading properties
+ 1797:     leverage: Mapped[float] = mapped_column(Float(), nullable=True, default=1.0)
+ 1798:     is_short: Mapped[bool] = mapped_column(nullable=False, default=False)
+ 1799:     liquidation_price: Mapped[float | None] = mapped_column(Float(), nullable=True)
+ 1800: 
+ 1801:     # Margin Trading Properties
+ 1802:     interest_rate: Mapped[float] = mapped_column(Float(), nullable=False, default=0.0)
+ 1803: 
+ 1804:     # Futures properties
+
+===== polakowo/vectorbt vectorbt/portfolio/nb.py (7035 lines, 45 hits)
+--- line 105
+  102:     min_size: float = 0.0,
+  103:     max_size: float = np.inf,
+  104:     size_granularity: float = np.nan,
+  105:     lock_cash: bool = False,
+  106:     allow_partial: bool = True,
+  107:     percent: float = np.nan,
+  108: ) -> tp.Tuple[ExecuteOrderState, OrderResult]:
+  109:     """Buy or/and cover."""
+  110: 
+--- line 115
+  112:     adj_price = price * (1 + slippage)
+  113: 
+  114:     # Set cash limit
+  115:     if lock_cash:
+  116:         if exec_state.position >= 0:
+  117:             # cash == free_cash in a long position, unless other column(s) locked some of the cash
+  118:             cash_limit = exec_state.free_cash
+  119:         else:
+  120:             # How much free cash remains after closing out the short position?
+--- line 126
+  123:             if cover_free_cash > 0:
+  124:                 # Enough cash to close out the short position and open a long one
+  125:                 cash_limit = exec_state.free_cash + 2 * exec_state.debt
+  126:             elif cover_free_cash < 0:
+  127:                 # Not enough cash to close out the short position
+  128:                 avg_entry_price = exec_state.debt / abs(exec_state.position)
+  129:                 max_short_size = (exec_state.free_cash - fixed_fees) / (adj_price * (1 + fees) - 2 * avg_entry_price)
+  130:                 cash_limit = max_short_size * adj_price * (1 + fees) + fixed_fees
+  131:             else:
+--- line 160
+  157:         return exec_state, order_not_filled_nb(OrderStatus.Ignored, OrderStatusInfo.SizeZero)
+  158: 
+  159:     if adj_size > max_size:
+  160:         if not allow_partial:
+  161:             return exec_state, order_not_filled_nb(OrderStatus.Rejected, OrderStatusInfo.MaxSizeExceeded)
+  162: 
+  163:         adj_size = max_size
+  164: 
+  165:     # Adjust granularity
+--- line 180
+  177:         fees_paid = req_fees
+  178:         final_req_cash = total_req_cash
+  179:     else:
+  180:         # Insufficient amount of cash, size will be less than requested
+  181: 
+  182:         # For fees of 10% and 1$ per transaction, you can buy for 90$ (new_req_cash)
+  183:         # to spend 100$ (cash_limit) in total
+  184:         max_req_cash = add_nb(cash_limit, -fixed_fees) / (1 + fees)
+  185:         if max_req_cash <= 0:
+--- line 209
+  206:         return exec_state, order_not_filled_nb(OrderStatus.Rejected, OrderStatusInfo.MinSizeNotReached)
+  207: 
+  208:     # Check against partial fill (np.inf doesn't count)
+  209:     if np.isfinite(size) and is_less_nb(final_size, size) and not allow_partial:
+  210:         return exec_state, order_not_filled_nb(OrderStatus.Rejected, OrderStatusInfo.PartialFill)
+  211: 
+  212:     # Update current cash balance and position
+  213:     new_cash = add_nb(exec_state.cash, -final_req_cash)
+  214:     new_position = add_nb(exec_state.position, final_size)
+--- line 248
+  245:     min_size: float = 0.0,
+  246:     max_size: float = np.inf,
+  247:     size_granularity: float = np.nan,
+  248:     lock_cash: bool = False,
+  249:     allow_partial: bool = True,
+  250:     percent: float = np.nan,
+  251: ) -> tp.Tuple[ExecuteOrderState, OrderResult]:
+  252:     """Sell or/and short sell."""
+  253: 
+--- line 261
+  258:     if direction == Direction.LongOnly:
+  259:         size_limit = min(exec_state.position, size)
+  260:     else:
+  261:         if lock_cash or (np.isinf(size) and not np.isnan(percent)):
+  262:             # Get the maximum size that can be (short) sold
+  263:             long_size = max(exec_state.position, 0)
+  264:             long_cash = long_size * adj_price * (1 - fees)
+  265:             total_free_cash = add_nb(exec_state.free_cash, long_cash)
+  266: 
+--- line 281
+  278:                 if max_size_limit <= 0:
+  279:                     return exec_state, order_not_filled_nb(OrderStatus.Rejected, OrderStatusInfo.CantCoverFees)
+  280: 
+  281:             if lock_cash:
+  282:                 # Size has upper limit
+  283:                 if np.isinf(size) and not np.isnan(percent):
+  284:                     size_limit = min(percent * max_size_limit, max_size_limit)
+  285:                     percent = np.nan
+  286:                 elif not np.isnan(percent):
+--- line 302
+  299:         size_limit = percent * size_limit
+  300: 
+  301:     if size_limit > max_size:
+  302:         if not allow_partial:
+  303:             return exec_state, order_not_filled_nb(OrderStatus.Rejected, OrderStatusInfo.MaxSizeExceeded)
+  304: 
+  305:         size_limit = max_size
+  306: 
+  307:     if direction == Direction.ShortOnly or direction == Direction.Both:
+--- line 326
+  323:         return exec_state, order_not_filled_nb(OrderStatus.Rejected, OrderStatusInfo.MinSizeNotReached)
+  324: 
+  325:     # Check against partial fill
+  326:     if np.isfinite(size) and is_less_nb(size_limit, size) and not allow_partial:  # np.inf doesn't count
+  327:         return exec_state, order_not_filled_nb(OrderStatus.Rejected, OrderStatusInfo.PartialFill)
+  328: 
+  329:     # Get acquired cash
+  330:     acq_cash = size_limit * adj_price
+  331: 
+--- line 337
+  334: 
+  335:     # Get final cash by subtracting costs
+  336:     final_acq_cash = add_nb(acq_cash, -fees_paid)
+  337:     if final_acq_cash < 0:
+  338:         return exec_state, order_not_filled_nb(OrderStatus.Rejected, OrderStatusInfo.CantCoverFees)
+  339: 
+  340:     # Update current cash balance and position
+  341:     new_cash = exec_state.cash + final_acq_cash
+  342:     new_position = add_nb(exec_state.position, -size_limit)
+
+===== jesse-ai/jesse jesse/models/Position.py (294 lines, 8 hits)
+--- line 18
+   15:     _mark_price: float = None
+   16:     _funding_rate: float = None
+   17:     _next_funding_timestamp: int = None
+   18:     _liquidation_price: float = None
+   19:     exchange_name: str = None
+   20:     exchange = None
+   21:     symbol: str = None
+   22:     strategy = None
+   23:     
+--- line 216
+  213:             return self.exchange.futures_leverage_mode
+  214: 
+  215:     @property
+  216:     def liquidation_price(self) -> Union[float, np.float64]:
+  217:         """
+  218:         The price at which the position gets liquidated. formulas are taken from:
+  219:         https://help.bybit.com/hc/en-us/articles/900000181046-Liquidation-Price-USDT-Contract-
+  220:         """
+  221:         if self.is_close:
+--- line 225
+  222:             return np.nan
+  223: 
+  224:         if jh.is_livetrading():
+  225:             return self._liquidation_price
+  226: 
+  227:         if self.mode in ['cross', 'spot']:
+  228:             return np.nan
+  229: 
+  230:         elif self.mode == 'isolated':
+--- line 246
+  243:         return 1 / self.leverage
+  244: 
+  245:     @property
+  246:     def bankruptcy_price(self) -> Union[float, np.float64]:
+  247:         if self.type == 'long':
+  248:             return self.entry_price * (1 - self._initial_margin_rate)
+  249:         elif self.type == 'short':
+  250:             return self.entry_price * (1 + self._initial_margin_rate)
+  251:         else:
+--- line 266
+  263:             'pnl': self.pnl,
+  264:             'pnl_percentage': self.pnl_percentage,
+  265:             'leverage': self.leverage,
+  266:             'liquidation_price': self.liquidation_price,
+  267:             'bankruptcy_price': self.bankruptcy_price,
+  268:             'mode': self.mode,
+  269:         }
+  270: 
+  271:     @property

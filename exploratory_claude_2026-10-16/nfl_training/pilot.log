@@ -1,0 +1,10 @@
+9 jobs, 4 workers, 1000000 steps, accounting ZF
+19:25:52 done NFL__ZF__s80__DK1.json (955.1s): L(0)=(0.0, 4.0) L(0.02)=(0.0, 4.0) L(1)=(0.0, 4.0) booked +9.3% placebo-reported -11.7%
+19:25:52 done PLAIN__ZF__s80__DK1.json (955.4s): L(0)=(-4.0, 4.0) L(0.02)=(-4.0, 4.0) L(1)=(-4.0, 4.0) booked +19.0% placebo-reported -18.1%
+19:25:53 done PLAIN__ZF__s82__DK1.json (956.8s): L(0)=(-4.0, 4.0) L(0.02)=(-4.0, 4.0) L(1)=(-4.0, 4.0) booked +13.5% placebo-reported -18.6%
+19:25:56 done PLAIN__ZF__s81__DK1.json (959.1s): L(0)=(-4.0, 4.0) L(0.02)=(-4.0, 4.0) L(1)=(-4.0, 4.0) booked +12.2% placebo-reported -17.0%
+19:37:49 done NFL__ZF__s81__DK1.json (717.2s): L(0)=(-1.0, 0.0) L(0.02)=(-1.0, 0.0) L(1)=(-1.0, 0.25) booked +4.3% placebo-reported -0.8%
+19:37:49 done NFL__ZF__s82__DK1.json (717.3s): L(0)=(-1.0, 1.0) L(0.02)=(-1.0, 1.0) L(1)=(-1.0, 1.0) booked +7.8% placebo-reported -3.5%
+19:37:54 done ORACLE__ZF__s81__DK1.json (718.7s): L(0)=(-4.0, 4.0) L(0.02)=(-4.0, 4.0) L(1)=(-4.0, 4.0) booked +12.2% placebo-reported -17.0%
+19:37:57 done ORACLE__ZF__s80__DK1.json (723.8s): L(0)=(-4.0, 4.0) L(0.02)=(-4.0, 4.0) L(1)=(-4.0, 4.0) booked +19.0% placebo-reported -18.1%
+19:45:24 done ORACLE__ZF__s82__DK1.json (454.8s): L(0)=(-4.0, 4.0) L(0.02)=(-4.0, 4.0) L(1)=(-4.0, 0.25) booked +11.0% placebo-reported -16.6%

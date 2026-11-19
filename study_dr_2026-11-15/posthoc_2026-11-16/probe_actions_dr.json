@@ -1,0 +1,9026 @@
+[
+ {
+  "arm": "L30",
+  "condition": "ORIG",
+  "seed": 600,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 1.1300000000000001,
+    "feasible": 0.04,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 1.1300000000000001,
+    "feasible": 0.07,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 1.1300000000000001,
+    "feasible": 0.12,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": true,
+    "volume": 1.1300000000000001,
+    "feasible": 0.17,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": true,
+    "volume": 1.12,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": true,
+    "volume": 1.11,
+    "feasible": 0.37,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": true,
+    "volume": 1.08,
+    "feasible": 0.49,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": true,
+    "volume": 1.04,
+    "feasible": 0.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": true,
+    "volume": 0.87,
+    "feasible": 0.86,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.38,
+    "feasible": 1.24,
+    "x": 0.3064516129032258
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.17,
+    "feasible": 1.73,
+    "x": 0.09826589595375723
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.4,
+    "feasible": 2.48,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 3.47,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.52,
+    "feasible": 4.96,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L30",
+  "condition": "ORIG",
+  "seed": 601,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.02,
+    "feasible": 0.04,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.03,
+    "feasible": 0.07,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.05,
+    "feasible": 0.12,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.06,
+    "feasible": 0.17,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.09,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.14,
+    "feasible": 0.37,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.18,
+    "feasible": 0.49,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.22,
+    "feasible": 0.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.29,
+    "feasible": 0.86,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.33,
+    "feasible": 1.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.29,
+    "feasible": 1.73,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.13,
+    "feasible": 2.48,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 3.47,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.04,
+    "feasible": 4.96,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L30",
+  "condition": "ORIG",
+  "seed": 602,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.15,
+    "feasible": 0.04,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.16,
+    "feasible": 0.07,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.17,
+    "feasible": 0.12,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.17,
+    "feasible": 0.17,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.19,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 0.37,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 0.49,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.26,
+    "feasible": 0.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.31,
+    "feasible": 0.86,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.38,
+    "feasible": 1.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 1.73,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.52,
+    "feasible": 2.48,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 3.47,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 4.96,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L30",
+  "condition": "ORIG",
+  "seed": 603,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.07,
+    "feasible": 0.04,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.08,
+    "feasible": 0.07,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.09,
+    "feasible": 0.12,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.1,
+    "feasible": 0.17,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.12,
+    "feasible": 0.37,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.14,
+    "feasible": 0.49,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.15,
+    "feasible": 0.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.17,
+    "feasible": 0.86,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.13,
+    "feasible": 1.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.25,
+    "feasible": 1.73,
+    "x": 0.14450867052023122
+   },
+   {
+    "e": 1.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 2.48,
+    "x": 0.18548387096774194
+   },
+   {
+    "e": 1.4,
+    "hold": false,
+    "refused": false,
+    "volume": 0.13,
+    "feasible": 3.47,
+    "x": 0.037463976945244955
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 4.96,
+    "x": 0.046370967741935484
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L30",
+  "condition": "ORIG",
+  "seed": 604,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.05,
+    "feasible": 0.04,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.05,
+    "feasible": 0.07,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.05,
+    "feasible": 0.12,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.05,
+    "feasible": 0.17,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.04,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.02,
+    "feasible": 0.37,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 0.49,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.07,
+    "feasible": 0.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.25,
+    "feasible": 0.86,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.6,
+    "feasible": 1.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.78,
+    "feasible": 1.73,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.61,
+    "feasible": 2.48,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.2,
+    "feasible": 3.47,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.28,
+    "feasible": 4.96,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L30",
+  "condition": "ORIG",
+  "seed": 605,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 0.04,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 0.07,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 0.12,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 0.17,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.44,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 0.37,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 0.49,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 0.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 0.86,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.36,
+    "feasible": 1.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.31,
+    "feasible": 1.73,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 2.48,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 3.47,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 4.96,
+    "x": 0.0020161290322580645
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "FLPATCH",
+  "seed": 600,
+  "xlow": 0.08527027027027027,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": false,
+    "volume": 0.14,
+    "feasible": 0.74,
+    "x": 0.1891891891891892
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": false,
+    "volume": 0.15,
+    "feasible": 1.11,
+    "x": 0.13513513513513511
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.15,
+    "feasible": 1.85,
+    "x": 0.08108108108108107
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.16,
+    "feasible": 2.59,
+    "x": 0.06177606177606178
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.17,
+    "feasible": 3.7,
+    "x": 0.04594594594594595
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.19,
+    "feasible": 5.55,
+    "x": 0.03423423423423424
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 7.4,
+    "x": 0.028378378378378376
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 9.25,
+    "x": 0.024864864864864868
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 12.950000000000001,
+    "x": 0.02084942084942085
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.28,
+    "feasible": 18.51,
+    "x": 0.015126958400864398
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 25.91,
+    "x": 0.008104978772674642
+   },
+   {
+    "e": 1.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.14,
+    "feasible": 37.02,
+    "x": 0.0037817396002160996
+   },
+   {
+    "e": 1.4,
+    "hold": false,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 51.83,
+    "x": 0.002122322978969709
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.12,
+    "feasible": 74.05,
+    "x": 0.0016205266711681297
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": -2.683199384482705,
+    "booked_pct": -3.11315745597188,
+    "credit_pct": 0.42995807148917525,
+    "floored_share": 0.11,
+    "wiped_share": 0.11,
+    "orders": 1.0,
+    "open_steps": 82.22
+   },
+   "0.25": {
+    "reported_pct": -0.6364638133607828,
+    "booked_pct": -0.6364638133607828,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 1.0,
+    "open_steps": 86.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "FLPATCH",
+  "seed": 601,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.06,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.06,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.05,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.05,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.04,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.02,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.02,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.06,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.13,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.2,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.25,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.29,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.29,
+    "feasible": 74.05,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "FLPATCH",
+  "seed": 602,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.54,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.52,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.48,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.4,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.3,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.09,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.41000000000000003,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.49,
+    "feasible": 74.05,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "FLPATCH",
+  "seed": 603,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.44,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.48,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.58,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.61,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.52,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.32,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.12,
+    "feasible": 74.05,
+    "x": 0.0016205266711681297
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "FLPATCH",
+  "seed": 604,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.22,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.19,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.17,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.12,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.19,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.17,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.06,
+    "feasible": 74.05,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "FLPATCH",
+  "seed": 605,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8200000000000001,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8200000000000001,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8200000000000001,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8300000000000001,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8300000000000001,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.84,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.84,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8300000000000001,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.71,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.28,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.13,
+    "feasible": 74.05,
+    "x": 0.0017555705604321405
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "ORIG",
+  "seed": 600,
+  "xlow": 0.19297297297297297,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.88,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": false,
+    "volume": 0.88,
+    "feasible": 1.11,
+    "x": 0.7927927927927927
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.87,
+    "feasible": 1.85,
+    "x": 0.47027027027027024
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.86,
+    "feasible": 2.59,
+    "x": 0.33204633204633205
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.84,
+    "feasible": 3.7,
+    "x": 0.227027027027027
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.8,
+    "feasible": 5.55,
+    "x": 0.14414414414414414
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.75,
+    "feasible": 7.4,
+    "x": 0.10135135135135134
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.6900000000000001,
+    "feasible": 9.25,
+    "x": 0.0745945945945946
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 12.950000000000001,
+    "x": 0.040926640926640924
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.2,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.09,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.31,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.44,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.54,
+    "feasible": 74.05,
+    "x": 0.007292370020256584
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 8.095167237636629,
+    "booked_pct": -4.118571062472482,
+    "credit_pct": 12.213738300109119,
+    "floored_share": 0.59,
+    "wiped_share": 0.59,
+    "orders": 2.76,
+    "open_steps": 41.03
+   },
+   "0.25": {
+    "reported_pct": 2.0366583144181547,
+    "booked_pct": 0.37975497933896163,
+    "credit_pct": 1.6569033350791895,
+    "floored_share": 0.21,
+    "wiped_share": 0.21,
+    "orders": 2.44,
+    "open_steps": 77.44
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "ORIG",
+  "seed": 601,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.35000000000000003,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.35000000000000003,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.35000000000000003,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.36,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.36,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.38,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.41000000000000003,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.56,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.63,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.09,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 74.05,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "ORIG",
+  "seed": 602,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.75,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.75,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.76,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.76,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.76,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.76,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.75,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.73,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.63,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.34,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.07,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.03,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.03,
+    "feasible": 74.05,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "ORIG",
+  "seed": 603,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.56,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.56,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.56,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.6,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.63,
+    "feasible": 37.02,
+    "x": 0.017017828200972446
+   },
+   {
+    "e": 1.4,
+    "hold": false,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 51.83,
+    "x": 0.010225737989581325
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.26,
+    "feasible": 74.05,
+    "x": 0.003511141120864281
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "ORIG",
+  "seed": 604,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.6900000000000001,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.6900000000000001,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.68,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.68,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.67,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.66,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.64,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.61,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5700000000000001,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.52,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.49,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.44,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.06,
+    "feasible": 74.05,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "ORIG",
+  "seed": 605,
+  "xlow": 0.21756756756756757,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": false,
+    "volume": 0.41000000000000003,
+    "feasible": 0.74,
+    "x": 0.5540540540540541
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": false,
+    "volume": 0.41000000000000003,
+    "feasible": 1.11,
+    "x": 0.36936936936936937
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.4,
+    "feasible": 1.85,
+    "x": 0.21621621621621623
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 2.59,
+    "x": 0.15057915057915058
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 3.7,
+    "x": 0.09999999999999999
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.34,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.3,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.26,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.14,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.09,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.58,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.6900000000000001,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8,
+    "feasible": 74.05,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": -16.709863286279514,
+    "booked_pct": -19.276794186808672,
+    "credit_pct": 2.5669309005291634,
+    "floored_share": 0.33,
+    "wiped_share": 0.33,
+    "orders": 27.7,
+    "open_steps": 57.88
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "ORIG",
+  "seed": 606,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.4,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.41000000000000003,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.49,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5700000000000001,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.63,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 74.05,
+    "x": 0.0052667116812964215
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "ORIG",
+  "seed": 607,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.28,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.28,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.29,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.31,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.34,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.44,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5700000000000001,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.75,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.2,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.08,
+    "feasible": 74.05,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "ORIG",
+  "seed": 608,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.49,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.54,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.58,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.35000000000000003,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.06,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.22,
+    "feasible": 74.05,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "L500",
+  "condition": "ORIG",
+  "seed": 609,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8,
+    "feasible": 0.74,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8,
+    "feasible": 1.11,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.79,
+    "feasible": 1.85,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.79,
+    "feasible": 2.59,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.79,
+    "feasible": 3.7,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.78,
+    "feasible": 5.55,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.76,
+    "feasible": 7.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.75,
+    "feasible": 9.25,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.71,
+    "feasible": 12.950000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.62,
+    "feasible": 18.51,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 25.91,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.32,
+    "feasible": 37.02,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.15,
+    "feasible": 51.83,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.09,
+    "feasible": 74.05,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "FLPATCH",
+  "seed": 600,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.44,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.38,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.05,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": false,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 11.370000000000001,
+    "x": 0.009674582233948988
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 16.25,
+    "x": 0.012923076923076923
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "FLPATCH",
+  "seed": 601,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.49,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.49,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.4,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.3,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.15,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "FLPATCH",
+  "seed": 602,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.04,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.04,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.03,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.03,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.02,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.04,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.09,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.16,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.35000000000000003,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.31,
+    "feasible": 16.25,
+    "x": 0.019076923076923078
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "FLPATCH",
+  "seed": 603,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.22,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.25,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.28,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.3,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.34,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.52,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.56,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "FLPATCH",
+  "seed": 604,
+  "xlow": 0.2711735236878915,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": false,
+    "volume": 0.1,
+    "feasible": 0.16,
+    "x": 0.625
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": false,
+    "volume": 0.1,
+    "feasible": 0.24,
+    "x": 0.4166666666666667
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.1,
+    "feasible": 0.4,
+    "x": 0.25
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.1,
+    "feasible": 0.56,
+    "x": 0.17857142857142858
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 0.81,
+    "x": 0.13580246913580246
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.12,
+    "feasible": 1.21,
+    "x": 0.09917355371900827
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.13,
+    "feasible": 1.62,
+    "x": 0.08024691358024691
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.15,
+    "feasible": 2.0300000000000002,
+    "x": 0.07389162561576354
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 2.84,
+    "x": 0.08098591549295775
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.48,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.89,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 1.12,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 1.08,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.92,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": -2.488487408432885,
+    "booked_pct": -15.770081081931611,
+    "credit_pct": 13.28159367349873,
+    "floored_share": 0.39,
+    "wiped_share": 0.39,
+    "orders": 1.0,
+    "open_steps": 55.48
+   },
+   "0.25": {
+    "reported_pct": 3.1377794624112076,
+    "booked_pct": -0.38469014987424277,
+    "credit_pct": 3.5224696122854513,
+    "floored_share": 0.24,
+    "wiped_share": 0.24,
+    "orders": 1.0,
+    "open_steps": 68.56
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "FLPATCH",
+  "seed": 605,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.07,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.07,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.06,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.06,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.04,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.02,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.02,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.07,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.16,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.38,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.44,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "ORIG",
+  "seed": 600,
+  "xlow": 0.24817361491212064,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.26,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.26,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.25,
+    "feasible": 0.4,
+    "x": 0.625
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 0.56,
+    "x": 0.4285714285714285
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 0.81,
+    "x": 0.2839506172839506
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 1.21,
+    "x": 0.17355371900826447
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.19,
+    "feasible": 1.62,
+    "x": 0.11728395061728394
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.17,
+    "feasible": 2.0300000000000002,
+    "x": 0.08374384236453201
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 2.84,
+    "x": 0.03873239436619719
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.02,
+    "feasible": 4.0600000000000005,
+    "x": 0.004926108374384236
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.13,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5700000000000001,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.54,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 9.869555496012275,
+    "booked_pct": -26.400535755918746,
+    "credit_pct": 36.270091251931014,
+    "floored_share": 0.54,
+    "wiped_share": 0.54,
+    "orders": 1.0,
+    "open_steps": 37.14
+   },
+   "0.25": {
+    "reported_pct": 3.377833435700125,
+    "booked_pct": -0.6665485579177747,
+    "credit_pct": 4.044381993617902,
+    "floored_share": 0.32,
+    "wiped_share": 0.32,
+    "orders": 1.0,
+    "open_steps": 64.07
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "ORIG",
+  "seed": 601,
+  "xlow": 0.32361111111111107,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.32,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.33,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.34,
+    "feasible": 0.4,
+    "x": 0.85
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.35000000000000003,
+    "feasible": 0.56,
+    "x": 0.625
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.36,
+    "feasible": 0.81,
+    "x": 0.4444444444444444
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 1.21,
+    "x": 0.3223140495867769
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.44,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.49,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5700000000000001,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.48,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.49,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 52.056088563262755,
+    "booked_pct": 18.78243394478066,
+    "credit_pct": 33.27365461848209,
+    "floored_share": 0.46,
+    "wiped_share": 0.46,
+    "orders": 1.0,
+    "open_steps": 14.4
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "ORIG",
+  "seed": 602,
+  "xlow": 0.43040123456790125,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": false,
+    "volume": 0.16,
+    "feasible": 0.16,
+    "x": 1.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": false,
+    "volume": 0.17,
+    "feasible": 0.24,
+    "x": 0.7083333333333334
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.18,
+    "feasible": 0.4,
+    "x": 0.44999999999999996
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.2,
+    "feasible": 0.56,
+    "x": 0.35714285714285715
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.22,
+    "feasible": 0.81,
+    "x": 0.2716049382716049
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.31,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.74,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 1.09,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 1.56,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 1.87,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 1.86,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 68.99285481350357,
+    "booked_pct": 44.44056131367372,
+    "credit_pct": 24.552293499829858,
+    "floored_share": 0.5,
+    "wiped_share": 0.5,
+    "orders": 3.67,
+    "open_steps": 25.77
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "ORIG",
+  "seed": 603,
+  "xlow": 0.41268092805449125,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.37,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.38,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.38,
+    "feasible": 0.4,
+    "x": 0.95
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 0.56,
+    "x": 0.6964285714285714
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.4,
+    "feasible": 0.81,
+    "x": 0.49382716049382713
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.41000000000000003,
+    "feasible": 1.21,
+    "x": 0.3388429752066116
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 1.62,
+    "x": 0.25925925925925924
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 2.0300000000000002,
+    "x": 0.2068965517241379
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 2.84,
+    "x": 0.15140845070422534
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 4.0600000000000005,
+    "x": 0.10344827586206895
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 5.68,
+    "x": 0.06866197183098592
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.33,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.29,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.29,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 86.69956008449539,
+    "booked_pct": 42.76732423133741,
+    "credit_pct": 43.93223585315796,
+    "floored_share": 0.53,
+    "wiped_share": 0.53,
+    "orders": 2.31,
+    "open_steps": 28.58
+   },
+   "0.25": {
+    "reported_pct": 21.420250319548593,
+    "booked_pct": 9.094584708935214,
+    "credit_pct": 12.325665610613383,
+    "floored_share": 0.47,
+    "wiped_share": 0.47,
+    "orders": 2.73,
+    "open_steps": 40.78
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "ORIG",
+  "seed": 604,
+  "xlow": 0.22638812868697927,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.53,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.53,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 0.53,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 0.56,
+    "x": 0.9464285714285714
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 0.81,
+    "x": 0.654320987654321
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 1.21,
+    "x": 0.4380165289256199
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.52,
+    "feasible": 1.62,
+    "x": 0.32098765432098764
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 2.0300000000000002,
+    "x": 0.25123152709359603
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 2.84,
+    "x": 0.1619718309859155
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.33,
+    "feasible": 4.0600000000000005,
+    "x": 0.0812807881773399
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.07,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.18,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.31,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 63.35311113524996,
+    "booked_pct": 6.643872383279396,
+    "credit_pct": 56.709238751970545,
+    "floored_share": 0.39,
+    "wiped_share": 0.39,
+    "orders": 9.42,
+    "open_steps": 10.13
+   },
+   "0.25": {
+    "reported_pct": 2.4082024816258922,
+    "booked_pct": -18.862043192842474,
+    "credit_pct": 21.27024567446837,
+    "floored_share": 0.39,
+    "wiped_share": 0.39,
+    "orders": 19.25,
+    "open_steps": 23.3
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "ORIG",
+  "seed": 605,
+  "xlow": 0.3145867542419266,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.71,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.71,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 0.71,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": true,
+    "volume": 0.72,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.72,
+    "feasible": 0.81,
+    "x": 0.8888888888888888
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.73,
+    "feasible": 1.21,
+    "x": 0.6033057851239669
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.74,
+    "feasible": 1.62,
+    "x": 0.4567901234567901
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.75,
+    "feasible": 2.0300000000000002,
+    "x": 0.36945812807881767
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.75,
+    "feasible": 2.84,
+    "x": 0.26408450704225356
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.71,
+    "feasible": 4.0600000000000005,
+    "x": 0.17487684729064037
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.6,
+    "feasible": 5.68,
+    "x": 0.1056338028169014
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.08,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.14,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 78.99171686882721,
+    "booked_pct": 7.774490709353435,
+    "credit_pct": 71.21722615947377,
+    "floored_share": 0.61,
+    "wiped_share": 0.61,
+    "orders": 1.53,
+    "open_steps": 13.23
+   },
+   "0.25": {
+    "reported_pct": 25.61039331657718,
+    "booked_pct": -0.677692385855058,
+    "credit_pct": 26.288085702432234,
+    "floored_share": 0.52,
+    "wiped_share": 0.52,
+    "orders": 1.82,
+    "open_steps": 27.44
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "ORIG",
+  "seed": 606,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.81,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.81,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.79,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.78,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.76,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.68,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.35000000000000003,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.09,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.15,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "ORIG",
+  "seed": 607,
+  "xlow": 0.22944414036368058,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.46,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.46,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 0.47000000000000003,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.48,
+    "feasible": 0.56,
+    "x": 0.857142857142857
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 0.81,
+    "x": 0.6172839506172839
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 1.21,
+    "x": 0.4380165289256199
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.5700000000000001,
+    "feasible": 1.62,
+    "x": 0.35185185185185186
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.61,
+    "feasible": 2.0300000000000002,
+    "x": 0.3004926108374384
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.6900000000000001,
+    "feasible": 2.84,
+    "x": 0.24295774647887328
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.8200000000000001,
+    "feasible": 4.0600000000000005,
+    "x": 0.2019704433497537
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.9400000000000001,
+    "feasible": 5.68,
+    "x": 0.1654929577464789
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 1.0,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.96,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 115.5780791288743,
+    "booked_pct": 55.8571524565499,
+    "credit_pct": 59.7209266723244,
+    "floored_share": 0.67,
+    "wiped_share": 0.67,
+    "orders": 1.0,
+    "open_steps": 24.61
+   },
+   "0.25": {
+    "reported_pct": 61.50461237683928,
+    "booked_pct": 37.68985099576812,
+    "credit_pct": 23.81476138107118,
+    "floored_share": 0.51,
+    "wiped_share": 0.51,
+    "orders": 1.0,
+    "open_steps": 40.81
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "ORIG",
+  "seed": 608,
+  "xlow": 0.27818828680897645,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.61,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.61,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 0.62,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": true,
+    "volume": 0.62,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.63,
+    "feasible": 0.81,
+    "x": 0.7777777777777777
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.65,
+    "feasible": 1.21,
+    "x": 0.5371900826446281
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.67,
+    "feasible": 1.62,
+    "x": 0.41358024691358025
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.68,
+    "feasible": 2.0300000000000002,
+    "x": 0.33497536945812806
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.7000000000000001,
+    "feasible": 2.84,
+    "x": 0.24647887323943665
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.7000000000000001,
+    "feasible": 4.0600000000000005,
+    "x": 0.17241379310344826
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.61,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.16,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.33,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 66.67401972474384,
+    "booked_pct": 5.2835819166412765,
+    "credit_pct": 61.39043780810257,
+    "floored_share": 0.51,
+    "wiped_share": 0.51,
+    "orders": 1.27,
+    "open_steps": 13.8
+   },
+   "0.25": {
+    "reported_pct": 32.42298853345958,
+    "booked_pct": 12.941327445661532,
+    "credit_pct": 19.48166108779805,
+    "floored_share": 0.39,
+    "wiped_share": 0.39,
+    "orders": 1.18,
+    "open_steps": 23.24
+   }
+  }
+ },
+ {
+  "arm": "V16",
+  "condition": "ORIG",
+  "seed": 609,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 1.23,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 1.23,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 1.22,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 1.21,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 1.2,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 1.17,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 1.1400000000000001,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 1.11,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 1.04,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.92,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.76,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.28,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.08,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V2",
+  "condition": "ORIG",
+  "seed": 600,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.22,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.19,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.13,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.04,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.07,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.16,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V2",
+  "condition": "ORIG",
+  "seed": 601,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.33,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.33,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.33,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.32,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.32,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.3,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.29,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.19,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.17,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.12,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.06,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V2",
+  "condition": "ORIG",
+  "seed": 602,
+  "xlow": 0.28378337286383265,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.74,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.74,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 0.73,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": true,
+    "volume": 0.72,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.7000000000000001,
+    "feasible": 0.81,
+    "x": 0.8641975308641976
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.66,
+    "feasible": 1.21,
+    "x": 0.5454545454545455
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.61,
+    "feasible": 1.62,
+    "x": 0.37654320987654316
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 2.0300000000000002,
+    "x": 0.270935960591133
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.36,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.02,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.31,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.4,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.52,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 9.691656233332756,
+    "booked_pct": 0.6636098102083706,
+    "credit_pct": 9.028046423124387,
+    "floored_share": 0.44,
+    "wiped_share": 0.44,
+    "orders": 1.0,
+    "open_steps": 32.06
+   },
+   "0.25": {
+    "reported_pct": -3.7387218710337597,
+    "booked_pct": -4.986129631963333,
+    "credit_pct": 1.2474077609295728,
+    "floored_share": 0.18,
+    "wiped_share": 0.18,
+    "orders": 1.0,
+    "open_steps": 66.6
+   }
+  }
+ },
+ {
+  "arm": "V2",
+  "condition": "ORIG",
+  "seed": 603,
+  "xlow": 0.17889071337347198,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.44,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.43,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 0.43,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 0.56,
+    "x": 0.7678571428571428
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 0.81,
+    "x": 0.5185185185185185
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.41000000000000003,
+    "feasible": 1.21,
+    "x": 0.3388429752066116
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.41000000000000003,
+    "feasible": 1.62,
+    "x": 0.25308641975308643
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.4,
+    "feasible": 2.0300000000000002,
+    "x": 0.19704433497536944
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.4,
+    "feasible": 2.84,
+    "x": 0.14084507042253522
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 4.0600000000000005,
+    "x": 0.10344827586206895
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.49,
+    "feasible": 8.120000000000001,
+    "x": 0.060344827586206885
+   },
+   {
+    "e": 1.4,
+    "hold": false,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 11.370000000000001,
+    "x": 0.043975373790677216
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 16.25,
+    "x": 0.027692307692307693
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": -32.42911001983685,
+    "booked_pct": -33.007822683405095,
+    "credit_pct": 0.5787126635682476,
+    "floored_share": 0.05,
+    "wiped_share": 0.05,
+    "orders": 24.54,
+    "open_steps": 29.13
+   },
+   "0.25": {
+    "reported_pct": -17.66991799182342,
+    "booked_pct": -18.17831337708287,
+    "credit_pct": 0.5083953852594524,
+    "floored_share": 0.05,
+    "wiped_share": 0.05,
+    "orders": 42.86,
+    "open_steps": 67.65
+   }
+  }
+ },
+ {
+  "arm": "V2",
+  "condition": "ORIG",
+  "seed": 604,
+  "xlow": 0.4110107644590403,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.41000000000000003,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.41000000000000003,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.4,
+    "feasible": 0.4,
+    "x": 1.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 0.56,
+    "x": 0.6964285714285714
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.39,
+    "feasible": 0.81,
+    "x": 0.48148148148148145
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 1.21,
+    "x": 0.30578512396694213
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.35000000000000003,
+    "feasible": 1.62,
+    "x": 0.2160493827160494
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.33,
+    "feasible": 2.0300000000000002,
+    "x": 0.1625615763546798
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.29,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.13,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.03,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.04,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": -2.0466763692327303,
+    "booked_pct": -6.633940332802872,
+    "credit_pct": 4.587263963570147,
+    "floored_share": 0.37,
+    "wiped_share": 0.37,
+    "orders": 2.52,
+    "open_steps": 51.52
+   },
+   "0.25": {
+    "reported_pct": -2.0411765564256066,
+    "booked_pct": -2.421886497511171,
+    "credit_pct": 0.38070994108556266,
+    "floored_share": 0.06,
+    "wiped_share": 0.06,
+    "orders": 2.58,
+    "open_steps": 63.3
+   }
+  }
+ },
+ {
+  "arm": "V2",
+  "condition": "ORIG",
+  "seed": 605,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.1,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.12,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.14,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.16,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.2,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.34,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.4,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.58,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.63,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V4",
+  "condition": "ORIG",
+  "seed": 600,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.38,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.35000000000000003,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.3,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.18,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.15,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V4",
+  "condition": "ORIG",
+  "seed": 601,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.44,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.49,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.61,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.71,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.81,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.96,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.98,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.67,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.04,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.02,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V4",
+  "condition": "ORIG",
+  "seed": 602,
+  "xlow": 0.25486225141397556,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.24,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 0.24,
+    "x": 1.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 0.4,
+    "x": 0.6
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 0.56,
+    "x": 0.4285714285714285
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 0.81,
+    "x": 0.2962962962962963
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.25,
+    "feasible": 1.21,
+    "x": 0.2066115702479339
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.25,
+    "feasible": 1.62,
+    "x": 0.15432098765432098
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.25,
+    "feasible": 2.0300000000000002,
+    "x": 0.1231527093596059
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.26,
+    "feasible": 2.84,
+    "x": 0.09154929577464789
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.26,
+    "feasible": 4.0600000000000005,
+    "x": 0.06403940886699507
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.25,
+    "feasible": 5.68,
+    "x": 0.04401408450704226
+   },
+   {
+    "e": 1.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.2,
+    "feasible": 8.120000000000001,
+    "x": 0.02463054187192118
+   },
+   {
+    "e": 1.4,
+    "hold": false,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 11.370000000000001,
+    "x": 0.009674582233948988
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.05,
+    "feasible": 16.25,
+    "x": 0.003076923076923077
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": -0.7454490678100573,
+    "booked_pct": -5.494347924537897,
+    "credit_pct": 4.748898856727839,
+    "floored_share": 0.36,
+    "wiped_share": 0.36,
+    "orders": 1.0,
+    "open_steps": 59.12
+   },
+   "0.25": {
+    "reported_pct": 2.6620627830238703,
+    "booked_pct": 1.9068124166462181,
+    "credit_pct": 0.7552503663776505,
+    "floored_share": 0.13,
+    "wiped_share": 0.13,
+    "orders": 1.0,
+    "open_steps": 79.43
+   }
+  }
+ },
+ {
+  "arm": "V4",
+  "condition": "ORIG",
+  "seed": 603,
+  "xlow": 0.30040138660828314,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.66,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.66,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 0.67,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": true,
+    "volume": 0.68,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.6900000000000001,
+    "feasible": 0.81,
+    "x": 0.8518518518518519
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.7000000000000001,
+    "feasible": 1.21,
+    "x": 0.578512396694215
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.71,
+    "feasible": 1.62,
+    "x": 0.43827160493827155
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.71,
+    "feasible": 2.0300000000000002,
+    "x": 0.34975369458128075
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.71,
+    "feasible": 2.84,
+    "x": 0.25
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.66,
+    "feasible": 4.0600000000000005,
+    "x": 0.1625615763546798
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.54,
+    "feasible": 5.68,
+    "x": 0.09507042253521128
+   },
+   {
+    "e": 1.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.36,
+    "feasible": 8.120000000000001,
+    "x": 0.04433497536945812
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.22,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 4.44317540742027,
+    "booked_pct": -19.740993935183877,
+    "credit_pct": 24.184169342604157,
+    "floored_share": 0.55,
+    "wiped_share": 0.55,
+    "orders": 2.27,
+    "open_steps": 25.77
+   },
+   "0.25": {
+    "reported_pct": -1.0919785849475672,
+    "booked_pct": -10.709506804657419,
+    "credit_pct": 9.617528219709852,
+    "floored_share": 0.4,
+    "wiped_share": 0.4,
+    "orders": 2.48,
+    "open_steps": 48.55
+   }
+  }
+ },
+ {
+  "arm": "V4",
+  "condition": "ORIG",
+  "seed": 604,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.3,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.13,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V4",
+  "condition": "ORIG",
+  "seed": 605,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.33,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.33,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.34,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.34,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.35000000000000003,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.36,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.36,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.36,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.35000000000000003,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.19,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.15,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.1,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V4",
+  "condition": "ORIG",
+  "seed": 606,
+  "xlow": 0.24106268624946786,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": false,
+    "volume": 0.08,
+    "feasible": 0.16,
+    "x": 0.5
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": false,
+    "volume": 0.09,
+    "feasible": 0.24,
+    "x": 0.375
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.09,
+    "feasible": 0.4,
+    "x": 0.22499999999999998
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.1,
+    "feasible": 0.56,
+    "x": 0.17857142857142858
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 0.81,
+    "x": 0.13580246913580246
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.14,
+    "feasible": 1.21,
+    "x": 0.11570247933884299
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.17,
+    "feasible": 1.62,
+    "x": 0.10493827160493827
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 2.0300000000000002,
+    "x": 0.10344827586206895
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.32,
+    "feasible": 2.84,
+    "x": 0.11267605633802817
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.52,
+    "feasible": 4.0600000000000005,
+    "x": 0.12807881773399013
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.75,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5700000000000001,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.3,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": -0.079730180687352,
+    "booked_pct": -1.5705161427485228,
+    "credit_pct": 1.4907859620611703,
+    "floored_share": 0.19,
+    "wiped_share": 0.19,
+    "orders": 1.0,
+    "open_steps": 78.4
+   },
+   "0.25": {
+    "reported_pct": 1.0986186225383703,
+    "booked_pct": 0.8653092986505644,
+    "credit_pct": 0.23330932388780512,
+    "floored_share": 0.07,
+    "wiped_share": 0.07,
+    "orders": 1.0,
+    "open_steps": 83.28
+   }
+  }
+ },
+ {
+  "arm": "V4",
+  "condition": "ORIG",
+  "seed": 607,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 1.06,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 1.06,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 1.06,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": true,
+    "volume": 1.06,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": true,
+    "volume": 1.05,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 1.04,
+    "feasible": 1.21,
+    "x": 0.859504132231405
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 1.01,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.98,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.9,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.8,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.76,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.74,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.67,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.52,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V4",
+  "condition": "ORIG",
+  "seed": 608,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.29,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.29,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.26,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.18,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.1,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.01,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.25,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.66,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.87,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.85,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.7000000000000001,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V4",
+  "condition": "ORIG",
+  "seed": 609,
+  "xlow": 0.3584249376634434,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.29,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.3,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.31,
+    "feasible": 0.4,
+    "x": 0.7749999999999999
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.33,
+    "feasible": 0.56,
+    "x": 0.5892857142857143
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.35000000000000003,
+    "feasible": 0.81,
+    "x": 0.4320987654320988
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.38,
+    "feasible": 1.21,
+    "x": 0.3140495867768595
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 1.62,
+    "x": 0.25925925925925924
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 2.0300000000000002,
+    "x": 0.22660098522167485
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 2.84,
+    "x": 0.18661971830985918
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.6,
+    "feasible": 4.0600000000000005,
+    "x": 0.14778325123152708
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.62,
+    "feasible": 5.68,
+    "x": 0.1091549295774648
+   },
+   {
+    "e": 1.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.56,
+    "feasible": 8.120000000000001,
+    "x": 0.06896551724137931
+   },
+   {
+    "e": 1.4,
+    "hold": false,
+    "refused": false,
+    "volume": 0.52,
+    "feasible": 11.370000000000001,
+    "x": 0.04573438874230431
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 8.246232108355027,
+    "booked_pct": -1.528270258660635,
+    "credit_pct": 9.774502367015659,
+    "floored_share": 0.47,
+    "wiped_share": 0.47,
+    "orders": 1.0,
+    "open_steps": 47.2
+   },
+   "0.25": {
+    "reported_pct": 9.27454908202025,
+    "booked_pct": 6.340216948418398,
+    "credit_pct": 2.934332133601849,
+    "floored_share": 0.31,
+    "wiped_share": 0.31,
+    "orders": 1.0,
+    "open_steps": 69.34
+   }
+  }
+ },
+ {
+  "arm": "V8",
+  "condition": "ORIG",
+  "seed": 600,
+  "xlow": 0.1967858663260962,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.48,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.48,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 0.48,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.48,
+    "feasible": 0.56,
+    "x": 0.857142857142857
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 0.81,
+    "x": 0.5802469135802469
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 1.21,
+    "x": 0.38016528925619836
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.44,
+    "feasible": 1.62,
+    "x": 0.2716049382716049
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.42,
+    "feasible": 2.0300000000000002,
+    "x": 0.2068965517241379
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 2.84,
+    "x": 0.13028169014084506
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.25,
+    "feasible": 4.0600000000000005,
+    "x": 0.06157635467980295
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.07,
+    "feasible": 5.68,
+    "x": 0.012323943661971832
+   },
+   {
+    "e": 1.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.13,
+    "feasible": 8.120000000000001,
+    "x": 0.016009852216748766
+   },
+   {
+    "e": 1.4,
+    "hold": false,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 11.370000000000001,
+    "x": 0.01846965699208443
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.15,
+    "feasible": 16.25,
+    "x": 0.00923076923076923
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 44.33485538734429,
+    "booked_pct": 19.815815934560337,
+    "credit_pct": 24.519039452783964,
+    "floored_share": 0.59,
+    "wiped_share": 0.59,
+    "orders": 1.0,
+    "open_steps": 32.54
+   },
+   "0.25": {
+    "reported_pct": 2.902615607049148,
+    "booked_pct": -3.7419038885123816,
+    "credit_pct": 6.644519495561524,
+    "floored_share": 0.4,
+    "wiped_share": 0.4,
+    "orders": 1.0,
+    "open_steps": 57.88
+   }
+  }
+ },
+ {
+  "arm": "V8",
+  "condition": "ORIG",
+  "seed": 601,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.22,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": false,
+    "volume": 0.23,
+    "feasible": 0.24,
+    "x": 0.9583333333333334
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.25,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.3,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.44,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.65,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.75,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.7000000000000001,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.31,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V8",
+  "condition": "ORIG",
+  "seed": 602,
+  "xlow": 0.19800218938149972,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.44,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.44,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 0.44,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 0.56,
+    "x": 0.8035714285714285
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 0.81,
+    "x": 0.5555555555555556
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.46,
+    "feasible": 1.21,
+    "x": 0.38016528925619836
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 1.62,
+    "x": 0.29012345679012347
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.48,
+    "feasible": 2.0300000000000002,
+    "x": 0.2364532019704433
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.52,
+    "feasible": 2.84,
+    "x": 0.18309859154929578
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.58,
+    "feasible": 4.0600000000000005,
+    "x": 0.14285714285714282
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.64,
+    "feasible": 5.68,
+    "x": 0.11267605633802817
+   },
+   {
+    "e": 1.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.66,
+    "feasible": 8.120000000000001,
+    "x": 0.0812807881773399
+   },
+   {
+    "e": 1.4,
+    "hold": false,
+    "refused": false,
+    "volume": 0.62,
+    "feasible": 11.370000000000001,
+    "x": 0.054529463500439745
+   },
+   {
+    "e": 2.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.47000000000000003,
+    "feasible": 16.25,
+    "x": 0.028923076923076926
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 31.400098624568415,
+    "booked_pct": 11.942061419678998,
+    "credit_pct": 19.45803720488942,
+    "floored_share": 0.53,
+    "wiped_share": 0.53,
+    "orders": 1.02,
+    "open_steps": 29.37
+   },
+   "0.25": {
+    "reported_pct": 22.98464636373738,
+    "booked_pct": 15.355334060456837,
+    "credit_pct": 7.629312303280545,
+    "floored_share": 0.41,
+    "wiped_share": 0.41,
+    "orders": 1.05,
+    "open_steps": 53.04
+   }
+  }
+ },
+ {
+  "arm": "V8",
+  "condition": "ORIG",
+  "seed": 603,
+  "xlow": 0.12438423645320196,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 1.02,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 1.02,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 1.02,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": true,
+    "volume": 1.02,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": true,
+    "volume": 1.02,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 1.02,
+    "feasible": 1.21,
+    "x": 0.8429752066115703
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 1.02,
+    "feasible": 1.62,
+    "x": 0.6296296296296297
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 1.01,
+    "feasible": 2.0300000000000002,
+    "x": 0.49753694581280783
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.99,
+    "feasible": 2.84,
+    "x": 0.3485915492957747
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.9400000000000001,
+    "feasible": 4.0600000000000005,
+    "x": 0.2315270935960591
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.8300000000000001,
+    "feasible": 5.68,
+    "x": 0.1461267605633803
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.62,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.37,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": -4.0,
+    "booked_pct": -11.183792308436434,
+    "credit_pct": 7.183792308436434,
+    "floored_share": 0.04,
+    "wiped_share": 0.04,
+    "orders": 0.04,
+    "open_steps": 0.02
+   },
+   "0.25": {
+    "reported_pct": 47.83681401689131,
+    "booked_pct": 29.866814898325746,
+    "credit_pct": 17.969999118565546,
+    "floored_share": 0.56,
+    "wiped_share": 0.56,
+    "orders": 1.01,
+    "open_steps": 32.71
+   }
+  }
+ },
+ {
+  "arm": "V8",
+  "condition": "ORIG",
+  "seed": 604,
+  "xlow": 0.1022167487684729,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.8200000000000001,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.8200000000000001,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 0.8200000000000001,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": true,
+    "volume": 0.8200000000000001,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": true,
+    "volume": 0.8200000000000001,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.8300000000000001,
+    "feasible": 1.21,
+    "x": 0.6859504132231405
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.8300000000000001,
+    "feasible": 1.62,
+    "x": 0.5123456790123457
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.8300000000000001,
+    "feasible": 2.0300000000000002,
+    "x": 0.4088669950738916
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.8300000000000001,
+    "feasible": 2.84,
+    "x": 0.2922535211267606
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.84,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.84,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.74,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.49,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 49.77688879079228,
+    "booked_pct": 11.52534157262022,
+    "credit_pct": 38.25154721817206,
+    "floored_share": 0.51,
+    "wiped_share": 0.51,
+    "orders": 0.84,
+    "open_steps": 16.02
+   },
+   "0.25": {
+    "reported_pct": 24.677104144672757,
+    "booked_pct": 11.917870531352131,
+    "credit_pct": 12.759233613320635,
+    "floored_share": 0.51,
+    "wiped_share": 0.51,
+    "orders": 1.0,
+    "open_steps": 35.22
+   }
+  }
+ },
+ {
+  "arm": "V8",
+  "condition": "ORIG",
+  "seed": 605,
+  "xlow": 0.1231527093596059,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 1.21,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 1.2,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 1.19,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": true,
+    "volume": 1.18,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": true,
+    "volume": 1.1500000000000001,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 1.11,
+    "feasible": 1.21,
+    "x": 0.9173553719008265
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 1.06,
+    "feasible": 1.62,
+    "x": 0.654320987654321
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 1.0,
+    "feasible": 2.0300000000000002,
+    "x": 0.4926108374384236
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.88,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.68,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.43,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.18,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.44,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 6.783802010190861,
+    "booked_pct": 6.783802010190861,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.04,
+    "open_steps": 0.03
+   },
+   "0.25": {
+    "reported_pct": 4.38098877810308,
+    "booked_pct": -4.452542527928537,
+    "credit_pct": 8.833531306031615,
+    "floored_share": 0.25,
+    "wiped_share": 0.25,
+    "orders": 1.0,
+    "open_steps": 3.85
+   }
+  }
+ },
+ {
+  "arm": "V8",
+  "condition": "ORIG",
+  "seed": 606,
+  "xlow": 0.14441099556042086,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.19,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": false,
+    "volume": 0.18,
+    "feasible": 0.24,
+    "x": 0.75
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": false,
+    "volume": 0.16,
+    "feasible": 0.4,
+    "x": 0.39999999999999997
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.14,
+    "feasible": 0.56,
+    "x": 0.25
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.1,
+    "feasible": 0.81,
+    "x": 0.12345679012345678
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.04,
+    "feasible": 1.21,
+    "x": 0.03305785123966942
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.04,
+    "feasible": 1.62,
+    "x": 0.024691358024691357
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.11,
+    "feasible": 2.0300000000000002,
+    "x": 0.0541871921182266
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.27,
+    "feasible": 2.84,
+    "x": 0.09507042253521128
+   },
+   {
+    "e": 0.5,
+    "hold": false,
+    "refused": false,
+    "volume": 0.45,
+    "feasible": 4.0600000000000005,
+    "x": 0.11083743842364531
+   },
+   {
+    "e": 0.7,
+    "hold": false,
+    "refused": false,
+    "volume": 0.5700000000000001,
+    "feasible": 5.68,
+    "x": 0.10035211267605636
+   },
+   {
+    "e": 1.0,
+    "hold": false,
+    "refused": false,
+    "volume": 0.61,
+    "feasible": 8.120000000000001,
+    "x": 0.0751231527093596
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.59,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.5700000000000001,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 11.682438484697245,
+    "booked_pct": 9.855645982946582,
+    "credit_pct": 1.8267925017506628,
+    "floored_share": 0.23,
+    "wiped_share": 0.23,
+    "orders": 1.0,
+    "open_steps": 70.4
+   },
+   "0.25": {
+    "reported_pct": -9.675657181328651,
+    "booked_pct": -10.170460304429188,
+    "credit_pct": 0.494803123100536,
+    "floored_share": 0.07,
+    "wiped_share": 0.07,
+    "orders": 1.06,
+    "open_steps": 78.73
+   }
+  }
+ },
+ {
+  "arm": "V8",
+  "condition": "ORIG",
+  "seed": 607,
+  "xlow": 0.0,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": true,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": true,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": true,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": true,
+    "refused": false,
+    "volume": 0.54,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": true,
+    "refused": false,
+    "volume": 0.55,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": true,
+    "refused": false,
+    "volume": 0.58,
+    "feasible": 1.21,
+    "x": 0.0
+   },
+   {
+    "e": 0.2,
+    "hold": true,
+    "refused": false,
+    "volume": 0.61,
+    "feasible": 1.62,
+    "x": 0.0
+   },
+   {
+    "e": 0.25,
+    "hold": true,
+    "refused": false,
+    "volume": 0.63,
+    "feasible": 2.0300000000000002,
+    "x": 0.0
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 0.68,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.71,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.72,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.71,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.72,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.73,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   },
+   "0.25": {
+    "reported_pct": 0.0,
+    "booked_pct": 0.0,
+    "credit_pct": 0.0,
+    "floored_share": 0.0,
+    "wiped_share": 0.0,
+    "orders": 0.0,
+    "open_steps": 0.0
+   }
+  }
+ },
+ {
+  "arm": "V8",
+  "condition": "ORIG",
+  "seed": 608,
+  "xlow": 0.15640394088669948,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 1.08,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 1.08,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 1.09,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": true,
+    "volume": 1.11,
+    "feasible": 0.56,
+    "x": 0.0
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": true,
+    "volume": 1.1300000000000001,
+    "feasible": 0.81,
+    "x": 0.0
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 1.17,
+    "feasible": 1.21,
+    "x": 0.9669421487603306
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 1.21,
+    "feasible": 1.62,
+    "x": 0.7469135802469135
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 1.27,
+    "feasible": 2.0300000000000002,
+    "x": 0.6256157635467979
+   },
+   {
+    "e": 0.35,
+    "hold": true,
+    "refused": false,
+    "volume": 1.3800000000000001,
+    "feasible": 2.84,
+    "x": 0.0
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 1.5,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 1.3800000000000001,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.99,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.6900000000000001,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.51,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": -2.0405472331280525,
+    "booked_pct": -5.693825520967282,
+    "credit_pct": 3.6532782878392296,
+    "floored_share": 0.02,
+    "wiped_share": 0.02,
+    "orders": 0.03,
+    "open_steps": 0.07
+   },
+   "0.25": {
+    "reported_pct": 20.656047340180763,
+    "booked_pct": -2.2143949806757237,
+    "credit_pct": 22.87044232085648,
+    "floored_share": 0.44,
+    "wiped_share": 0.44,
+    "orders": 1.0,
+    "open_steps": 14.33
+   }
+  }
+ },
+ {
+  "arm": "V8",
+  "condition": "ORIG",
+  "seed": 609,
+  "xlow": 0.23008270996776745,
+  "check_max_abs_diff": 0.0,
+  "probe": [
+   {
+    "e": 0.02,
+    "hold": false,
+    "refused": true,
+    "volume": 0.53,
+    "feasible": 0.16,
+    "x": 0.0
+   },
+   {
+    "e": 0.03,
+    "hold": false,
+    "refused": true,
+    "volume": 0.53,
+    "feasible": 0.24,
+    "x": 0.0
+   },
+   {
+    "e": 0.05,
+    "hold": false,
+    "refused": true,
+    "volume": 0.53,
+    "feasible": 0.4,
+    "x": 0.0
+   },
+   {
+    "e": 0.07,
+    "hold": false,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 0.56,
+    "x": 0.9464285714285714
+   },
+   {
+    "e": 0.1,
+    "hold": false,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 0.81,
+    "x": 0.654320987654321
+   },
+   {
+    "e": 0.15,
+    "hold": false,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 1.21,
+    "x": 0.4380165289256199
+   },
+   {
+    "e": 0.2,
+    "hold": false,
+    "refused": false,
+    "volume": 0.53,
+    "feasible": 1.62,
+    "x": 0.3271604938271605
+   },
+   {
+    "e": 0.25,
+    "hold": false,
+    "refused": false,
+    "volume": 0.54,
+    "feasible": 2.0300000000000002,
+    "x": 0.2660098522167488
+   },
+   {
+    "e": 0.35,
+    "hold": false,
+    "refused": false,
+    "volume": 0.5700000000000001,
+    "feasible": 2.84,
+    "x": 0.20070422535211271
+   },
+   {
+    "e": 0.5,
+    "hold": true,
+    "refused": false,
+    "volume": 0.65,
+    "feasible": 4.0600000000000005,
+    "x": 0.0
+   },
+   {
+    "e": 0.7,
+    "hold": true,
+    "refused": false,
+    "volume": 0.71,
+    "feasible": 5.68,
+    "x": 0.0
+   },
+   {
+    "e": 1.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.59,
+    "feasible": 8.120000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 1.4,
+    "hold": true,
+    "refused": false,
+    "volume": 0.24,
+    "feasible": 11.370000000000001,
+    "x": 0.0
+   },
+   {
+    "e": 2.0,
+    "hold": true,
+    "refused": false,
+    "volume": 0.21,
+    "feasible": 16.25,
+    "x": 0.0
+   }
+  ],
+  "low": {
+   "0.1": {
+    "reported_pct": 19.27642134168125,
+    "booked_pct": -4.989421665343287,
+    "credit_pct": 24.265843007024536,
+    "floored_share": 0.57,
+    "wiped_share": 0.57,
+    "orders": 1.0,
+    "open_steps": 25.44
+   },
+   "0.25": {
+    "reported_pct": 25.466616515884816,
+    "booked_pct": 19.547425665951007,
+    "credit_pct": 5.919190849933819,
+    "floored_share": 0.41,
+    "wiped_share": 0.41,
+    "orders": 1.58,
+    "open_steps": 47.88
+   }
+  }
+ }
+]

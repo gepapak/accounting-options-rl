@@ -1,0 +1,16 @@
+L=  1 FLPATCH: reported    +0.14  booked    +0.14  forgiven   +0.00  equity hit zero   0.0%  volume     0.08
+L=  1 ORIG   : reported    +0.14  booked    +0.14  forgiven   +0.00  equity hit zero   0.0%  volume     0.08
+L=  2 FLPATCH: reported    +0.27  booked    +0.27  forgiven   +0.00  equity hit zero   0.0%  volume     0.16
+L=  2 ORIG   : reported    +0.27  booked    +0.27  forgiven   +0.00  equity hit zero   0.0%  volume     0.16
+L=  5 FLPATCH: reported    +0.70  booked    +0.70  forgiven   +0.00  equity hit zero   0.0%  volume     0.41
+L=  5 ORIG   : reported    +0.70  booked    +0.70  forgiven   +0.00  equity hit zero   0.0%  volume     0.41
+L= 10 FLPATCH: reported    +1.57  booked    +1.57  forgiven   +0.00  equity hit zero   0.0%  volume     0.83
+L= 10 ORIG   : reported    +1.57  booked    +1.57  forgiven   +0.00  equity hit zero   0.0%  volume     0.83
+L= 20 FLPATCH: reported    +4.49  booked    +4.49  forgiven   +0.00  equity hit zero   0.0%  volume     1.65
+L= 20 ORIG   : reported    +4.49  booked    +4.49  forgiven   +0.00  equity hit zero   0.0%  volume     1.65
+L= 50 FLPATCH: reported    -1.32  booked    -1.32  forgiven   +0.00  equity hit zero   7.7%  volume     4.11
+L= 50 ORIG   : reported    -0.69  booked    -1.32  forgiven   +0.62  equity hit zero   7.7%  volume     4.11
+L=100 FLPATCH: reported    +4.67  booked    +4.67  forgiven   +0.00  equity hit zero  29.7%  volume     8.12
+L=100 ORIG   : reported    +9.64  booked    +4.67  forgiven   +4.96  equity hit zero  29.7%  volume     8.12
+L=200 FLPATCH: reported    +1.45  booked    +1.45  forgiven   +0.00  equity hit zero  59.0%  volume    15.86
+L=200 ORIG   : reported   +25.77  booked    +1.45  forgiven  +24.32  equity hit zero  59.0%  volume    15.86

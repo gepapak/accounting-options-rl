@@ -22,3 +22,5 @@ ACCOUNTING_OPTIONS_2026-10-14/study_ext/data/
 .venv-mtsim/
 .venv/
 venv/
+# crash dumps of Git Bash tools
+*.stackdump

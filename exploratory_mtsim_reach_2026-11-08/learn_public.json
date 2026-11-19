@@ -1,0 +1,462 @@
+{
+  "summary": {
+    "volume": 7.2700000000000005,
+    "open_fee": -363.5,
+    "line_max_abs_err_vs_nofloor": 1.5133991837501526e-09,
+    "slope_usd_per_price": 726999.9999999931,
+    "commits": {
+      "0.0015": {
+        "published_max": 0,
+        "nofloor_flat": 20,
+        "line_flat": 20
+      },
+      "0.012": {
+        "published_max": 16,
+        "nofloor_flat": 18,
+        "line_flat": 18
+      }
+    }
+  },
+  "rows": [
+    {
+      "scale": 0.0015,
+      "seed": 0,
+      "mean_published": -358.9297662118911,
+      "mean_nofloor": -360.8597323207109,
+      "mean_line": -360.859732320711,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 1
+    },
+    {
+      "scale": 0.0015,
+      "seed": 1,
+      "mean_published": -401.16373177012895,
+      "mean_nofloor": -401.16373177012895,
+      "mean_line": -401.1637317701286,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 0
+    },
+    {
+      "scale": 0.0015,
+      "seed": 2,
+      "mean_published": -366.1805159524295,
+      "mean_nofloor": -375.4542597554327,
+      "mean_line": -375.45425975543253,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 1
+    },
+    {
+      "scale": 0.0015,
+      "seed": 3,
+      "mean_published": -278.5578258366852,
+      "mean_nofloor": -278.5578258366852,
+      "mean_line": -278.557825836686,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 0
+    },
+    {
+      "scale": 0.0015,
+      "seed": 4,
+      "mean_published": -362.29823537034963,
+      "mean_nofloor": -364.66708697416766,
+      "mean_line": -364.66708697416766,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 2
+    },
+    {
+      "scale": 0.0015,
+      "seed": 5,
+      "mean_published": -393.75522476696744,
+      "mean_nofloor": -393.75522476696744,
+      "mean_line": -393.7552247669671,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 0
+    },
+    {
+      "scale": 0.0015,
+      "seed": 6,
+      "mean_published": -350.02021151108005,
+      "mean_nofloor": -356.9865062899082,
+      "mean_line": -356.9865062899082,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 2
+    },
+    {
+      "scale": 0.0015,
+      "seed": 7,
+      "mean_published": -431.03252590326986,
+      "mean_nofloor": -431.03252590326986,
+      "mean_line": -431.0325259032692,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 0
+    },
+    {
+      "scale": 0.0015,
+      "seed": 8,
+      "mean_published": -366.7177256222534,
+      "mean_nofloor": -366.7177256222534,
+      "mean_line": -366.7177256222534,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 0
+    },
+    {
+      "scale": 0.0015,
+      "seed": 9,
+      "mean_published": -381.6901403037524,
+      "mean_nofloor": -381.6901403037524,
+      "mean_line": -381.69014030375223,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 0
+    },
+    {
+      "scale": 0.0015,
+      "seed": 10,
+      "mean_published": -310.25883890482487,
+      "mean_nofloor": -310.25883890482487,
+      "mean_line": -310.2588389048254,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 0
+    },
+    {
+      "scale": 0.0015,
+      "seed": 11,
+      "mean_published": -337.7950858386043,
+      "mean_nofloor": -338.2858362974816,
+      "mean_line": -338.2858362974817,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 1
+    },
+    {
+      "scale": 0.0015,
+      "seed": 12,
+      "mean_published": -334.2554999755315,
+      "mean_nofloor": -334.2554999755315,
+      "mean_line": -334.25549997553173,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 0
+    },
+    {
+      "scale": 0.0015,
+      "seed": 13,
+      "mean_published": -397.5602973118362,
+      "mean_nofloor": -397.5602973118362,
+      "mean_line": -397.5602973118359,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 0
+    },
+    {
+      "scale": 0.0015,
+      "seed": 14,
+      "mean_published": -315.290697088509,
+      "mean_nofloor": -315.290697088509,
+      "mean_line": -315.29069708850943,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 0
+    },
+    {
+      "scale": 0.0015,
+      "seed": 15,
+      "mean_published": -331.0709546705481,
+      "mean_nofloor": -334.8803747288634,
+      "mean_line": -334.88037472886367,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 1
+    },
+    {
+      "scale": 0.0015,
+      "seed": 16,
+      "mean_published": -335.3234216783493,
+      "mean_nofloor": -335.3234216783493,
+      "mean_line": -335.32342167834963,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 0
+    },
+    {
+      "scale": 0.0015,
+      "seed": 17,
+      "mean_published": -425.0149793751311,
+      "mean_nofloor": -430.3479612674203,
+      "mean_line": -430.3479612674197,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 1
+    },
+    {
+      "scale": 0.0015,
+      "seed": 18,
+      "mean_published": -338.86862324854485,
+      "mean_nofloor": -338.86862324854485,
+      "mean_line": -338.868623248545,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 0
+    },
+    {
+      "scale": 0.0015,
+      "seed": 19,
+      "mean_published": -321.08341142411217,
+      "mean_nofloor": -321.1917809540428,
+      "mean_line": -321.1917809540432,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 1
+    },
+    {
+      "scale": 0.012,
+      "seed": 0,
+      "mean_published": 208.22045992903955,
+      "mean_nofloor": -384.4033704253416,
+      "mean_line": -384.40337042534105,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 89
+    },
+    {
+      "scale": 0.012,
+      "seed": 1,
+      "mean_published": 412.1076205697474,
+      "mean_nofloor": -203.9479966406322,
+      "mean_line": -203.94799664063353,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 94
+    },
+    {
+      "scale": 0.012,
+      "seed": 2,
+      "mean_published": 43.6878003336956,
+      "mean_nofloor": -616.3328215818603,
+      "mean_line": -616.3328215818576,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 96
+    },
+    {
+      "scale": 0.012,
+      "seed": 3,
+      "mean_published": 109.82603398121309,
+      "mean_nofloor": -483.8444912745103,
+      "mean_line": -483.84449127450887,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 91
+    },
+    {
+      "scale": 0.012,
+      "seed": 4,
+      "mean_published": 373.685676335194,
+      "mean_nofloor": -311.1432620725746,
+      "mean_line": -311.14326207257494,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 101
+    },
+    {
+      "scale": 0.012,
+      "seed": 5,
+      "mean_published": 462.2616055434854,
+      "mean_nofloor": -287.646746967714,
+      "mean_line": -287.6467469677146,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 97
+    },
+    {
+      "scale": 0.012,
+      "seed": 6,
+      "mean_published": -76.23606970266177,
+      "mean_nofloor": -687.8554154258156,
+      "mean_line": -687.8554154258126,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 91
+    },
+    {
+      "scale": 0.012,
+      "seed": 7,
+      "mean_published": -165.368866816047,
+      "mean_nofloor": -849.8099414608652,
+      "mean_line": -849.8099414608602,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 103
+    },
+    {
+      "scale": 0.012,
+      "seed": 8,
+      "mean_published": 441.9843460202021,
+      "mean_nofloor": -184.0824997741579,
+      "mean_line": -184.08249977415937,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 91
+    },
+    {
+      "scale": 0.012,
+      "seed": 9,
+      "mean_published": -12.64495094041054,
+      "mean_nofloor": -536.428605281815,
+      "mean_line": -536.428605281813,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 104
+    },
+    {
+      "scale": 0.012,
+      "seed": 10,
+      "mean_published": -215.18011695511612,
+      "mean_nofloor": -792.0406873147988,
+      "mean_line": -792.0406873147946,
+      "commit_published": "flat",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 92
+    },
+    {
+      "scale": 0.012,
+      "seed": 11,
+      "mean_published": 295.1767310397553,
+      "mean_nofloor": -220.62160214818113,
+      "mean_line": -220.62160214818238,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 77
+    },
+    {
+      "scale": 0.012,
+      "seed": 12,
+      "mean_published": 383.2310497681111,
+      "mean_nofloor": -129.1430865927041,
+      "mean_line": -129.14308659270606,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 77
+    },
+    {
+      "scale": 0.012,
+      "seed": 13,
+      "mean_published": 273.5022211802455,
+      "mean_nofloor": -236.34196355487845,
+      "mean_line": -236.3419635548794,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 89
+    },
+    {
+      "scale": 0.012,
+      "seed": 14,
+      "mean_published": 615.5445241887951,
+      "mean_nofloor": 111.64103713454058,
+      "mean_line": 111.64103713453625,
+      "commit_published": "max",
+      "commit_nofloor": "max",
+      "commit_line": "max",
+      "n_reward_differs": 79
+    },
+    {
+      "scale": 0.012,
+      "seed": 15,
+      "mean_published": 249.2417426786662,
+      "mean_nofloor": -382.37516707341643,
+      "mean_line": -382.37516707341587,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 83
+    },
+    {
+      "scale": 0.012,
+      "seed": 16,
+      "mean_published": 239.1030255390201,
+      "mean_nofloor": -481.0730902171906,
+      "mean_line": -481.0730902171894,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 78
+    },
+    {
+      "scale": 0.012,
+      "seed": 17,
+      "mean_published": 859.3457271532235,
+      "mean_nofloor": 319.01689331545043,
+      "mean_line": 319.0168933154441,
+      "commit_published": "max",
+      "commit_nofloor": "max",
+      "commit_line": "max",
+      "n_reward_differs": 80
+    },
+    {
+      "scale": 0.012,
+      "seed": 18,
+      "mean_published": 100.67505658330288,
+      "mean_nofloor": -523.5119274297766,
+      "mean_line": -523.511927429775,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 102
+    },
+    {
+      "scale": 0.012,
+      "seed": 19,
+      "mean_published": 428.69486698493,
+      "mean_nofloor": -204.28205819570988,
+      "mean_line": -204.28205819571124,
+      "commit_published": "max",
+      "commit_nofloor": "flat",
+      "commit_line": "flat",
+      "n_reward_differs": 81
+    }
+  ]
+}

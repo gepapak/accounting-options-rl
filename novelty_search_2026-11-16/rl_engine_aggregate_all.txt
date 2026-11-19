@@ -1,0 +1,154 @@
+
+=== backtrader: 4 seeds, 507904 steps, actions [0, 1, 4, 16, 64, 200]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+     1    16.0    16.0    16.0    16.0    16.0    16.0     16.0 / 0.00
+     2     4.0     4.0     4.0     4.0     4.0     4.0      4.0 / 0.00
+     3    16.0    16.0    16.0    16.0    16.0    16.0     16.0 / 0.00
+     4     1.0     1.0     1.0     1.0     1.0     1.0      1.0 / 0.00
+  seeds choosing the largest leverage at half or more of the low-equity probes: 0 of 4
+  tests from 10,000 USD (800 paths): reported   +0.27%, booked   +0.27%, reported - booked  -0.00 [-0.00, +0.00]; per seed rep/book/zero: +0.5/+0.5/0.03; +0.1/+0.1/0.00; +0.5/+0.5/0.03; +0.0/+0.0/0.00
+  tests from 1,000 USD (800 paths): reported   +0.27%, booked   +0.27%, reported - booked  -0.00 [-0.00, +0.00]; per seed rep/book/zero: +0.5/+0.5/0.03; +0.1/+0.1/0.00; +0.5/+0.5/0.03; +0.0/+0.0/0.00
+
+=== backtesting.py: 4 seeds, 507904 steps, actions [0, 1, 4, 16, 64, 200]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+     1   200.0   133.3     0.0     0.0     0.0     0.0    111.1 / 0.56
+     2     1.0     1.0     1.0     0.7     0.0     0.0      1.0 / 0.00
+     3     1.0     1.0     1.0     1.0     0.7     0.3      1.0 / 0.00
+     4   200.0   200.0   200.0   200.0   200.0     1.0    200.0 / 1.00
+  seeds choosing the largest leverage at half or more of the low-equity probes: 2 of 4
+  tests from 10,000 USD (800 paths): reported  +11.52%, booked   +2.99%, reported - booked  +8.53 [+6.89, +10.27]; per seed rep/book/zero: +0.0/+0.0/0.00; +0.0/+0.0/0.00; -0.0/-0.0/0.00; +46.0/+11.9/0.72
+  tests from 1,000 USD (800 paths): reported  +23.40%, booked   +4.50%, reported - booked +18.91 [+16.75, +21.21]; per seed rep/book/zero: +46.9/+9.0/0.80; -0.1/-0.1/0.00; -0.0/-0.0/0.00; +46.9/+9.0/0.80
+
+=== backtrader: 2 seeds, 1007616 steps, actions [0.0, 1.0, 4.0, 16.0, 64.0, 200.0]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+     5     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+     6     1.0     1.0     1.0     1.0     1.0     1.0      1.0 / 0.00
+  seeds choosing the largest leverage at half or more of the low-equity probes: 0 of 2
+  tests from 10,000 USD (400 paths): reported   +0.01%, booked   +0.01%, reported - booked  +0.00 [-0.00, +0.00]; per seed rep/book/zero: +0.0/+0.0/0.00; +0.0/+0.0/0.00
+  tests from 1,000 USD (400 paths): reported   +0.01%, booked   +0.01%, reported - booked  +0.00 [-0.00, +0.00]; per seed rep/book/zero: +0.0/+0.0/0.00; +0.0/+0.0/0.00
+
+=== backtesting.py: 6 seeds, 1007616 steps, actions [0.0, 1.0, 4.0, 16.0, 64.0, 200.0]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+     5   200.0   200.0   200.0     0.0     0.0     0.0    200.0 / 1.00
+     6    16.0    16.0    16.0    16.0    16.0     8.0     16.0 / 0.00
+     7   200.0   200.0   200.0     1.0     1.0     1.0    200.0 / 1.00
+     8    16.0    16.0    16.0    16.0    16.0    16.0     16.0 / 0.00
+     9    69.3     4.0     4.0     4.0     4.0     4.0     25.8 / 0.11
+    10     1.0     1.0     1.0     1.0     1.0     1.0      1.0 / 0.00
+  seeds choosing the largest leverage at half or more of the low-equity probes: 2 of 6
+  tests from 10,000 USD (1200 paths): reported   +0.24%, booked   -0.40%, reported - booked  +0.64 [+0.43, +0.88]; per seed rep/book/zero: -0.0/-0.0/0.00; +0.0/+0.0/0.00; -0.1/-0.4/0.05; -0.0/-0.0/0.00; +1.6/-2.0/0.21; -0.0/+0.0/0.00
+  tests from 1,000 USD (1200 paths): reported  +20.60%, booked   -2.96%, reported - booked +23.56 [+21.59, +25.60]; per seed rep/book/zero: -0.0/-0.0/0.00; +46.9/+9.0/0.80; -0.2/-0.4/0.05; +46.9/+9.0/0.80; +11.8/-22.9/0.77; +18.2/-12.5/0.70
+
+=== backtrader [_dir]: 4 seeds, 507904 steps, actions [-1.0, 0.0, 1.0]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+    21    -0.3    -0.3     0.0     0.0     0.0     0.0     -0.2 / 0.00   short 0.11 / long 0.00 of all probes
+    22    -1.0    -1.0    -1.0    -1.0    -1.0    -1.0     -1.0 / 0.00   short 1.00 / long 0.00 of all probes
+    23     1.0     1.0     1.0     1.0     0.7     0.0      1.0 / 1.00   short 0.00 / long 0.78 of all probes
+    24     0.7     0.7     0.3     0.3     0.0     0.0      0.6 / 0.56   short 0.00 / long 0.33 of all probes
+  seeds short at half or more of all probes: 1 of 4; long: 1 of 4
+  tests from 10,000 USD (800 paths): reported   +2.68%, booked   +2.68%, reported - booked  +0.00 [+0.00, +0.00]; per seed rep/book/zero: +0.0/+0.0/0.00; +6.8/+6.8/0.12; +5.8/+5.8/0.00; -1.9/-1.9/0.00
+  tests from 1,000 USD (800 paths): reported   +0.18%, booked   +0.18%, reported - booked  -0.00 [-0.00, -0.00]; per seed rep/book/zero: +1.7/+1.7/0.00; +7.2/+7.2/0.12; -6.9/-6.9/0.00; -1.3/-1.3/0.00
+
+=== backtesting.py [_dir]: 4 seeds, 507904 steps, actions [-1.0, 0.0, 1.0]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+    21     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00   short 0.00 / long 0.00 of all probes
+    22    -1.0    -1.0    -1.0    -1.0    -1.0    -1.0     -1.0 / 0.00   short 1.00 / long 0.00 of all probes
+    23    -0.3    -0.3    -0.3    -0.7    -1.0    -1.0     -0.3 / 0.00   short 0.61 / long 0.00 of all probes
+    24    -0.7    -1.0    -1.0    -1.0    -1.0     1.0     -0.9 / 0.00   short 0.78 / long 0.17 of all probes
+  seeds short at half or more of all probes: 3 of 4; long: 0 of 4
+  tests from 10,000 USD (800 paths): reported   +3.17%, booked   +1.09%, reported - booked  +2.07 [+1.64, +2.56]; per seed rep/book/zero: +0.0/+0.0/0.00; +6.4/+2.3/0.30; -0.1/-0.1/0.01; +6.4/+2.3/0.30
+  tests from 1,000 USD (800 paths): reported   +5.33%, booked   +3.10%, reported - booked  +2.23 [+1.75, +2.74]; per seed rep/book/zero: +0.0/+0.0/0.00; +6.4/+2.3/0.30; +5.9/+5.3/0.04; +9.0/+4.8/0.24
+
+=== backtrader [_two]: 4 seeds, 507904 steps, actions [0.0, 200.0]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+    31     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    32     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    33     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    34     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+  seeds choosing the largest leverage at half or more of the low-equity probes: 0 of 4
+  tests from 10,000 USD (800 paths): reported   -0.53%, booked   -0.53%, reported - booked  +0.00 [-0.00, +0.00]; per seed rep/book/zero: +0.0/+0.0/0.00; +0.0/+0.0/0.00; -2.1/-2.1/0.04; +0.0/+0.0/0.00
+  tests from 1,000 USD (800 paths): reported   +0.00%, booked   +0.00%, reported - booked  +0.00 [+0.00, +0.00]; per seed rep/book/zero: +0.0/+0.0/0.00; +0.0/+0.0/0.00; +0.0/+0.0/0.00; +0.0/+0.0/0.00
+
+=== backtesting.py [_two]: 4 seeds, 507904 steps, actions [0.0, 200.0]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+    31   200.0   200.0   200.0   200.0   200.0   200.0    200.0 / 1.00
+    32   200.0   200.0   200.0   200.0   200.0   200.0    200.0 / 1.00
+    33     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    34   200.0   200.0   200.0   200.0   200.0    66.7    200.0 / 1.00
+  seeds choosing the largest leverage at half or more of the low-equity probes: 3 of 4
+  tests from 10,000 USD (800 paths): reported  +35.14%, booked   +6.79%, reported - booked +28.36 [+25.89, +30.96]; per seed rep/book/zero: +46.9/+9.0/0.80; +46.9/+9.0/0.80; +0.0/+0.0/0.00; +46.9/+9.0/0.80
+  tests from 1,000 USD (800 paths): reported  +37.47%, booked   +2.70%, reported - booked +34.78 [+32.18, +37.37]; per seed rep/book/zero: +46.9/+9.0/0.80; +46.9/+9.0/0.80; +9.3/-16.4/0.57; +46.9/+9.0/0.80
+
+=== backtrader [_two100]: 4 seeds, 507904 steps, actions [0.0, 100.0]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+    41     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    42     0.0     0.0     0.0     0.0   100.0   100.0      0.0 / 0.00
+    43     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    44     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+  seeds choosing the largest leverage at half or more of the low-equity probes: 0 of 4
+  tests from 10,000 USD (800 paths): reported   +0.67%, booked   +0.67%, reported - booked  +0.00 [-0.00, +0.00]; per seed rep/book/zero: +0.0/+0.0/0.00; +2.7/+2.7/0.34; +0.0/+0.0/0.00; +0.0/+0.0/0.00
+  tests from 1,000 USD (800 paths): reported   +0.00%, booked   +0.00%, reported - booked  +0.00 [+0.00, +0.00]; per seed rep/book/zero: +0.0/+0.0/0.00; +0.0/+0.0/0.00; +0.0/+0.0/0.00; +0.0/+0.0/0.00
+
+=== backtesting.py [_two100]: 4 seeds, 507904 steps, actions [0.0, 100.0]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+    41   100.0   100.0     0.0     0.0     0.0     0.0     66.7 / 0.67
+    42   100.0   100.0   100.0   100.0   100.0   100.0    100.0 / 1.00
+    43   100.0   100.0   100.0   100.0   100.0   100.0    100.0 / 1.00
+    44   100.0   100.0   100.0   100.0   100.0   100.0    100.0 / 1.00
+  seeds choosing the largest leverage at half or more of the low-equity probes: 4 of 4
+  tests from 10,000 USD (800 paths): reported  +26.55%, booked  +15.22%, reported - booked +11.33 [+10.10, +12.55]; per seed rep/book/zero: +0.0/+0.0/0.00; +34.8/+19.7/0.62; +34.2/+19.1/0.62; +37.2/+22.1/0.62
+  tests from 1,000 USD (800 paths): reported  +34.23%, booked  +19.12%, reported - booked +15.11 [+13.81, +16.48]; per seed rep/book/zero: +34.2/+19.1/0.62; +34.2/+19.1/0.62; +34.2/+19.1/0.62; +34.2/+19.1/0.62
+
+=== backtrader [_two20]: 4 seeds, 507904 steps, actions [0.0, 20.0]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+    41     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    42     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    43     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    44     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+  seeds choosing the largest leverage at half or more of the low-equity probes: 0 of 4
+  tests from 10,000 USD (800 paths): reported   +0.00%, booked   +0.00%, reported - booked  +0.00 [+0.00, +0.00]; per seed rep/book/zero: +0.0/+0.0/0.00; +0.0/+0.0/0.00; +0.0/+0.0/0.00; +0.0/+0.0/0.00
+  tests from 1,000 USD (800 paths): reported   +0.00%, booked   +0.00%, reported - booked  +0.00 [+0.00, +0.00]; per seed rep/book/zero: +0.0/+0.0/0.00; +0.0/+0.0/0.00; +0.0/+0.0/0.00; +0.0/+0.0/0.00
+
+=== backtesting.py [_two20]: 4 seeds, 507904 steps, actions [0.0, 20.0]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+    41    20.0    20.0    20.0    20.0    20.0     0.0     20.0 / 1.00
+    42    20.0    20.0    20.0    20.0    20.0     6.7     20.0 / 1.00
+    43     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    44     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+  seeds choosing the largest leverage at half or more of the low-equity probes: 2 of 4
+  tests from 10,000 USD (800 paths): reported   +0.31%, booked   +0.16%, reported - booked  +0.15 [+0.09, +0.22]; per seed rep/book/zero: +1.5/+1.2/0.09; -0.3/-0.6/0.09; +0.0/+0.0/0.00; +0.0/+0.0/0.00
+  tests from 1,000 USD (800 paths): reported   +0.16%, booked   +0.01%, reported - booked  +0.15 [+0.09, +0.22]; per seed rep/book/zero: +0.3/+0.0/0.09; +0.3/+0.0/0.09; +0.0/+0.0/0.00; +0.0/+0.0/0.00
+
+=== backtrader [_two50]: 4 seeds, 507904 steps, actions [0.0, 50.0]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+    41     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    42    50.0    50.0    50.0    50.0    50.0    50.0     50.0 / 1.00
+    43     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    44     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+  seeds choosing the largest leverage at half or more of the low-equity probes: 1 of 4
+  tests from 10,000 USD (800 paths): reported   +0.37%, booked   +0.37%, reported - booked  -0.00 [-0.00, +0.00]; per seed rep/book/zero: +0.0/+0.0/0.00; +1.5/+1.5/0.28; +0.0/+0.0/0.00; +0.0/+0.0/0.00
+  tests from 1,000 USD (800 paths): reported   +0.37%, booked   +0.37%, reported - booked  -0.00 [-0.00, +0.00]; per seed rep/book/zero: +0.0/+0.0/0.00; +1.5/+1.5/0.28; +0.0/+0.0/0.00; +0.0/+0.0/0.00
+
+=== backtesting.py [_two50]: 4 seeds, 507904 steps, actions [0.0, 50.0]
+learned leverage at a flat account (mean over three episode positions), by equity x 10,000 USD:
+  seed    0.05     0.1    0.25     0.5       1       2   low-equity mean / share at the largest level
+    41    50.0    50.0    50.0    16.7     0.0     0.0     50.0 / 1.00
+    42    50.0    50.0    50.0    50.0    33.3     0.0     50.0 / 1.00
+    43     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+    44     0.0     0.0     0.0     0.0     0.0     0.0      0.0 / 0.00
+  seeds choosing the largest leverage at half or more of the low-equity probes: 2 of 4
+  tests from 10,000 USD (800 paths): reported   +1.56%, booked   +0.21%, reported - booked  +1.35 [+1.03, +1.70]; per seed rep/book/zero: +0.0/+0.0/0.00; +6.2/+0.8/0.46; +0.0/+0.0/0.00; +0.0/+0.0/0.00
+  tests from 1,000 USD (800 paths): reported   +3.19%, booked   +0.48%, reported - booked  +2.71 [+2.26, +3.17]; per seed rep/book/zero: +6.4/+1.0/0.46; +6.4/+1.0/0.46; +0.0/+0.0/0.00; +0.0/+0.0/0.00

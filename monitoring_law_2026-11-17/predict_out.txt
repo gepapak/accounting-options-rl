@@ -1,0 +1,80 @@
+# Predictions of the monitoring law, written before any test ran
+
+Generated 2026-11-17T01:47:05 by `predict.py` from inputs only. No accounting rule was simulated and no engine was run to produce these numbers. Exploratory, not registered.
+
+## Inputs
+
+- Daily bar volatility: EURUSD magnitudes 0.3370%, 2021 crypto magnitudes 6.166%.
+- Overshoot constant rho / s from Siegmund's integral: EURUSD 0.6180, crypto 0.8176. Gaussian bars: 0.5826. Fixed-size moves: 0.5.
+- Checks of the integral on laws with known answers (3,000-point quantile grids, so the far tail is slightly cut): Gaussian 0.5824 (exact 0.5826), Laplace 0.7054 (exact 0.7071).
+- Far-barrier Monte Carlo of the same constant (a second method): EURUSD 0.6188 (14873 crossings), crypto 0.8206 (14766).
+
+## A. Three rules on Gaussian fine steps (subsidy in % of the initial equity; m = checks per day; 86 days)
+
+| L | m | P(ruin) | LL (capped loss, closes) | TERM | ZF (zero floor, continues) | ZF / TERM |
+|---|---|---|---|---|---|---|
+| 20 | 1 | 0.0964 | 0.378 | 1.453 | 2.502 | 1.722 |
+| 20 | 4 | 0.1028 | 0.202 | 1.453 | 2.698 | 1.857 |
+| 20 | 16 | 0.1062 | 0.104 | 1.453 | 2.800 | 1.927 |
+| 20 | 64 | 0.1079 | 0.053 | 1.453 | 2.853 | 1.963 |
+| 50 | 1 | 0.4822 | 4.734 | 24.686 | 44.443 | 1.800 |
+| 50 | 4 | 0.5020 | 2.464 | 24.686 | 46.858 | 1.898 |
+| 50 | 16 | 0.5120 | 1.257 | 24.686 | 48.102 | 1.949 |
+| 50 | 64 | 0.5171 | 0.635 | 24.686 | 48.734 | 1.974 |
+| 200 | 1 | 0.8237 | 32.344 | 202.540 | 371.772 | 1.836 |
+| 200 | 4 | 0.8482 | 16.653 | 202.540 | 388.184 | 1.917 |
+| 200 | 16 | 0.8605 | 8.448 | 202.540 | 396.572 | 1.958 |
+| 200 | 64 | 0.8667 | 4.254 | 202.540 | 400.811 | 1.979 |
+
+Criteria: every LL, TERM and ZF cell within 5% of the simulated value; the log-log slope of LL against m between -0.56 and -0.42; ZF / TERM rising with m towards 2.
+
+## B. Capped loss on empirical daily bars (m = 1)
+
+| Market | L | P(ruin) | LL with the market's own overshoot constant | LL with the Gaussian constant |
+|---|---|---|---|---|
+| eurusd | 20 | 0.0956 | 0.398 | 0.378 |
+| eurusd | 50 | 0.4798 | 4.996 | 4.734 |
+| eurusd | 100 | 0.6990 | 14.559 | 13.780 |
+| eurusd | 200 | 0.8207 | 34.185 | 32.344 |
+| crypto | 2 | 0.3358 | 3.385 | 2.505 |
+| crypto | 5 | 0.6614 | 16.672 | 12.212 |
+| crypto | 10 | 0.7925 | 39.952 | 29.173 |
+
+Criteria: EURUSD within 8% of the simulated value; crypto within 25% (the barrier is only two to seven bars away and compounding is not small there). Disclosure: fee-free simulated values for these cells were already seen on 16 November (`../novelty_search_2026-11-16/overshoot_bgk_out.txt`, where the Gaussian constant gave ratios of 1.02 to 1.05 for EURUSD and 0.82 to 1.33 for crypto). What is new here is the market's own overshoot constant. Section D1's XE number was also known. Sections A (finer time steps, TERM and ZF), C and D4 had not been computed in any form.
+
+## C. Unmodified backtesting.py 0.6.6, fine Gaussian paths, m checks per day
+
+| Fee per side | L | m | P(ruin) | Forgiven (% of equity) |
+|---|---|---|---|---|
+| 0 bp | 50 | 1 | 0.4822 | 4.733 |
+| 0 bp | 50 | 4 | 0.5019 | 2.463 |
+| 0 bp | 50 | 16 | 0.5120 | 1.256 |
+| 0 bp | 200 | 1 | 0.8237 | 32.340 |
+| 0 bp | 200 | 4 | 0.8482 | 16.651 |
+| 0 bp | 200 | 16 | 0.8605 | 8.447 |
+| 2 bp | 50 | 1 | 0.4861 | 5.246 |
+| 2 bp | 50 | 4 | 0.5059 | 2.978 |
+| 2 bp | 50 | 16 | 0.5160 | 1.772 |
+| 2 bp | 200 | 1 | 0.8286 | 35.825 |
+| 2 bp | 200 | 4 | 0.8532 | 20.141 |
+| 2 bp | 200 | 16 | 0.8655 | 11.938 |
+
+Criteria: the engine's forgiven amount (reported equity minus its own trade records) within 10% of the prediction or the prediction inside the 95% bootstrap interval, in every cell; ruin share within 0.03.
+
+## D1. The registered Study XE census (2,000 paths, EURUSD magnitudes, 2 bp a side)
+
+| L | P(ruin) | Forgiven (% of equity) |
+|---|---|---|
+| 20 | 0.0968 | 0.440 |
+| 50 | 0.4837 | 5.509 |
+| 100 | 0.7037 | 16.044 |
+| 200 | 0.8257 | 37.666 |
+
+Criterion: within 10% at L = 50, 100 and 200, and within 25% at L = 20, where the amount is small.
+
+## D4. The paper's Nordic ladder (24 zone-years, placebo signs on real hourly spreads, from zero equity, fee-free)
+
+For fixed magnitudes m_i with fair signs, the law gives ZF / TERM = 2 - 1.2533 kappa, with kappa = sum |m_i|^3 / (sum m_i^2)^1.5 (the constant is sqrt(2 pi) / 2, from the fixed-size-move overshoot 1/2). kappa is computed from the spreads; the measured ratios are recomputed with 20,000 sign draws.
+
+Criterion: Spearman rank correlation of at least 0.8 between predicted and measured ratios, and a mean absolute error of at most 0.05.
+

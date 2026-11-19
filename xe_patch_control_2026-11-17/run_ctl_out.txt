@@ -1,0 +1,16 @@
+done btpyfl__s301__500000_ctl.json (1928.3 s): low-equity mean leverage 0.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +0.00 booked +0.00 zero 0.00
+done btpy__s301__500000_ctl.json (2615.8 s): low-equity mean leverage 200.0, share >= 64 1.00 | from 10k: reported +36.98 booked +0.50 zero 0.82 | from 1k: reported +34.20 booked -2.28 zero 0.82
+done btpyfl__s302__500000_ctl.json (2019.5 s): low-equity mean leverage 0.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +0.00 booked +0.00 zero 0.00
+done btpy__s302__500000_ctl.json (2961.5 s): low-equity mean leverage 200.0, share >= 64 1.00 | from 10k: reported +34.20 booked -2.28 zero 0.82 | from 1k: reported +34.20 booked -2.28 zero 0.82
+done btpyfl__s303__500000_ctl.json (1887.7 s): low-equity mean leverage 0.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +0.00 booked +0.00 zero 0.00
+done btpy__s303__500000_ctl.json (3005.8 s): low-equity mean leverage 200.0, share >= 64 1.00 | from 10k: reported +34.20 booked -2.28 zero 0.82 | from 1k: reported +34.20 booked -2.28 zero 0.82
+done btpyfl__s304__500000_ctl.json (2248.0 s): low-equity mean leverage 0.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +0.00 booked +0.00 zero 0.00
+done btpy__s304__500000_ctl.json (2675.8 s): low-equity mean leverage 200.0, share >= 64 1.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +34.20 booked -2.28 zero 0.82
+done btpyfl__s305__500000_ctl.json (1956.4 s): low-equity mean leverage 0.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +0.00 booked +0.00 zero 0.00
+done btpy__s305__500000_ctl.json (2558.3 s): low-equity mean leverage 0.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +13.24 booked -10.22 zero 0.57
+done btpyfl__s306__500000_ctl.json (1916.1 s): low-equity mean leverage 0.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +0.00 booked +0.00 zero 0.00
+done btpy__s306__500000_ctl.json (2389.2 s): low-equity mean leverage 200.0, share >= 64 1.00 | from 10k: reported +34.20 booked -2.28 zero 0.82 | from 1k: reported +34.20 booked -2.28 zero 0.82
+done btpyfl__s307__500000_ctl.json (1676.0 s): low-equity mean leverage 0.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +0.00 booked +0.00 zero 0.00
+done btpy__s307__500000_ctl.json (2081.0 s): low-equity mean leverage 200.0, share >= 64 1.00 | from 10k: reported +34.20 booked -2.28 zero 0.82 | from 1k: reported +34.20 booked -2.28 zero 0.82
+done btpyfl__s308__500000_ctl.json (1525.4 s): low-equity mean leverage 0.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +0.00 booked +0.00 zero 0.00
+done btpy__s308__500000_ctl.json (1744.1 s): low-equity mean leverage 0.0, share >= 64 0.00 | from 10k: reported +0.00 booked +0.00 zero 0.00 | from 1k: reported +6.41 booked -13.36 zero 0.48

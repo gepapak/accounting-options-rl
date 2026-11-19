@@ -1,0 +1,6 @@
+agents that bet the leverage at every probe; reported minus booked on 200 test paths from 10,000 USD (points)
+   L | agents | mean gap            range |     law  ratio | ruin share (agents / law)
+  20 | no agent bets 20x at every probe
+  50 | no agent bets 50x at every probe
+ 100 |      3 |    15.11 [ 15.11,  15.11] |   15.91  0.950 | 0.625 / 0.707
+ 200 |      2 |    37.81 [ 37.81,  37.81] |   37.47  1.009 | 0.800 / 0.828

@@ -22,6 +22,18 @@ ACCOUNTING_OPTIONS_2026-10-14/study_zb/** -text
 ACCOUNTING_OPTIONS_2026-10-14/study_rs/** -text
 ACCOUNTING_OPTIONS_2026-10-14/study_ext/** -text
 ACCOUNTING_OPTIONS_2026-10-14/study_ft/** -text
+ACCOUNTING_OPTIONS_2026-10-14/study_re/** -text
+exploratory_claude_2026-11-05/engine_twin/** -text
 # Frozen Study L and M records: sources and manifests are covered by recorded hashes
 revision_experiments/** -text
+# Exploratory and review records, and the tables they hash, are kept byte-exact: their manifests record SHA-256 digests of sibling files
+exploratory_*/** -text
 ACCOUNTING_OPTIONS_2026-10-14/tables/** -text
+# Studies registered on 14-16 November 2026 (GC, DR, XE), their exploratory pilots, the same-engine control and the closed-form
+# tests: byte-exact, because their manifests and prediction records hash sibling files
+study_gc_2026-11-14/** -text
+study_dr_2026-11-15/** -text
+study_xe_2026-11-16/** -text
+novelty_search_2026-11-16/** -text
+xe_patch_control_2026-11-17/** -text
+monitoring_law_2026-11-17/** -text

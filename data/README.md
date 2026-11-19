@@ -1,6 +1,6 @@
 # Market Data and Panel Generation
 
-Part of the codebase for the paper *"Reading hidden loss forgiveness from the reward of reinforcement-learning trading simulators, with an electricity-trading engine"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
+Part of the codebase for the paper *"Simulators that forgive losses teach reinforcement-learning traders to gamble: theory, detection and removal, with an application to electricity trading"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
 
 ## Overview
 This directory contains real-world electricity market data from the Nordic synchronous system, covering wholesale day-ahead spot auctions and 15-minute imbalance settlement:

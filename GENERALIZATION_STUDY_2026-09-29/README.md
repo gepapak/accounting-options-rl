@@ -1,6 +1,6 @@
 # Study A: Generalization Across Electricity-Trading Environments
 
-Part of the experimental suite for the paper *"Reading hidden loss forgiveness from the reward of reinforcement-learning trading simulators, with an electricity-trading engine"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
+Part of the experimental suite for the paper *"Simulators that forgive losses teach reinforcement-learning traders to gamble: theory, detection and removal, with an application to electricity trading"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
 
 ## Overview
 Study A evaluates reinforcement-learning trading agents across three distinct environment designs (280 trained agents) using real 15-minute imbalance market data from Energinet (Denmark DK1 and DK2 zones). It investigates whether evaluation shortcuts and reward formulations systematically reverse the apparent ranking between learned policies and fixed baseline rules.
@@ -20,6 +20,8 @@ Study A evaluates reinforcement-learning trading agents across three distinct en
 - `outputs/`: Manuscript-ready plots and statistical summaries.
 
 ## Reproduction
+Aggregation and figure scripts may rewrite the registered outputs they read: run them in a disposable copy of the folder (see `docs/REPRODUCING.md`); `python tools/verify_studies.py` checks the shipped results without writing.
+
 To verify and reproduce Study A results from the shipped artifacts:
 ```bash
 python aggregate_study.py

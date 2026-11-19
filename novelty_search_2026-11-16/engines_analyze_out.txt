@@ -1,0 +1,19 @@
+2000 paths per leverage, returns in % of the starting cash, 95% bootstrap intervals over paths
+   L  reach0 |   backtesting.py reported    |    backtesting.py booked     |     backtrader reported      |            ledger           
+   1    0.0% |    -0.04 [   -0.17,   +0.10] |    -0.04 [   -0.17,   +0.10] |    -0.04 [   -0.17,   +0.10] |    -0.04 [   -0.17,   +0.10]
+   2    0.0% |    -0.07 [   -0.33,   +0.20] |    -0.07 [   -0.33,   +0.20] |    -0.07 [   -0.33,   +0.20] |    -0.07 [   -0.33,   +0.20]
+   5    0.0% |    -0.18 [   -0.83,   +0.50] |    -0.18 [   -0.83,   +0.50] |    -0.18 [   -0.83,   +0.50] |    -0.18 [   -0.83,   +0.50]
+  10    0.1% |    -0.38 [   -1.68,   +1.00] |    -0.38 [   -1.68,   +0.99] |    -0.37 [   -1.67,   +1.00] |    -0.37 [   -1.67,   +1.00]
+  20    8.7% |    -0.23 [   -2.70,   +2.46] |    -0.56 [   -3.08,   +2.16] |    -0.74 [   -3.33,   +2.00] |    -0.74 [   -3.33,   +2.00]
+  50   48.9% |    +1.84 [   -3.68,   +7.54] |    -3.70 [   -9.34,   +2.17] |    -1.84 [   -8.33,   +5.01] |    -1.84 [   -8.33,   +5.01]
+ 100   70.5% |    +8.39 [   -0.41,  +17.48] |    -7.72 [  -16.98,   +1.69] |    -3.68 [  -16.66,  +10.01] |    -3.68 [  -16.66,  +10.01]
+ 200   82.8% |   +26.01 [  +11.65,  +40.93] |   -11.35 [  -26.67,   +4.29] |    -7.37 [  -33.31,  +20.03] |    -7.37 [  -33.31,  +20.03]
+optimizer of the mean backtesting.py reported return picks: L=1 in 0.0%, L=100 in 0.0%, L=200 in 100.0%
+optimizer of the mean backtrader reported return picks: L=1 in 70.2%, L=200 in 29.8%
+L=20: paths with opposite signs 0.0%; mean sign: backtesting.py -1, backtrader -1
+L=50: paths with opposite signs 8.2%; mean sign: backtesting.py +1, backtrader -1
+L=100: paths with opposite signs 22.7%; mean sign: backtesting.py +1, backtrader -1
+L=200: paths with opposite signs 33.0%; mean sign: backtesting.py +1, backtrader -1
+backtesting.py: reported minus its own trade records (forgiven loss), mean over paths: L=1 +0.00, L=2 -0.00, L=5 +0.00, L=10 +0.00, L=20 +0.33, L=50 +5.54, L=100 +16.10, L=200 +37.36
+largest deviation from the references: backtesting.py vs FLOOR+STOP 7.37e+01 points; backtrader vs LEDGER 1.42e-12 points
+leverages at which the two engines agree on every path: 1, 2, 5

@@ -1,0 +1,23 @@
+﻿  L=1 done (56 s)
+  L=2 done (106 s)
+  L=5 done (163 s)
+  L=10 done (230 s)
+  L=20 done (287 s)
+  L=50 done (338 s)
+  L=100 done (388 s)
+  L=200 done (438 s)
+
+2000 fair placebo paths per leverage; returns in % of the starting cash (means over paths)
+ L    reach0 | LEDGER  FLOOR+STOP | backtesting.py: reported  booked  zero | backtrader: reported  booked  zero
+   1   0.0% |   +0.07     +0.07  |    +0.07     +0.07   0.0% |    +0.07     +0.07   0.0%
+   2   0.0% |   +0.15     +0.15  |    +0.15     +0.15   0.0% |    +0.15     +0.15   0.0%
+   5   0.0% |   +0.37     +0.37  |    +0.37     +0.37   0.0% |    +0.37     +0.37   0.0%
+  10   0.2% |   +0.74     +0.77  |    +0.77     +0.77   0.2% |    +0.74     +0.74   0.2%
+  20   7.8% |   +1.48     +1.99  |    +1.99     +1.61   8.1% |    +1.48     +1.48   8.0%
+  50  47.0% |   +3.69     +6.93  |    +6.89     +1.61  47.3% |    +3.69     +3.69  47.3%
+ 100  69.8% |   +7.38    +13.55  |   +13.51     -2.56  70.0% |    +7.38     +7.38  70.0%
+ 200  82.5% |  +14.76    +32.05  |   +32.05     -5.77  82.5% |   +14.76    +14.76  82.5%
+
+leverage that maximizes the mean reported return: backtesting.py L=200, backtrader L=200; ledger L=200
+agreement for L <= 2 (no path reaches zero): max |backtesting.py - backtrader| reported = 0.0000 points; max |backtesting.py - ledger| = 0.0000
+paths with L >= 50 where the two engines' reported returns differ in sign: 21.5%

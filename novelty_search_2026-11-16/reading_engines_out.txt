@@ -1,0 +1,9 @@
+engine           query                      reported       booked  verdict
+backtesting.py   inside the range (-0.2%)        6,000        6,000  agrees
+backtesting.py   past the kink (-5.0%)             0      -89,990  FORGIVES 89,990
+backtrader       inside the range (-0.2%)        6,000        6,000  agrees
+backtrader       past the kink (-5.0%)       -89,990      -89,990  agrees
+vectorbt (1x short) inside the range (+0.2%)        9,980        9,980  agrees
+vectorbt (1x short) past the kink (+300.0%)      -20,000      -20,000  agrees
+backtesting.py, no leverage (1x short) inside the range (+0.2%)        9,980        9,980  agrees
+backtesting.py, no leverage (1x short) past the kink (+300.0%)            0      -19,997  FORGIVES 19,997

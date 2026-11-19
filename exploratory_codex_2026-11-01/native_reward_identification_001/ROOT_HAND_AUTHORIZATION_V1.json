@@ -1,0 +1,6 @@
+{
+  "status": "ROOT_GO_NATIVE_REWARD_IDENTIFICATION_HAND_V1",
+  "protocol_sha256": "521d5f0e1514814af58f62a147ae00bd0775738aef86006cba410acc921d4024",
+  "scope": "Execute the frozen six-case isolated original-source kernel hand gate only. No Env construction, reset, step, market data, checkpoint or policy calls, fitting, or registered-file edits. Preserve any failure and stop that gate.",
+  "authorized_by": "root agent under the user's instruction to continue research and work"
+}

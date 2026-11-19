@@ -1,0 +1,38 @@
+arm  cond     n | registered learners | collects >1 pt credit at 0.1 or 0.25 | mean credit 0.1  0.25 | mean best-of-two | traded lot at low equity (median, lots) | refused at e<=0.05
+V2   ORIG     6 |  3 |  2 |  +2.37  +0.36 |  +2.37 | 0.41 (n 3) | 3
+V4   ORIG    10 |  4 |  4 |  +4.02  +1.35 |  +4.02 | 0.36 (n 5) | 4
+V8   ORIG    10 |  8 |  8 | +11.92  +8.31 | +15.80 | 0.53 (n 9) | 9
+V16  ORIG    10 |  8 |  8 | +38.71 +10.72 | +38.71 | 0.47 (n 8) | 7
+V16  FLPATCH  6 |  1 |  1 |  +2.21  +0.59 |  +2.21 | 0.11 (n 1) | 0
+L30  ORIG     6 |  0 |  0 |  +0.00  +0.00 |  +0.00 |   -  (n 0) | 1
+L500 ORIG    10 |  2 |  2 |  +1.48  +0.17 |  +1.48 | 0.62 (n 2) | 1
+L500 FLPATCH  6 |  0 |  0 |  +0.07  +0.00 |  +0.07 | 0.17 (n 1) | 0
+
+disagreements between the registered label (xlow >= 0.10) and collecting > 1 pt of credit:
+  V2 ORIG s603: xlow 0.179, credit 0.1 +0.58, 0.25 +0.51
+
+runs ranked by xlow next to their credit (the drifting control marked *):
+   V16  ORIG    s602 xlow 0.430  best credit +24.55
+   V16  ORIG    s603 xlow 0.413  best credit +43.93
+   V2   ORIG    s604 xlow 0.411  best credit  +4.59
+   V4   ORIG    s609 xlow 0.358  best credit  +9.77
+   V16  ORIG    s601 xlow 0.324  best credit +33.27
+   V16  ORIG    s605 xlow 0.315  best credit +71.22
+   V4   ORIG    s603 xlow 0.300  best credit +24.18
+   V2   ORIG    s602 xlow 0.284  best credit  +9.03
+   V16  ORIG    s608 xlow 0.278  best credit +61.39
+ * V16  FLPATCH s604 xlow 0.271  best credit +13.28
+   V4   ORIG    s602 xlow 0.255  best credit  +4.75
+   V16  ORIG    s600 xlow 0.248  best credit +36.27
+   V4   ORIG    s606 xlow 0.241  best credit  +1.49
+   V8   ORIG    s609 xlow 0.230  best credit +24.27
+   V16  ORIG    s607 xlow 0.229  best credit +59.72
+   V16  ORIG    s604 xlow 0.226  best credit +56.71
+   L500 ORIG    s605 xlow 0.218  best credit  +2.57
+   V8   ORIG    s602 xlow 0.198  best credit +19.46
+   V8   ORIG    s600 xlow 0.197  best credit +24.52
+   L500 ORIG    s600 xlow 0.193  best credit +12.21
+   V2   ORIG    s603 xlow 0.179  best credit  +0.58
+   V8   ORIG    s608 xlow 0.156  best credit +22.87
+   V8   ORIG    s606 xlow 0.144  best credit  +1.83
+   V8   ORIG    s603 xlow 0.124  best credit +17.97

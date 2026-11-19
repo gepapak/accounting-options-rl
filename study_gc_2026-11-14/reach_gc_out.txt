@@ -1,0 +1,52 @@
+crypto {
+ "one_bar_largest_position": {
+  "volume": 16.0,
+  "position_over_balance": 91.969536,
+  "adverse_move_that_empties_the_account_pct": 1.0873165653461598,
+  "bars": 246,
+  "floor_share": 0.3821138211382114,
+  "published_reward_pct": 103.87526090991109,
+  "booked_profit_pct": -7.999999999999991,
+  "placebo_return_sd_pct": 4.420689670445603
+ },
+ "reach_initial_policy": {
+  "episodes": 2000,
+  "floored_share": 0.748,
+  "expected_floored_episodes_per_run": 6177.842360655737,
+  "forgiven_per_floored_episode_usd": 1837.5248491493285,
+  "episodes_per_run": 8259.147540983606
+ },
+ "reach_largest_position_policy": {
+  "episodes": 2000,
+  "floored_share": 0.9525,
+  "expected_floored_episodes_per_run": 7866.8380327868845,
+  "forgiven_per_floored_episode_usd": 13609.488845239677,
+  "episodes_per_run": 8259.147540983606
+ }
+}
+forex {
+ "one_bar_largest_position": {
+  "volume": 8.120000000000001,
+  "position_over_balance": 97.46923200000002,
+  "adverse_move_that_empties_the_account_pct": 1.0259647885601477,
+  "bars": 174,
+  "floor_share": 0.005747126436781609,
+  "published_reward_pct": -2.3864887289136716,
+  "booked_profit_pct": -2.435999999999989,
+  "placebo_return_sd_pct": 0.3369996810167798
+ },
+ "reach_initial_policy": {
+  "episodes": 2000,
+  "floored_share": 0.028,
+  "expected_floored_episodes_per_run": 328.061023255814,
+  "forgiven_per_floored_episode_usd": 244.57767197996827,
+  "episodes_per_run": 11716.46511627907
+ },
+ "reach_largest_position_policy": {
+  "episodes": 2000,
+  "floored_share": 0.49,
+  "expected_floored_episodes_per_run": 5741.067906976745,
+  "forgiven_per_floored_episode_usd": 706.6214525616779,
+  "episodes_per_run": 11716.46511627907
+ }
+}

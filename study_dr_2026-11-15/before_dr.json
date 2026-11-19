@@ -1,0 +1,1977 @@
+{
+ "edge": {
+  "V2": {
+   "published_pct": -1.7698618433890203,
+   "booked_pct": -2.435999999999994,
+   "floor_share": 0.02720905172413793,
+   "grid": [
+    {
+     "k": 1.0,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.3864887289136716,
+     "booked_pct": -2.435999999999989
+    },
+    {
+     "k": 1.0218971486541166,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.373126565139802,
+     "booked_pct": -2.436000000000009
+    },
+    {
+     "k": 1.0442737824274138,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.3594718080792854,
+     "booked_pct": -2.4359999999998845
+    },
+    {
+     "k": 1.0671404006768237,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.345518050773768,
+     "booked_pct": -2.435999999999948
+    },
+    {
+     "k": 1.0905077326652577,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.331258745970299,
+     "booked_pct": -2.436000000000061
+    },
+    {
+     "k": 1.1143867425958924,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.3166872030496246,
+     "booked_pct": -2.435999999999957
+    },
+    {
+     "k": 1.1387886347566916,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.301796584887639,
+     "booked_pct": -2.4359999999999995
+    },
+    {
+     "k": 1.1637248587775775,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.2865799046461204,
+     "booked_pct": -2.435999999999957
+    },
+    {
+     "k": 1.189207115002721,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.2710300224954154,
+     "booked_pct": -2.435999999999989
+    },
+    {
+     "k": 1.215247359980469,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.255139642263751,
+     "booked_pct": -2.436000000000061
+    },
+    {
+     "k": 1.241857812073484,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.2389013080138302,
+     "booked_pct": -2.4359999999999986
+    },
+    {
+     "k": 1.2690509571917332,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.011494252873563218,
+     "published_pct": -2.210289039495428,
+     "booked_pct": -2.4359999999998942
+    },
+    {
+     "k": 1.2968395546510096,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.011494252873563218,
+     "published_pct": -2.1807905968187864,
+     "booked_pct": -2.4360000000000097
+    },
+    {
+     "k": 1.3252366431597413,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.011494252873563218,
+     "published_pct": -2.150646222357688,
+     "booked_pct": -2.436000000000021
+    },
+    {
+     "k": 1.3542555469368927,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.011494252873563218,
+     "published_pct": -2.119841772047796,
+     "booked_pct": -2.4359999999999076
+    },
+    {
+     "k": 1.383909881963832,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.017241379310344827,
+     "published_pct": -2.084187068077186,
+     "booked_pct": -2.436000000000019
+    },
+    {
+     "k": 1.414213562373095,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.022988505747126436,
+     "published_pct": -2.038638439859718,
+     "booked_pct": -2.435999999999969
+    },
+    {
+     "k": 1.4451808069770467,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.022988505747126436,
+     "published_pct": -1.9808253222644125,
+     "booked_pct": -2.435999999999949
+    },
+    {
+     "k": 1.4768261459394993,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.028735632183908046,
+     "published_pct": -1.9167168297393704,
+     "booked_pct": -2.4359999999999364
+    },
+    {
+     "k": 1.5091644275934228,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.028735632183908046,
+     "published_pct": -1.8439559684122915,
+     "booked_pct": -2.435999999999946
+    },
+    {
+     "k": 1.5422108254079407,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.028735632183908046,
+     "published_pct": -1.7696018516885257,
+     "booked_pct": -2.435999999999969
+    },
+    {
+     "k": 1.5759808451078865,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.028735632183908046,
+     "published_pct": -1.6936195918178933,
+     "booked_pct": -2.4360000000000523
+    },
+    {
+     "k": 1.6104903319492543,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.034482758620689655,
+     "published_pct": -1.608528579382636,
+     "booked_pct": -2.4360000000000825
+    },
+    {
+     "k": 1.645755478153965,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.034482758620689655,
+     "published_pct": -1.5167412660130966,
+     "booked_pct": -2.4359999999999995
+    },
+    {
+     "k": 1.681792830507429,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.040229885057471264,
+     "published_pct": -1.413597513144648,
+     "booked_pct": -2.435999999999926
+    },
+    {
+     "k": 1.718619298122478,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.05172413793103448,
+     "published_pct": -1.3041496244235788,
+     "booked_pct": -2.4359999999999773
+    },
+    {
+     "k": 1.7562521603732995,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.05172413793103448,
+     "published_pct": -1.16886325549763,
+     "booked_pct": -2.4360000000000004
+    },
+    {
+     "k": 1.7947090750031072,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.06321839080459771,
+     "published_pct": -1.0131097325502356,
+     "booked_pct": -2.4360000000000523
+    },
+    {
+     "k": 1.8340080864093424,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.06321839080459771,
+     "published_pct": -0.8468944036258397,
+     "booked_pct": -2.43599999999999
+    },
+    {
+     "k": 1.8741676341103,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.06896551724137931,
+     "published_pct": -0.6728079351446427,
+     "booked_pct": -2.4360000000000332
+    },
+    {
+     "k": 1.9152065613971472,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.06896551724137931,
+     "published_pct": -0.4868629590644855,
+     "booked_pct": -2.4360000000001243
+    },
+    {
+     "k": 1.9571441241754004,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.06896551724137931,
+     "published_pct": -0.29684631820147056,
+     "booked_pct": -2.436000000000092
+    },
+    {
+     "k": 2.0,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.08045977011494253,
+     "published_pct": -0.09062099808984156,
+     "booked_pct": -2.4359999999999986
+    }
+   ],
+   "credit_pts": 0.6661381566109739,
+   "position_over_balance": 97.46923200000002
+  },
+  "V4": {
+   "published_pct": 2.063615404020766,
+   "booked_pct": -2.435999999999999,
+   "floor_share": 0.08351293103448275,
+   "grid": [
+    {
+     "k": 1.0,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.3864887289136716,
+     "booked_pct": -2.435999999999989
+    },
+    {
+     "k": 1.0442737824274138,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.3594718080792854,
+     "booked_pct": -2.4359999999998845
+    },
+    {
+     "k": 1.0905077326652577,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.331258745970299,
+     "booked_pct": -2.436000000000061
+    },
+    {
+     "k": 1.1387886347566916,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.301796584887639,
+     "booked_pct": -2.4359999999999995
+    },
+    {
+     "k": 1.189207115002721,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.2710300224954154,
+     "booked_pct": -2.435999999999989
+    },
+    {
+     "k": 1.241857812073484,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.2389013080138302,
+     "booked_pct": -2.4359999999999986
+    },
+    {
+     "k": 1.2968395546510096,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.011494252873563218,
+     "published_pct": -2.1807905968187864,
+     "booked_pct": -2.4360000000000097
+    },
+    {
+     "k": 1.3542555469368927,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.011494252873563218,
+     "published_pct": -2.119841772047796,
+     "booked_pct": -2.4359999999999076
+    },
+    {
+     "k": 1.414213562373095,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.022988505747126436,
+     "published_pct": -2.038638439859718,
+     "booked_pct": -2.435999999999969
+    },
+    {
+     "k": 1.4768261459394993,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.028735632183908046,
+     "published_pct": -1.9167168297393704,
+     "booked_pct": -2.4359999999999364
+    },
+    {
+     "k": 1.5422108254079407,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.028735632183908046,
+     "published_pct": -1.7696018516885257,
+     "booked_pct": -2.435999999999969
+    },
+    {
+     "k": 1.6104903319492543,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.034482758620689655,
+     "published_pct": -1.608528579382636,
+     "booked_pct": -2.4360000000000825
+    },
+    {
+     "k": 1.681792830507429,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.040229885057471264,
+     "published_pct": -1.413597513144648,
+     "booked_pct": -2.435999999999926
+    },
+    {
+     "k": 1.7562521603732995,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.05172413793103448,
+     "published_pct": -1.16886325549763,
+     "booked_pct": -2.4360000000000004
+    },
+    {
+     "k": 1.8340080864093424,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.06321839080459771,
+     "published_pct": -0.8468944036258397,
+     "booked_pct": -2.43599999999999
+    },
+    {
+     "k": 1.9152065613971472,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.06896551724137931,
+     "published_pct": -0.4868629590644855,
+     "booked_pct": -2.4360000000001243
+    },
+    {
+     "k": 2.0,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.08045977011494253,
+     "published_pct": -0.09062099808984156,
+     "booked_pct": -2.4359999999999986
+    },
+    {
+     "k": 2.0885475648548275,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.08620689655172414,
+     "published_pct": 0.3801044778160885,
+     "booked_pct": -2.4359999999999986
+    },
+    {
+     "k": 2.1810154653305154,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.09770114942528736,
+     "published_pct": 0.8949897580767642,
+     "booked_pct": -2.435999999999944
+    },
+    {
+     "k": 2.277577269513383,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.09770114942528736,
+     "published_pct": 1.464488056932425,
+     "booked_pct": -2.435999999999949
+    },
+    {
+     "k": 2.378414230005442,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.10344827586206896,
+     "published_pct": 2.073023927088568,
+     "booked_pct": -2.436000000000043
+    },
+    {
+     "k": 2.483715624146968,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.10344827586206896,
+     "published_pct": 2.7195031240255823,
+     "booked_pct": -2.4360000000000612
+    },
+    {
+     "k": 2.5936791093020193,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.1206896551724138,
+     "published_pct": 3.42555581942811,
+     "booked_pct": -2.4360000000000306
+    },
+    {
+     "k": 2.7085110938737853,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.13218390804597702,
+     "published_pct": 4.2275755569481515,
+     "booked_pct": -2.436000000000059
+    },
+    {
+     "k": 2.82842712474619,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.13793103448275862,
+     "published_pct": 5.100044668988307,
+     "booked_pct": -2.4360000000000035
+    },
+    {
+     "k": 2.9536522918789987,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.14367816091954022,
+     "published_pct": 6.0308262652514095,
+     "booked_pct": -2.436000000000001
+    },
+    {
+     "k": 3.0844216508158815,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.15517241379310345,
+     "published_pct": 7.051496686246743,
+     "booked_pct": -2.436000000000054
+    },
+    {
+     "k": 3.2209806638985086,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.15517241379310345,
+     "published_pct": 8.141815529258242,
+     "booked_pct": -2.4359999999999613
+    },
+    {
+     "k": 3.363585661014858,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.16666666666666666,
+     "published_pct": 9.298289052529174,
+     "booked_pct": -2.43599999999998
+    },
+    {
+     "k": 3.5125043207465994,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.1781609195402299,
+     "published_pct": 10.556149428195164,
+     "booked_pct": -2.4360000000000634
+    },
+    {
+     "k": 3.668016172818685,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.20689655172413793,
+     "published_pct": 11.962800860199785,
+     "booked_pct": -2.436000000000004
+    },
+    {
+     "k": 3.830413122794295,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.20689655172413793,
+     "published_pct": 13.493985541958244,
+     "booked_pct": -2.435999999999963
+    },
+    {
+     "k": 4.0,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.21264367816091953,
+     "published_pct": 15.103408417168696,
+     "booked_pct": -2.4360000000000066
+    }
+   ],
+   "credit_pts": 4.499615404020766,
+   "position_over_balance": 97.46923200000002
+  },
+  "V8": {
+   "published_pct": 12.531613287024337,
+   "booked_pct": -2.4359999999999964,
+   "floor_share": 0.14439655172413793,
+   "grid": [
+    {
+     "k": 1.0,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.3864887289136716,
+     "booked_pct": -2.435999999999989
+    },
+    {
+     "k": 1.0671404006768237,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.345518050773768,
+     "booked_pct": -2.435999999999948
+    },
+    {
+     "k": 1.1387886347566916,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.301796584887639,
+     "booked_pct": -2.4359999999999995
+    },
+    {
+     "k": 1.2152473599804687,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.255139642263751,
+     "booked_pct": -2.436000000000061
+    },
+    {
+     "k": 1.2968395546510096,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.011494252873563218,
+     "published_pct": -2.1807905968187864,
+     "booked_pct": -2.4360000000000097
+    },
+    {
+     "k": 1.383909881963832,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.017241379310344827,
+     "published_pct": -2.084187068077186,
+     "booked_pct": -2.436000000000019
+    },
+    {
+     "k": 1.4768261459394991,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.028735632183908046,
+     "published_pct": -1.9167168297393704,
+     "booked_pct": -2.4359999999999262
+    },
+    {
+     "k": 1.5759808451078865,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.028735632183908046,
+     "published_pct": -1.6936195918178933,
+     "booked_pct": -2.4360000000000523
+    },
+    {
+     "k": 1.681792830507429,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.040229885057471264,
+     "published_pct": -1.413597513144648,
+     "booked_pct": -2.435999999999926
+    },
+    {
+     "k": 1.794709075003107,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.06321839080459771,
+     "published_pct": -1.0131097325502352,
+     "booked_pct": -2.4360000000000515
+    },
+    {
+     "k": 1.9152065613971472,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.06896551724137931,
+     "published_pct": -0.4868629590644855,
+     "booked_pct": -2.4360000000001243
+    },
+    {
+     "k": 2.0437942973082333,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.08620689655172414,
+     "published_pct": 0.13953743018025977,
+     "booked_pct": -2.435999999999938
+    },
+    {
+     "k": 2.181015465330515,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.09770114942528736,
+     "published_pct": 0.8949897580767541,
+     "booked_pct": -2.435999999999954
+    },
+    {
+     "k": 2.327449717555155,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.10344827586206896,
+     "published_pct": 1.7601363594571426,
+     "booked_pct": -2.435999999999982
+    },
+    {
+     "k": 2.483715624146968,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.10344827586206896,
+     "published_pct": 2.7195031240255823,
+     "booked_pct": -2.4360000000000612
+    },
+    {
+     "k": 2.6504732863194826,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.12643678160919541,
+     "published_pct": 3.813252792132669,
+     "booked_pct": -2.435999999999981
+    },
+    {
+     "k": 2.82842712474619,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.13793103448275862,
+     "published_pct": 5.100044668988307,
+     "booked_pct": -2.4360000000000035
+    },
+    {
+     "k": 3.0183288551868452,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.14942528735632185,
+     "published_pct": 6.5309807426505655,
+     "booked_pct": -2.4360000000000643
+    },
+    {
+     "k": 3.220980663898508,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.15517241379310345,
+     "published_pct": 8.141815529258253,
+     "booked_pct": -2.435999999999951
+    },
+    {
+     "k": 3.437238596244956,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.16666666666666666,
+     "published_pct": 9.911298759477752,
+     "booked_pct": -2.436000000000022
+    },
+    {
+     "k": 3.668016172818685,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.20689655172413793,
+     "published_pct": 11.962800860199785,
+     "booked_pct": -2.436000000000004
+    },
+    {
+     "k": 3.9142882483508,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.20689655172413793,
+     "published_pct": 14.284815095419512,
+     "booked_pct": -2.4359999999999418
+    },
+    {
+     "k": 4.177095129709655,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.21264367816091953,
+     "published_pct": 16.79846454418477,
+     "booked_pct": -2.435999999999973
+    },
+    {
+     "k": 4.457546970383569,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.22988505747126436,
+     "published_pct": 19.54267179274008,
+     "booked_pct": -2.4359999999999946
+    },
+    {
+     "k": 4.756828460010883,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.23563218390804597,
+     "published_pct": 22.5276152269387,
+     "booked_pct": -2.435999999999958
+    },
+    {
+     "k": 5.076203828766933,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.25287356321839083,
+     "published_pct": 25.802349819991267,
+     "booked_pct": -2.4360000000000563
+    },
+    {
+     "k": 5.417022187747571,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.26436781609195403,
+     "published_pct": 29.38994043991604,
+     "booked_pct": -2.4359999999999133
+    },
+    {
+     "k": 5.780723227908186,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.26436781609195403,
+     "published_pct": 33.258484524779824,
+     "booked_pct": -2.4360000000000013
+    },
+    {
+     "k": 6.168843301631762,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.27586206896551724,
+     "published_pct": 37.42368568213462,
+     "booked_pct": -2.436000000000113
+    },
+    {
+     "k": 6.583021912615858,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.29310344827586204,
+     "published_pct": 41.94729026670273,
+     "booked_pct": -2.435999999999982
+    },
+    {
+     "k": 7.025008641493197,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.29310344827586204,
+     "published_pct": 46.84717220818165,
+     "booked_pct": -2.435999999999936
+    },
+    {
+     "k": 7.496670536441197,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.3160919540229885,
+     "published_pct": 52.14657122707147,
+     "booked_pct": -2.435999999999941
+    },
+    {
+     "k": 7.999999999999998,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.3275862068965517,
+     "published_pct": 57.90557453173138,
+     "booked_pct": -2.4360000000000146
+    }
+   ],
+   "credit_pts": 14.967613287024333,
+   "position_over_balance": 97.46923200000002
+  },
+  "V16": {
+   "published_pct": 34.41988096695562,
+   "booked_pct": -2.436000000000006,
+   "floor_share": 0.2002514367816092,
+   "grid": [
+    {
+     "k": 1.0,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.3864887289136716,
+     "booked_pct": -2.435999999999989
+    },
+    {
+     "k": 1.0905077326652577,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.331258745970299,
+     "booked_pct": -2.436000000000061
+    },
+    {
+     "k": 1.189207115002721,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.005747126436781609,
+     "published_pct": -2.2710300224954154,
+     "booked_pct": -2.435999999999989
+    },
+    {
+     "k": 1.2968395546510096,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.011494252873563218,
+     "published_pct": -2.1807905968187864,
+     "booked_pct": -2.4360000000000097
+    },
+    {
+     "k": 1.414213562373095,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.022988505747126436,
+     "published_pct": -2.038638439859718,
+     "booked_pct": -2.435999999999969
+    },
+    {
+     "k": 1.5422108254079407,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.028735632183908046,
+     "published_pct": -1.7696018516885257,
+     "booked_pct": -2.435999999999969
+    },
+    {
+     "k": 1.681792830507429,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.040229885057471264,
+     "published_pct": -1.413597513144648,
+     "booked_pct": -2.435999999999926
+    },
+    {
+     "k": 1.8340080864093424,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.06321839080459771,
+     "published_pct": -0.8468944036258397,
+     "booked_pct": -2.43599999999999
+    },
+    {
+     "k": 2.0,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.08045977011494253,
+     "published_pct": -0.09062099808984156,
+     "booked_pct": -2.4359999999999986
+    },
+    {
+     "k": 2.1810154653305154,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.09770114942528736,
+     "published_pct": 0.8949897580767642,
+     "booked_pct": -2.435999999999944
+    },
+    {
+     "k": 2.378414230005442,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.10344827586206896,
+     "published_pct": 2.073023927088568,
+     "booked_pct": -2.436000000000043
+    },
+    {
+     "k": 2.5936791093020193,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.1206896551724138,
+     "published_pct": 3.42555581942811,
+     "booked_pct": -2.4360000000000306
+    },
+    {
+     "k": 2.82842712474619,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.13793103448275862,
+     "published_pct": 5.100044668988307,
+     "booked_pct": -2.4360000000000035
+    },
+    {
+     "k": 3.0844216508158815,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.15517241379310345,
+     "published_pct": 7.051496686246743,
+     "booked_pct": -2.436000000000054
+    },
+    {
+     "k": 3.363585661014858,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.16666666666666666,
+     "published_pct": 9.298289052529174,
+     "booked_pct": -2.43599999999998
+    },
+    {
+     "k": 3.668016172818685,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.20689655172413793,
+     "published_pct": 11.962800860199785,
+     "booked_pct": -2.436000000000004
+    },
+    {
+     "k": 4.0,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.21264367816091953,
+     "published_pct": 15.103408417168696,
+     "booked_pct": -2.4360000000000066
+    },
+    {
+     "k": 4.362030930661031,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.22413793103448276,
+     "published_pct": 18.5957330747637,
+     "booked_pct": -2.4360000000000928
+    },
+    {
+     "k": 4.756828460010884,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.23563218390804597,
+     "published_pct": 22.527615226938693,
+     "booked_pct": -2.435999999999979
+    },
+    {
+     "k": 5.187358218604039,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.25287356321839083,
+     "published_pct": 26.96092152062457,
+     "booked_pct": -2.435999999999958
+    },
+    {
+     "k": 5.656854249492381,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.26436781609195403,
+     "published_pct": 31.940939203664016,
+     "booked_pct": -2.4359999999999937
+    },
+    {
+     "k": 6.168843301631763,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.27586206896551724,
+     "published_pct": 37.42368568213467,
+     "booked_pct": -2.4360000000000714
+    },
+    {
+     "k": 6.727171322029717,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.29310344827586204,
+     "published_pct": 43.54533618508551,
+     "booked_pct": -2.4360000000000044
+    },
+    {
+     "k": 7.33603234563737,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.3103448275862069,
+     "published_pct": 50.32013575006235,
+     "booked_pct": -2.435999999999987
+    },
+    {
+     "k": 7.999999999999998,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.3275862068965517,
+     "published_pct": 57.90557453173138,
+     "booked_pct": -2.4360000000000146
+    },
+    {
+     "k": 8.724061861322062,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.3390804597701149,
+     "published_pct": 66.2862283849062,
+     "booked_pct": -2.4360000000000785
+    },
+    {
+     "k": 9.513656920021766,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.3563218390804598,
+     "published_pct": 75.59796253488332,
+     "booked_pct": -2.4359999999999933
+    },
+    {
+     "k": 10.374716437208079,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.367816091954023,
+     "published_pct": 85.87124499009535,
+     "booked_pct": -2.4359999999999915
+    },
+    {
+     "k": 11.31370849898476,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.367816091954023,
+     "published_pct": 97.11165863565157,
+     "booked_pct": -2.4360000000001114
+    },
+    {
+     "k": 12.337686603263528,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.3735632183908046,
+     "published_pct": 109.38533660398592,
+     "booked_pct": -2.435999999999925
+    },
+    {
+     "k": 13.454342644059432,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.3793103448275862,
+     "published_pct": 122.83466353972646,
+     "booked_pct": -2.4359999999999844
+    },
+    {
+     "k": 14.672064691274741,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.3850574712643678,
+     "published_pct": 137.5469126661507,
+     "booked_pct": -2.436000000000028
+    },
+    {
+     "k": 15.999999999999998,
+     "leverage": 100.0,
+     "volume": 8.120000000000001,
+     "position_over_balance": 97.46923200000002,
+     "floor_share": 0.3850574712643678,
+     "published_pct": 153.61662031719834,
+     "booked_pct": -2.435999999999995
+    }
+   ],
+   "credit_pts": 36.855880966955624,
+   "position_over_balance": 97.46923200000002
+  },
+  "L30": {
+   "published_pct": -0.7439999999999969,
+   "booked_pct": -0.7439999999999969,
+   "floor_share": 0.0,
+   "grid": [
+    {
+     "k": 1.0,
+     "leverage": 30.0,
+     "volume": 2.48,
+     "position_over_balance": 29.768928000000002,
+     "floor_share": 0.0,
+     "published_pct": -0.7439999999999969,
+     "booked_pct": -0.7439999999999969
+    }
+   ],
+   "credit_pts": 0.0,
+   "position_over_balance": 29.768928000000002
+  },
+  "L500": {
+   "published_pct": 13.935084864445312,
+   "booked_pct": -11.105999999999954,
+   "floor_share": 0.25287356321839083,
+   "grid": [
+    {
+     "k": 1.0,
+     "leverage": 500.0,
+     "volume": 37.02,
+     "position_over_balance": 444.37327200000004,
+     "floor_share": 0.25287356321839083,
+     "published_pct": 13.935084864445312,
+     "booked_pct": -11.105999999999954
+    }
+   ],
+   "credit_pts": 25.041084864445267,
+   "position_over_balance": 444.37327200000004
+  }
+ },
+ "nominal_gc": {
+  "published_pct": -2.3864887289136716,
+  "booked_pct": -2.435999999999989,
+  "floor_share": 0.005747126436781609,
+  "position_over_balance": 97.46923200000002
+ },
+ "reach": {
+  "V2/initial": {
+   "arm": "V2",
+   "policy": "initial",
+   "episodes": 1000,
+   "floored_share": 0.091,
+   "expected_floored_episodes_per_run": 1066.1983255813955,
+   "forgiven_per_floored_episode_usd": 289.03850114012766
+  },
+  "V2/largest": {
+   "arm": "V2",
+   "policy": "largest",
+   "episodes": 1000,
+   "floored_share": 0.591,
+   "expected_floored_episodes_per_run": 6924.43088372093,
+   "forgiven_per_floored_episode_usd": 1072.3099467182783
+  },
+  "V4/initial": {
+   "arm": "V4",
+   "policy": "initial",
+   "episodes": 1000,
+   "floored_share": 0.223,
+   "expected_floored_episodes_per_run": 2612.7717209302327,
+   "forgiven_per_floored_episode_usd": 588.8914003368168
+  },
+  "V4/largest": {
+   "arm": "V4",
+   "policy": "largest",
+   "episodes": 1000,
+   "floored_share": 0.701,
+   "expected_floored_episodes_per_run": 8213.242046511628,
+   "forgiven_per_floored_episode_usd": 1950.017420816104
+  },
+  "V8/initial": {
+   "arm": "V8",
+   "policy": "initial",
+   "episodes": 1000,
+   "floored_share": 0.364,
+   "expected_floored_episodes_per_run": 4264.793302325582,
+   "forgiven_per_floored_episode_usd": 1013.8196665999508
+  },
+  "V8/largest": {
+   "arm": "V8",
+   "policy": "largest",
+   "episodes": 1000,
+   "floored_share": 0.763,
+   "expected_floored_episodes_per_run": 8939.662883720932,
+   "forgiven_per_floored_episode_usd": 3549.720593291675
+  },
+  "V16/initial": {
+   "arm": "V16",
+   "policy": "initial",
+   "episodes": 1000,
+   "floored_share": 0.468,
+   "expected_floored_episodes_per_run": 5483.305674418605,
+   "forgiven_per_floored_episode_usd": 1607.2344114904402
+  },
+  "V16/largest": {
+   "arm": "V16",
+   "policy": "largest",
+   "episodes": 1000,
+   "floored_share": 0.815,
+   "expected_floored_episodes_per_run": 9548.919069767442,
+   "forgiven_per_floored_episode_usd": 6790.4182707105
+  },
+  "L30/initial": {
+   "arm": "L30",
+   "policy": "initial",
+   "episodes": 1000,
+   "floored_share": 0.0,
+   "expected_floored_episodes_per_run": 0.0,
+   "forgiven_per_floored_episode_usd": -4.234834705130197e-11
+  },
+  "L30/largest": {
+   "arm": "L30",
+   "policy": "largest",
+   "episodes": 1000,
+   "floored_share": 0.008,
+   "expected_floored_episodes_per_run": 93.73172093023257,
+   "forgiven_per_floored_episode_usd": 92.32418490678857
+  },
+  "L500/initial": {
+   "arm": "L500",
+   "policy": "initial",
+   "episodes": 1000,
+   "floored_share": 0.317,
+   "expected_floored_episodes_per_run": 3714.1194418604655,
+   "forgiven_per_floored_episode_usd": 307.3025472942272
+  },
+  "L500/largest": {
+   "arm": "L500",
+   "policy": "largest",
+   "episodes": 1000,
+   "floored_share": 0.893,
+   "expected_floored_episodes_per_run": 10462.80334883721,
+   "forgiven_per_floored_episode_usd": 4647.275919158535
+  }
+ },
+ "hidden_leverage": {
+  "100-1000": {
+   "lo": 100.0,
+   "hi": 1000.0,
+   "leverage_aware_mean_published_pct": 9.409685849349692,
+   "best_hidden_leverage_request_pct": 4.633493881086257,
+   "best_request_sized_for_leverage": 589.9746255923563,
+   "grid": [
+    {
+     "sized_for": 100.00000000000004,
+     "accepted_share": 0.9999999999999998,
+     "published_pct_if_accepted": -2.3864887289136716,
+     "expected_pct": -2.386488728913671
+    },
+    {
+     "sized_for": 104.91397291363107,
+     "accepted_share": 0.9791666666666661,
+     "published_pct_if_accepted": -2.4735075310370487,
+     "expected_pct": -2.421976124140442
+    },
+    {
+     "sized_for": 110.069417125221,
+     "accepted_share": 0.958333333333333,
+     "published_pct_if_accepted": -2.564988835833427,
+     "expected_pct": -2.458114301007033
+    },
+    {
+     "sized_for": 115.4781984689459,
+     "accepted_share": 0.9374999999999997,
+     "published_pct_if_accepted": -2.6609326433027927,
+     "expected_pct": -2.494624353096367
+    },
+    {
+     "sized_for": 121.15276586285887,
+     "accepted_share": 0.9166666666666665,
+     "published_pct_if_accepted": -2.759107702108659,
+     "expected_pct": -2.5291820602662702
+    },
+    {
+     "sized_for": 127.10617996147457,
+     "accepted_share": 0.895833333333333,
+     "published_pct_if_accepted": -2.8507525617645673,
+     "expected_pct": -2.5537991699140905
+    },
+    {
+     "sized_for": 133.35214321633242,
+     "accepted_share": 0.875,
+     "published_pct_if_accepted": -2.9320050339341606,
+     "expected_pct": -2.5655044046923905
+    },
+    {
+     "sized_for": 139.90503141372946,
+     "accepted_share": 0.8541666666666664,
+     "published_pct_if_accepted": -3.0058457389686652,
+     "expected_pct": -2.5674932353690676
+    },
+    {
+     "sized_for": 146.77992676220697,
+     "accepted_share": 0.8333333333333333,
+     "published_pct_if_accepted": -3.042004020165419,
+     "expected_pct": -2.535003350137849
+    },
+    {
+     "sized_for": 153.99265260594927,
+     "accepted_share": 0.8124999999999997,
+     "published_pct_if_accepted": -3.0500046010809223,
+     "expected_pct": -2.478128738378248
+    },
+    {
+     "sized_for": 161.55980984398738,
+     "accepted_share": 0.7916666666666666,
+     "published_pct_if_accepted": -3.0489473748461506,
+     "expected_pct": -2.413750005086536
+    },
+    {
+     "sized_for": 169.49881513903472,
+     "accepted_share": 0.7708333333333331,
+     "published_pct_if_accepted": -3.01626568643326,
+     "expected_pct": -2.325038133292304
+    },
+    {
+     "sized_for": 177.82794100389225,
+     "accepted_share": 0.75,
+     "published_pct_if_accepted": -2.9209021596120923,
+     "expected_pct": -2.1906766197090692
+    },
+    {
+     "sized_for": 186.56635785769126,
+     "accepted_share": 0.7291666666666665,
+     "published_pct_if_accepted": -2.7580442973488846,
+     "expected_pct": -2.0110739668168947
+    },
+    {
+     "sized_for": 195.73417814876615,
+     "accepted_share": 0.708333333333333,
+     "published_pct_if_accepted": -2.5657500128718174,
+     "expected_pct": -1.8174062591175366
+    },
+    {
+     "sized_for": 205.35250264571462,
+     "accepted_share": 0.6874999999999999,
+     "published_pct_if_accepted": -2.310239019896831,
+     "expected_pct": -1.5882893261790711
+    },
+    {
+     "sized_for": 215.44346900318848,
+     "accepted_share": 0.6666666666666664,
+     "published_pct_if_accepted": -2.00935075192266,
+     "expected_pct": -1.3395671679484396
+    },
+    {
+     "sized_for": 226.030302714192,
+     "accepted_share": 0.6458333333333333,
+     "published_pct_if_accepted": -1.6506919799787,
+     "expected_pct": -1.0660719037362436
+    },
+    {
+     "sized_for": 237.13737056616563,
+     "accepted_share": 0.6249999999999998,
+     "published_pct_if_accepted": -1.260251128658345,
+     "expected_pct": -0.7876569554114654
+    },
+    {
+     "sized_for": 248.79023672388362,
+     "accepted_share": 0.6041666666666665,
+     "published_pct_if_accepted": -0.8413376834309014,
+     "expected_pct": -0.5083081837395028
+    },
+    {
+     "sized_for": 261.01572156825375,
+     "accepted_share": 0.5833333333333331,
+     "published_pct_if_accepted": -0.3613457958295196,
+     "expected_pct": -0.2107850475672197
+    },
+    {
+     "sized_for": 273.84196342643605,
+     "accepted_share": 0.5625,
+     "published_pct_if_accepted": 0.2112520178388743,
+     "expected_pct": 0.1188292600343668
+    },
+    {
+     "sized_for": 287.29848333536654,
+     "accepted_share": 0.5416666666666665,
+     "published_pct_if_accepted": 0.8429429659594395,
+     "expected_pct": 0.45659410656136296
+    },
+    {
+     "sized_for": 301.4162529877392,
+     "accepted_share": 0.520833333333333,
+     "published_pct_if_accepted": 1.5314224607050653,
+     "expected_pct": 0.7976158649505544
+    },
+    {
+     "sized_for": 316.22776601683796,
+     "accepted_share": 0.4999999999999999,
+     "published_pct_if_accepted": 2.2979462161666753,
+     "expected_pct": 1.1489731080833374
+    },
+    {
+     "sized_for": 331.7671127842856,
+     "accepted_share": 0.4791666666666668,
+     "published_pct_if_accepted": 3.112714591137713,
+     "expected_pct": 1.4915090749201545
+    },
+    {
+     "sized_for": 348.0700588428411,
+     "accepted_share": 0.45833333333333326,
+     "published_pct_if_accepted": 4.0108075579112885,
+     "expected_pct": 1.8382867973760069
+    },
+    {
+     "sized_for": 365.17412725483786,
+     "accepted_share": 0.4374999999999998,
+     "published_pct_if_accepted": 5.040856168875102,
+     "expected_pct": 2.205374573882856
+    },
+    {
+     "sized_for": 383.1186849557287,
+     "accepted_share": 0.41666666666666674,
+     "published_pct_if_accepted": 6.194897761146759,
+     "expected_pct": 2.5812074004778167
+    },
+    {
+     "sized_for": 401.9450333615126,
+     "accepted_share": 0.3958333333333331,
+     "published_pct_if_accepted": 7.407771131438523,
+     "expected_pct": 2.9322427395277466
+    },
+    {
+     "sized_for": 421.69650342858216,
+     "accepted_share": 0.3750000000000001,
+     "published_pct_if_accepted": 8.689628756969144,
+     "expected_pct": 3.25861078386343
+    },
+    {
+     "sized_for": 442.41855538479183,
+     "accepted_share": 0.3541666666666665,
+     "published_pct_if_accepted": 10.05356665088918,
+     "expected_pct": 3.5606381888565832
+    },
+    {
+     "sized_for": 464.15888336127773,
+     "accepted_share": 0.3333333333333334,
+     "published_pct_if_accepted": 11.507497503845865,
+     "expected_pct": 3.8358325012819563
+    },
+    {
+     "sized_for": 486.96752516586315,
+     "accepted_share": 0.31249999999999994,
+     "published_pct_if_accepted": 13.037344967905648,
+     "expected_pct": 4.074170302470514
+    },
+    {
+     "sized_for": 510.8969774506926,
+     "accepted_share": 0.2916666666666668,
+     "published_pct_if_accepted": 14.69792002528066,
+     "expected_pct": 4.286893340706861
+    },
+    {
+     "sized_for": 536.0023165391792,
+     "accepted_share": 0.2708333333333333,
+     "published_pct_if_accepted": 16.446478897620455,
+     "expected_pct": 4.454254701438873
+    },
+    {
+     "sized_for": 562.3413251903493,
+     "accepted_share": 0.24999999999999986,
+     "published_pct_if_accepted": 18.29818178971055,
+     "expected_pct": 4.574545447427635
+    },
+    {
+     "sized_for": 589.9746255923563,
+     "accepted_share": 0.22916666666666663,
+     "published_pct_if_accepted": 20.21888239019458,
+     "expected_pct": 4.633493881086257
+    },
+    {
+     "sized_for": 618.9658188912601,
+     "accepted_share": 0.20833333333333356,
+     "published_pct_if_accepted": 22.23471476820657,
+     "expected_pct": 4.632232243376373
+    },
+    {
+     "sized_for": 649.3816315762111,
+     "accepted_share": 0.18750000000000008,
+     "published_pct_if_accepted": 24.359896171590307,
+     "expected_pct": 4.567480532173184
+    },
+    {
+     "sized_for": 681.2920690579614,
+     "accepted_share": 0.16666666666666657,
+     "published_pct_if_accepted": 26.608649286080936,
+     "expected_pct": 4.434774881013487
+    },
+    {
+     "sized_for": 714.7705767941853,
+     "accepted_share": 0.1458333333333335,
+     "published_pct_if_accepted": 28.955011816520095,
+     "expected_pct": 4.222605889909185
+    },
+    {
+     "sized_for": 749.8942093324553,
+     "accepted_share": 0.12500000000000033,
+     "published_pct_if_accepted": 31.423203782542647,
+     "expected_pct": 3.9279004728178415
+    },
+    {
+     "sized_for": 786.7438076599396,
+     "accepted_share": 0.10416666666666678,
+     "published_pct_if_accepted": 34.02127199019782,
+     "expected_pct": 3.5438824989789435
+    },
+    {
+     "sized_for": 825.4041852680184,
+     "accepted_share": 0.08333333333333337,
+     "published_pct_if_accepted": 36.73486957541629,
+     "expected_pct": 3.061239131284692
+    },
+    {
+     "sized_for": 865.9643233600657,
+     "accepted_share": 0.062499999999999854,
+     "published_pct_if_accepted": 39.556156483583564,
+     "expected_pct": 2.472259780223967
+    },
+    {
+     "sized_for": 908.5175756516867,
+     "accepted_share": 0.041666666666666664,
+     "published_pct_if_accepted": 42.53154798791964,
+     "expected_pct": 1.772147832829985
+    },
+    {
+     "sized_for": 953.161883234787,
+     "accepted_share": 0.0208333333333336,
+     "published_pct_if_accepted": 45.611051225433,
+     "expected_pct": 0.9502302338631997
+    },
+    {
+     "sized_for": 999.9999999999998,
+     "accepted_share": 9.64327466553287e-17,
+     "published_pct_if_accepted": 48.83509917495044,
+     "expected_pct": 4.7093027466258476e-15
+    }
+   ]
+  },
+  "30-500": {
+   "lo": 30.0,
+   "hi": 500.0,
+   "leverage_aware_mean_published_pct": -0.16271706359662128,
+   "best_hidden_leverage_request_pct": 0.5827543739903749,
+   "best_request_sized_for_leverage": 395.50253838692447,
+   "grid": [
+    {
+     "sized_for": 30.000000000000004,
+     "accepted_share": 1.0,
+     "published_pct_if_accepted": -0.7439999999999969,
+     "expected_pct": -0.7439999999999969
+    },
+    {
+     "sized_for": 31.810935201247258,
+     "accepted_share": 0.9791666666666667,
+     "published_pct_if_accepted": -0.7859999999999964,
+     "expected_pct": -0.7696249999999965
+    },
+    {
+     "sized_for": 33.73118661259839,
+     "accepted_share": 0.9583333333333334,
+     "published_pct_if_accepted": -0.8339999999999962,
+     "expected_pct": -0.7992499999999964
+    },
+    {
+     "sized_for": 35.76735305315157,
+     "accepted_share": 0.9374999999999999,
+     "published_pct_if_accepted": -0.8849999999999958,
+     "expected_pct": -0.8296874999999959
+    },
+    {
+     "sized_for": 37.92643167646459,
+     "accepted_share": 0.9166666666666666,
+     "published_pct_if_accepted": -0.9359999999999954,
+     "expected_pct": -0.8579999999999958
+    },
+    {
+     "sized_for": 40.21584201581821,
+     "accepted_share": 0.8958333333333334,
+     "published_pct_if_accepted": -0.9929999999999961,
+     "expected_pct": -0.8895624999999966
+    },
+    {
+     "sized_for": 42.64345148095966,
+     "accepted_share": 0.875,
+     "published_pct_if_accepted": -1.0529999999999953,
+     "expected_pct": -0.9213749999999958
+    },
+    {
+     "sized_for": 45.21760239394464,
+     "accepted_share": 0.8541666666666667,
+     "published_pct_if_accepted": -1.1159999999999948,
+     "expected_pct": -0.9532499999999956
+    },
+    {
+     "sized_for": 47.94714065698452,
+     "accepted_share": 0.8333333333333335,
+     "published_pct_if_accepted": -1.1819999999999948,
+     "expected_pct": -0.9849999999999959
+    },
+    {
+     "sized_for": 50.84144615081411,
+     "accepted_share": 0.8124999999999998,
+     "published_pct_if_accepted": -1.2539999999999936,
+     "expected_pct": -1.0188749999999944
+    },
+    {
+     "sized_for": 53.91046496804164,
+     "accepted_share": 0.7916666666666666,
+     "published_pct_if_accepted": -1.3289999999999942,
+     "expected_pct": -1.0521249999999953
+    },
+    {
+     "sized_for": 57.16474359224945,
+     "accepted_share": 0.7708333333333333,
+     "published_pct_if_accepted": -1.4069999999999938,
+     "expected_pct": -1.0845624999999952
+    },
+    {
+     "sized_for": 60.615465140298724,
+     "accepted_share": 0.7499999999999999,
+     "published_pct_if_accepted": -1.4909999999999926,
+     "expected_pct": -1.1182499999999942
+    },
+    {
+     "sized_for": 64.27448779238348,
+     "accepted_share": 0.7291666666666666,
+     "published_pct_if_accepted": -1.577999999999993,
+     "expected_pct": -1.150624999999995
+    },
+    {
+     "sized_for": 68.15438554189562,
+     "accepted_share": 0.7083333333333334,
+     "published_pct_if_accepted": -1.6739999999999922,
+     "expected_pct": -1.1857499999999945
+    },
+    {
+     "sized_for": 72.26849140513549,
+     "accepted_share": 0.6874999999999999,
+     "published_pct_if_accepted": -1.772999999999992,
+     "expected_pct": -1.2189374999999942
+    },
+    {
+     "sized_for": 76.6309432393553,
+     "accepted_share": 0.6666666666666667,
+     "published_pct_if_accepted": -1.8779999999999923,
+     "expected_pct": -1.2519999999999951
+    },
+    {
+     "sized_for": 81.25673232658627,
+     "accepted_share": 0.6458333333333334,
+     "published_pct_if_accepted": -1.9889999999999912,
+     "expected_pct": -1.2845624999999945
+    },
+    {
+     "sized_for": 86.1617548902043,
+     "accepted_share": 0.625,
+     "published_pct_if_accepted": -2.1059999999999905,
+     "expected_pct": -1.3162499999999941
+    },
+    {
+     "sized_for": 91.36286672126793,
+     "accepted_share": 0.6041666666666667,
+     "published_pct_if_accepted": -2.2319999999999895,
+     "expected_pct": -1.3484999999999938
+    },
+    {
+     "sized_for": 96.8779411023482,
+     "accepted_share": 0.5833333333333331,
+     "published_pct_if_accepted": -2.3307074455012478,
+     "expected_pct": -1.3595793432090608
+    },
+    {
+     "sized_for": 102.72593022790147,
+     "accepted_share": 0.5625000000000001,
+     "published_pct_if_accepted": -2.4355762583166034,
+     "expected_pct": -1.3700116453030897
+    },
+    {
+     "sized_for": 108.9269303322541,
+     "accepted_share": 0.5416666666666666,
+     "published_pct_if_accepted": -2.544907573804953,
+     "expected_pct": -1.3784916024776828
+    },
+    {
+     "sized_for": 115.50225074900365,
+     "accepted_share": 0.5208333333333333,
+     "published_pct_if_accepted": -2.6609326433027927,
+     "expected_pct": -1.385902418386871
+    },
+    {
+     "sized_for": 122.47448713915892,
+     "accepted_share": 0.49999999999999994,
+     "published_pct_if_accepted": -2.7836514668101238,
+     "expected_pct": -1.3918257334050617
+    },
+    {
+     "sized_for": 129.86759913965915,
+     "accepted_share": 0.4791666666666667,
+     "published_pct_if_accepted": -2.8855750498372514,
+     "expected_pct": -1.3826713780470163
+    },
+    {
+     "sized_for": 137.70699269910838,
+     "accepted_share": 0.4583333333333333,
+     "published_pct_if_accepted": -2.986494910607317,
+     "expected_pct": -1.368810167361687
+    },
+    {
+     "sized_for": 146.01960738366552,
+     "accepted_share": 0.4375000000000001,
+     "published_pct_if_accepted": -3.040048033119251,
+     "expected_pct": -1.3300210144896727
+    },
+    {
+     "sized_for": 154.83400895311163,
+     "accepted_share": 0.41666666666666674,
+     "published_pct_if_accepted": -3.050861806179012,
+     "expected_pct": -1.2711924192412551
+    },
+    {
+     "sized_for": 164.18048752522571,
+     "accepted_share": 0.3958333333333334,
+     "published_pct_if_accepted": -3.042770600101788,
+     "expected_pct": -1.2044300292069579
+    },
+    {
+     "sized_for": 174.09116166580463,
+     "accepted_share": 0.3750000000000002,
+     "published_pct_if_accepted": -2.9744755908291167,
+     "expected_pct": -1.1154283465609194
+    },
+    {
+     "sized_for": 184.60008876202588,
+     "accepted_share": 0.3541666666666665,
+     "published_pct_if_accepted": -2.7961851498207837,
+     "expected_pct": -0.9903155738948605
+    },
+    {
+     "sized_for": 195.74338205844305,
+     "accepted_share": 0.33333333333333354,
+     "published_pct_if_accepted": -2.5657500128718174,
+     "expected_pct": -0.8552500042906063
+    },
+    {
+     "sized_for": 207.55933475780407,
+     "accepted_share": 0.31249999999999994,
+     "published_pct_if_accepted": -2.248181730305923,
+     "expected_pct": -0.7025567907206008
+    },
+    {
+     "sized_for": 220.08855161314975,
+     "accepted_share": 0.2916666666666667,
+     "published_pct_if_accepted": -1.855727913376428,
+     "expected_pct": -0.5412539747347915
+    },
+    {
+     "sized_for": 233.37408846340898,
+     "accepted_share": 0.2708333333333333,
+     "published_pct_if_accepted": -1.3966415526858833,
+     "expected_pct": -0.37825708718576
+    },
+    {
+     "sized_for": 247.46160019198825,
+     "accepted_share": 0.25000000000000006,
+     "published_pct_if_accepted": -0.8900485491550236,
+     "expected_pct": -0.22251213728875596
+    },
+    {
+     "sized_for": 262.3994976168098,
+     "accepted_share": 0.2291666666666667,
+     "published_pct_if_accepted": -0.30398362179026267,
+     "expected_pct": -0.06966291332693521
+    },
+    {
+     "sized_for": 278.239113850939,
+     "accepted_share": 0.2083333333333334,
+     "published_pct_if_accepted": 0.4125394044046681,
+     "expected_pct": 0.08594570925097254
+    },
+    {
+     "sized_for": 295.0348807054893,
+     "accepted_share": 0.18750000000000014,
+     "published_pct_if_accepted": 1.211162752951204,
+     "expected_pct": 0.2270930161783509
+    },
+    {
+     "sized_for": 312.8445157410014,
+     "accepted_share": 0.16666666666666652,
+     "published_pct_if_accepted": 2.122786649476198,
+     "expected_pct": 0.35379777491269937
+    },
+    {
+     "sized_for": 331.72922061008546,
+     "accepted_share": 0.1458333333333335,
+     "published_pct_if_accepted": 3.112714591137713,
+     "expected_pct": 0.453937544540917
+    },
+    {
+     "sized_for": 351.75389137292314,
+     "accepted_share": 0.12499999999999988,
+     "published_pct_if_accepted": 4.223593229943643,
+     "expected_pct": 0.5279491537429548
+    },
+    {
+     "sized_for": 372.9873415083538,
+     "accepted_share": 0.10416666666666692,
+     "published_pct_if_accepted": 5.548634469474633,
+     "expected_pct": 0.5779827572369424
+    },
+    {
+     "sized_for": 395.50253838692447,
+     "accepted_share": 0.08333333333333331,
+     "published_pct_if_accepted": 6.9930524878845,
+     "expected_pct": 0.5827543739903749
+    },
+    {
+     "sized_for": 419.37685401850825,
+     "accepted_share": 0.06250000000000035,
+     "published_pct_if_accepted": 8.538821977494953,
+     "expected_pct": 0.5336763735934376
+    },
+    {
+     "sized_for": 444.6923309361903,
+     "accepted_share": 0.041666666666666706,
+     "published_pct_if_accepted": 10.212901538884438,
+     "expected_pct": 0.42553756412018534
+    },
+    {
+     "sized_for": 471.53596413009166,
+     "accepted_share": 0.020833333333333388,
+     "published_pct_if_accepted": 12.005419028831032,
+     "expected_pct": 0.2501128964339805
+    },
+    {
+     "sized_for": 499.99999999999983,
+     "accepted_share": 1.5784727313525057e-16,
+     "published_pct_if_accepted": 13.935084864445312,
+     "expected_pct": 2.1996151467609952e-15
+    }
+   ]
+  }
+ },
+ "seconds": 250.4
+}

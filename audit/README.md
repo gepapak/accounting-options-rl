@@ -1,6 +1,6 @@
 # Forensic Engine Audit: Reproducing the Reported-vs-Booked Inversion
 
-Part of the codebase for the paper *"Reading hidden loss forgiveness from the reward of reinforcement-learning trading simulators, with an electricity-trading engine"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
+Part of the codebase for the paper *"Simulators that forgive losses teach reinforcement-learning traders to gamble: theory, detection and removal, with an application to electricity trading"* submitted to *Engineering Applications of Artificial Intelligence* (EAAI).
 
 ## Overview
 This directory contains the forensic audit harness that uncovered and reproduced the severe evaluation inversion in the Prototype5 renewable fund engine:
@@ -15,6 +15,8 @@ This directory contains the forensic audit harness that uncovered and reproduced
 - `decision_replay.py`: Step-by-step trace replayer inspecting individual cash and margin writes.
 
 ## Reproduction
+Aggregation and figure scripts may rewrite the registered outputs they read: run them in a disposable copy of the folder (see `docs/REPRODUCING.md`); `python tools/verify_studies.py` checks the shipped results without writing.
+
 To verify the engine audit headline numbers against recorded campaign results:
 ```bash
 python tools/verify_release.py

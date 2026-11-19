@@ -1,0 +1,50 @@
+{
+  "RN_cash_error_radius": "1/4",
+  "case": "TWO_DELIVERIES",
+  "estimated_booked": {
+    "lower": "-33/4",
+    "point": false,
+    "upper": "-31/4"
+  },
+  "estimated_gross": {
+    "lower": "7/4",
+    "point": false,
+    "upper": "9/4"
+  },
+  "evaluator_only_gold": {
+    "real": {
+      "booked": "-8",
+      "cost": 10.0,
+      "funding": 0.0,
+      "gross": 2.0
+    },
+    "shadow": {
+      "booked": "-12",
+      "cost": 10.0,
+      "funding": 0.0,
+      "gross": -2.0
+    },
+    "unqueried": {
+      "booked": "-8",
+      "cost": 10.0,
+      "funding": 0.0,
+      "gross": 2.0
+    }
+  },
+  "known_receipts": {
+    "initial_cash": 0.0,
+    "post_known_writes": [
+      -0.0
+    ],
+    "pre_known_writes": [
+      -10.0
+    ]
+  },
+  "naive_TIR_on_cash_increment": 2.0,
+  "reported_ending_cash": {
+    "real": 2.0,
+    "shadow": 0.0,
+    "unqueried": 2.0
+  },
+  "source_parity": true
+}

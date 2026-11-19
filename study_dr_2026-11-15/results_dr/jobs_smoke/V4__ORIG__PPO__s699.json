@@ -1,0 +1,86 @@
+{
+ "arm": "V4",
+ "k_hi": 4.0,
+ "leverage": 100.0,
+ "condition": "ORIG",
+ "algo": "PPO",
+ "seed": 699,
+ "steps": 16384,
+ "exposure": {
+  "0.02": 0.43750000000000006,
+  "0.05": 0.17500000000000002,
+  "0.1": 0.07407407407407407,
+  "0.25": 0.02463054187192118,
+  "0.5": 0.0,
+  "1": 0.0,
+  "2": 0.0
+ },
+ "xlow": 0.17780115398649882,
+ "test_nominal": {
+  "reported_return_pct": 0.0,
+  "booked_return_pct": 0.0,
+  "gap": 0.0,
+  "draws_reported": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "draws_booked": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "floored_share": 0.0,
+  "wiped_share": 0.0,
+  "orders_per_episode": 0.0,
+  "max_leverage": 0.0,
+  "test_paths": 5
+ },
+ "test_stressed_k4": {
+  "reported_return_pct": 0.0,
+  "booked_return_pct": 0.0,
+  "gap": 0.0,
+  "draws_reported": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "draws_booked": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "floored_share": 0.0,
+  "wiped_share": 0.0,
+  "orders_per_episode": 0.0,
+  "max_leverage": 0.0,
+  "test_paths": 5
+ },
+ "train": {
+  "steps": 16384,
+  "floor_steps": 49,
+  "episodes": 184,
+  "wiped_episodes": 47,
+  "floored_episodes": 47,
+  "line_steps": 0,
+  "line_max_abs_err": 0.0
+ },
+ "policy_sha256": "8a44650a1c7bff06f073c2c795518a39cbe5c19a568361710685b49ba41922fb",
+ "versions": {
+  "gym-mtsim": "2.0.0",
+  "pandas": "2.0.3",
+  "numpy": "1.26.4",
+  "gymnasium": "1.2.0",
+  "stable-baselines3": "2.7.0",
+  "torch": "2.8.0"
+ },
+ "seconds": 141.0
+}

@@ -1,0 +1,14 @@
+score,n_conditions,auc,base_vs_H_direction_correct_zones
+dose,4,0.5,0
+negative_nominal_fee,4,1.0,2
+negative_mean_cost,4,1.0,2
+negative_cost_over_sigma,4,1.0,2
+dose_sigma_over_cost,4,1.0,2
+gross_mean_over_sigma,4,1.0,2
+cost_adjusted_gross_dose,4,1.0,2
+signed_local_g002,4,1.0,2
+signed_local_g01,4,1.0,2
+integrated_exact,4,1.0,2
+dp_index,4,1.0,2
+dp_region,4,1.0,2
+gaussian_moment_index,4,1.0,2

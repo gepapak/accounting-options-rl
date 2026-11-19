@@ -1,0 +1,8 @@
+1. hashes: all match
+2. runs present: 56 of 56; settings as registered: yes
+3. XE1: max |backtesting.py - backtrader| at L <= 5 = 9.44e-16; XE2 part: mean forgiven at L 200 = +37.82 pts, min over paths = -0.00 (must be >= 0)
+   ledger at L = 1 (sample drift): +0.074%; expected -fees = -0.040%
+4. XE5: learners backtesting.py 12 of 16, backtrader 1 of 16; exact one-sided hypergeometric p = 8.54e-05
+   XE7: backtesting.py short-majority 6, long-majority 2 of 12; backtrader short 4, long 3 of 12; U = 90.0 of 144 (mean direction index +0.29 vs +0.10)
+5. XE6: backtrader max |reported - booked| over all test paths = 9.1e-13 points
+problems: none
